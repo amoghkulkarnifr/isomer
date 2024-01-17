@@ -1,4 +1,7 @@
 {
   "name": "isomer-views",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "dependencies": {
+    "tamagui": "^1.86.6"
+  }
 }
