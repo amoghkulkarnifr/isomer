@@ -16,7 +16,7 @@ declare module "tamagui" {
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <TamaguiProvider config={appConfig}>
+    <TamaguiProvider config={appConfig} defaultTheme="dark">
       <App />
     </TamaguiProvider>
   </React.StrictMode>

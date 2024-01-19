@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import { tamaguiExtractPlugin, tamaguiPlugin } from "@tamagui/vite-plugin";
+
 import appConfig from "../../../tamagui.config";
 
 // https://vitejs.dev/config/
@@ -10,6 +11,6 @@ export default defineConfig({
       components: ["tamagui"],
     }),
     // optional, adds the optimizing compiler:
-    tamaguiExtractPlugin(appConfig),
+    // tamaguiExtractPlugin(appConfig),
   ],
 });

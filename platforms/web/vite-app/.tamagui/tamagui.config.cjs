@@ -34,6 +34,87 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 ));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
+// ../../../node_modules/@tamagui/react-native-media-driver/dist/cjs/matchMedia.js
+var require_matchMedia = __commonJS({
+  "../../../node_modules/@tamagui/react-native-media-driver/dist/cjs/matchMedia.js"(exports2, module2) {
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __export2 = /* @__PURE__ */ __name((target, all) => {
+      for (var name in all)
+        __defProp2(target, name, { get: all[name], enumerable: true });
+    }, "__export");
+    var __copyProps2 = /* @__PURE__ */ __name((to, from, except, desc) => {
+      if (from && typeof from == "object" || typeof from == "function")
+        for (let key of __getOwnPropNames2(from))
+          !__hasOwnProp2.call(to, key) && key !== except && __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      return to;
+    }, "__copyProps");
+    var __toCommonJS2 = /* @__PURE__ */ __name((mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod), "__toCommonJS");
+    var matchMedia_exports = {};
+    __export2(matchMedia_exports, {
+      matchMedia: () => matchMedia2
+    });
+    module2.exports = __toCommonJS2(matchMedia_exports);
+    var matchMedia2 = globalThis.matchMedia;
+  }
+});
+
+// ../../../node_modules/@tamagui/react-native-media-driver/dist/cjs/createMedia.js
+var require_createMedia = __commonJS({
+  "../../../node_modules/@tamagui/react-native-media-driver/dist/cjs/createMedia.js"(exports2, module2) {
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __export2 = /* @__PURE__ */ __name((target, all) => {
+      for (var name in all)
+        __defProp2(target, name, { get: all[name], enumerable: true });
+    }, "__export");
+    var __copyProps2 = /* @__PURE__ */ __name((to, from, except, desc) => {
+      if (from && typeof from == "object" || typeof from == "function")
+        for (let key of __getOwnPropNames2(from))
+          !__hasOwnProp2.call(to, key) && key !== except && __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      return to;
+    }, "__copyProps");
+    var __toCommonJS2 = /* @__PURE__ */ __name((mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod), "__toCommonJS");
+    var createMedia_exports = {};
+    __export2(createMedia_exports, {
+      createMedia: () => createMedia2
+    });
+    module2.exports = __toCommonJS2(createMedia_exports);
+    var import_web14 = require("@tamagui/core");
+    var import_matchMedia = require_matchMedia();
+    function createMedia2(media) {
+      return (0, import_web14.setupMatchMedia)(import_matchMedia.matchMedia), media;
+    }
+    __name(createMedia2, "createMedia");
+  }
+});
+
+// ../../../node_modules/@tamagui/react-native-media-driver/dist/cjs/index.js
+var require_cjs = __commonJS({
+  "../../../node_modules/@tamagui/react-native-media-driver/dist/cjs/index.js"(exports2, module2) {
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __copyProps2 = /* @__PURE__ */ __name((to, from, except, desc) => {
+      if (from && typeof from == "object" || typeof from == "function")
+        for (let key of __getOwnPropNames2(from))
+          !__hasOwnProp2.call(to, key) && key !== except && __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      return to;
+    }, "__copyProps");
+    var __reExport2 = /* @__PURE__ */ __name((target, mod, secondTarget) => (__copyProps2(target, mod, "default"), secondTarget && __copyProps2(secondTarget, mod, "default")), "__reExport");
+    var __toCommonJS2 = /* @__PURE__ */ __name((mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod), "__toCommonJS");
+    var src_exports = {};
+    module2.exports = __toCommonJS2(src_exports);
+    __reExport2(src_exports, require_createMedia(), module2.exports);
+    __reExport2(src_exports, require_matchMedia(), module2.exports);
+  }
+});
+
 // ../../../node_modules/@tamagui/constants/dist/cjs/constants.js
 var require_constants = __commonJS({
   "../../../node_modules/@tamagui/constants/dist/cjs/constants.js"(exports2, module2) {
@@ -83,7 +164,7 @@ var require_constants = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/constants/dist/cjs/index.js
-var require_cjs = __commonJS({
+var require_cjs2 = __commonJS({
   "../../../node_modules/@tamagui/constants/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -104,7 +185,7 @@ var require_cjs = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/use-did-finish-ssr/dist/cjs/index.js
-var require_cjs2 = __commonJS({
+var require_cjs3 = __commonJS({
   "../../../node_modules/@tamagui/use-did-finish-ssr/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -147,7 +228,7 @@ var require_cjs2 = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/use-force-update/dist/cjs/index.js
-var require_cjs3 = __commonJS({
+var require_cjs4 = __commonJS({
   "../../../node_modules/@tamagui/use-force-update/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -287,7 +368,7 @@ var require_usePresence = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/use-presence/dist/cjs/index.js
-var require_cjs4 = __commonJS({
+var require_cjs5 = __commonJS({
   "../../../node_modules/@tamagui/use-presence/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -341,8 +422,8 @@ var require_PresenceChild = __commonJS({
       PresenceChild: () => PresenceChild2
     });
     module2.exports = __toCommonJS2(PresenceChild_exports);
-    var import_constants46 = require_cjs();
-    var import_use_presence2 = require_cjs4();
+    var import_constants46 = require_cjs2();
+    var import_use_presence2 = require_cjs5();
     var React41 = __toESM2(require("react"));
     var import_react47 = require("react");
     var import_jsx_runtime53 = require("react/jsx-runtime");
@@ -427,9 +508,9 @@ var require_AnimatePresence = __commonJS({
       AnimatePresence: () => AnimatePresence2
     });
     module2.exports = __toCommonJS2(AnimatePresence_exports);
-    var import_constants46 = require_cjs();
-    var import_use_did_finish_ssr4 = require_cjs2();
-    var import_use_force_update2 = require_cjs3();
+    var import_constants46 = require_cjs2();
+    var import_use_did_finish_ssr4 = require_cjs3();
+    var import_use_force_update2 = require_cjs4();
     var import_react47 = __toESM2(require("react"));
     var import_LayoutGroupContext2 = require_LayoutGroupContext();
     var import_PresenceChild2 = require_PresenceChild();
@@ -573,7 +654,7 @@ var require_types = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/animate-presence/dist/cjs/index.js
-var require_cjs5 = __commonJS({
+var require_cjs6 = __commonJS({
   "../../../node_modules/@tamagui/animate-presence/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -590,14 +671,14 @@ var require_cjs5 = __commonJS({
     var src_exports = {};
     module2.exports = __toCommonJS2(src_exports);
     __reExport2(src_exports, require_AnimatePresence(), module2.exports);
-    __reExport2(src_exports, require_cjs4(), module2.exports);
+    __reExport2(src_exports, require_cjs5(), module2.exports);
     __reExport2(src_exports, require_types(), module2.exports);
     __reExport2(src_exports, require_PresenceChild(), module2.exports);
   }
 });
 
 // ../../../node_modules/@tamagui/simple-hash/dist/cjs/index.js
-var require_cjs6 = __commonJS({
+var require_cjs7 = __commonJS({
   "../../../node_modules/@tamagui/simple-hash/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -842,7 +923,7 @@ var require_validStyleProps = __commonJS({
       validStylesOnBaseProps: () => validStylesOnBaseProps2
     });
     module2.exports = __toCommonJS2(validStyleProps_exports);
-    var import_constants46 = require_cjs();
+    var import_constants46 = require_cjs2();
     var placeHolderTextColors2 = {
       placeholderTextColor: true
     };
@@ -1130,7 +1211,7 @@ var require_withStaticProperties = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/helpers/dist/cjs/index.js
-var require_cjs7 = __commonJS({
+var require_cjs8 = __commonJS({
   "../../../node_modules/@tamagui/helpers/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -1146,7 +1227,7 @@ var require_cjs7 = __commonJS({
     var __toCommonJS2 = /* @__PURE__ */ __name((mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod), "__toCommonJS");
     var src_exports = {};
     module2.exports = __toCommonJS2(src_exports);
-    __reExport2(src_exports, require_cjs6(), module2.exports);
+    __reExport2(src_exports, require_cjs7(), module2.exports);
     __reExport2(src_exports, require_clamp(), module2.exports);
     __reExport2(src_exports, require_composeEventHandlers(), module2.exports);
     __reExport2(src_exports, require_concatClassName(), module2.exports);
@@ -1179,7 +1260,7 @@ var require_useGet = __commonJS({
       useGet: () => useGet6
     });
     module2.exports = __toCommonJS2(useGet_exports);
-    var import_constants46 = require_cjs();
+    var import_constants46 = require_cjs2();
     var import_react47 = require("react");
     function useGet6(currentValue, initialValue2, forwardToFunction) {
       const curRef = (0, import_react47.useRef)(initialValue2 ?? currentValue);
@@ -1232,7 +1313,7 @@ var require_useEvent = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/use-event/dist/cjs/index.js
-var require_cjs8 = __commonJS({
+var require_cjs9 = __commonJS({
   "../../../node_modules/@tamagui/use-event/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -1276,7 +1357,7 @@ var require_useControllableState = __commonJS({
       useControllableState: () => useControllableState2
     });
     module2.exports = __toCommonJS2(useControllableState_exports);
-    var import_use_event3 = require_cjs8();
+    var import_use_event3 = require_cjs9();
     var import_react47 = require("react");
     var emptyCallbackFn2 = /* @__PURE__ */ __name((_) => _(), "emptyCallbackFn");
     function useControllableState2({
@@ -1314,7 +1395,7 @@ var require_useControllableState = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/use-controllable-state/dist/cjs/index.js
-var require_cjs9 = __commonJS({
+var require_cjs10 = __commonJS({
   "../../../node_modules/@tamagui/use-controllable-state/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -1371,14 +1452,14 @@ var require_Collapsible = __commonJS({
       CollapsibleTriggerFrame: () => CollapsibleTriggerFrame
     });
     module2.exports = __toCommonJS2(Collapsible_exports);
-    var import_animate_presence6 = require_cjs5();
-    var import_helpers26 = require_cjs7();
-    var import_use_controllable_state15 = require_cjs9();
-    var import_web15 = require("@tamagui/core");
+    var import_animate_presence6 = require_cjs6();
+    var import_helpers26 = require_cjs8();
+    var import_use_controllable_state15 = require_cjs10();
+    var import_web14 = require("@tamagui/core");
     var React41 = __toESM2(require("react"));
     var import_jsx_runtime53 = require("react/jsx-runtime");
     var COLLAPSIBLE_NAME = "Collapsible";
-    var { Provider: CollapsibleProvider, useStyledContext: useCollapsibleContext } = (0, import_web15.createStyledContext)();
+    var { Provider: CollapsibleProvider, useStyledContext: useCollapsibleContext } = (0, import_web14.createStyledContext)();
     var _Collapsible = React41.forwardRef(
       (props, forwardedRef) => {
         const {
@@ -1405,7 +1486,7 @@ var require_Collapsible = __commonJS({
               [setOpen]
             ),
             children: /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(
-              import_web15.Stack,
+              import_web14.Stack,
               {
                 "data-state": getState5(open),
                 "data-disabled": disabled ? "" : void 0,
@@ -1419,7 +1500,7 @@ var require_Collapsible = __commonJS({
     );
     _Collapsible.displayName = COLLAPSIBLE_NAME;
     var TRIGGER_NAME6 = "CollapsibleTrigger";
-    var CollapsibleTriggerFrame = (0, import_web15.styled)(import_web15.Stack, {
+    var CollapsibleTriggerFrame = (0, import_web14.styled)(import_web14.Stack, {
       name: TRIGGER_NAME6,
       tag: "button"
     });
@@ -1444,7 +1525,7 @@ var require_Collapsible = __commonJS({
     );
     CollapsibleTrigger.displayName = TRIGGER_NAME6;
     var CONTENT_NAME5 = "CollapsibleContent";
-    var CollapsibleContentFrame = (0, import_web15.styled)(import_web15.Stack, {
+    var CollapsibleContentFrame = (0, import_web14.styled)(import_web14.Stack, {
       name: CONTENT_NAME5
     });
     var CollapsibleContent = CollapsibleContentFrame.styleable((props, forwardedRef) => {
@@ -1464,7 +1545,7 @@ var require_Collapsible = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/collapsible/dist/cjs/index.js
-var require_cjs10 = __commonJS({
+var require_cjs11 = __commonJS({
   "../../../node_modules/@tamagui/collapsible/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -1536,7 +1617,7 @@ var require_compose_refs = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/compose-refs/dist/cjs/index.js
-var require_cjs11 = __commonJS({
+var require_cjs12 = __commonJS({
   "../../../node_modules/@tamagui/compose-refs/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -1589,8 +1670,8 @@ var require_Collection = __commonJS({
       createCollection: () => createCollection2
     });
     module2.exports = __toCommonJS2(Collection_exports);
-    var import_compose_refs23 = require_cjs11();
-    var import_constants46 = require_cjs();
+    var import_compose_refs23 = require_cjs12();
+    var import_constants46 = require_cjs2();
     var import_core51 = require("@tamagui/core");
     var import_react47 = __toESM2(require("react"));
     var import_jsx_runtime53 = require("react/jsx-runtime");
@@ -1648,7 +1729,7 @@ var require_Collection = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/collection/dist/cjs/index.js
-var require_cjs12 = __commonJS({
+var require_cjs13 = __commonJS({
   "../../../node_modules/@tamagui/collection/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -1790,7 +1871,7 @@ var require_Stacks = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/get-token/dist/cjs/index.js
-var require_cjs13 = __commonJS({
+var require_cjs14 = __commonJS({
   "../../../node_modules/@tamagui/get-token/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -1816,15 +1897,15 @@ var require_cjs13 = __commonJS({
       stepTokenUpOrDown: () => stepTokenUpOrDown
     });
     module2.exports = __toCommonJS2(src_exports);
-    var import_web15 = require("@tamagui/core");
+    var import_web14 = require("@tamagui/core");
     var import_web22 = require("@tamagui/core");
     var defaultOptions = {
       shift: 0,
       bounds: [0]
     };
     var getSize9 = /* @__PURE__ */ __name((size4, options) => getTokenRelative("size", size4, options), "getSize");
-    var getSpace5 = /* @__PURE__ */ __name((space2, options) => getTokenRelative("space", space2, options), "getSpace");
-    var getRadius = /* @__PURE__ */ __name((radius2, options) => getTokenRelative("radius", radius2, options), "getRadius");
+    var getSpace5 = /* @__PURE__ */ __name((space, options) => getTokenRelative("space", space, options), "getSpace");
+    var getRadius = /* @__PURE__ */ __name((radius, options) => getTokenRelative("radius", radius, options), "getRadius");
     var cacheVariables = {};
     var cacheWholeVariables = {};
     var cacheKeys = {};
@@ -1843,7 +1924,7 @@ var require_cjs13 = __commonJS({
       }
       const isString = typeof current == "string", tokensOrdered = (options.excludeHalfSteps ? isString ? cacheWholeKeys : cacheWholeVariables : isString ? cacheKeys : cacheVariables)[type], min2 = ((_a = options.bounds) == null ? void 0 : _a[0]) ?? 0, max2 = ((_b = options.bounds) == null ? void 0 : _b[1]) ?? tokensOrdered.length - 1, currentIndex = tokensOrdered.indexOf(current);
       let shift3 = options.shift || 0;
-      shift3 && (current === "$true" || (0, import_web15.isVariable)(current) && current.name === "true") && (shift3 += shift3 > 0 ? 1 : -1);
+      shift3 && (current === "$true" || (0, import_web14.isVariable)(current) && current.name === "true") && (shift3 += shift3 > 0 ? 1 : -1);
       const index3 = Math.min(max2, Math.max(min2, currentIndex + shift3)), found = tokensOrdered[index3];
       return (typeof found == "string" ? tokens2[found] : found) || tokens2.$true;
     }, "stepTokenUpOrDown");
@@ -1852,7 +1933,7 @@ var require_cjs13 = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/get-button-sized/dist/cjs/index.js
-var require_cjs14 = __commonJS({
+var require_cjs15 = __commonJS({
   "../../../node_modules/@tamagui/get-button-sized/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -1874,7 +1955,7 @@ var require_cjs14 = __commonJS({
       getButtonSized: () => getButtonSized6
     });
     module2.exports = __toCommonJS2(src_exports);
-    var import_get_token13 = require_cjs13();
+    var import_get_token13 = require_cjs14();
     var getButtonSized6 = /* @__PURE__ */ __name((val, { tokens: tokens2, props }) => {
       if (!val || props.circular)
         return;
@@ -2039,7 +2120,7 @@ var require_SizableStack = __commonJS({
     });
     module2.exports = __toCommonJS2(SizableStack_exports);
     var import_core51 = require("@tamagui/core");
-    var import_get_button_sized6 = require_cjs14();
+    var import_get_button_sized6 = require_cjs15();
     var import_Stacks3 = require_Stacks();
     var import_variants3 = require_variants();
     var SizableStack2 = (0, import_core51.styled)(import_Stacks3.XStack, {
@@ -2167,7 +2248,7 @@ var require_NestingContext = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/stacks/dist/cjs/index.js
-var require_cjs15 = __commonJS({
+var require_cjs16 = __commonJS({
   "../../../node_modules/@tamagui/stacks/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -2191,7 +2272,7 @@ var require_cjs15 = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/get-font-sized/dist/cjs/index.js
-var require_cjs16 = __commonJS({
+var require_cjs17 = __commonJS({
   "../../../node_modules/@tamagui/get-font-sized/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -2275,8 +2356,8 @@ var require_SizableText = __commonJS({
       SizableText: () => SizableText2
     });
     module2.exports = __toCommonJS2(SizableText_exports);
-    var import_get_font_sized4 = require_cjs16();
-    var import_web15 = require("@tamagui/core");
+    var import_get_font_sized4 = require_cjs17();
+    var import_web14 = require("@tamagui/core");
     var variants3 = {
       unstyled: {
         false: {
@@ -2292,7 +2373,7 @@ var require_SizableText = __commonJS({
         return (0, import_get_font_sized4.getFontSized)(size4, extras);
       }
     };
-    var SizableText2 = (0, import_web15.styled)(import_web15.Text, {
+    var SizableText2 = (0, import_web14.styled)(import_web14.Text, {
       name: "SizableText",
       fontFamily: "$body",
       variants: variants3,
@@ -2326,9 +2407,9 @@ var require_Paragraph = __commonJS({
       Paragraph: () => Paragraph2
     });
     module2.exports = __toCommonJS2(Paragraph_exports);
-    var import_web15 = require("@tamagui/core");
+    var import_web14 = require("@tamagui/core");
     var import_SizableText2 = require_SizableText();
-    var Paragraph2 = (0, import_web15.styled)(import_SizableText2.SizableText, {
+    var Paragraph2 = (0, import_web14.styled)(import_SizableText2.SizableText, {
       name: "Paragraph",
       tag: "p",
       userSelect: "auto",
@@ -2367,9 +2448,9 @@ var require_Headings = __commonJS({
       Heading: () => Heading2
     });
     module2.exports = __toCommonJS2(Headings_exports);
-    var import_web15 = require("@tamagui/core");
+    var import_web14 = require("@tamagui/core");
     var import_Paragraph2 = require_Paragraph();
-    var Heading2 = (0, import_web15.styled)(import_Paragraph2.Paragraph, {
+    var Heading2 = (0, import_web14.styled)(import_Paragraph2.Paragraph, {
       tag: "span",
       name: "Heading",
       accessibilityRole: "header",
@@ -2377,32 +2458,32 @@ var require_Headings = __commonJS({
       size: "$8",
       margin: 0
     });
-    var H12 = (0, import_web15.styled)(Heading2, {
+    var H12 = (0, import_web14.styled)(Heading2, {
       name: "H1",
       tag: "h1",
       size: "$10"
     });
-    var H22 = (0, import_web15.styled)(Heading2, {
+    var H22 = (0, import_web14.styled)(Heading2, {
       name: "H2",
       tag: "h2",
       size: "$9"
     });
-    var H32 = (0, import_web15.styled)(Heading2, {
+    var H32 = (0, import_web14.styled)(Heading2, {
       name: "H3",
       tag: "h3",
       size: "$8"
     });
-    var H42 = (0, import_web15.styled)(Heading2, {
+    var H42 = (0, import_web14.styled)(Heading2, {
       name: "H4",
       tag: "h4",
       size: "$7"
     });
-    var H52 = (0, import_web15.styled)(Heading2, {
+    var H52 = (0, import_web14.styled)(Heading2, {
       name: "H5",
       tag: "h5",
       size: "$6"
     });
-    var H62 = (0, import_web15.styled)(Heading2, {
+    var H62 = (0, import_web14.styled)(Heading2, {
       name: "H6",
       tag: "h6",
       size: "$5"
@@ -2454,7 +2535,7 @@ var require_wrapChildrenInText = __commonJS({
         textProps,
         size: size4,
         noTextWrap,
-        color: color2,
+        color,
         fontFamily,
         fontSize,
         fontWeight,
@@ -2468,7 +2549,7 @@ var require_wrapChildrenInText = __commonJS({
       const props = {
         ...extraProps
       };
-      return color2 && (props.color = color2), fontFamily && (props.fontFamily = fontFamily), fontSize && (props.fontSize = fontSize), fontWeight && (props.fontWeight = fontWeight), letterSpacing && (props.letterSpacing = letterSpacing), textAlign && (props.textAlign = textAlign), size4 && (props.size = size4), fontStyle && (props.fontStyle = fontStyle), maxFontSizeMultiplier && (props.maxFontSizeMultiplier = maxFontSizeMultiplier), import_react47.default.Children.toArray(children).map((child, index3) => typeof child == "string" ? /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(TextComponent, { ...props, ...textProps, children: child }, index3) : child);
+      return color && (props.color = color), fontFamily && (props.fontFamily = fontFamily), fontSize && (props.fontSize = fontSize), fontWeight && (props.fontWeight = fontWeight), letterSpacing && (props.letterSpacing = letterSpacing), textAlign && (props.textAlign = textAlign), size4 && (props.size = size4), fontStyle && (props.fontStyle = fontStyle), maxFontSizeMultiplier && (props.maxFontSizeMultiplier = maxFontSizeMultiplier), import_react47.default.Children.toArray(children).map((child, index3) => typeof child == "string" ? /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(TextComponent, { ...props, ...textProps, children: child }, index3) : child);
     }
     __name(wrapChildrenInText2, "wrapChildrenInText");
   }
@@ -2494,7 +2575,7 @@ var require_types3 = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/text/dist/cjs/index.js
-var require_cjs17 = __commonJS({
+var require_cjs18 = __commonJS({
   "../../../node_modules/@tamagui/text/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -2570,7 +2651,7 @@ var require_useDirection = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/use-direction/dist/cjs/index.js
-var require_cjs18 = __commonJS({
+var require_cjs19 = __commonJS({
   "../../../node_modules/@tamagui/use-direction/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -2623,16 +2704,16 @@ var require_Accordion = __commonJS({
       Accordion: () => Accordion
     });
     module2.exports = __toCommonJS2(Accordion_exports);
-    var import_collapsible = require_cjs10();
-    var import_collection2 = require_cjs12();
-    var import_compose_refs23 = require_cjs11();
-    var import_constants46 = require_cjs();
-    var import_helpers26 = require_cjs7();
-    var import_stacks26 = require_cjs15();
-    var import_text8 = require_cjs17();
-    var import_use_controllable_state15 = require_cjs9();
-    var import_use_direction5 = require_cjs18();
-    var import_web15 = require("@tamagui/core");
+    var import_collapsible = require_cjs11();
+    var import_collection2 = require_cjs13();
+    var import_compose_refs23 = require_cjs12();
+    var import_constants46 = require_cjs2();
+    var import_helpers26 = require_cjs8();
+    var import_stacks26 = require_cjs16();
+    var import_text8 = require_cjs18();
+    var import_use_controllable_state15 = require_cjs10();
+    var import_use_direction5 = require_cjs19();
+    var import_web14 = require("@tamagui/core");
     var React41 = __toESM2(require("react"));
     var import_jsx_runtime53 = require("react/jsx-runtime");
     var ACCORDION_NAME = "Accordion";
@@ -2656,11 +2737,11 @@ var require_Accordion = __commonJS({
         ) : null;
       }
     };
-    var { Provider: AccordionValueProvider, useStyledContext: useAccordionValueContext } = (0, import_web15.createStyledContext)();
+    var { Provider: AccordionValueProvider, useStyledContext: useAccordionValueContext } = (0, import_web14.createStyledContext)();
     var {
       Provider: AccordionCollapsibleProvider,
       useStyledContext: useAccordionCollapsibleContext
-    } = (0, import_web15.createStyledContext)();
+    } = (0, import_web14.createStyledContext)();
     var AccordionImplSingle = React41.forwardRef((props, forwardedRef) => {
       const {
         value: valueProp,
@@ -2725,7 +2806,7 @@ var require_Accordion = __commonJS({
         }
       );
     });
-    var { Provider: AccordionImplProvider, useStyledContext: useAccordionContext } = (0, import_web15.createStyledContext)();
+    var { Provider: AccordionImplProvider, useStyledContext: useAccordionContext } = (0, import_web14.createStyledContext)();
     var AccordionImpl = React41.forwardRef(
       (props, forwardedRef) => {
         const {
@@ -2802,7 +2883,7 @@ var require_Accordion = __commonJS({
       }
     );
     var ITEM_NAME3 = "AccordionItem";
-    var { Provider: AccordionItemProvider, useStyledContext: useAccordionItemContext } = (0, import_web15.createStyledContext)();
+    var { Provider: AccordionItemProvider, useStyledContext: useAccordionItemContext } = (0, import_web14.createStyledContext)();
     var AccordionItem = React41.forwardRef(
       (props, forwardedRef) => {
         const { __scopeAccordion, value, ...accordionItemProps } = props, accordionContext = useAccordionContext(__scopeAccordion), valueContext = useAccordionValueContext(__scopeAccordion), triggerId = React41.useId(), open = value && valueContext.value.includes(value) || false, disabled = accordionContext.disabled || props.disabled;
@@ -2850,7 +2931,7 @@ var require_Accordion = __commonJS({
       }
     );
     AccordionHeader.displayName = HEADER_NAME;
-    var AccordionTriggerFrame = (0, import_web15.styled)(import_collapsible.Collapsible.Trigger, {
+    var AccordionTriggerFrame = (0, import_web14.styled)(import_collapsible.Collapsible.Trigger, {
       variants: {
         unstyled: {
           false: {
@@ -2889,7 +2970,7 @@ var require_Accordion = __commonJS({
         }
       ) });
     });
-    var AccordionContentFrame = (0, import_web15.styled)(import_collapsible.Collapsible.Content, {
+    var AccordionContentFrame = (0, import_web14.styled)(import_collapsible.Collapsible.Content, {
       variants: {
         unstyled: {
           false: {
@@ -2930,7 +3011,7 @@ var require_Accordion = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/accordion/dist/cjs/index.js
-var require_cjs19 = __commonJS({
+var require_cjs20 = __commonJS({
   "../../../node_modules/@tamagui/accordion/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -3127,7 +3208,7 @@ var require_AriaHidden = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/aria-hidden/dist/cjs/index.js
-var require_cjs20 = __commonJS({
+var require_cjs21 = __commonJS({
   "../../../node_modules/@tamagui/aria-hidden/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -3181,8 +3262,8 @@ var require_FocusScope = __commonJS({
       useFocusScope: () => useFocusScope
     });
     module2.exports = __toCommonJS2(FocusScope_exports);
-    var import_compose_refs23 = require_cjs11();
-    var import_use_event3 = require_cjs8();
+    var import_compose_refs23 = require_cjs12();
+    var import_use_event3 = require_cjs9();
     var React41 = __toESM2(require("react"));
     var import_jsx_runtime53 = require("react/jsx-runtime");
     var AUTOFOCUS_ON_MOUNT = "focusScope.autoFocusOnMount";
@@ -3350,7 +3431,7 @@ var require_FocusScope = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/focus-scope/dist/cjs/index.js
-var require_cjs21 = __commonJS({
+var require_cjs22 = __commonJS({
   "../../../node_modules/@tamagui/focus-scope/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -3417,16 +3498,16 @@ function __extends(d, b) {
   d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 }
 function __rest(s, e) {
-  var t2 = {};
+  var t = {};
   for (var p in s)
     if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
-      t2[p] = s[p];
+      t[p] = s[p];
   if (s != null && typeof Object.getOwnPropertySymbols === "function")
     for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
       if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
-        t2[p[i]] = s[p[i]];
+        t[p[i]] = s[p[i]];
     }
-  return t2;
+  return t;
 }
 function __decorate(decorators, target, key, desc) {
   var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -3540,10 +3621,10 @@ function __awaiter(thisArg, _arguments, P, generator) {
 }
 function __generator(thisArg, body) {
   var _ = { label: 0, sent: function() {
-    if (t2[0] & 1)
-      throw t2[1];
-    return t2[1];
-  }, trys: [], ops: [] }, f, y, t2, g;
+    if (t[0] & 1)
+      throw t[1];
+    return t[1];
+  }, trys: [], ops: [] }, f, y, t, g;
   return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() {
     return this;
   }), g;
@@ -3558,14 +3639,14 @@ function __generator(thisArg, body) {
       throw new TypeError("Generator is already executing.");
     while (g && (g = 0, op[0] && (_ = 0)), _)
       try {
-        if (f = 1, y && (t2 = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t2 = y["return"]) && t2.call(y), 0) : y.next) && !(t2 = t2.call(y, op[1])).done)
-          return t2;
-        if (y = 0, t2)
-          op = [op[0] & 2, t2.value];
+        if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done)
+          return t;
+        if (y = 0, t)
+          op = [op[0] & 2, t.value];
         switch (op[0]) {
           case 0:
           case 1:
-            t2 = op;
+            t = op;
             break;
           case 4:
             _.label++;
@@ -3580,25 +3661,25 @@ function __generator(thisArg, body) {
             _.trys.pop();
             continue;
           default:
-            if (!(t2 = _.trys, t2 = t2.length > 0 && t2[t2.length - 1]) && (op[0] === 6 || op[0] === 2)) {
+            if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) {
               _ = 0;
               continue;
             }
-            if (op[0] === 3 && (!t2 || op[1] > t2[0] && op[1] < t2[3])) {
+            if (op[0] === 3 && (!t || op[1] > t[0] && op[1] < t[3])) {
               _.label = op[1];
               break;
             }
-            if (op[0] === 6 && _.label < t2[1]) {
-              _.label = t2[1];
-              t2 = op;
+            if (op[0] === 6 && _.label < t[1]) {
+              _.label = t[1];
+              t = op;
               break;
             }
-            if (t2 && _.label < t2[2]) {
-              _.label = t2[2];
+            if (t && _.label < t[2]) {
+              _.label = t[2];
               _.ops.push(op);
               break;
             }
-            if (t2[2])
+            if (t[2])
               _.ops.pop();
             _.trys.pop();
             continue;
@@ -3608,7 +3689,7 @@ function __generator(thisArg, body) {
         op = [6, e];
         y = 0;
       } finally {
-        f = t2 = 0;
+        f = t = 0;
       }
     if (op[0] & 5)
       throw op[1];
@@ -3869,14 +3950,14 @@ var init_tslib_es6 = __esm({
     }, "extendStatics");
     __name(__extends, "__extends");
     __assign = /* @__PURE__ */ __name(function() {
-      __assign = Object.assign || /* @__PURE__ */ __name(function __assign2(t2) {
+      __assign = Object.assign || /* @__PURE__ */ __name(function __assign2(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
           s = arguments[i];
           for (var p in s)
             if (Object.prototype.hasOwnProperty.call(s, p))
-              t2[p] = s[p];
+              t[p] = s[p];
         }
-        return t2;
+        return t;
       }, "__assign");
       return __assign.apply(this, arguments);
     }, "__assign");
@@ -5412,17 +5493,17 @@ var require_typeof = __commonJS({
 var require_toPrimitive = __commonJS({
   "../../../node_modules/@babel/runtime/helpers/toPrimitive.js"(exports2, module2) {
     var _typeof = require_typeof()["default"];
-    function toPrimitive(t2, r) {
-      if ("object" != _typeof(t2) || !t2)
-        return t2;
-      var e = t2[Symbol.toPrimitive];
+    function toPrimitive(t, r) {
+      if ("object" != _typeof(t) || !t)
+        return t;
+      var e = t[Symbol.toPrimitive];
       if (void 0 !== e) {
-        var i = e.call(t2, r || "default");
+        var i = e.call(t, r || "default");
         if ("object" != _typeof(i))
           return i;
         throw new TypeError("@@toPrimitive must return a primitive value.");
       }
-      return ("string" === r ? String : Number)(t2);
+      return ("string" === r ? String : Number)(t);
     }
     __name(toPrimitive, "toPrimitive");
     module2.exports = toPrimitive, module2.exports.__esModule = true, module2.exports["default"] = module2.exports;
@@ -5434,8 +5515,8 @@ var require_toPropertyKey = __commonJS({
   "../../../node_modules/@babel/runtime/helpers/toPropertyKey.js"(exports2, module2) {
     var _typeof = require_typeof()["default"];
     var toPrimitive = require_toPrimitive();
-    function toPropertyKey(t2) {
-      var i = toPrimitive(t2, "string");
+    function toPropertyKey(t) {
+      var i = toPrimitive(t, "string");
       return "symbol" == _typeof(i) ? i : String(i);
     }
     __name(toPropertyKey, "toPropertyKey");
@@ -5471,23 +5552,23 @@ var require_objectSpread2 = __commonJS({
   "../../../node_modules/@babel/runtime/helpers/objectSpread2.js"(exports2, module2) {
     var defineProperty = require_defineProperty();
     function ownKeys(e, r) {
-      var t2 = Object.keys(e);
+      var t = Object.keys(e);
       if (Object.getOwnPropertySymbols) {
         var o = Object.getOwnPropertySymbols(e);
         r && (o = o.filter(function(r2) {
           return Object.getOwnPropertyDescriptor(e, r2).enumerable;
-        })), t2.push.apply(t2, o);
+        })), t.push.apply(t, o);
       }
-      return t2;
+      return t;
     }
     __name(ownKeys, "ownKeys");
     function _objectSpread2(e) {
       for (var r = 1; r < arguments.length; r++) {
-        var t2 = null != arguments[r] ? arguments[r] : {};
-        r % 2 ? ownKeys(Object(t2), true).forEach(function(r2) {
-          defineProperty(e, r2, t2[r2]);
-        }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t2)) : ownKeys(Object(t2)).forEach(function(r2) {
-          Object.defineProperty(e, r2, Object.getOwnPropertyDescriptor(t2, r2));
+        var t = null != arguments[r] ? arguments[r] : {};
+        r % 2 ? ownKeys(Object(t), true).forEach(function(r2) {
+          defineProperty(e, r2, t[r2]);
+        }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function(r2) {
+          Object.defineProperty(e, r2, Object.getOwnPropertyDescriptor(t, r2));
         });
       }
       return e;
@@ -5596,7 +5677,7 @@ var require_isWebColor = __commonJS({
     "use strict";
     exports2.__esModule = true;
     exports2.default = void 0;
-    var isWebColor = /* @__PURE__ */ __name((color2) => color2 === "currentcolor" || color2 === "currentColor" || color2 === "inherit" || color2.indexOf("var(") === 0, "isWebColor");
+    var isWebColor = /* @__PURE__ */ __name((color) => color === "currentcolor" || color === "currentColor" || color === "inherit" || color.indexOf("var(") === 0, "isWebColor");
     var _default = isWebColor;
     exports2.default = _default;
     module2.exports = exports2.default;
@@ -5607,33 +5688,33 @@ var require_isWebColor = __commonJS({
 var require_normalize_color = __commonJS({
   "../../../node_modules/@react-native/normalize-color/index.js"(exports2, module2) {
     "use strict";
-    function normalizeColor(color2) {
-      if (typeof color2 === "number") {
-        if (color2 >>> 0 === color2 && color2 >= 0 && color2 <= 4294967295) {
-          return color2;
+    function normalizeColor(color) {
+      if (typeof color === "number") {
+        if (color >>> 0 === color && color >= 0 && color <= 4294967295) {
+          return color;
         }
         return null;
       }
-      if (typeof color2 !== "string") {
+      if (typeof color !== "string") {
         return null;
       }
       const matchers = getMatchers();
       let match;
-      if (match = matchers.hex6.exec(color2)) {
+      if (match = matchers.hex6.exec(color)) {
         return parseInt(match[1] + "ff", 16) >>> 0;
       }
-      const colorFromKeyword = normalizeKeyword(color2);
+      const colorFromKeyword = normalizeKeyword(color);
       if (colorFromKeyword != null) {
         return colorFromKeyword;
       }
-      if (match = matchers.rgb.exec(color2)) {
+      if (match = matchers.rgb.exec(color)) {
         return (parse255(match[1]) << 24 | // r
         parse255(match[2]) << 16 | // g
         parse255(match[3]) << 8 | // b
         255) >>> // a
         0;
       }
-      if (match = matchers.rgba.exec(color2)) {
+      if (match = matchers.rgba.exec(color)) {
         if (match[6] !== void 0) {
           return (parse255(match[6]) << 24 | // r
           parse255(match[7]) << 16 | // g
@@ -5647,7 +5728,7 @@ var require_normalize_color = __commonJS({
         parse1(match[5])) >>> // a
         0;
       }
-      if (match = matchers.hex3.exec(color2)) {
+      if (match = matchers.hex3.exec(color)) {
         return parseInt(
           match[1] + match[1] + // r
           match[2] + match[2] + // g
@@ -5657,10 +5738,10 @@ var require_normalize_color = __commonJS({
           16
         ) >>> 0;
       }
-      if (match = matchers.hex8.exec(color2)) {
+      if (match = matchers.hex8.exec(color)) {
         return parseInt(match[1], 16) >>> 0;
       }
-      if (match = matchers.hex4.exec(color2)) {
+      if (match = matchers.hex4.exec(color)) {
         return parseInt(
           match[1] + match[1] + // r
           match[2] + match[2] + // g
@@ -5670,7 +5751,7 @@ var require_normalize_color = __commonJS({
           16
         ) >>> 0;
       }
-      if (match = matchers.hsl.exec(color2)) {
+      if (match = matchers.hsl.exec(color)) {
         return (hslToRgb(
           parse360(match[1]),
           // h
@@ -5681,7 +5762,7 @@ var require_normalize_color = __commonJS({
         ) | 255) >>> // a
         0;
       }
-      if (match = matchers.hsla.exec(color2)) {
+      if (match = matchers.hsla.exec(color)) {
         if (match[6] !== void 0) {
           return (hslToRgb(
             parse360(match[6]),
@@ -5703,7 +5784,7 @@ var require_normalize_color = __commonJS({
         ) | parse1(match[5])) >>> // a
         0;
       }
-      if (match = matchers.hwb.exec(color2)) {
+      if (match = matchers.hwb.exec(color)) {
         return (hwbToRgb(
           parse360(match[1]),
           // h
@@ -5717,21 +5798,21 @@ var require_normalize_color = __commonJS({
       return null;
     }
     __name(normalizeColor, "normalizeColor");
-    function hue2rgb(p, q, t2) {
-      if (t2 < 0) {
-        t2 += 1;
+    function hue2rgb(p, q, t) {
+      if (t < 0) {
+        t += 1;
       }
-      if (t2 > 1) {
-        t2 -= 1;
+      if (t > 1) {
+        t -= 1;
       }
-      if (t2 < 1 / 6) {
-        return p + (q - p) * 6 * t2;
+      if (t < 1 / 6) {
+        return p + (q - p) * 6 * t;
       }
-      if (t2 < 1 / 2) {
+      if (t < 1 / 2) {
         return q;
       }
-      if (t2 < 2 / 3) {
-        return p + (q - p) * (2 / 3 - t2) * 6;
+      if (t < 2 / 3) {
+        return p + (q - p) * (2 / 3 - t) * 6;
       }
       return p;
     }
@@ -5747,13 +5828,13 @@ var require_normalize_color = __commonJS({
     __name(hslToRgb, "hslToRgb");
     function hwbToRgb(h, w, b) {
       if (w + b >= 1) {
-        const gray3 = Math.round(w * 255 / (w + b));
-        return gray3 << 24 | gray3 << 16 | gray3 << 8;
+        const gray = Math.round(w * 255 / (w + b));
+        return gray << 24 | gray << 16 | gray << 8;
       }
-      const red3 = hue2rgb(0, 1, h + 1 / 3) * (1 - w - b) + w;
-      const green3 = hue2rgb(0, 1, h) * (1 - w - b) + w;
-      const blue3 = hue2rgb(0, 1, h - 1 / 3) * (1 - w - b) + w;
-      return Math.round(red3 * 255) << 24 | Math.round(green3 * 255) << 16 | Math.round(blue3 * 255) << 8;
+      const red = hue2rgb(0, 1, h + 1 / 3) * (1 - w - b) + w;
+      const green = hue2rgb(0, 1, h) * (1 - w - b) + w;
+      const blue = hue2rgb(0, 1, h - 1 / 3) * (1 - w - b) + w;
+      return Math.round(red * 255) << 24 | Math.round(green * 255) << 16 | Math.round(blue * 255) << 8;
     }
     __name(hwbToRgb, "hwbToRgb");
     var NUMBER = "[-+]?\\d*\\.?\\d+";
@@ -6148,11 +6229,11 @@ var require_processColor = __commonJS({
     exports2.__esModule = true;
     exports2.default = void 0;
     var _normalizeColor = _interopRequireDefault(require_normalize_color());
-    var processColor = /* @__PURE__ */ __name((color2) => {
-      if (color2 === void 0 || color2 === null) {
-        return color2;
+    var processColor = /* @__PURE__ */ __name((color) => {
+      if (color === void 0 || color === null) {
+        return color;
       }
-      var int32Color = (0, _normalizeColor.default)(color2);
+      var int32Color = (0, _normalizeColor.default)(color);
       if (int32Color === void 0 || int32Color === null) {
         return void 0;
       }
@@ -6174,16 +6255,16 @@ var require_normalizeColor = __commonJS({
     exports2.default = void 0;
     var _isWebColor = _interopRequireDefault(require_isWebColor());
     var _processColor = _interopRequireDefault(require_processColor());
-    var normalizeColor = /* @__PURE__ */ __name(function normalizeColor2(color2, opacity) {
+    var normalizeColor = /* @__PURE__ */ __name(function normalizeColor2(color, opacity) {
       if (opacity === void 0) {
         opacity = 1;
       }
-      if (color2 == null)
+      if (color == null)
         return;
-      if (typeof color2 === "string" && (0, _isWebColor.default)(color2)) {
-        return color2;
+      if (typeof color === "string" && (0, _isWebColor.default)(color)) {
+        return color;
       }
-      var colorInt = (0, _processColor.default)(color2);
+      var colorInt = (0, _processColor.default)(color);
       if (colorInt != null) {
         var r = colorInt >> 16 & 255;
         var g = colorInt >> 8 & 255;
@@ -8203,22 +8284,22 @@ var require_preprocess = __commonJS({
       var offsetX = (0, _normalizeValueWithProperty.default)(width);
       var offsetY = (0, _normalizeValueWithProperty.default)(height);
       var blurRadius = (0, _normalizeValueWithProperty.default)(shadowRadius || 0);
-      var color2 = (0, _normalizeColor.default)(shadowColor || "black", shadowOpacity);
-      if (color2 != null && offsetX != null && offsetY != null && blurRadius != null) {
-        return offsetX + " " + offsetY + " " + blurRadius + " " + color2;
+      var color = (0, _normalizeColor.default)(shadowColor || "black", shadowOpacity);
+      if (color != null && offsetX != null && offsetY != null && blurRadius != null) {
+        return offsetX + " " + offsetY + " " + blurRadius + " " + color;
       }
     }, "createBoxShadowValue");
     exports2.createBoxShadowValue = createBoxShadowValue;
     var createTextShadowValue = /* @__PURE__ */ __name((style) => {
       var textShadowColor = style.textShadowColor, textShadowOffset = style.textShadowOffset, textShadowRadius = style.textShadowRadius;
       var _ref2 = textShadowOffset || defaultOffset, height = _ref2.height, width = _ref2.width;
-      var radius2 = textShadowRadius || 0;
+      var radius = textShadowRadius || 0;
       var offsetX = (0, _normalizeValueWithProperty.default)(width);
       var offsetY = (0, _normalizeValueWithProperty.default)(height);
-      var blurRadius = (0, _normalizeValueWithProperty.default)(radius2);
-      var color2 = (0, _normalizeValueWithProperty.default)(textShadowColor, "textShadowColor");
-      if (color2 && (height !== 0 || width !== 0 || radius2 !== 0) && offsetX != null && offsetY != null && blurRadius != null) {
-        return offsetX + " " + offsetY + " " + blurRadius + " " + color2;
+      var blurRadius = (0, _normalizeValueWithProperty.default)(radius);
+      var color = (0, _normalizeValueWithProperty.default)(textShadowColor, "textShadowColor");
+      if (color && (height !== 0 || width !== 0 || radius !== 0) && offsetX != null && offsetY != null && blurRadius != null) {
+        return offsetX + " " + offsetY + " " + blurRadius + " " + color;
       }
     }, "createTextShadowValue");
     exports2.createTextShadowValue = createTextShadowValue;
@@ -9593,9 +9674,9 @@ var require_interopRequireWildcard = __commonJS({
     function _getRequireWildcardCache(e) {
       if ("function" != typeof WeakMap)
         return null;
-      var r = /* @__PURE__ */ new WeakMap(), t2 = /* @__PURE__ */ new WeakMap();
+      var r = /* @__PURE__ */ new WeakMap(), t = /* @__PURE__ */ new WeakMap();
       return (_getRequireWildcardCache = /* @__PURE__ */ __name(function _getRequireWildcardCache2(e2) {
-        return e2 ? t2 : r;
+        return e2 ? t : r;
       }, "_getRequireWildcardCache"))(e);
     }
     __name(_getRequireWildcardCache, "_getRequireWildcardCache");
@@ -9606,9 +9687,9 @@ var require_interopRequireWildcard = __commonJS({
         return {
           "default": e
         };
-      var t2 = _getRequireWildcardCache(r);
-      if (t2 && t2.has(e))
-        return t2.get(e);
+      var t = _getRequireWildcardCache(r);
+      if (t && t.has(e))
+        return t.get(e);
       var n = {
         __proto__: null
       }, a = Object.defineProperty && Object.getOwnPropertyDescriptor;
@@ -9617,7 +9698,7 @@ var require_interopRequireWildcard = __commonJS({
           var i = a ? Object.getOwnPropertyDescriptor(e, u) : null;
           i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u];
         }
-      return n["default"] = e, t2 && t2.set(e, n), n;
+      return n["default"] = e, t && t.set(e, n), n;
     }
     __name(_interopRequireWildcard, "_interopRequireWildcard");
     module2.exports = _interopRequireWildcard, module2.exports.__esModule = true, module2.exports["default"] = module2.exports;
@@ -14310,8 +14391,8 @@ var require_VirtualizedList = __commonJS({
         this._nestedChildLists.forEach((childList) => {
           childList.recordInteraction();
         });
-        this._viewabilityTuples.forEach((t2) => {
-          t2.viewabilityHelper.recordInteraction();
+        this._viewabilityTuples.forEach((t) => {
+          t.viewabilityHelper.recordInteraction();
         });
         this._updateViewableItems(this.props, this.state.cellsAroundViewport);
       }
@@ -16507,7 +16588,7 @@ var require_AnimatedInterpolation = __commonJS({
     var _invariant = _interopRequireDefault(require_invariant());
     var _normalizeColor = _interopRequireDefault(require_normalize_color());
     var __DEV__ = process.env.NODE_ENV !== "production";
-    var linear = /* @__PURE__ */ __name((t2) => t2, "linear");
+    var linear = /* @__PURE__ */ __name((t) => t, "linear");
     function createInterpolation(config) {
       if (config.outputRange && typeof config.outputRange[0] === "string") {
         return createInterpolationFromStringOutputRange(config);
@@ -19635,12 +19716,12 @@ var require_SpringConfig = __commonJS({
         return start + n * (end - start);
       }
       __name(projectNormal, "projectNormal");
-      function linearInterpolation(t2, start, end) {
-        return t2 * end + (1 - t2) * start;
+      function linearInterpolation(t, start, end) {
+        return t * end + (1 - t) * start;
       }
       __name(linearInterpolation, "linearInterpolation");
-      function quadraticOutInterpolation(t2, start, end) {
-        return linearInterpolation(2 * t2 - t2 * t2, start, end);
+      function quadraticOutInterpolation(t, start, end) {
+        return linearInterpolation(2 * t - t * t, start, end);
       }
       __name(quadraticOutInterpolation, "quadraticOutInterpolation");
       function b3Friction1(x) {
@@ -19704,19 +19785,19 @@ var require_AnimatedColor = __commonJS({
       a: 1
     };
     var _uniqueId = 1;
-    var processColorObject = /* @__PURE__ */ __name((color2) => {
-      return color2;
+    var processColorObject = /* @__PURE__ */ __name((color) => {
+      return color;
     }, "processColorObject");
-    function processColor(color2) {
-      if (color2 === void 0 || color2 === null) {
+    function processColor(color) {
+      if (color === void 0 || color === null) {
         return null;
       }
-      if (isRgbaValue(color2)) {
-        return color2;
+      if (isRgbaValue(color)) {
+        return color;
       }
       var normalizedColor = (0, _normalizeColor.default)(
         // $FlowIgnore[incompatible-cast] - Type is verified above
-        color2
+        color
       );
       if (normalizedColor === void 0 || normalizedColor === null) {
         return null;
@@ -20100,15 +20181,15 @@ var require_SpringAnimation = __commonJS({
         var x0 = this._toValue - this._startPosition;
         var position = 0;
         var velocity = 0;
-        var t2 = this._frameTime;
+        var t = this._frameTime;
         if (zeta < 1) {
-          var envelope = Math.exp(-zeta * omega0 * t2);
-          position = this._toValue - envelope * ((v0 + zeta * omega0 * x0) / omega1 * Math.sin(omega1 * t2) + x0 * Math.cos(omega1 * t2));
-          velocity = zeta * omega0 * envelope * (Math.sin(omega1 * t2) * (v0 + zeta * omega0 * x0) / omega1 + x0 * Math.cos(omega1 * t2)) - envelope * (Math.cos(omega1 * t2) * (v0 + zeta * omega0 * x0) - omega1 * x0 * Math.sin(omega1 * t2));
+          var envelope = Math.exp(-zeta * omega0 * t);
+          position = this._toValue - envelope * ((v0 + zeta * omega0 * x0) / omega1 * Math.sin(omega1 * t) + x0 * Math.cos(omega1 * t));
+          velocity = zeta * omega0 * envelope * (Math.sin(omega1 * t) * (v0 + zeta * omega0 * x0) / omega1 + x0 * Math.cos(omega1 * t)) - envelope * (Math.cos(omega1 * t) * (v0 + zeta * omega0 * x0) - omega1 * x0 * Math.sin(omega1 * t));
         } else {
-          var _envelope = Math.exp(-omega0 * t2);
-          position = this._toValue - _envelope * (x0 + (v0 + omega0 * x0) * t2);
-          velocity = _envelope * (v0 * (t2 * omega0 - 1) + t2 * x0 * (omega0 * omega0));
+          var _envelope = Math.exp(-omega0 * t);
+          position = this._toValue - _envelope * (x0 + (v0 + omega0 * x0) * t);
+          velocity = _envelope * (v0 * (t * omega0 - 1) + t * x0 * (omega0 * omega0));
         }
         this._lastTime = now;
         this._lastPosition = position;
@@ -20297,8 +20378,8 @@ var require_Easing = __commonJS({
        *
        * http://cubic-bezier.com/#0,0,1,1
        */
-      static linear(t2) {
-        return t2;
+      static linear(t) {
+        return t;
       }
       /**
        * A simple inertial interaction, similar to an object slowly accelerating to
@@ -20306,11 +20387,11 @@ var require_Easing = __commonJS({
        *
        * http://cubic-bezier.com/#.42,0,1,1
        */
-      static ease(t2) {
+      static ease(t) {
         if (!ease) {
           ease = _Easing.bezier(0.42, 0, 1, 1);
         }
-        return ease(t2);
+        return ease(t);
       }
       /**
        * A quadratic function, `f(t) = t * t`. Position equals the square of elapsed
@@ -20318,8 +20399,8 @@ var require_Easing = __commonJS({
        *
        * http://easings.net/#easeInQuad
        */
-      static quad(t2) {
-        return t2 * t2;
+      static quad(t) {
+        return t * t;
       }
       /**
        * A cubic function, `f(t) = t * t * t`. Position equals the cube of elapsed
@@ -20327,8 +20408,8 @@ var require_Easing = __commonJS({
        *
        * http://easings.net/#easeInCubic
        */
-      static cubic(t2) {
-        return t2 * t2 * t2;
+      static cubic(t) {
+        return t * t * t;
       }
       /**
        * A power function. Position is equal to the Nth power of elapsed time.
@@ -20337,31 +20418,31 @@ var require_Easing = __commonJS({
        * n = 5: http://easings.net/#easeInQuint
        */
       static poly(n) {
-        return (t2) => Math.pow(t2, n);
+        return (t) => Math.pow(t, n);
       }
       /**
        * A sinusoidal function.
        *
        * http://easings.net/#easeInSine
        */
-      static sin(t2) {
-        return 1 - Math.cos(t2 * Math.PI / 2);
+      static sin(t) {
+        return 1 - Math.cos(t * Math.PI / 2);
       }
       /**
        * A circular function.
        *
        * http://easings.net/#easeInCirc
        */
-      static circle(t2) {
-        return 1 - Math.sqrt(1 - t2 * t2);
+      static circle(t) {
+        return 1 - Math.sqrt(1 - t * t);
       }
       /**
        * An exponential function.
        *
        * http://easings.net/#easeInExpo
        */
-      static exp(t2) {
-        return Math.pow(2, 10 * (t2 - 1));
+      static exp(t) {
+        return Math.pow(2, 10 * (t - 1));
       }
       /**
        * A simple elastic interaction, similar to a spring oscillating back and
@@ -20378,7 +20459,7 @@ var require_Easing = __commonJS({
           bounciness = 1;
         }
         var p = bounciness * Math.PI;
-        return (t2) => 1 - Math.pow(Math.cos(t2 * Math.PI / 2), 3) * Math.cos(t2 * p);
+        return (t) => 1 - Math.pow(Math.cos(t * Math.PI / 2), 3) * Math.cos(t * p);
       }
       /**
        * Use with `Animated.parallel()` to create a simple effect where the object
@@ -20392,27 +20473,27 @@ var require_Easing = __commonJS({
         if (s === void 0) {
           s = 1.70158;
         }
-        return (t2) => t2 * t2 * ((s + 1) * t2 - s);
+        return (t) => t * t * ((s + 1) * t - s);
       }
       /**
        * Provides a simple bouncing effect.
        *
        * http://easings.net/#easeInBounce
        */
-      static bounce(t2) {
-        if (t2 < 1 / 2.75) {
-          return 7.5625 * t2 * t2;
+      static bounce(t) {
+        if (t < 1 / 2.75) {
+          return 7.5625 * t * t;
         }
-        if (t2 < 2 / 2.75) {
-          var _t = t2 - 1.5 / 2.75;
+        if (t < 2 / 2.75) {
+          var _t = t - 1.5 / 2.75;
           return 7.5625 * _t * _t + 0.75;
         }
-        if (t2 < 2.5 / 2.75) {
-          var _t2 = t2 - 2.25 / 2.75;
+        if (t < 2.5 / 2.75) {
+          var _t2 = t - 2.25 / 2.75;
           return 7.5625 * _t2 * _t2 + 0.9375;
         }
-        var t22 = t2 - 2.625 / 2.75;
-        return 7.5625 * t22 * t22 + 0.984375;
+        var t2 = t - 2.625 / 2.75;
+        return 7.5625 * t2 * t2 + 0.984375;
       }
       /**
        * Provides a cubic bezier curve, equivalent to CSS Transitions'
@@ -20434,7 +20515,7 @@ var require_Easing = __commonJS({
        * Runs an easing function backwards.
        */
       static out(easing) {
-        return (t2) => 1 - easing(1 - t2);
+        return (t) => 1 - easing(1 - t);
       }
       /**
        * Makes any easing function symmetrical. The easing function will run
@@ -20442,11 +20523,11 @@ var require_Easing = __commonJS({
        * duration.
        */
       static inOut(easing) {
-        return (t2) => {
-          if (t2 < 0.5) {
-            return easing(t2 * 2) / 2;
+        return (t) => {
+          if (t < 0.5) {
+            return easing(t * 2) / 2;
           }
-          return 1 - easing((1 - t2) * 2) / 2;
+          return 1 - easing((1 - t) * 2) / 2;
         };
       }
     };
@@ -22500,16 +22581,16 @@ var require_ActivityIndicator = __commonJS({
       style
     }), "createSvgCircle");
     var ActivityIndicator2 = /* @__PURE__ */ React41.forwardRef((props, forwardedRef) => {
-      var _props$animating = props.animating, animating = _props$animating === void 0 ? true : _props$animating, _props$color = props.color, color2 = _props$color === void 0 ? "#1976D2" : _props$color, _props$hidesWhenStopp = props.hidesWhenStopped, hidesWhenStopped = _props$hidesWhenStopp === void 0 ? true : _props$hidesWhenStopp, _props$size = props.size, size4 = _props$size === void 0 ? "small" : _props$size, style = props.style, other = (0, _objectWithoutPropertiesLoose2.default)(props, _excluded);
+      var _props$animating = props.animating, animating = _props$animating === void 0 ? true : _props$animating, _props$color = props.color, color = _props$color === void 0 ? "#1976D2" : _props$color, _props$hidesWhenStopp = props.hidesWhenStopped, hidesWhenStopped = _props$hidesWhenStopp === void 0 ? true : _props$hidesWhenStopp, _props$size = props.size, size4 = _props$size === void 0 ? "small" : _props$size, style = props.style, other = (0, _objectWithoutPropertiesLoose2.default)(props, _excluded);
       var svg = /* @__PURE__ */ React41.createElement("svg", {
         height: "100%",
         viewBox: "0 0 32 32",
         width: "100%"
       }, createSvgCircle({
-        stroke: color2,
+        stroke: color,
         opacity: 0.2
       }), createSvgCircle({
-        stroke: color2,
+        stroke: color,
         strokeDasharray: 80,
         strokeDashoffset: 60
       }));
@@ -23086,7 +23167,7 @@ var require_Button = __commonJS({
     var _warnOnce = require_warnOnce();
     var Button = /* @__PURE__ */ React41.forwardRef((props, forwardedRef) => {
       (0, _warnOnce.warnOnce)("Button", "Button is deprecated. Please use Pressable.");
-      var accessibilityLabel = props.accessibilityLabel, color2 = props.color, disabled = props.disabled, onPress = props.onPress, testID = props.testID, title = props.title;
+      var accessibilityLabel = props.accessibilityLabel, color = props.color, disabled = props.disabled, onPress = props.onPress, testID = props.testID, title = props.title;
       return /* @__PURE__ */ React41.createElement(_TouchableOpacity.default, {
         accessibilityLabel,
         accessibilityRole: "button",
@@ -23094,8 +23175,8 @@ var require_Button = __commonJS({
         focusable: !disabled,
         onPress,
         ref: forwardedRef,
-        style: [styles.button, color2 && {
-          backgroundColor: color2
+        style: [styles.button, color && {
+          backgroundColor: color
         }, disabled && styles.buttonDisabled],
         testID
       }, /* @__PURE__ */ React41.createElement(_Text.default, {
@@ -23145,7 +23226,7 @@ var require_CheckBox = __commonJS({
     var _View = _interopRequireDefault(require_View());
     var _excluded = ["aria-readonly", "color", "disabled", "onChange", "onValueChange", "readOnly", "style", "value"];
     var CheckBox = /* @__PURE__ */ React41.forwardRef((props, forwardedRef) => {
-      var ariaReadOnly = props["aria-readonly"], color2 = props.color, disabled = props.disabled, onChange = props.onChange, onValueChange = props.onValueChange, readOnly = props.readOnly, style = props.style, value = props.value, other = (0, _objectWithoutPropertiesLoose2.default)(props, _excluded);
+      var ariaReadOnly = props["aria-readonly"], color = props.color, disabled = props.disabled, onChange = props.onChange, onValueChange = props.onValueChange, readOnly = props.readOnly, style = props.style, value = props.value, other = (0, _objectWithoutPropertiesLoose2.default)(props, _excluded);
       function handleChange(event) {
         var value2 = event.nativeEvent.target.checked;
         event.nativeEvent.value = value2;
@@ -23158,9 +23239,9 @@ var require_CheckBox = __commonJS({
           styles.fakeControl,
           value && styles.fakeControlChecked,
           // custom color
-          value && color2 && {
-            backgroundColor: color2,
-            borderColor: color2
+          value && color && {
+            backgroundColor: color,
+            borderColor: color
           },
           disabled && styles.fakeControlDisabled,
           value && disabled && styles.fakeControlCheckedAndDisabled
@@ -23779,9 +23860,9 @@ var require_PickerItem = __commonJS({
     exports2.default = PickerItem;
     var _createElement = _interopRequireDefault(require_createElement());
     function PickerItem(props) {
-      var color2 = props.color, label = props.label, testID = props.testID, value = props.value;
+      var color = props.color, label = props.label, testID = props.testID, value = props.value;
       var style = {
-        color: color2
+        color
       };
       return (0, _createElement.default)("option", {
         children: label,
@@ -24401,7 +24482,7 @@ var require_ProgressBar = __commonJS({
     var _View = _interopRequireDefault(require_View());
     var _excluded = ["color", "indeterminate", "progress", "trackColor", "style"];
     var ProgressBar = /* @__PURE__ */ React41.forwardRef((props, ref) => {
-      var _props$color = props.color, color2 = _props$color === void 0 ? "#1976D2" : _props$color, _props$indeterminate = props.indeterminate, indeterminate = _props$indeterminate === void 0 ? false : _props$indeterminate, _props$progress = props.progress, progress = _props$progress === void 0 ? 0 : _props$progress, _props$trackColor = props.trackColor, trackColor = _props$trackColor === void 0 ? "transparent" : _props$trackColor, style = props.style, other = (0, _objectWithoutPropertiesLoose2.default)(props, _excluded);
+      var _props$color = props.color, color = _props$color === void 0 ? "#1976D2" : _props$color, _props$indeterminate = props.indeterminate, indeterminate = _props$indeterminate === void 0 ? false : _props$indeterminate, _props$progress = props.progress, progress = _props$progress === void 0 ? 0 : _props$progress, _props$trackColor = props.trackColor, trackColor = _props$trackColor === void 0 ? "transparent" : _props$trackColor, style = props.style, other = (0, _objectWithoutPropertiesLoose2.default)(props, _excluded);
       var percentageProgress = progress * 100;
       var width = indeterminate ? "25%" : percentageProgress + "%";
       return /* @__PURE__ */ React41.createElement(_View.default, (0, _extends2.default)({}, other, {
@@ -24415,7 +24496,7 @@ var require_ProgressBar = __commonJS({
         }]
       }), /* @__PURE__ */ React41.createElement(_View.default, {
         style: [{
-          backgroundColor: color2,
+          backgroundColor: color,
           width
         }, styles.progress, indeterminate && styles.animation]
       }));
@@ -25559,8 +25640,8 @@ var require_Touchable = __commonJS({
         }
         _UIManager.default.measure(tag, this._handleQueryLayout);
       }, "_remeasureMetricsOnActivation"),
-      _handleQueryLayout: /* @__PURE__ */ __name(function _handleQueryLayout(l, t2, w, h, globalX, globalY) {
-        if (!l && !t2 && !w && !h && !globalX && !globalY) {
+      _handleQueryLayout: /* @__PURE__ */ __name(function _handleQueryLayout(l, t, w, h, globalX, globalY) {
+        if (!l && !t && !w && !h && !globalX && !globalY) {
           return;
         }
         this.state.touchable.positionOnActivate && _Position.default.release(this.state.touchable.positionOnActivate);
@@ -25738,7 +25819,7 @@ var require_Touchable = __commonJS({
        * Renders a debugging overlay to visualize touch target with hitSlop (might not work on Android).
        */
       renderDebugView: (_ref) => {
-        var color2 = _ref.color, hitSlop = _ref.hitSlop;
+        var color = _ref.color, hitSlop = _ref.hitSlop;
         if (!Touchable.TOUCH_TARGET_DEBUG) {
           return null;
         }
@@ -25755,7 +25836,7 @@ var require_Touchable = __commonJS({
         for (var key in hitSlop) {
           debugHitSlopStyle[key] = -hitSlop[key];
         }
-        var normalizedColor = (0, _normalizeColor.default)(color2);
+        var normalizedColor = (0, _normalizeColor.default)(color);
         if (typeof normalizedColor !== "number") {
           return null;
         }
@@ -26139,7 +26220,7 @@ var require_useWindowDimensions = __commonJS({
 });
 
 // ../../../node_modules/react-native-web/dist/cjs/index.js
-var require_cjs22 = __commonJS({
+var require_cjs23 = __commonJS({
   "../../../node_modules/react-native-web/dist/cjs/index.js"(exports2) {
     "use strict";
     var _interopRequireDefault = require_interopRequireDefault().default;
@@ -26293,10 +26374,10 @@ var require_Image2 = __commonJS({
       Image: () => Image2
     });
     module2.exports = __toCommonJS2(Image_exports);
-    var import_constants46 = require_cjs();
+    var import_constants46 = require_cjs2();
     var import_core51 = require("@tamagui/core");
     var import_react47 = require("react");
-    var import_react_native = require_cjs22();
+    var import_react_native = require_cjs23();
     var import_jsx_runtime53 = require("react/jsx-runtime");
     var StyledImage = (0, import_core51.styled)(import_react_native.Image, {
       name: "Image",
@@ -26324,7 +26405,7 @@ var require_Image2 = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/image/dist/cjs/index.js
-var require_cjs23 = __commonJS({
+var require_cjs24 = __commonJS({
   "../../../node_modules/@tamagui/image/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -26394,7 +26475,7 @@ var require_getFontSize = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/font-size/dist/cjs/index.js
-var require_cjs24 = __commonJS({
+var require_cjs25 = __commonJS({
   "../../../node_modules/@tamagui/font-size/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -26464,11 +26545,11 @@ var require_useCurrentColor = __commonJS({
       useCurrentColor: () => useCurrentColor
     });
     module2.exports = __toCommonJS2(useCurrentColor_exports);
-    var import_web15 = require("@tamagui/core");
+    var import_web14 = require("@tamagui/core");
     var useCurrentColor = /* @__PURE__ */ __name((colorProp) => {
       var _a, _b;
-      const theme = (0, import_web15.useTheme)();
-      return (0, import_web15.getVariable)(
+      const theme = (0, import_web14.useTheme)();
+      return (0, import_web14.getVariable)(
         colorProp || ((_a = theme[colorProp]) == null ? void 0 : _a.get("web")) || ((_b = theme.color) == null ? void 0 : _b.get("web"))
       );
     }, "useCurrentColor");
@@ -26501,10 +26582,10 @@ var require_useGetThemedIcon = __commonJS({
     var import_react47 = require("react");
     var import_useCurrentColor = require_useCurrentColor();
     var useGetThemedIcon4 = /* @__PURE__ */ __name((props) => {
-      const color2 = (0, import_useCurrentColor.useCurrentColor)(props.color);
+      const color = (0, import_useCurrentColor.useCurrentColor)(props.color);
       return (el) => el && ((0, import_react47.isValidElement)(el) ? (0, import_react47.cloneElement)(el, {
         ...props,
-        color: color2,
+        color,
         // @ts-expect-error
         ...el.props
       }) : (0, import_react47.createElement)(el, props));
@@ -26513,7 +26594,7 @@ var require_useGetThemedIcon = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/helpers-tamagui/dist/cjs/index.js
-var require_cjs25 = __commonJS({
+var require_cjs26 = __commonJS({
   "../../../node_modules/@tamagui/helpers-tamagui/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -26529,7 +26610,7 @@ var require_cjs25 = __commonJS({
     var __toCommonJS2 = /* @__PURE__ */ __name((mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod), "__toCommonJS");
     var src_exports = {};
     module2.exports = __toCommonJS2(src_exports);
-    __reExport2(src_exports, require_cjs7(), module2.exports);
+    __reExport2(src_exports, require_cjs8(), module2.exports);
     __reExport2(src_exports, require_prevent(), module2.exports);
     __reExport2(src_exports, require_useCurrentColor(), module2.exports);
     __reExport2(src_exports, require_useGetThemedIcon(), module2.exports);
@@ -26594,8 +26675,8 @@ var require_focusableInputHOC = __commonJS({
       useFocusable: () => useFocusable2
     });
     module2.exports = __toCommonJS2(focusableInputHOC_exports);
-    var import_compose_refs23 = require_cjs11();
-    var import_web15 = require("@tamagui/core");
+    var import_compose_refs23 = require_cjs12();
+    var import_web14 = require("@tamagui/core");
     var import_react47 = require("react");
     var import_registerFocusable = require_registerFocusable();
     var import_jsx_runtime53 = require("react/jsx-runtime");
@@ -26624,7 +26705,7 @@ var require_focusableInputHOC = __commonJS({
         (_a = unregisterFocusable.current) == null || _a.call(unregisterFocusable);
       }, []), {
         ref: combinedRefs,
-        onChangeText: (0, import_web15.useEvent)((value2) => {
+        onChangeText: (0, import_web14.useEvent)((value2) => {
           inputValue.current = value2, onChangeText == null || onChangeText(value2);
         })
       };
@@ -26668,7 +26749,7 @@ var require_focusable = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/focusable/dist/cjs/index.js
-var require_cjs26 = __commonJS({
+var require_cjs27 = __commonJS({
   "../../../node_modules/@tamagui/focusable/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -26818,7 +26899,7 @@ var require_create_context = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/create-context/dist/cjs/index.js
-var require_cjs27 = __commonJS({
+var require_cjs28 = __commonJS({
   "../../../node_modules/@tamagui/create-context/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -26844,8 +26925,8 @@ var require_arrayToTree_min = __commonJS({
     "use strict";
     var __assign2 = exports2 && exports2.__assign || function() {
       return (__assign2 = Object.assign || function(e) {
-        for (var r, t2 = 1, n = arguments.length; t2 < n; t2++)
-          for (var o in r = arguments[t2])
+        for (var r, t = 1, n = arguments.length; t < n; t++)
+          for (var o in r = arguments[t])
             Object.prototype.hasOwnProperty.call(r, o) && (e[o] = r[o]);
         return e;
       }).apply(this, arguments);
@@ -26853,26 +26934,26 @@ var require_arrayToTree_min = __commonJS({
     var defaultConfig = (Object.defineProperty(exports2, "__esModule", { value: true }), { id: "id", parentId: "parentId", dataField: "data", childrenField: "children", throwIfOrphans: false, rootParentIds: { "": !(exports2.countNodes = exports2.arrayToTree = void 0) }, nestedIds: true, assign: false });
     function arrayToTree(c, e) {
       void 0 === e && (e = {});
-      for (var r, t2 = __assign2(__assign2({}, defaultConfig), e), n = [], o = {}, a = t2.throwIfOrphans ? /* @__PURE__ */ new Set() : null, s = 0, h = c; s < h.length; s++) {
-        var i = h[s], d = t2.nestedIds ? getNestedProperty(i, t2.id) : i[t2.id], l = t2.nestedIds ? getNestedProperty(i, t2.parentId) : i[t2.parentId];
-        if (t2.rootParentIds[d])
-          throw new Error("The item array contains a node whose parentId both exists in another node and is in " + '`rootParentIds` (`itemId`: "'.concat(d, '", `rootParentIds`: ').concat(Object.keys(t2.rootParentIds).map(function(e2) {
+      for (var r, t = __assign2(__assign2({}, defaultConfig), e), n = [], o = {}, a = t.throwIfOrphans ? /* @__PURE__ */ new Set() : null, s = 0, h = c; s < h.length; s++) {
+        var i = h[s], d = t.nestedIds ? getNestedProperty(i, t.id) : i[t.id], l = t.nestedIds ? getNestedProperty(i, t.parentId) : i[t.parentId];
+        if (t.rootParentIds[d])
+          throw new Error("The item array contains a node whose parentId both exists in another node and is in " + '`rootParentIds` (`itemId`: "'.concat(d, '", `rootParentIds`: ').concat(Object.keys(t.rootParentIds).map(function(e2) {
             return '"'.concat(e2, '"');
           }).join(", "), ")."));
-        Object.prototype.hasOwnProperty.call(o, d) || (o[d] = ((r = {})[t2.childrenField] = [], r)), a && a.delete(d), t2.dataField ? o[d][t2.dataField] = i : t2.assign ? o[d] = Object.assign(i, ((r = {})[t2.childrenField] = o[d][t2.childrenField], r)) : o[d] = __assign2(__assign2({}, i), ((i = {})[t2.childrenField] = o[d][t2.childrenField], i));
+        Object.prototype.hasOwnProperty.call(o, d) || (o[d] = ((r = {})[t.childrenField] = [], r)), a && a.delete(d), t.dataField ? o[d][t.dataField] = i : t.assign ? o[d] = Object.assign(i, ((r = {})[t.childrenField] = o[d][t.childrenField], r)) : o[d] = __assign2(__assign2({}, i), ((i = {})[t.childrenField] = o[d][t.childrenField], i));
         i = o[d];
-        null == l || t2.rootParentIds[l] ? n.push(i) : (Object.prototype.hasOwnProperty.call(o, l) || (o[l] = ((d = {})[t2.childrenField] = [], d), a && a.add(l)), o[l][t2.childrenField].push(i));
+        null == l || t.rootParentIds[l] ? n.push(i) : (Object.prototype.hasOwnProperty.call(o, l) || (o[l] = ((d = {})[t.childrenField] = [], d), a && a.add(l)), o[l][t.childrenField].push(i));
       }
       if (null != a && a.size)
         throw new Error("The items array contains orphans that point to the following parentIds: " + "[".concat(Array.from(a), "]. These parentIds do not exist in the items array. Hint: prevent orphans to result ") + "in an error by passing the following option: { throwIfOrphans: false }");
-      if (t2.throwIfOrphans && countNodes(n, t2.childrenField) < Object.keys(o).length)
+      if (t.throwIfOrphans && countNodes(n, t.childrenField) < Object.keys(o).length)
         throw new Error("The items array contains nodes with a circular parent/child relationship.");
       return n;
     }
     __name(arrayToTree, "arrayToTree");
-    function countNodes(e, t2) {
+    function countNodes(e, t) {
       return e.reduce(function(e2, r) {
-        return e2 + 1 + (r[t2] && countNodes(r[t2], t2));
+        return e2 + 1 + (r[t] && countNodes(r[t], t));
       }, 0);
     }
     __name(countNodes, "countNodes");
@@ -26965,11 +27046,11 @@ var require_use_sync_external_store_shim_production_min = __commonJS({
       }
     }
     __name(r, "r");
-    function t2(a, b) {
+    function t(a, b) {
       return b();
     }
-    __name(t2, "t");
-    var u = "undefined" === typeof window || "undefined" === typeof window.document || "undefined" === typeof window.document.createElement ? t2 : q;
+    __name(t, "t");
+    var u = "undefined" === typeof window || "undefined" === typeof window.document || "undefined" === typeof window.document.createElement ? t : q;
     exports2.useSyncExternalStore = void 0 !== e.useSyncExternalStore ? e.useSyncExternalStore : u;
   }
 });
@@ -27126,12 +27207,12 @@ var require_with_selector_production_min = __commonJS({
     __name(p, "p");
     var q = "function" === typeof Object.is ? Object.is : p;
     var r = n.useSyncExternalStore;
-    var t2 = h.useRef;
+    var t = h.useRef;
     var u = h.useEffect;
     var v = h.useMemo;
     var w = h.useDebugValue;
     exports2.useSyncExternalStoreWithSelector = function(a, b, e, l, g) {
-      var c = t2(null);
+      var c = t(null);
       if (null === c.current) {
         var f = { hasValue: false, value: null };
         c.current = f;
@@ -27692,12 +27773,12 @@ var require_Group = __commonJS({
     });
     module2.exports = __toCommonJS2(Group_exports);
     var import_core51 = require("@tamagui/core");
-    var import_create_context12 = require_cjs27();
-    var import_helpers26 = require_cjs7();
-    var import_stacks26 = require_cjs15();
-    var import_use_controllable_state15 = require_cjs9();
+    var import_create_context12 = require_cjs28();
+    var import_helpers26 = require_cjs8();
+    var import_stacks26 = require_cjs16();
+    var import_use_controllable_state15 = require_cjs10();
     var import_react47 = __toESM2(require("react"));
-    var import_react_native = require_cjs22();
+    var import_react_native = require_cjs23();
     var import_reforest = require_dist();
     var import_jsx_runtime53 = require("react/jsx-runtime");
     var GROUP_NAME3 = "Group";
@@ -27725,7 +27806,7 @@ var require_Group = __commonJS({
           const activeProps = (0, import_core51.useProps)(props), {
             __scopeGroup,
             children: childrenProp,
-            space: space2,
+            space,
             size: size4 = "$true",
             spaceDirection,
             separator,
@@ -27739,13 +27820,13 @@ var require_Group = __commonJS({
             ...restProps
           } = activeProps, vertical = orientation === "vertical", [itemChildrenCount, setItemChildrenCount] = (0, import_use_controllable_state15.useControllableState)({
             defaultProp: forceUseItem ? 1 : 0
-          }), isUsingItems = itemChildrenCount > 0, radius2 = borderRadius ?? (size4 ? (0, import_core51.getVariableValue)((0, import_core51.getTokens)().radius[size4]) - 1 : void 0), disablePassBorderRadius = disablePassBorderRadiusProp ?? !(radius2 !== void 0), childrenArray = import_react47.Children.toArray(childrenProp), children = isUsingItems ? import_react47.Children.toArray(childrenProp).filter(import_react47.isValidElement) : childrenArray.map((child, i) => {
+          }), isUsingItems = itemChildrenCount > 0, radius = borderRadius ?? (size4 ? (0, import_core51.getVariableValue)((0, import_core51.getTokens)().radius[size4]) - 1 : void 0), disablePassBorderRadius = disablePassBorderRadiusProp ?? !(radius !== void 0), childrenArray = import_react47.Children.toArray(childrenProp), children = isUsingItems ? import_react47.Children.toArray(childrenProp).filter(import_react47.isValidElement) : childrenArray.map((child, i) => {
             if (!(0, import_react47.isValidElement)(child))
               return child;
             const disabled = child.props.disabled ?? disabledProp, isFirst = i === 0, isLast = i === childrenArray.length - 1, radiusStyles = disablePassBorderRadius === true ? null : getBorderRadius({
               isFirst,
               isLast,
-              radius: radius2,
+              radius,
               vertical,
               disable: disablePassBorderRadius
             }), props2 = {
@@ -27758,7 +27839,7 @@ var require_Group = __commonJS({
               direction: spaceDirection,
               separator,
               // @ts-ignore
-              space: space2,
+              space,
               children
             })
           ), onItemMount = import_react47.default.useCallback(
@@ -27773,7 +27854,7 @@ var require_Group = __commonJS({
             {
               disablePassBorderRadius,
               vertical: orientation === "vertical",
-              radius: radius2,
+              radius,
               disabled: disabledProp,
               onItemMount,
               onItemUnmount,
@@ -27853,14 +27934,14 @@ var require_Group = __commonJS({
     var getBorderRadius = /* @__PURE__ */ __name(({
       isFirst,
       isLast,
-      radius: radius2,
+      radius,
       vertical,
       disable
     }) => ({
-      borderTopLeftRadius: isFirst && disable !== "top" && disable !== "start" ? radius2 : 0,
-      borderTopRightRadius: disable !== "top" && disable !== "end" && (vertical && isFirst || !vertical && isLast) ? radius2 : 0,
-      borderBottomLeftRadius: disable !== "bottom" && disable !== "start" && (vertical && isLast || !vertical && isFirst) ? radius2 : 0,
-      borderBottomRightRadius: isLast && disable !== "bottom" && disable !== "end" ? radius2 : 0
+      borderTopLeftRadius: isFirst && disable !== "top" && disable !== "start" ? radius : 0,
+      borderTopRightRadius: disable !== "top" && disable !== "end" && (vertical && isFirst || !vertical && isLast) ? radius : 0,
+      borderBottomLeftRadius: disable !== "bottom" && disable !== "start" && (vertical && isLast || !vertical && isFirst) ? radius : 0,
+      borderBottomRightRadius: isLast && disable !== "bottom" && disable !== "end" ? radius : 0
     }), "getBorderRadius");
     var cloneElementWithPropOrder = /* @__PURE__ */ __name((child, props) => {
       const next = (0, import_core51.mergeProps)(child.props, props, (0, import_core51.getConfig)().shorthands);
@@ -27870,7 +27951,7 @@ var require_Group = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/group/dist/cjs/index.js
-var require_cjs28 = __commonJS({
+var require_cjs29 = __commonJS({
   "../../../node_modules/@tamagui/group/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -27918,17 +27999,17 @@ var require_ListItem = __commonJS({
       useListItem: () => useListItem2
     });
     module2.exports = __toCommonJS2(ListItem_exports);
-    var import_font_size4 = require_cjs24();
-    var import_get_font_sized4 = require_cjs16();
-    var import_get_token13 = require_cjs13();
-    var import_helpers26 = require_cjs7();
-    var import_helpers_tamagui4 = require_cjs25();
-    var import_stacks26 = require_cjs15();
-    var import_text8 = require_cjs17();
-    var import_web15 = require("@tamagui/core");
+    var import_font_size4 = require_cjs25();
+    var import_get_font_sized4 = require_cjs17();
+    var import_get_token13 = require_cjs14();
+    var import_helpers26 = require_cjs8();
+    var import_helpers_tamagui4 = require_cjs26();
+    var import_stacks26 = require_cjs16();
+    var import_text8 = require_cjs18();
+    var import_web14 = require("@tamagui/core");
     var import_jsx_runtime53 = require("react/jsx-runtime");
     var NAME3 = "ListItem";
-    var ListItemFrame2 = (0, import_web15.styled)(import_stacks26.ThemeableStack, {
+    var ListItemFrame2 = (0, import_web14.styled)(import_stacks26.ThemeableStack, {
       name: NAME3,
       tag: "li",
       variants: {
@@ -27974,7 +28055,7 @@ var require_ListItem = __commonJS({
         unstyled: process.env.TAMAGUI_HEADLESS === "1"
       }
     });
-    var ListItemText = (0, import_web15.styled)(import_text8.SizableText, {
+    var ListItemText = (0, import_web14.styled)(import_text8.SizableText, {
       name: "ListItemText",
       variants: {
         unstyled: {
@@ -27992,7 +28073,7 @@ var require_ListItem = __commonJS({
         unstyled: process.env.TAMAGUI_HEADLESS === "1"
       }
     });
-    var ListItemSubtitle = (0, import_web15.styled)(ListItemText, {
+    var ListItemSubtitle = (0, import_web14.styled)(ListItemText, {
       name: "ListItemSubtitle",
       variants: {
         unstyled: {
@@ -28016,7 +28097,7 @@ var require_ListItem = __commonJS({
         unstyled: process.env.TAMAGUI_HEADLESS === "1"
       }
     });
-    var ListItemTitle = (0, import_web15.styled)(ListItemText, {
+    var ListItemTitle = (0, import_web14.styled)(ListItemText, {
       name: "ListItemTitle"
     });
     var useListItem2 = /* @__PURE__ */ __name((propsIn, {
@@ -28024,13 +28105,13 @@ var require_ListItem = __commonJS({
       Subtitle = ListItemSubtitle,
       Title = ListItemTitle
     } = { Text: ListItemText, Subtitle: ListItemSubtitle, Title: ListItemTitle }) => {
-      const props = (0, import_web15.useProps)(propsIn), {
+      const props = (0, import_web14.useProps)(propsIn), {
         children,
         icon,
         iconAfter,
         noTextWrap,
         theme: themeName,
-        space: space2,
+        space,
         spaceFlex,
         scaleIcon = 1,
         scaleSpace = 1,
@@ -28038,7 +28119,7 @@ var require_ListItem = __commonJS({
         subTitle,
         title,
         // text props
-        color: color2,
+        color,
         fontWeight,
         fontSize,
         fontFamily,
@@ -28047,7 +28128,7 @@ var require_ListItem = __commonJS({
         ellipse,
         ...rest
       } = props, textProps = {
-        color: color2,
+        color,
         fontWeight,
         fontSize,
         fontFamily,
@@ -28055,14 +28136,14 @@ var require_ListItem = __commonJS({
         textAlign,
         ellipse,
         children
-      }, size4 = props.size || "$true", iconSize = (0, import_font_size4.getFontSize)(size4) * scaleIcon, getThemedIcon = (0, import_helpers_tamagui4.useGetThemedIcon)({ size: iconSize, color: color2 }), [themedIcon, themedIconAfter] = [icon, iconAfter].map(getThemedIcon), spaceSize = (0, import_web15.getVariableValue)((0, import_web15.getTokens)().space[props.space] ?? iconSize) * scaleSpace, contents = (0, import_text8.wrapChildrenInText)(Text4, textProps);
+      }, size4 = props.size || "$true", iconSize = (0, import_font_size4.getFontSize)(size4) * scaleIcon, getThemedIcon = (0, import_helpers_tamagui4.useGetThemedIcon)({ size: iconSize, color }), [themedIcon, themedIconAfter] = [icon, iconAfter].map(getThemedIcon), spaceSize = (0, import_web14.getVariableValue)((0, import_web14.getTokens)().space[props.space] ?? iconSize) * scaleSpace, contents = (0, import_text8.wrapChildrenInText)(Text4, textProps);
       return {
         props: {
           ...rest,
           children: /* @__PURE__ */ (0, import_jsx_runtime53.jsxs)(import_jsx_runtime53.Fragment, { children: [
             themedIcon ? /* @__PURE__ */ (0, import_jsx_runtime53.jsxs)(import_jsx_runtime53.Fragment, { children: [
               themedIcon,
-              /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(import_web15.Spacer, { size: spaceSize })
+              /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(import_web14.Spacer, { size: spaceSize })
             ] }) : null,
             title || subTitle ? /* @__PURE__ */ (0, import_jsx_runtime53.jsxs)(import_stacks26.YStack, { flex: 1, children: [
               noTextWrap === "all" ? title : /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(Title, { size: size4, children: title }),
@@ -28074,7 +28155,7 @@ var require_ListItem = __commonJS({
               contents
             ] }) : contents,
             themedIconAfter ? /* @__PURE__ */ (0, import_jsx_runtime53.jsxs)(import_jsx_runtime53.Fragment, { children: [
-              /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(import_web15.Spacer, { size: spaceSize }),
+              /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(import_web14.Spacer, { size: spaceSize }),
               themedIconAfter
             ] }) : null
           ] })
@@ -28095,7 +28176,7 @@ var require_ListItem = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/list-item/dist/cjs/index.js
-var require_cjs29 = __commonJS({
+var require_cjs30 = __commonJS({
   "../../../node_modules/@tamagui/list-item/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -28481,17 +28562,17 @@ var require_mutateTheme = __commonJS({
       mutateThemes: () => mutateThemes2
     });
     module2.exports = __toCommonJS2(mutateTheme_exports);
-    var import_constants46 = require_cjs();
-    var import_web15 = require("@tamagui/core");
+    var import_constants46 = require_cjs2();
+    var import_web14 = require("@tamagui/core");
     var import_react47 = require("react");
     function mutateThemes2({
-      themes: themes2,
+      themes,
       batch,
       insertCSS = true,
       ...props
     }) {
       const allThemesProxied = {}, allThemesRaw = {};
-      for (const { name, theme } of themes2) {
+      for (const { name, theme } of themes) {
         const res = _mutateTheme({
           ...props,
           name,
@@ -28521,7 +28602,7 @@ var require_mutateTheme = __commonJS({
         process.env.NODE_ENV === "development" && console.warn("Theme mutation is not supported on server side");
         return;
       }
-      const config = (0, import_web15.getConfig)(), { name: themeName, theme: themeIn, insertCSS, mutationType } = props;
+      const config = (0, import_web14.getConfig)(), { name: themeName, theme: themeIn, insertCSS, mutationType } = props;
       if (process.env.NODE_ENV === "development") {
         if (!config)
           throw new Error("No config");
@@ -28536,8 +28617,8 @@ var require_mutateTheme = __commonJS({
         ...themeIn
       };
       for (const key in theme)
-        (0, import_web15.ensureThemeVariable)(theme, key);
-      const themeProxied = (0, import_web15.proxyThemeToParents)(themeName, theme), response = {
+        (0, import_web14.ensureThemeVariable)(theme, key);
+      const themeProxied = (0, import_web14.proxyThemeToParents)(themeName, theme), response = {
         themeRaw: theme,
         theme: themeProxied,
         cssRules: []
@@ -28548,12 +28629,12 @@ var require_mutateTheme = __commonJS({
     }
     __name(_mutateTheme, "_mutateTheme");
     function updateThemeConfig(themeName, theme) {
-      const config = (0, import_web15.getConfig)();
-      config.themes[themeName] = theme, (0, import_web15.updateConfig)("themes", config.themes);
+      const config = (0, import_web14.getConfig)();
+      config.themes[themeName] = theme, (0, import_web14.updateConfig)("themes", config.themes);
     }
     __name(updateThemeConfig, "updateThemeConfig");
     function notifyThemeManagersOfUpdate(themeName, theme) {
-      import_web15.activeThemeManagers.forEach((manager) => {
+      import_web14.activeThemeManagers.forEach((manager) => {
         manager.state.name === themeName && manager.updateStateFromProps(
           {
             name: themeName,
@@ -28564,11 +28645,11 @@ var require_mutateTheme = __commonJS({
       });
     }
     __name(notifyThemeManagersOfUpdate, "notifyThemeManagersOfUpdate");
-    function insertThemeCSS(themes2, batch = false) {
-      const config = (0, import_web15.getConfig)();
+    function insertThemeCSS(themes, batch = false) {
+      const config = (0, import_web14.getConfig)();
       let cssRules = [];
-      for (const themeName in themes2) {
-        const theme = themes2[themeName], rules = (0, import_web15.getThemeCSSRules)({
+      for (const themeName in themes) {
+        const theme = themes[themeName], rules = (0, import_web14.getThemeCSSRules)({
           config,
           themeName,
           names: [themeName],
@@ -28578,7 +28659,7 @@ var require_mutateTheme = __commonJS({
         cssRules = [...cssRules, ...rules], batch || updateStyle(`t_theme_style_${themeName}`, rules);
       }
       if (batch) {
-        const id = (0, import_web15.simpleHash)(typeof batch == "string" ? batch : Object.keys(themes2).join(""));
+        const id = (0, import_web14.simpleHash)(typeof batch == "string" ? batch : Object.keys(themes).join(""));
         updateStyle(`t_theme_style_${id}`, cssRules);
       }
       return cssRules;
@@ -28694,7 +28775,7 @@ var require_replaceTheme = __commonJS({
 });
 
 // ../../../node_modules/@tamagui/theme/dist/cjs/index.js
-var require_cjs30 = __commonJS({
+var require_cjs31 = __commonJS({
   "../../../node_modules/@tamagui/theme/dist/cjs/index.js"(exports2, module2) {
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -28727,4170 +28808,11 @@ var require_cjs30 = __commonJS({
 // ../../../tamagui.config.ts
 var tamagui_config_exports = {};
 __export(tamagui_config_exports, {
-  default: () => tamagui_config_default
+  default: () => tamagui_config_default,
+  tokens: () => tokens
 });
 module.exports = __toCommonJS(tamagui_config_exports);
-
-// ../../../node_modules/@tamagui/shorthands/dist/esm/index.js
-var shorthands = {
-  // web-only
-  ussel: "userSelect",
-  cur: "cursor",
-  // tamagui
-  pe: "pointerEvents",
-  // text
-  col: "color",
-  ff: "fontFamily",
-  fos: "fontSize",
-  fost: "fontStyle",
-  fow: "fontWeight",
-  ls: "letterSpacing",
-  lh: "lineHeight",
-  ta: "textAlign",
-  tt: "textTransform",
-  ww: "wordWrap",
-  // view
-  ac: "alignContent",
-  ai: "alignItems",
-  als: "alignSelf",
-  b: "bottom",
-  bc: "backgroundColor",
-  bg: "backgroundColor",
-  bbc: "borderBottomColor",
-  bblr: "borderBottomLeftRadius",
-  bbrr: "borderBottomRightRadius",
-  bbw: "borderBottomWidth",
-  blc: "borderLeftColor",
-  blw: "borderLeftWidth",
-  boc: "borderColor",
-  br: "borderRadius",
-  bs: "borderStyle",
-  brw: "borderRightWidth",
-  brc: "borderRightColor",
-  btc: "borderTopColor",
-  btlr: "borderTopLeftRadius",
-  btrr: "borderTopRightRadius",
-  btw: "borderTopWidth",
-  bw: "borderWidth",
-  dsp: "display",
-  f: "flex",
-  fb: "flexBasis",
-  fd: "flexDirection",
-  fg: "flexGrow",
-  fs: "flexShrink",
-  fw: "flexWrap",
-  h: "height",
-  jc: "justifyContent",
-  l: "left",
-  m: "margin",
-  mah: "maxHeight",
-  maw: "maxWidth",
-  mb: "marginBottom",
-  mih: "minHeight",
-  miw: "minWidth",
-  ml: "marginLeft",
-  mr: "marginRight",
-  mt: "marginTop",
-  mx: "marginHorizontal",
-  my: "marginVertical",
-  o: "opacity",
-  ov: "overflow",
-  p: "padding",
-  pb: "paddingBottom",
-  pl: "paddingLeft",
-  pos: "position",
-  pr: "paddingRight",
-  pt: "paddingTop",
-  px: "paddingHorizontal",
-  py: "paddingVertical",
-  r: "right",
-  shac: "shadowColor",
-  shar: "shadowRadius",
-  shof: "shadowOffset",
-  shop: "shadowOpacity",
-  t: "top",
-  w: "width",
-  zi: "zIndex"
-};
-shorthands.bls = "borderLeftStyle";
-shorthands.brs = "borderRightStyle";
-shorthands.bts = "borderTopStyle";
-shorthands.bbs = "borderBottomStyle";
-shorthands.bxs = "boxSizing";
-shorthands.bxsh = "boxShadow";
-shorthands.ox = "overflowX";
-shorthands.oy = "overflowY";
-
-// ../../../node_modules/@tamagui/themes/dist/esm/generated-v2.js
-var generated_v2_exports = {};
-__export(generated_v2_exports, {
-  dark: () => dark,
-  dark_Button: () => dark_Button,
-  dark_Card: () => dark_Card,
-  dark_Checkbox: () => dark_Checkbox,
-  dark_DialogOverlay: () => dark_DialogOverlay,
-  dark_DrawerFrame: () => dark_DrawerFrame,
-  dark_Input: () => dark_Input,
-  dark_ListItem: () => dark_ListItem,
-  dark_ModalOverlay: () => dark_ModalOverlay,
-  dark_Progress: () => dark_Progress,
-  dark_ProgressIndicator: () => dark_ProgressIndicator,
-  dark_RadioGroupItem: () => dark_RadioGroupItem,
-  dark_SheetOverlay: () => dark_SheetOverlay,
-  dark_SliderThumb: () => dark_SliderThumb,
-  dark_SliderTrack: () => dark_SliderTrack,
-  dark_SliderTrackActive: () => dark_SliderTrackActive,
-  dark_Switch: () => dark_Switch,
-  dark_SwitchThumb: () => dark_SwitchThumb,
-  dark_TextArea: () => dark_TextArea,
-  dark_Tooltip: () => dark_Tooltip,
-  dark_TooltipArrow: () => dark_TooltipArrow,
-  dark_TooltipContent: () => dark_TooltipContent,
-  dark_active: () => dark_active,
-  dark_active_Button: () => dark_active_Button,
-  dark_active_Checkbox: () => dark_active_Checkbox,
-  dark_active_DialogOverlay: () => dark_active_DialogOverlay,
-  dark_active_Input: () => dark_active_Input,
-  dark_active_ListItem: () => dark_active_ListItem,
-  dark_active_ModalOverlay: () => dark_active_ModalOverlay,
-  dark_active_SheetOverlay: () => dark_active_SheetOverlay,
-  dark_active_SliderTrackActive: () => dark_active_SliderTrackActive,
-  dark_active_Switch: () => dark_active_Switch,
-  dark_active_TextArea: () => dark_active_TextArea,
-  dark_alt1: () => dark_alt1,
-  dark_alt1_Button: () => dark_alt1_Button,
-  dark_alt1_Card: () => dark_alt1_Card,
-  dark_alt1_Checkbox: () => dark_alt1_Checkbox,
-  dark_alt1_DialogOverlay: () => dark_alt1_DialogOverlay,
-  dark_alt1_DrawerFrame: () => dark_alt1_DrawerFrame,
-  dark_alt1_Input: () => dark_alt1_Input,
-  dark_alt1_ListItem: () => dark_alt1_ListItem,
-  dark_alt1_ModalOverlay: () => dark_alt1_ModalOverlay,
-  dark_alt1_Progress: () => dark_alt1_Progress,
-  dark_alt1_ProgressIndicator: () => dark_alt1_ProgressIndicator,
-  dark_alt1_RadioGroupItem: () => dark_alt1_RadioGroupItem,
-  dark_alt1_SheetOverlay: () => dark_alt1_SheetOverlay,
-  dark_alt1_SliderThumb: () => dark_alt1_SliderThumb,
-  dark_alt1_SliderTrack: () => dark_alt1_SliderTrack,
-  dark_alt1_SliderTrackActive: () => dark_alt1_SliderTrackActive,
-  dark_alt1_Switch: () => dark_alt1_Switch,
-  dark_alt1_SwitchThumb: () => dark_alt1_SwitchThumb,
-  dark_alt1_TextArea: () => dark_alt1_TextArea,
-  dark_alt1_Tooltip: () => dark_alt1_Tooltip,
-  dark_alt1_TooltipArrow: () => dark_alt1_TooltipArrow,
-  dark_alt1_TooltipContent: () => dark_alt1_TooltipContent,
-  dark_alt2: () => dark_alt2,
-  dark_alt2_Button: () => dark_alt2_Button,
-  dark_alt2_Card: () => dark_alt2_Card,
-  dark_alt2_Checkbox: () => dark_alt2_Checkbox,
-  dark_alt2_DialogOverlay: () => dark_alt2_DialogOverlay,
-  dark_alt2_DrawerFrame: () => dark_alt2_DrawerFrame,
-  dark_alt2_Input: () => dark_alt2_Input,
-  dark_alt2_ListItem: () => dark_alt2_ListItem,
-  dark_alt2_ModalOverlay: () => dark_alt2_ModalOverlay,
-  dark_alt2_Progress: () => dark_alt2_Progress,
-  dark_alt2_ProgressIndicator: () => dark_alt2_ProgressIndicator,
-  dark_alt2_RadioGroupItem: () => dark_alt2_RadioGroupItem,
-  dark_alt2_SheetOverlay: () => dark_alt2_SheetOverlay,
-  dark_alt2_SliderThumb: () => dark_alt2_SliderThumb,
-  dark_alt2_SliderTrack: () => dark_alt2_SliderTrack,
-  dark_alt2_SliderTrackActive: () => dark_alt2_SliderTrackActive,
-  dark_alt2_Switch: () => dark_alt2_Switch,
-  dark_alt2_SwitchThumb: () => dark_alt2_SwitchThumb,
-  dark_alt2_TextArea: () => dark_alt2_TextArea,
-  dark_alt2_Tooltip: () => dark_alt2_Tooltip,
-  dark_alt2_TooltipArrow: () => dark_alt2_TooltipArrow,
-  dark_alt2_TooltipContent: () => dark_alt2_TooltipContent,
-  dark_blue: () => dark_blue,
-  dark_blue_Button: () => dark_blue_Button,
-  dark_blue_Card: () => dark_blue_Card,
-  dark_blue_Checkbox: () => dark_blue_Checkbox,
-  dark_blue_DialogOverlay: () => dark_blue_DialogOverlay,
-  dark_blue_DrawerFrame: () => dark_blue_DrawerFrame,
-  dark_blue_Input: () => dark_blue_Input,
-  dark_blue_ListItem: () => dark_blue_ListItem,
-  dark_blue_ModalOverlay: () => dark_blue_ModalOverlay,
-  dark_blue_Progress: () => dark_blue_Progress,
-  dark_blue_ProgressIndicator: () => dark_blue_ProgressIndicator,
-  dark_blue_RadioGroupItem: () => dark_blue_RadioGroupItem,
-  dark_blue_SheetOverlay: () => dark_blue_SheetOverlay,
-  dark_blue_SliderThumb: () => dark_blue_SliderThumb,
-  dark_blue_SliderTrack: () => dark_blue_SliderTrack,
-  dark_blue_SliderTrackActive: () => dark_blue_SliderTrackActive,
-  dark_blue_Switch: () => dark_blue_Switch,
-  dark_blue_SwitchThumb: () => dark_blue_SwitchThumb,
-  dark_blue_TextArea: () => dark_blue_TextArea,
-  dark_blue_Tooltip: () => dark_blue_Tooltip,
-  dark_blue_TooltipArrow: () => dark_blue_TooltipArrow,
-  dark_blue_TooltipContent: () => dark_blue_TooltipContent,
-  dark_blue_active: () => dark_blue_active,
-  dark_blue_active_Button: () => dark_blue_active_Button,
-  dark_blue_active_Checkbox: () => dark_blue_active_Checkbox,
-  dark_blue_active_DialogOverlay: () => dark_blue_active_DialogOverlay,
-  dark_blue_active_Input: () => dark_blue_active_Input,
-  dark_blue_active_ListItem: () => dark_blue_active_ListItem,
-  dark_blue_active_ModalOverlay: () => dark_blue_active_ModalOverlay,
-  dark_blue_active_SheetOverlay: () => dark_blue_active_SheetOverlay,
-  dark_blue_active_SliderTrackActive: () => dark_blue_active_SliderTrackActive,
-  dark_blue_active_Switch: () => dark_blue_active_Switch,
-  dark_blue_active_TextArea: () => dark_blue_active_TextArea,
-  dark_blue_alt1: () => dark_blue_alt1,
-  dark_blue_alt1_Button: () => dark_blue_alt1_Button,
-  dark_blue_alt1_Card: () => dark_blue_alt1_Card,
-  dark_blue_alt1_Checkbox: () => dark_blue_alt1_Checkbox,
-  dark_blue_alt1_DialogOverlay: () => dark_blue_alt1_DialogOverlay,
-  dark_blue_alt1_DrawerFrame: () => dark_blue_alt1_DrawerFrame,
-  dark_blue_alt1_Input: () => dark_blue_alt1_Input,
-  dark_blue_alt1_ListItem: () => dark_blue_alt1_ListItem,
-  dark_blue_alt1_ModalOverlay: () => dark_blue_alt1_ModalOverlay,
-  dark_blue_alt1_Progress: () => dark_blue_alt1_Progress,
-  dark_blue_alt1_ProgressIndicator: () => dark_blue_alt1_ProgressIndicator,
-  dark_blue_alt1_RadioGroupItem: () => dark_blue_alt1_RadioGroupItem,
-  dark_blue_alt1_SheetOverlay: () => dark_blue_alt1_SheetOverlay,
-  dark_blue_alt1_SliderThumb: () => dark_blue_alt1_SliderThumb,
-  dark_blue_alt1_SliderTrack: () => dark_blue_alt1_SliderTrack,
-  dark_blue_alt1_SliderTrackActive: () => dark_blue_alt1_SliderTrackActive,
-  dark_blue_alt1_Switch: () => dark_blue_alt1_Switch,
-  dark_blue_alt1_SwitchThumb: () => dark_blue_alt1_SwitchThumb,
-  dark_blue_alt1_TextArea: () => dark_blue_alt1_TextArea,
-  dark_blue_alt1_Tooltip: () => dark_blue_alt1_Tooltip,
-  dark_blue_alt1_TooltipArrow: () => dark_blue_alt1_TooltipArrow,
-  dark_blue_alt1_TooltipContent: () => dark_blue_alt1_TooltipContent,
-  dark_blue_alt2: () => dark_blue_alt2,
-  dark_blue_alt2_Button: () => dark_blue_alt2_Button,
-  dark_blue_alt2_Card: () => dark_blue_alt2_Card,
-  dark_blue_alt2_Checkbox: () => dark_blue_alt2_Checkbox,
-  dark_blue_alt2_DialogOverlay: () => dark_blue_alt2_DialogOverlay,
-  dark_blue_alt2_DrawerFrame: () => dark_blue_alt2_DrawerFrame,
-  dark_blue_alt2_Input: () => dark_blue_alt2_Input,
-  dark_blue_alt2_ListItem: () => dark_blue_alt2_ListItem,
-  dark_blue_alt2_ModalOverlay: () => dark_blue_alt2_ModalOverlay,
-  dark_blue_alt2_Progress: () => dark_blue_alt2_Progress,
-  dark_blue_alt2_ProgressIndicator: () => dark_blue_alt2_ProgressIndicator,
-  dark_blue_alt2_RadioGroupItem: () => dark_blue_alt2_RadioGroupItem,
-  dark_blue_alt2_SheetOverlay: () => dark_blue_alt2_SheetOverlay,
-  dark_blue_alt2_SliderThumb: () => dark_blue_alt2_SliderThumb,
-  dark_blue_alt2_SliderTrack: () => dark_blue_alt2_SliderTrack,
-  dark_blue_alt2_SliderTrackActive: () => dark_blue_alt2_SliderTrackActive,
-  dark_blue_alt2_Switch: () => dark_blue_alt2_Switch,
-  dark_blue_alt2_SwitchThumb: () => dark_blue_alt2_SwitchThumb,
-  dark_blue_alt2_TextArea: () => dark_blue_alt2_TextArea,
-  dark_blue_alt2_Tooltip: () => dark_blue_alt2_Tooltip,
-  dark_blue_alt2_TooltipArrow: () => dark_blue_alt2_TooltipArrow,
-  dark_blue_alt2_TooltipContent: () => dark_blue_alt2_TooltipContent,
-  dark_gray: () => dark_gray,
-  dark_gray_Button: () => dark_gray_Button,
-  dark_gray_Card: () => dark_gray_Card,
-  dark_gray_Checkbox: () => dark_gray_Checkbox,
-  dark_gray_DialogOverlay: () => dark_gray_DialogOverlay,
-  dark_gray_DrawerFrame: () => dark_gray_DrawerFrame,
-  dark_gray_Input: () => dark_gray_Input,
-  dark_gray_ListItem: () => dark_gray_ListItem,
-  dark_gray_ModalOverlay: () => dark_gray_ModalOverlay,
-  dark_gray_Progress: () => dark_gray_Progress,
-  dark_gray_ProgressIndicator: () => dark_gray_ProgressIndicator,
-  dark_gray_RadioGroupItem: () => dark_gray_RadioGroupItem,
-  dark_gray_SheetOverlay: () => dark_gray_SheetOverlay,
-  dark_gray_SliderThumb: () => dark_gray_SliderThumb,
-  dark_gray_SliderTrack: () => dark_gray_SliderTrack,
-  dark_gray_SliderTrackActive: () => dark_gray_SliderTrackActive,
-  dark_gray_Switch: () => dark_gray_Switch,
-  dark_gray_SwitchThumb: () => dark_gray_SwitchThumb,
-  dark_gray_TextArea: () => dark_gray_TextArea,
-  dark_gray_Tooltip: () => dark_gray_Tooltip,
-  dark_gray_TooltipArrow: () => dark_gray_TooltipArrow,
-  dark_gray_TooltipContent: () => dark_gray_TooltipContent,
-  dark_gray_active: () => dark_gray_active,
-  dark_gray_active_Button: () => dark_gray_active_Button,
-  dark_gray_active_Checkbox: () => dark_gray_active_Checkbox,
-  dark_gray_active_DialogOverlay: () => dark_gray_active_DialogOverlay,
-  dark_gray_active_Input: () => dark_gray_active_Input,
-  dark_gray_active_ListItem: () => dark_gray_active_ListItem,
-  dark_gray_active_ModalOverlay: () => dark_gray_active_ModalOverlay,
-  dark_gray_active_SheetOverlay: () => dark_gray_active_SheetOverlay,
-  dark_gray_active_SliderTrackActive: () => dark_gray_active_SliderTrackActive,
-  dark_gray_active_Switch: () => dark_gray_active_Switch,
-  dark_gray_active_TextArea: () => dark_gray_active_TextArea,
-  dark_gray_alt1: () => dark_gray_alt1,
-  dark_gray_alt1_Button: () => dark_gray_alt1_Button,
-  dark_gray_alt1_Card: () => dark_gray_alt1_Card,
-  dark_gray_alt1_Checkbox: () => dark_gray_alt1_Checkbox,
-  dark_gray_alt1_DialogOverlay: () => dark_gray_alt1_DialogOverlay,
-  dark_gray_alt1_DrawerFrame: () => dark_gray_alt1_DrawerFrame,
-  dark_gray_alt1_Input: () => dark_gray_alt1_Input,
-  dark_gray_alt1_ListItem: () => dark_gray_alt1_ListItem,
-  dark_gray_alt1_ModalOverlay: () => dark_gray_alt1_ModalOverlay,
-  dark_gray_alt1_Progress: () => dark_gray_alt1_Progress,
-  dark_gray_alt1_ProgressIndicator: () => dark_gray_alt1_ProgressIndicator,
-  dark_gray_alt1_RadioGroupItem: () => dark_gray_alt1_RadioGroupItem,
-  dark_gray_alt1_SheetOverlay: () => dark_gray_alt1_SheetOverlay,
-  dark_gray_alt1_SliderThumb: () => dark_gray_alt1_SliderThumb,
-  dark_gray_alt1_SliderTrack: () => dark_gray_alt1_SliderTrack,
-  dark_gray_alt1_SliderTrackActive: () => dark_gray_alt1_SliderTrackActive,
-  dark_gray_alt1_Switch: () => dark_gray_alt1_Switch,
-  dark_gray_alt1_SwitchThumb: () => dark_gray_alt1_SwitchThumb,
-  dark_gray_alt1_TextArea: () => dark_gray_alt1_TextArea,
-  dark_gray_alt1_Tooltip: () => dark_gray_alt1_Tooltip,
-  dark_gray_alt1_TooltipArrow: () => dark_gray_alt1_TooltipArrow,
-  dark_gray_alt1_TooltipContent: () => dark_gray_alt1_TooltipContent,
-  dark_gray_alt2: () => dark_gray_alt2,
-  dark_gray_alt2_Button: () => dark_gray_alt2_Button,
-  dark_gray_alt2_Card: () => dark_gray_alt2_Card,
-  dark_gray_alt2_Checkbox: () => dark_gray_alt2_Checkbox,
-  dark_gray_alt2_DialogOverlay: () => dark_gray_alt2_DialogOverlay,
-  dark_gray_alt2_DrawerFrame: () => dark_gray_alt2_DrawerFrame,
-  dark_gray_alt2_Input: () => dark_gray_alt2_Input,
-  dark_gray_alt2_ListItem: () => dark_gray_alt2_ListItem,
-  dark_gray_alt2_ModalOverlay: () => dark_gray_alt2_ModalOverlay,
-  dark_gray_alt2_Progress: () => dark_gray_alt2_Progress,
-  dark_gray_alt2_ProgressIndicator: () => dark_gray_alt2_ProgressIndicator,
-  dark_gray_alt2_RadioGroupItem: () => dark_gray_alt2_RadioGroupItem,
-  dark_gray_alt2_SheetOverlay: () => dark_gray_alt2_SheetOverlay,
-  dark_gray_alt2_SliderThumb: () => dark_gray_alt2_SliderThumb,
-  dark_gray_alt2_SliderTrack: () => dark_gray_alt2_SliderTrack,
-  dark_gray_alt2_SliderTrackActive: () => dark_gray_alt2_SliderTrackActive,
-  dark_gray_alt2_Switch: () => dark_gray_alt2_Switch,
-  dark_gray_alt2_SwitchThumb: () => dark_gray_alt2_SwitchThumb,
-  dark_gray_alt2_TextArea: () => dark_gray_alt2_TextArea,
-  dark_gray_alt2_Tooltip: () => dark_gray_alt2_Tooltip,
-  dark_gray_alt2_TooltipArrow: () => dark_gray_alt2_TooltipArrow,
-  dark_gray_alt2_TooltipContent: () => dark_gray_alt2_TooltipContent,
-  dark_green: () => dark_green,
-  dark_green_Button: () => dark_green_Button,
-  dark_green_Card: () => dark_green_Card,
-  dark_green_Checkbox: () => dark_green_Checkbox,
-  dark_green_DialogOverlay: () => dark_green_DialogOverlay,
-  dark_green_DrawerFrame: () => dark_green_DrawerFrame,
-  dark_green_Input: () => dark_green_Input,
-  dark_green_ListItem: () => dark_green_ListItem,
-  dark_green_ModalOverlay: () => dark_green_ModalOverlay,
-  dark_green_Progress: () => dark_green_Progress,
-  dark_green_ProgressIndicator: () => dark_green_ProgressIndicator,
-  dark_green_RadioGroupItem: () => dark_green_RadioGroupItem,
-  dark_green_SheetOverlay: () => dark_green_SheetOverlay,
-  dark_green_SliderThumb: () => dark_green_SliderThumb,
-  dark_green_SliderTrack: () => dark_green_SliderTrack,
-  dark_green_SliderTrackActive: () => dark_green_SliderTrackActive,
-  dark_green_Switch: () => dark_green_Switch,
-  dark_green_SwitchThumb: () => dark_green_SwitchThumb,
-  dark_green_TextArea: () => dark_green_TextArea,
-  dark_green_Tooltip: () => dark_green_Tooltip,
-  dark_green_TooltipArrow: () => dark_green_TooltipArrow,
-  dark_green_TooltipContent: () => dark_green_TooltipContent,
-  dark_green_active: () => dark_green_active,
-  dark_green_active_Button: () => dark_green_active_Button,
-  dark_green_active_Checkbox: () => dark_green_active_Checkbox,
-  dark_green_active_DialogOverlay: () => dark_green_active_DialogOverlay,
-  dark_green_active_Input: () => dark_green_active_Input,
-  dark_green_active_ListItem: () => dark_green_active_ListItem,
-  dark_green_active_ModalOverlay: () => dark_green_active_ModalOverlay,
-  dark_green_active_SheetOverlay: () => dark_green_active_SheetOverlay,
-  dark_green_active_SliderTrackActive: () => dark_green_active_SliderTrackActive,
-  dark_green_active_Switch: () => dark_green_active_Switch,
-  dark_green_active_TextArea: () => dark_green_active_TextArea,
-  dark_green_alt1: () => dark_green_alt1,
-  dark_green_alt1_Button: () => dark_green_alt1_Button,
-  dark_green_alt1_Card: () => dark_green_alt1_Card,
-  dark_green_alt1_Checkbox: () => dark_green_alt1_Checkbox,
-  dark_green_alt1_DialogOverlay: () => dark_green_alt1_DialogOverlay,
-  dark_green_alt1_DrawerFrame: () => dark_green_alt1_DrawerFrame,
-  dark_green_alt1_Input: () => dark_green_alt1_Input,
-  dark_green_alt1_ListItem: () => dark_green_alt1_ListItem,
-  dark_green_alt1_ModalOverlay: () => dark_green_alt1_ModalOverlay,
-  dark_green_alt1_Progress: () => dark_green_alt1_Progress,
-  dark_green_alt1_ProgressIndicator: () => dark_green_alt1_ProgressIndicator,
-  dark_green_alt1_RadioGroupItem: () => dark_green_alt1_RadioGroupItem,
-  dark_green_alt1_SheetOverlay: () => dark_green_alt1_SheetOverlay,
-  dark_green_alt1_SliderThumb: () => dark_green_alt1_SliderThumb,
-  dark_green_alt1_SliderTrack: () => dark_green_alt1_SliderTrack,
-  dark_green_alt1_SliderTrackActive: () => dark_green_alt1_SliderTrackActive,
-  dark_green_alt1_Switch: () => dark_green_alt1_Switch,
-  dark_green_alt1_SwitchThumb: () => dark_green_alt1_SwitchThumb,
-  dark_green_alt1_TextArea: () => dark_green_alt1_TextArea,
-  dark_green_alt1_Tooltip: () => dark_green_alt1_Tooltip,
-  dark_green_alt1_TooltipArrow: () => dark_green_alt1_TooltipArrow,
-  dark_green_alt1_TooltipContent: () => dark_green_alt1_TooltipContent,
-  dark_green_alt2: () => dark_green_alt2,
-  dark_green_alt2_Button: () => dark_green_alt2_Button,
-  dark_green_alt2_Card: () => dark_green_alt2_Card,
-  dark_green_alt2_Checkbox: () => dark_green_alt2_Checkbox,
-  dark_green_alt2_DialogOverlay: () => dark_green_alt2_DialogOverlay,
-  dark_green_alt2_DrawerFrame: () => dark_green_alt2_DrawerFrame,
-  dark_green_alt2_Input: () => dark_green_alt2_Input,
-  dark_green_alt2_ListItem: () => dark_green_alt2_ListItem,
-  dark_green_alt2_ModalOverlay: () => dark_green_alt2_ModalOverlay,
-  dark_green_alt2_Progress: () => dark_green_alt2_Progress,
-  dark_green_alt2_ProgressIndicator: () => dark_green_alt2_ProgressIndicator,
-  dark_green_alt2_RadioGroupItem: () => dark_green_alt2_RadioGroupItem,
-  dark_green_alt2_SheetOverlay: () => dark_green_alt2_SheetOverlay,
-  dark_green_alt2_SliderThumb: () => dark_green_alt2_SliderThumb,
-  dark_green_alt2_SliderTrack: () => dark_green_alt2_SliderTrack,
-  dark_green_alt2_SliderTrackActive: () => dark_green_alt2_SliderTrackActive,
-  dark_green_alt2_Switch: () => dark_green_alt2_Switch,
-  dark_green_alt2_SwitchThumb: () => dark_green_alt2_SwitchThumb,
-  dark_green_alt2_TextArea: () => dark_green_alt2_TextArea,
-  dark_green_alt2_Tooltip: () => dark_green_alt2_Tooltip,
-  dark_green_alt2_TooltipArrow: () => dark_green_alt2_TooltipArrow,
-  dark_green_alt2_TooltipContent: () => dark_green_alt2_TooltipContent,
-  dark_orange: () => dark_orange,
-  dark_orange_Button: () => dark_orange_Button,
-  dark_orange_Card: () => dark_orange_Card,
-  dark_orange_Checkbox: () => dark_orange_Checkbox,
-  dark_orange_DialogOverlay: () => dark_orange_DialogOverlay,
-  dark_orange_DrawerFrame: () => dark_orange_DrawerFrame,
-  dark_orange_Input: () => dark_orange_Input,
-  dark_orange_ListItem: () => dark_orange_ListItem,
-  dark_orange_ModalOverlay: () => dark_orange_ModalOverlay,
-  dark_orange_Progress: () => dark_orange_Progress,
-  dark_orange_ProgressIndicator: () => dark_orange_ProgressIndicator,
-  dark_orange_RadioGroupItem: () => dark_orange_RadioGroupItem,
-  dark_orange_SheetOverlay: () => dark_orange_SheetOverlay,
-  dark_orange_SliderThumb: () => dark_orange_SliderThumb,
-  dark_orange_SliderTrack: () => dark_orange_SliderTrack,
-  dark_orange_SliderTrackActive: () => dark_orange_SliderTrackActive,
-  dark_orange_Switch: () => dark_orange_Switch,
-  dark_orange_SwitchThumb: () => dark_orange_SwitchThumb,
-  dark_orange_TextArea: () => dark_orange_TextArea,
-  dark_orange_Tooltip: () => dark_orange_Tooltip,
-  dark_orange_TooltipArrow: () => dark_orange_TooltipArrow,
-  dark_orange_TooltipContent: () => dark_orange_TooltipContent,
-  dark_orange_active: () => dark_orange_active,
-  dark_orange_active_Button: () => dark_orange_active_Button,
-  dark_orange_active_Checkbox: () => dark_orange_active_Checkbox,
-  dark_orange_active_DialogOverlay: () => dark_orange_active_DialogOverlay,
-  dark_orange_active_Input: () => dark_orange_active_Input,
-  dark_orange_active_ListItem: () => dark_orange_active_ListItem,
-  dark_orange_active_ModalOverlay: () => dark_orange_active_ModalOverlay,
-  dark_orange_active_SheetOverlay: () => dark_orange_active_SheetOverlay,
-  dark_orange_active_SliderTrackActive: () => dark_orange_active_SliderTrackActive,
-  dark_orange_active_Switch: () => dark_orange_active_Switch,
-  dark_orange_active_TextArea: () => dark_orange_active_TextArea,
-  dark_orange_alt1: () => dark_orange_alt1,
-  dark_orange_alt1_Button: () => dark_orange_alt1_Button,
-  dark_orange_alt1_Card: () => dark_orange_alt1_Card,
-  dark_orange_alt1_Checkbox: () => dark_orange_alt1_Checkbox,
-  dark_orange_alt1_DialogOverlay: () => dark_orange_alt1_DialogOverlay,
-  dark_orange_alt1_DrawerFrame: () => dark_orange_alt1_DrawerFrame,
-  dark_orange_alt1_Input: () => dark_orange_alt1_Input,
-  dark_orange_alt1_ListItem: () => dark_orange_alt1_ListItem,
-  dark_orange_alt1_ModalOverlay: () => dark_orange_alt1_ModalOverlay,
-  dark_orange_alt1_Progress: () => dark_orange_alt1_Progress,
-  dark_orange_alt1_ProgressIndicator: () => dark_orange_alt1_ProgressIndicator,
-  dark_orange_alt1_RadioGroupItem: () => dark_orange_alt1_RadioGroupItem,
-  dark_orange_alt1_SheetOverlay: () => dark_orange_alt1_SheetOverlay,
-  dark_orange_alt1_SliderThumb: () => dark_orange_alt1_SliderThumb,
-  dark_orange_alt1_SliderTrack: () => dark_orange_alt1_SliderTrack,
-  dark_orange_alt1_SliderTrackActive: () => dark_orange_alt1_SliderTrackActive,
-  dark_orange_alt1_Switch: () => dark_orange_alt1_Switch,
-  dark_orange_alt1_SwitchThumb: () => dark_orange_alt1_SwitchThumb,
-  dark_orange_alt1_TextArea: () => dark_orange_alt1_TextArea,
-  dark_orange_alt1_Tooltip: () => dark_orange_alt1_Tooltip,
-  dark_orange_alt1_TooltipArrow: () => dark_orange_alt1_TooltipArrow,
-  dark_orange_alt1_TooltipContent: () => dark_orange_alt1_TooltipContent,
-  dark_orange_alt2: () => dark_orange_alt2,
-  dark_orange_alt2_Button: () => dark_orange_alt2_Button,
-  dark_orange_alt2_Card: () => dark_orange_alt2_Card,
-  dark_orange_alt2_Checkbox: () => dark_orange_alt2_Checkbox,
-  dark_orange_alt2_DialogOverlay: () => dark_orange_alt2_DialogOverlay,
-  dark_orange_alt2_DrawerFrame: () => dark_orange_alt2_DrawerFrame,
-  dark_orange_alt2_Input: () => dark_orange_alt2_Input,
-  dark_orange_alt2_ListItem: () => dark_orange_alt2_ListItem,
-  dark_orange_alt2_ModalOverlay: () => dark_orange_alt2_ModalOverlay,
-  dark_orange_alt2_Progress: () => dark_orange_alt2_Progress,
-  dark_orange_alt2_ProgressIndicator: () => dark_orange_alt2_ProgressIndicator,
-  dark_orange_alt2_RadioGroupItem: () => dark_orange_alt2_RadioGroupItem,
-  dark_orange_alt2_SheetOverlay: () => dark_orange_alt2_SheetOverlay,
-  dark_orange_alt2_SliderThumb: () => dark_orange_alt2_SliderThumb,
-  dark_orange_alt2_SliderTrack: () => dark_orange_alt2_SliderTrack,
-  dark_orange_alt2_SliderTrackActive: () => dark_orange_alt2_SliderTrackActive,
-  dark_orange_alt2_Switch: () => dark_orange_alt2_Switch,
-  dark_orange_alt2_SwitchThumb: () => dark_orange_alt2_SwitchThumb,
-  dark_orange_alt2_TextArea: () => dark_orange_alt2_TextArea,
-  dark_orange_alt2_Tooltip: () => dark_orange_alt2_Tooltip,
-  dark_orange_alt2_TooltipArrow: () => dark_orange_alt2_TooltipArrow,
-  dark_orange_alt2_TooltipContent: () => dark_orange_alt2_TooltipContent,
-  dark_pink: () => dark_pink,
-  dark_pink_Button: () => dark_pink_Button,
-  dark_pink_Card: () => dark_pink_Card,
-  dark_pink_Checkbox: () => dark_pink_Checkbox,
-  dark_pink_DialogOverlay: () => dark_pink_DialogOverlay,
-  dark_pink_DrawerFrame: () => dark_pink_DrawerFrame,
-  dark_pink_Input: () => dark_pink_Input,
-  dark_pink_ListItem: () => dark_pink_ListItem,
-  dark_pink_ModalOverlay: () => dark_pink_ModalOverlay,
-  dark_pink_Progress: () => dark_pink_Progress,
-  dark_pink_ProgressIndicator: () => dark_pink_ProgressIndicator,
-  dark_pink_RadioGroupItem: () => dark_pink_RadioGroupItem,
-  dark_pink_SheetOverlay: () => dark_pink_SheetOverlay,
-  dark_pink_SliderThumb: () => dark_pink_SliderThumb,
-  dark_pink_SliderTrack: () => dark_pink_SliderTrack,
-  dark_pink_SliderTrackActive: () => dark_pink_SliderTrackActive,
-  dark_pink_Switch: () => dark_pink_Switch,
-  dark_pink_SwitchThumb: () => dark_pink_SwitchThumb,
-  dark_pink_TextArea: () => dark_pink_TextArea,
-  dark_pink_Tooltip: () => dark_pink_Tooltip,
-  dark_pink_TooltipArrow: () => dark_pink_TooltipArrow,
-  dark_pink_TooltipContent: () => dark_pink_TooltipContent,
-  dark_pink_active: () => dark_pink_active,
-  dark_pink_active_Button: () => dark_pink_active_Button,
-  dark_pink_active_Checkbox: () => dark_pink_active_Checkbox,
-  dark_pink_active_DialogOverlay: () => dark_pink_active_DialogOverlay,
-  dark_pink_active_Input: () => dark_pink_active_Input,
-  dark_pink_active_ListItem: () => dark_pink_active_ListItem,
-  dark_pink_active_ModalOverlay: () => dark_pink_active_ModalOverlay,
-  dark_pink_active_SheetOverlay: () => dark_pink_active_SheetOverlay,
-  dark_pink_active_SliderTrackActive: () => dark_pink_active_SliderTrackActive,
-  dark_pink_active_Switch: () => dark_pink_active_Switch,
-  dark_pink_active_TextArea: () => dark_pink_active_TextArea,
-  dark_pink_alt1: () => dark_pink_alt1,
-  dark_pink_alt1_Button: () => dark_pink_alt1_Button,
-  dark_pink_alt1_Card: () => dark_pink_alt1_Card,
-  dark_pink_alt1_Checkbox: () => dark_pink_alt1_Checkbox,
-  dark_pink_alt1_DialogOverlay: () => dark_pink_alt1_DialogOverlay,
-  dark_pink_alt1_DrawerFrame: () => dark_pink_alt1_DrawerFrame,
-  dark_pink_alt1_Input: () => dark_pink_alt1_Input,
-  dark_pink_alt1_ListItem: () => dark_pink_alt1_ListItem,
-  dark_pink_alt1_ModalOverlay: () => dark_pink_alt1_ModalOverlay,
-  dark_pink_alt1_Progress: () => dark_pink_alt1_Progress,
-  dark_pink_alt1_ProgressIndicator: () => dark_pink_alt1_ProgressIndicator,
-  dark_pink_alt1_RadioGroupItem: () => dark_pink_alt1_RadioGroupItem,
-  dark_pink_alt1_SheetOverlay: () => dark_pink_alt1_SheetOverlay,
-  dark_pink_alt1_SliderThumb: () => dark_pink_alt1_SliderThumb,
-  dark_pink_alt1_SliderTrack: () => dark_pink_alt1_SliderTrack,
-  dark_pink_alt1_SliderTrackActive: () => dark_pink_alt1_SliderTrackActive,
-  dark_pink_alt1_Switch: () => dark_pink_alt1_Switch,
-  dark_pink_alt1_SwitchThumb: () => dark_pink_alt1_SwitchThumb,
-  dark_pink_alt1_TextArea: () => dark_pink_alt1_TextArea,
-  dark_pink_alt1_Tooltip: () => dark_pink_alt1_Tooltip,
-  dark_pink_alt1_TooltipArrow: () => dark_pink_alt1_TooltipArrow,
-  dark_pink_alt1_TooltipContent: () => dark_pink_alt1_TooltipContent,
-  dark_pink_alt2: () => dark_pink_alt2,
-  dark_pink_alt2_Button: () => dark_pink_alt2_Button,
-  dark_pink_alt2_Card: () => dark_pink_alt2_Card,
-  dark_pink_alt2_Checkbox: () => dark_pink_alt2_Checkbox,
-  dark_pink_alt2_DialogOverlay: () => dark_pink_alt2_DialogOverlay,
-  dark_pink_alt2_DrawerFrame: () => dark_pink_alt2_DrawerFrame,
-  dark_pink_alt2_Input: () => dark_pink_alt2_Input,
-  dark_pink_alt2_ListItem: () => dark_pink_alt2_ListItem,
-  dark_pink_alt2_ModalOverlay: () => dark_pink_alt2_ModalOverlay,
-  dark_pink_alt2_Progress: () => dark_pink_alt2_Progress,
-  dark_pink_alt2_ProgressIndicator: () => dark_pink_alt2_ProgressIndicator,
-  dark_pink_alt2_RadioGroupItem: () => dark_pink_alt2_RadioGroupItem,
-  dark_pink_alt2_SheetOverlay: () => dark_pink_alt2_SheetOverlay,
-  dark_pink_alt2_SliderThumb: () => dark_pink_alt2_SliderThumb,
-  dark_pink_alt2_SliderTrack: () => dark_pink_alt2_SliderTrack,
-  dark_pink_alt2_SliderTrackActive: () => dark_pink_alt2_SliderTrackActive,
-  dark_pink_alt2_Switch: () => dark_pink_alt2_Switch,
-  dark_pink_alt2_SwitchThumb: () => dark_pink_alt2_SwitchThumb,
-  dark_pink_alt2_TextArea: () => dark_pink_alt2_TextArea,
-  dark_pink_alt2_Tooltip: () => dark_pink_alt2_Tooltip,
-  dark_pink_alt2_TooltipArrow: () => dark_pink_alt2_TooltipArrow,
-  dark_pink_alt2_TooltipContent: () => dark_pink_alt2_TooltipContent,
-  dark_purple: () => dark_purple,
-  dark_purple_Button: () => dark_purple_Button,
-  dark_purple_Card: () => dark_purple_Card,
-  dark_purple_Checkbox: () => dark_purple_Checkbox,
-  dark_purple_DialogOverlay: () => dark_purple_DialogOverlay,
-  dark_purple_DrawerFrame: () => dark_purple_DrawerFrame,
-  dark_purple_Input: () => dark_purple_Input,
-  dark_purple_ListItem: () => dark_purple_ListItem,
-  dark_purple_ModalOverlay: () => dark_purple_ModalOverlay,
-  dark_purple_Progress: () => dark_purple_Progress,
-  dark_purple_ProgressIndicator: () => dark_purple_ProgressIndicator,
-  dark_purple_RadioGroupItem: () => dark_purple_RadioGroupItem,
-  dark_purple_SheetOverlay: () => dark_purple_SheetOverlay,
-  dark_purple_SliderThumb: () => dark_purple_SliderThumb,
-  dark_purple_SliderTrack: () => dark_purple_SliderTrack,
-  dark_purple_SliderTrackActive: () => dark_purple_SliderTrackActive,
-  dark_purple_Switch: () => dark_purple_Switch,
-  dark_purple_SwitchThumb: () => dark_purple_SwitchThumb,
-  dark_purple_TextArea: () => dark_purple_TextArea,
-  dark_purple_Tooltip: () => dark_purple_Tooltip,
-  dark_purple_TooltipArrow: () => dark_purple_TooltipArrow,
-  dark_purple_TooltipContent: () => dark_purple_TooltipContent,
-  dark_purple_active: () => dark_purple_active,
-  dark_purple_active_Button: () => dark_purple_active_Button,
-  dark_purple_active_Checkbox: () => dark_purple_active_Checkbox,
-  dark_purple_active_DialogOverlay: () => dark_purple_active_DialogOverlay,
-  dark_purple_active_Input: () => dark_purple_active_Input,
-  dark_purple_active_ListItem: () => dark_purple_active_ListItem,
-  dark_purple_active_ModalOverlay: () => dark_purple_active_ModalOverlay,
-  dark_purple_active_SheetOverlay: () => dark_purple_active_SheetOverlay,
-  dark_purple_active_SliderTrackActive: () => dark_purple_active_SliderTrackActive,
-  dark_purple_active_Switch: () => dark_purple_active_Switch,
-  dark_purple_active_TextArea: () => dark_purple_active_TextArea,
-  dark_purple_alt1: () => dark_purple_alt1,
-  dark_purple_alt1_Button: () => dark_purple_alt1_Button,
-  dark_purple_alt1_Card: () => dark_purple_alt1_Card,
-  dark_purple_alt1_Checkbox: () => dark_purple_alt1_Checkbox,
-  dark_purple_alt1_DialogOverlay: () => dark_purple_alt1_DialogOverlay,
-  dark_purple_alt1_DrawerFrame: () => dark_purple_alt1_DrawerFrame,
-  dark_purple_alt1_Input: () => dark_purple_alt1_Input,
-  dark_purple_alt1_ListItem: () => dark_purple_alt1_ListItem,
-  dark_purple_alt1_ModalOverlay: () => dark_purple_alt1_ModalOverlay,
-  dark_purple_alt1_Progress: () => dark_purple_alt1_Progress,
-  dark_purple_alt1_ProgressIndicator: () => dark_purple_alt1_ProgressIndicator,
-  dark_purple_alt1_RadioGroupItem: () => dark_purple_alt1_RadioGroupItem,
-  dark_purple_alt1_SheetOverlay: () => dark_purple_alt1_SheetOverlay,
-  dark_purple_alt1_SliderThumb: () => dark_purple_alt1_SliderThumb,
-  dark_purple_alt1_SliderTrack: () => dark_purple_alt1_SliderTrack,
-  dark_purple_alt1_SliderTrackActive: () => dark_purple_alt1_SliderTrackActive,
-  dark_purple_alt1_Switch: () => dark_purple_alt1_Switch,
-  dark_purple_alt1_SwitchThumb: () => dark_purple_alt1_SwitchThumb,
-  dark_purple_alt1_TextArea: () => dark_purple_alt1_TextArea,
-  dark_purple_alt1_Tooltip: () => dark_purple_alt1_Tooltip,
-  dark_purple_alt1_TooltipArrow: () => dark_purple_alt1_TooltipArrow,
-  dark_purple_alt1_TooltipContent: () => dark_purple_alt1_TooltipContent,
-  dark_purple_alt2: () => dark_purple_alt2,
-  dark_purple_alt2_Button: () => dark_purple_alt2_Button,
-  dark_purple_alt2_Card: () => dark_purple_alt2_Card,
-  dark_purple_alt2_Checkbox: () => dark_purple_alt2_Checkbox,
-  dark_purple_alt2_DialogOverlay: () => dark_purple_alt2_DialogOverlay,
-  dark_purple_alt2_DrawerFrame: () => dark_purple_alt2_DrawerFrame,
-  dark_purple_alt2_Input: () => dark_purple_alt2_Input,
-  dark_purple_alt2_ListItem: () => dark_purple_alt2_ListItem,
-  dark_purple_alt2_ModalOverlay: () => dark_purple_alt2_ModalOverlay,
-  dark_purple_alt2_Progress: () => dark_purple_alt2_Progress,
-  dark_purple_alt2_ProgressIndicator: () => dark_purple_alt2_ProgressIndicator,
-  dark_purple_alt2_RadioGroupItem: () => dark_purple_alt2_RadioGroupItem,
-  dark_purple_alt2_SheetOverlay: () => dark_purple_alt2_SheetOverlay,
-  dark_purple_alt2_SliderThumb: () => dark_purple_alt2_SliderThumb,
-  dark_purple_alt2_SliderTrack: () => dark_purple_alt2_SliderTrack,
-  dark_purple_alt2_SliderTrackActive: () => dark_purple_alt2_SliderTrackActive,
-  dark_purple_alt2_Switch: () => dark_purple_alt2_Switch,
-  dark_purple_alt2_SwitchThumb: () => dark_purple_alt2_SwitchThumb,
-  dark_purple_alt2_TextArea: () => dark_purple_alt2_TextArea,
-  dark_purple_alt2_Tooltip: () => dark_purple_alt2_Tooltip,
-  dark_purple_alt2_TooltipArrow: () => dark_purple_alt2_TooltipArrow,
-  dark_purple_alt2_TooltipContent: () => dark_purple_alt2_TooltipContent,
-  dark_red: () => dark_red,
-  dark_red_Button: () => dark_red_Button,
-  dark_red_Card: () => dark_red_Card,
-  dark_red_Checkbox: () => dark_red_Checkbox,
-  dark_red_DialogOverlay: () => dark_red_DialogOverlay,
-  dark_red_DrawerFrame: () => dark_red_DrawerFrame,
-  dark_red_Input: () => dark_red_Input,
-  dark_red_ListItem: () => dark_red_ListItem,
-  dark_red_ModalOverlay: () => dark_red_ModalOverlay,
-  dark_red_Progress: () => dark_red_Progress,
-  dark_red_ProgressIndicator: () => dark_red_ProgressIndicator,
-  dark_red_RadioGroupItem: () => dark_red_RadioGroupItem,
-  dark_red_SheetOverlay: () => dark_red_SheetOverlay,
-  dark_red_SliderThumb: () => dark_red_SliderThumb,
-  dark_red_SliderTrack: () => dark_red_SliderTrack,
-  dark_red_SliderTrackActive: () => dark_red_SliderTrackActive,
-  dark_red_Switch: () => dark_red_Switch,
-  dark_red_SwitchThumb: () => dark_red_SwitchThumb,
-  dark_red_TextArea: () => dark_red_TextArea,
-  dark_red_Tooltip: () => dark_red_Tooltip,
-  dark_red_TooltipArrow: () => dark_red_TooltipArrow,
-  dark_red_TooltipContent: () => dark_red_TooltipContent,
-  dark_red_active: () => dark_red_active,
-  dark_red_active_Button: () => dark_red_active_Button,
-  dark_red_active_Checkbox: () => dark_red_active_Checkbox,
-  dark_red_active_DialogOverlay: () => dark_red_active_DialogOverlay,
-  dark_red_active_Input: () => dark_red_active_Input,
-  dark_red_active_ListItem: () => dark_red_active_ListItem,
-  dark_red_active_ModalOverlay: () => dark_red_active_ModalOverlay,
-  dark_red_active_SheetOverlay: () => dark_red_active_SheetOverlay,
-  dark_red_active_SliderTrackActive: () => dark_red_active_SliderTrackActive,
-  dark_red_active_Switch: () => dark_red_active_Switch,
-  dark_red_active_TextArea: () => dark_red_active_TextArea,
-  dark_red_alt1: () => dark_red_alt1,
-  dark_red_alt1_Button: () => dark_red_alt1_Button,
-  dark_red_alt1_Card: () => dark_red_alt1_Card,
-  dark_red_alt1_Checkbox: () => dark_red_alt1_Checkbox,
-  dark_red_alt1_DialogOverlay: () => dark_red_alt1_DialogOverlay,
-  dark_red_alt1_DrawerFrame: () => dark_red_alt1_DrawerFrame,
-  dark_red_alt1_Input: () => dark_red_alt1_Input,
-  dark_red_alt1_ListItem: () => dark_red_alt1_ListItem,
-  dark_red_alt1_ModalOverlay: () => dark_red_alt1_ModalOverlay,
-  dark_red_alt1_Progress: () => dark_red_alt1_Progress,
-  dark_red_alt1_ProgressIndicator: () => dark_red_alt1_ProgressIndicator,
-  dark_red_alt1_RadioGroupItem: () => dark_red_alt1_RadioGroupItem,
-  dark_red_alt1_SheetOverlay: () => dark_red_alt1_SheetOverlay,
-  dark_red_alt1_SliderThumb: () => dark_red_alt1_SliderThumb,
-  dark_red_alt1_SliderTrack: () => dark_red_alt1_SliderTrack,
-  dark_red_alt1_SliderTrackActive: () => dark_red_alt1_SliderTrackActive,
-  dark_red_alt1_Switch: () => dark_red_alt1_Switch,
-  dark_red_alt1_SwitchThumb: () => dark_red_alt1_SwitchThumb,
-  dark_red_alt1_TextArea: () => dark_red_alt1_TextArea,
-  dark_red_alt1_Tooltip: () => dark_red_alt1_Tooltip,
-  dark_red_alt1_TooltipArrow: () => dark_red_alt1_TooltipArrow,
-  dark_red_alt1_TooltipContent: () => dark_red_alt1_TooltipContent,
-  dark_red_alt2: () => dark_red_alt2,
-  dark_red_alt2_Button: () => dark_red_alt2_Button,
-  dark_red_alt2_Card: () => dark_red_alt2_Card,
-  dark_red_alt2_Checkbox: () => dark_red_alt2_Checkbox,
-  dark_red_alt2_DialogOverlay: () => dark_red_alt2_DialogOverlay,
-  dark_red_alt2_DrawerFrame: () => dark_red_alt2_DrawerFrame,
-  dark_red_alt2_Input: () => dark_red_alt2_Input,
-  dark_red_alt2_ListItem: () => dark_red_alt2_ListItem,
-  dark_red_alt2_ModalOverlay: () => dark_red_alt2_ModalOverlay,
-  dark_red_alt2_Progress: () => dark_red_alt2_Progress,
-  dark_red_alt2_ProgressIndicator: () => dark_red_alt2_ProgressIndicator,
-  dark_red_alt2_RadioGroupItem: () => dark_red_alt2_RadioGroupItem,
-  dark_red_alt2_SheetOverlay: () => dark_red_alt2_SheetOverlay,
-  dark_red_alt2_SliderThumb: () => dark_red_alt2_SliderThumb,
-  dark_red_alt2_SliderTrack: () => dark_red_alt2_SliderTrack,
-  dark_red_alt2_SliderTrackActive: () => dark_red_alt2_SliderTrackActive,
-  dark_red_alt2_Switch: () => dark_red_alt2_Switch,
-  dark_red_alt2_SwitchThumb: () => dark_red_alt2_SwitchThumb,
-  dark_red_alt2_TextArea: () => dark_red_alt2_TextArea,
-  dark_red_alt2_Tooltip: () => dark_red_alt2_Tooltip,
-  dark_red_alt2_TooltipArrow: () => dark_red_alt2_TooltipArrow,
-  dark_red_alt2_TooltipContent: () => dark_red_alt2_TooltipContent,
-  dark_yellow: () => dark_yellow,
-  dark_yellow_Button: () => dark_yellow_Button,
-  dark_yellow_Card: () => dark_yellow_Card,
-  dark_yellow_Checkbox: () => dark_yellow_Checkbox,
-  dark_yellow_DialogOverlay: () => dark_yellow_DialogOverlay,
-  dark_yellow_DrawerFrame: () => dark_yellow_DrawerFrame,
-  dark_yellow_Input: () => dark_yellow_Input,
-  dark_yellow_ListItem: () => dark_yellow_ListItem,
-  dark_yellow_ModalOverlay: () => dark_yellow_ModalOverlay,
-  dark_yellow_Progress: () => dark_yellow_Progress,
-  dark_yellow_ProgressIndicator: () => dark_yellow_ProgressIndicator,
-  dark_yellow_RadioGroupItem: () => dark_yellow_RadioGroupItem,
-  dark_yellow_SheetOverlay: () => dark_yellow_SheetOverlay,
-  dark_yellow_SliderThumb: () => dark_yellow_SliderThumb,
-  dark_yellow_SliderTrack: () => dark_yellow_SliderTrack,
-  dark_yellow_SliderTrackActive: () => dark_yellow_SliderTrackActive,
-  dark_yellow_Switch: () => dark_yellow_Switch,
-  dark_yellow_SwitchThumb: () => dark_yellow_SwitchThumb,
-  dark_yellow_TextArea: () => dark_yellow_TextArea,
-  dark_yellow_Tooltip: () => dark_yellow_Tooltip,
-  dark_yellow_TooltipArrow: () => dark_yellow_TooltipArrow,
-  dark_yellow_TooltipContent: () => dark_yellow_TooltipContent,
-  dark_yellow_active: () => dark_yellow_active,
-  dark_yellow_active_Button: () => dark_yellow_active_Button,
-  dark_yellow_active_Checkbox: () => dark_yellow_active_Checkbox,
-  dark_yellow_active_DialogOverlay: () => dark_yellow_active_DialogOverlay,
-  dark_yellow_active_Input: () => dark_yellow_active_Input,
-  dark_yellow_active_ListItem: () => dark_yellow_active_ListItem,
-  dark_yellow_active_ModalOverlay: () => dark_yellow_active_ModalOverlay,
-  dark_yellow_active_SheetOverlay: () => dark_yellow_active_SheetOverlay,
-  dark_yellow_active_SliderTrackActive: () => dark_yellow_active_SliderTrackActive,
-  dark_yellow_active_Switch: () => dark_yellow_active_Switch,
-  dark_yellow_active_TextArea: () => dark_yellow_active_TextArea,
-  dark_yellow_alt1: () => dark_yellow_alt1,
-  dark_yellow_alt1_Button: () => dark_yellow_alt1_Button,
-  dark_yellow_alt1_Card: () => dark_yellow_alt1_Card,
-  dark_yellow_alt1_Checkbox: () => dark_yellow_alt1_Checkbox,
-  dark_yellow_alt1_DialogOverlay: () => dark_yellow_alt1_DialogOverlay,
-  dark_yellow_alt1_DrawerFrame: () => dark_yellow_alt1_DrawerFrame,
-  dark_yellow_alt1_Input: () => dark_yellow_alt1_Input,
-  dark_yellow_alt1_ListItem: () => dark_yellow_alt1_ListItem,
-  dark_yellow_alt1_ModalOverlay: () => dark_yellow_alt1_ModalOverlay,
-  dark_yellow_alt1_Progress: () => dark_yellow_alt1_Progress,
-  dark_yellow_alt1_ProgressIndicator: () => dark_yellow_alt1_ProgressIndicator,
-  dark_yellow_alt1_RadioGroupItem: () => dark_yellow_alt1_RadioGroupItem,
-  dark_yellow_alt1_SheetOverlay: () => dark_yellow_alt1_SheetOverlay,
-  dark_yellow_alt1_SliderThumb: () => dark_yellow_alt1_SliderThumb,
-  dark_yellow_alt1_SliderTrack: () => dark_yellow_alt1_SliderTrack,
-  dark_yellow_alt1_SliderTrackActive: () => dark_yellow_alt1_SliderTrackActive,
-  dark_yellow_alt1_Switch: () => dark_yellow_alt1_Switch,
-  dark_yellow_alt1_SwitchThumb: () => dark_yellow_alt1_SwitchThumb,
-  dark_yellow_alt1_TextArea: () => dark_yellow_alt1_TextArea,
-  dark_yellow_alt1_Tooltip: () => dark_yellow_alt1_Tooltip,
-  dark_yellow_alt1_TooltipArrow: () => dark_yellow_alt1_TooltipArrow,
-  dark_yellow_alt1_TooltipContent: () => dark_yellow_alt1_TooltipContent,
-  dark_yellow_alt2: () => dark_yellow_alt2,
-  dark_yellow_alt2_Button: () => dark_yellow_alt2_Button,
-  dark_yellow_alt2_Card: () => dark_yellow_alt2_Card,
-  dark_yellow_alt2_Checkbox: () => dark_yellow_alt2_Checkbox,
-  dark_yellow_alt2_DialogOverlay: () => dark_yellow_alt2_DialogOverlay,
-  dark_yellow_alt2_DrawerFrame: () => dark_yellow_alt2_DrawerFrame,
-  dark_yellow_alt2_Input: () => dark_yellow_alt2_Input,
-  dark_yellow_alt2_ListItem: () => dark_yellow_alt2_ListItem,
-  dark_yellow_alt2_ModalOverlay: () => dark_yellow_alt2_ModalOverlay,
-  dark_yellow_alt2_Progress: () => dark_yellow_alt2_Progress,
-  dark_yellow_alt2_ProgressIndicator: () => dark_yellow_alt2_ProgressIndicator,
-  dark_yellow_alt2_RadioGroupItem: () => dark_yellow_alt2_RadioGroupItem,
-  dark_yellow_alt2_SheetOverlay: () => dark_yellow_alt2_SheetOverlay,
-  dark_yellow_alt2_SliderThumb: () => dark_yellow_alt2_SliderThumb,
-  dark_yellow_alt2_SliderTrack: () => dark_yellow_alt2_SliderTrack,
-  dark_yellow_alt2_SliderTrackActive: () => dark_yellow_alt2_SliderTrackActive,
-  dark_yellow_alt2_Switch: () => dark_yellow_alt2_Switch,
-  dark_yellow_alt2_SwitchThumb: () => dark_yellow_alt2_SwitchThumb,
-  dark_yellow_alt2_TextArea: () => dark_yellow_alt2_TextArea,
-  dark_yellow_alt2_Tooltip: () => dark_yellow_alt2_Tooltip,
-  dark_yellow_alt2_TooltipArrow: () => dark_yellow_alt2_TooltipArrow,
-  dark_yellow_alt2_TooltipContent: () => dark_yellow_alt2_TooltipContent,
-  light: () => light,
-  light_Button: () => light_Button,
-  light_Card: () => light_Card,
-  light_Checkbox: () => light_Checkbox,
-  light_DialogOverlay: () => light_DialogOverlay,
-  light_DrawerFrame: () => light_DrawerFrame,
-  light_Input: () => light_Input,
-  light_ListItem: () => light_ListItem,
-  light_ModalOverlay: () => light_ModalOverlay,
-  light_Progress: () => light_Progress,
-  light_ProgressIndicator: () => light_ProgressIndicator,
-  light_RadioGroupItem: () => light_RadioGroupItem,
-  light_SheetOverlay: () => light_SheetOverlay,
-  light_SliderThumb: () => light_SliderThumb,
-  light_SliderTrack: () => light_SliderTrack,
-  light_SliderTrackActive: () => light_SliderTrackActive,
-  light_Switch: () => light_Switch,
-  light_SwitchThumb: () => light_SwitchThumb,
-  light_TextArea: () => light_TextArea,
-  light_Tooltip: () => light_Tooltip,
-  light_TooltipArrow: () => light_TooltipArrow,
-  light_TooltipContent: () => light_TooltipContent,
-  light_active: () => light_active,
-  light_active_Button: () => light_active_Button,
-  light_active_Checkbox: () => light_active_Checkbox,
-  light_active_DialogOverlay: () => light_active_DialogOverlay,
-  light_active_Input: () => light_active_Input,
-  light_active_ListItem: () => light_active_ListItem,
-  light_active_ModalOverlay: () => light_active_ModalOverlay,
-  light_active_SheetOverlay: () => light_active_SheetOverlay,
-  light_active_SliderTrackActive: () => light_active_SliderTrackActive,
-  light_active_Switch: () => light_active_Switch,
-  light_active_TextArea: () => light_active_TextArea,
-  light_alt1: () => light_alt1,
-  light_alt1_Button: () => light_alt1_Button,
-  light_alt1_Card: () => light_alt1_Card,
-  light_alt1_Checkbox: () => light_alt1_Checkbox,
-  light_alt1_DialogOverlay: () => light_alt1_DialogOverlay,
-  light_alt1_DrawerFrame: () => light_alt1_DrawerFrame,
-  light_alt1_Input: () => light_alt1_Input,
-  light_alt1_ListItem: () => light_alt1_ListItem,
-  light_alt1_ModalOverlay: () => light_alt1_ModalOverlay,
-  light_alt1_Progress: () => light_alt1_Progress,
-  light_alt1_ProgressIndicator: () => light_alt1_ProgressIndicator,
-  light_alt1_RadioGroupItem: () => light_alt1_RadioGroupItem,
-  light_alt1_SheetOverlay: () => light_alt1_SheetOverlay,
-  light_alt1_SliderThumb: () => light_alt1_SliderThumb,
-  light_alt1_SliderTrack: () => light_alt1_SliderTrack,
-  light_alt1_SliderTrackActive: () => light_alt1_SliderTrackActive,
-  light_alt1_Switch: () => light_alt1_Switch,
-  light_alt1_SwitchThumb: () => light_alt1_SwitchThumb,
-  light_alt1_TextArea: () => light_alt1_TextArea,
-  light_alt1_Tooltip: () => light_alt1_Tooltip,
-  light_alt1_TooltipArrow: () => light_alt1_TooltipArrow,
-  light_alt1_TooltipContent: () => light_alt1_TooltipContent,
-  light_alt2: () => light_alt2,
-  light_alt2_Button: () => light_alt2_Button,
-  light_alt2_Card: () => light_alt2_Card,
-  light_alt2_Checkbox: () => light_alt2_Checkbox,
-  light_alt2_DialogOverlay: () => light_alt2_DialogOverlay,
-  light_alt2_DrawerFrame: () => light_alt2_DrawerFrame,
-  light_alt2_Input: () => light_alt2_Input,
-  light_alt2_ListItem: () => light_alt2_ListItem,
-  light_alt2_ModalOverlay: () => light_alt2_ModalOverlay,
-  light_alt2_Progress: () => light_alt2_Progress,
-  light_alt2_ProgressIndicator: () => light_alt2_ProgressIndicator,
-  light_alt2_RadioGroupItem: () => light_alt2_RadioGroupItem,
-  light_alt2_SheetOverlay: () => light_alt2_SheetOverlay,
-  light_alt2_SliderThumb: () => light_alt2_SliderThumb,
-  light_alt2_SliderTrack: () => light_alt2_SliderTrack,
-  light_alt2_SliderTrackActive: () => light_alt2_SliderTrackActive,
-  light_alt2_Switch: () => light_alt2_Switch,
-  light_alt2_SwitchThumb: () => light_alt2_SwitchThumb,
-  light_alt2_TextArea: () => light_alt2_TextArea,
-  light_alt2_Tooltip: () => light_alt2_Tooltip,
-  light_alt2_TooltipArrow: () => light_alt2_TooltipArrow,
-  light_alt2_TooltipContent: () => light_alt2_TooltipContent,
-  light_blue: () => light_blue,
-  light_blue_Button: () => light_blue_Button,
-  light_blue_Card: () => light_blue_Card,
-  light_blue_Checkbox: () => light_blue_Checkbox,
-  light_blue_DialogOverlay: () => light_blue_DialogOverlay,
-  light_blue_DrawerFrame: () => light_blue_DrawerFrame,
-  light_blue_Input: () => light_blue_Input,
-  light_blue_ListItem: () => light_blue_ListItem,
-  light_blue_ModalOverlay: () => light_blue_ModalOverlay,
-  light_blue_Progress: () => light_blue_Progress,
-  light_blue_ProgressIndicator: () => light_blue_ProgressIndicator,
-  light_blue_RadioGroupItem: () => light_blue_RadioGroupItem,
-  light_blue_SheetOverlay: () => light_blue_SheetOverlay,
-  light_blue_SliderThumb: () => light_blue_SliderThumb,
-  light_blue_SliderTrack: () => light_blue_SliderTrack,
-  light_blue_SliderTrackActive: () => light_blue_SliderTrackActive,
-  light_blue_Switch: () => light_blue_Switch,
-  light_blue_SwitchThumb: () => light_blue_SwitchThumb,
-  light_blue_TextArea: () => light_blue_TextArea,
-  light_blue_Tooltip: () => light_blue_Tooltip,
-  light_blue_TooltipArrow: () => light_blue_TooltipArrow,
-  light_blue_TooltipContent: () => light_blue_TooltipContent,
-  light_blue_active: () => light_blue_active,
-  light_blue_active_Button: () => light_blue_active_Button,
-  light_blue_active_Checkbox: () => light_blue_active_Checkbox,
-  light_blue_active_DialogOverlay: () => light_blue_active_DialogOverlay,
-  light_blue_active_Input: () => light_blue_active_Input,
-  light_blue_active_ListItem: () => light_blue_active_ListItem,
-  light_blue_active_ModalOverlay: () => light_blue_active_ModalOverlay,
-  light_blue_active_SheetOverlay: () => light_blue_active_SheetOverlay,
-  light_blue_active_SliderTrackActive: () => light_blue_active_SliderTrackActive,
-  light_blue_active_Switch: () => light_blue_active_Switch,
-  light_blue_active_TextArea: () => light_blue_active_TextArea,
-  light_blue_alt1: () => light_blue_alt1,
-  light_blue_alt1_Button: () => light_blue_alt1_Button,
-  light_blue_alt1_Card: () => light_blue_alt1_Card,
-  light_blue_alt1_Checkbox: () => light_blue_alt1_Checkbox,
-  light_blue_alt1_DialogOverlay: () => light_blue_alt1_DialogOverlay,
-  light_blue_alt1_DrawerFrame: () => light_blue_alt1_DrawerFrame,
-  light_blue_alt1_Input: () => light_blue_alt1_Input,
-  light_blue_alt1_ListItem: () => light_blue_alt1_ListItem,
-  light_blue_alt1_ModalOverlay: () => light_blue_alt1_ModalOverlay,
-  light_blue_alt1_Progress: () => light_blue_alt1_Progress,
-  light_blue_alt1_ProgressIndicator: () => light_blue_alt1_ProgressIndicator,
-  light_blue_alt1_RadioGroupItem: () => light_blue_alt1_RadioGroupItem,
-  light_blue_alt1_SheetOverlay: () => light_blue_alt1_SheetOverlay,
-  light_blue_alt1_SliderThumb: () => light_blue_alt1_SliderThumb,
-  light_blue_alt1_SliderTrack: () => light_blue_alt1_SliderTrack,
-  light_blue_alt1_SliderTrackActive: () => light_blue_alt1_SliderTrackActive,
-  light_blue_alt1_Switch: () => light_blue_alt1_Switch,
-  light_blue_alt1_SwitchThumb: () => light_blue_alt1_SwitchThumb,
-  light_blue_alt1_TextArea: () => light_blue_alt1_TextArea,
-  light_blue_alt1_Tooltip: () => light_blue_alt1_Tooltip,
-  light_blue_alt1_TooltipArrow: () => light_blue_alt1_TooltipArrow,
-  light_blue_alt1_TooltipContent: () => light_blue_alt1_TooltipContent,
-  light_blue_alt2: () => light_blue_alt2,
-  light_blue_alt2_Button: () => light_blue_alt2_Button,
-  light_blue_alt2_Card: () => light_blue_alt2_Card,
-  light_blue_alt2_Checkbox: () => light_blue_alt2_Checkbox,
-  light_blue_alt2_DialogOverlay: () => light_blue_alt2_DialogOverlay,
-  light_blue_alt2_DrawerFrame: () => light_blue_alt2_DrawerFrame,
-  light_blue_alt2_Input: () => light_blue_alt2_Input,
-  light_blue_alt2_ListItem: () => light_blue_alt2_ListItem,
-  light_blue_alt2_ModalOverlay: () => light_blue_alt2_ModalOverlay,
-  light_blue_alt2_Progress: () => light_blue_alt2_Progress,
-  light_blue_alt2_ProgressIndicator: () => light_blue_alt2_ProgressIndicator,
-  light_blue_alt2_RadioGroupItem: () => light_blue_alt2_RadioGroupItem,
-  light_blue_alt2_SheetOverlay: () => light_blue_alt2_SheetOverlay,
-  light_blue_alt2_SliderThumb: () => light_blue_alt2_SliderThumb,
-  light_blue_alt2_SliderTrack: () => light_blue_alt2_SliderTrack,
-  light_blue_alt2_SliderTrackActive: () => light_blue_alt2_SliderTrackActive,
-  light_blue_alt2_Switch: () => light_blue_alt2_Switch,
-  light_blue_alt2_SwitchThumb: () => light_blue_alt2_SwitchThumb,
-  light_blue_alt2_TextArea: () => light_blue_alt2_TextArea,
-  light_blue_alt2_Tooltip: () => light_blue_alt2_Tooltip,
-  light_blue_alt2_TooltipArrow: () => light_blue_alt2_TooltipArrow,
-  light_blue_alt2_TooltipContent: () => light_blue_alt2_TooltipContent,
-  light_gray: () => light_gray,
-  light_gray_Button: () => light_gray_Button,
-  light_gray_Card: () => light_gray_Card,
-  light_gray_Checkbox: () => light_gray_Checkbox,
-  light_gray_DialogOverlay: () => light_gray_DialogOverlay,
-  light_gray_DrawerFrame: () => light_gray_DrawerFrame,
-  light_gray_Input: () => light_gray_Input,
-  light_gray_ListItem: () => light_gray_ListItem,
-  light_gray_ModalOverlay: () => light_gray_ModalOverlay,
-  light_gray_Progress: () => light_gray_Progress,
-  light_gray_ProgressIndicator: () => light_gray_ProgressIndicator,
-  light_gray_RadioGroupItem: () => light_gray_RadioGroupItem,
-  light_gray_SheetOverlay: () => light_gray_SheetOverlay,
-  light_gray_SliderThumb: () => light_gray_SliderThumb,
-  light_gray_SliderTrack: () => light_gray_SliderTrack,
-  light_gray_SliderTrackActive: () => light_gray_SliderTrackActive,
-  light_gray_Switch: () => light_gray_Switch,
-  light_gray_SwitchThumb: () => light_gray_SwitchThumb,
-  light_gray_TextArea: () => light_gray_TextArea,
-  light_gray_Tooltip: () => light_gray_Tooltip,
-  light_gray_TooltipArrow: () => light_gray_TooltipArrow,
-  light_gray_TooltipContent: () => light_gray_TooltipContent,
-  light_gray_active: () => light_gray_active,
-  light_gray_active_Button: () => light_gray_active_Button,
-  light_gray_active_Checkbox: () => light_gray_active_Checkbox,
-  light_gray_active_DialogOverlay: () => light_gray_active_DialogOverlay,
-  light_gray_active_Input: () => light_gray_active_Input,
-  light_gray_active_ListItem: () => light_gray_active_ListItem,
-  light_gray_active_ModalOverlay: () => light_gray_active_ModalOverlay,
-  light_gray_active_SheetOverlay: () => light_gray_active_SheetOverlay,
-  light_gray_active_SliderTrackActive: () => light_gray_active_SliderTrackActive,
-  light_gray_active_Switch: () => light_gray_active_Switch,
-  light_gray_active_TextArea: () => light_gray_active_TextArea,
-  light_gray_alt1: () => light_gray_alt1,
-  light_gray_alt1_Button: () => light_gray_alt1_Button,
-  light_gray_alt1_Card: () => light_gray_alt1_Card,
-  light_gray_alt1_Checkbox: () => light_gray_alt1_Checkbox,
-  light_gray_alt1_DialogOverlay: () => light_gray_alt1_DialogOverlay,
-  light_gray_alt1_DrawerFrame: () => light_gray_alt1_DrawerFrame,
-  light_gray_alt1_Input: () => light_gray_alt1_Input,
-  light_gray_alt1_ListItem: () => light_gray_alt1_ListItem,
-  light_gray_alt1_ModalOverlay: () => light_gray_alt1_ModalOverlay,
-  light_gray_alt1_Progress: () => light_gray_alt1_Progress,
-  light_gray_alt1_ProgressIndicator: () => light_gray_alt1_ProgressIndicator,
-  light_gray_alt1_RadioGroupItem: () => light_gray_alt1_RadioGroupItem,
-  light_gray_alt1_SheetOverlay: () => light_gray_alt1_SheetOverlay,
-  light_gray_alt1_SliderThumb: () => light_gray_alt1_SliderThumb,
-  light_gray_alt1_SliderTrack: () => light_gray_alt1_SliderTrack,
-  light_gray_alt1_SliderTrackActive: () => light_gray_alt1_SliderTrackActive,
-  light_gray_alt1_Switch: () => light_gray_alt1_Switch,
-  light_gray_alt1_SwitchThumb: () => light_gray_alt1_SwitchThumb,
-  light_gray_alt1_TextArea: () => light_gray_alt1_TextArea,
-  light_gray_alt1_Tooltip: () => light_gray_alt1_Tooltip,
-  light_gray_alt1_TooltipArrow: () => light_gray_alt1_TooltipArrow,
-  light_gray_alt1_TooltipContent: () => light_gray_alt1_TooltipContent,
-  light_gray_alt2: () => light_gray_alt2,
-  light_gray_alt2_Button: () => light_gray_alt2_Button,
-  light_gray_alt2_Card: () => light_gray_alt2_Card,
-  light_gray_alt2_Checkbox: () => light_gray_alt2_Checkbox,
-  light_gray_alt2_DialogOverlay: () => light_gray_alt2_DialogOverlay,
-  light_gray_alt2_DrawerFrame: () => light_gray_alt2_DrawerFrame,
-  light_gray_alt2_Input: () => light_gray_alt2_Input,
-  light_gray_alt2_ListItem: () => light_gray_alt2_ListItem,
-  light_gray_alt2_ModalOverlay: () => light_gray_alt2_ModalOverlay,
-  light_gray_alt2_Progress: () => light_gray_alt2_Progress,
-  light_gray_alt2_ProgressIndicator: () => light_gray_alt2_ProgressIndicator,
-  light_gray_alt2_RadioGroupItem: () => light_gray_alt2_RadioGroupItem,
-  light_gray_alt2_SheetOverlay: () => light_gray_alt2_SheetOverlay,
-  light_gray_alt2_SliderThumb: () => light_gray_alt2_SliderThumb,
-  light_gray_alt2_SliderTrack: () => light_gray_alt2_SliderTrack,
-  light_gray_alt2_SliderTrackActive: () => light_gray_alt2_SliderTrackActive,
-  light_gray_alt2_Switch: () => light_gray_alt2_Switch,
-  light_gray_alt2_SwitchThumb: () => light_gray_alt2_SwitchThumb,
-  light_gray_alt2_TextArea: () => light_gray_alt2_TextArea,
-  light_gray_alt2_Tooltip: () => light_gray_alt2_Tooltip,
-  light_gray_alt2_TooltipArrow: () => light_gray_alt2_TooltipArrow,
-  light_gray_alt2_TooltipContent: () => light_gray_alt2_TooltipContent,
-  light_green: () => light_green,
-  light_green_Button: () => light_green_Button,
-  light_green_Card: () => light_green_Card,
-  light_green_Checkbox: () => light_green_Checkbox,
-  light_green_DialogOverlay: () => light_green_DialogOverlay,
-  light_green_DrawerFrame: () => light_green_DrawerFrame,
-  light_green_Input: () => light_green_Input,
-  light_green_ListItem: () => light_green_ListItem,
-  light_green_ModalOverlay: () => light_green_ModalOverlay,
-  light_green_Progress: () => light_green_Progress,
-  light_green_ProgressIndicator: () => light_green_ProgressIndicator,
-  light_green_RadioGroupItem: () => light_green_RadioGroupItem,
-  light_green_SheetOverlay: () => light_green_SheetOverlay,
-  light_green_SliderThumb: () => light_green_SliderThumb,
-  light_green_SliderTrack: () => light_green_SliderTrack,
-  light_green_SliderTrackActive: () => light_green_SliderTrackActive,
-  light_green_Switch: () => light_green_Switch,
-  light_green_SwitchThumb: () => light_green_SwitchThumb,
-  light_green_TextArea: () => light_green_TextArea,
-  light_green_Tooltip: () => light_green_Tooltip,
-  light_green_TooltipArrow: () => light_green_TooltipArrow,
-  light_green_TooltipContent: () => light_green_TooltipContent,
-  light_green_active: () => light_green_active,
-  light_green_active_Button: () => light_green_active_Button,
-  light_green_active_Checkbox: () => light_green_active_Checkbox,
-  light_green_active_DialogOverlay: () => light_green_active_DialogOverlay,
-  light_green_active_Input: () => light_green_active_Input,
-  light_green_active_ListItem: () => light_green_active_ListItem,
-  light_green_active_ModalOverlay: () => light_green_active_ModalOverlay,
-  light_green_active_SheetOverlay: () => light_green_active_SheetOverlay,
-  light_green_active_SliderTrackActive: () => light_green_active_SliderTrackActive,
-  light_green_active_Switch: () => light_green_active_Switch,
-  light_green_active_TextArea: () => light_green_active_TextArea,
-  light_green_alt1: () => light_green_alt1,
-  light_green_alt1_Button: () => light_green_alt1_Button,
-  light_green_alt1_Card: () => light_green_alt1_Card,
-  light_green_alt1_Checkbox: () => light_green_alt1_Checkbox,
-  light_green_alt1_DialogOverlay: () => light_green_alt1_DialogOverlay,
-  light_green_alt1_DrawerFrame: () => light_green_alt1_DrawerFrame,
-  light_green_alt1_Input: () => light_green_alt1_Input,
-  light_green_alt1_ListItem: () => light_green_alt1_ListItem,
-  light_green_alt1_ModalOverlay: () => light_green_alt1_ModalOverlay,
-  light_green_alt1_Progress: () => light_green_alt1_Progress,
-  light_green_alt1_ProgressIndicator: () => light_green_alt1_ProgressIndicator,
-  light_green_alt1_RadioGroupItem: () => light_green_alt1_RadioGroupItem,
-  light_green_alt1_SheetOverlay: () => light_green_alt1_SheetOverlay,
-  light_green_alt1_SliderThumb: () => light_green_alt1_SliderThumb,
-  light_green_alt1_SliderTrack: () => light_green_alt1_SliderTrack,
-  light_green_alt1_SliderTrackActive: () => light_green_alt1_SliderTrackActive,
-  light_green_alt1_Switch: () => light_green_alt1_Switch,
-  light_green_alt1_SwitchThumb: () => light_green_alt1_SwitchThumb,
-  light_green_alt1_TextArea: () => light_green_alt1_TextArea,
-  light_green_alt1_Tooltip: () => light_green_alt1_Tooltip,
-  light_green_alt1_TooltipArrow: () => light_green_alt1_TooltipArrow,
-  light_green_alt1_TooltipContent: () => light_green_alt1_TooltipContent,
-  light_green_alt2: () => light_green_alt2,
-  light_green_alt2_Button: () => light_green_alt2_Button,
-  light_green_alt2_Card: () => light_green_alt2_Card,
-  light_green_alt2_Checkbox: () => light_green_alt2_Checkbox,
-  light_green_alt2_DialogOverlay: () => light_green_alt2_DialogOverlay,
-  light_green_alt2_DrawerFrame: () => light_green_alt2_DrawerFrame,
-  light_green_alt2_Input: () => light_green_alt2_Input,
-  light_green_alt2_ListItem: () => light_green_alt2_ListItem,
-  light_green_alt2_ModalOverlay: () => light_green_alt2_ModalOverlay,
-  light_green_alt2_Progress: () => light_green_alt2_Progress,
-  light_green_alt2_ProgressIndicator: () => light_green_alt2_ProgressIndicator,
-  light_green_alt2_RadioGroupItem: () => light_green_alt2_RadioGroupItem,
-  light_green_alt2_SheetOverlay: () => light_green_alt2_SheetOverlay,
-  light_green_alt2_SliderThumb: () => light_green_alt2_SliderThumb,
-  light_green_alt2_SliderTrack: () => light_green_alt2_SliderTrack,
-  light_green_alt2_SliderTrackActive: () => light_green_alt2_SliderTrackActive,
-  light_green_alt2_Switch: () => light_green_alt2_Switch,
-  light_green_alt2_SwitchThumb: () => light_green_alt2_SwitchThumb,
-  light_green_alt2_TextArea: () => light_green_alt2_TextArea,
-  light_green_alt2_Tooltip: () => light_green_alt2_Tooltip,
-  light_green_alt2_TooltipArrow: () => light_green_alt2_TooltipArrow,
-  light_green_alt2_TooltipContent: () => light_green_alt2_TooltipContent,
-  light_orange: () => light_orange,
-  light_orange_Button: () => light_orange_Button,
-  light_orange_Card: () => light_orange_Card,
-  light_orange_Checkbox: () => light_orange_Checkbox,
-  light_orange_DialogOverlay: () => light_orange_DialogOverlay,
-  light_orange_DrawerFrame: () => light_orange_DrawerFrame,
-  light_orange_Input: () => light_orange_Input,
-  light_orange_ListItem: () => light_orange_ListItem,
-  light_orange_ModalOverlay: () => light_orange_ModalOverlay,
-  light_orange_Progress: () => light_orange_Progress,
-  light_orange_ProgressIndicator: () => light_orange_ProgressIndicator,
-  light_orange_RadioGroupItem: () => light_orange_RadioGroupItem,
-  light_orange_SheetOverlay: () => light_orange_SheetOverlay,
-  light_orange_SliderThumb: () => light_orange_SliderThumb,
-  light_orange_SliderTrack: () => light_orange_SliderTrack,
-  light_orange_SliderTrackActive: () => light_orange_SliderTrackActive,
-  light_orange_Switch: () => light_orange_Switch,
-  light_orange_SwitchThumb: () => light_orange_SwitchThumb,
-  light_orange_TextArea: () => light_orange_TextArea,
-  light_orange_Tooltip: () => light_orange_Tooltip,
-  light_orange_TooltipArrow: () => light_orange_TooltipArrow,
-  light_orange_TooltipContent: () => light_orange_TooltipContent,
-  light_orange_active: () => light_orange_active,
-  light_orange_active_Button: () => light_orange_active_Button,
-  light_orange_active_Checkbox: () => light_orange_active_Checkbox,
-  light_orange_active_DialogOverlay: () => light_orange_active_DialogOverlay,
-  light_orange_active_Input: () => light_orange_active_Input,
-  light_orange_active_ListItem: () => light_orange_active_ListItem,
-  light_orange_active_ModalOverlay: () => light_orange_active_ModalOverlay,
-  light_orange_active_SheetOverlay: () => light_orange_active_SheetOverlay,
-  light_orange_active_SliderTrackActive: () => light_orange_active_SliderTrackActive,
-  light_orange_active_Switch: () => light_orange_active_Switch,
-  light_orange_active_TextArea: () => light_orange_active_TextArea,
-  light_orange_alt1: () => light_orange_alt1,
-  light_orange_alt1_Button: () => light_orange_alt1_Button,
-  light_orange_alt1_Card: () => light_orange_alt1_Card,
-  light_orange_alt1_Checkbox: () => light_orange_alt1_Checkbox,
-  light_orange_alt1_DialogOverlay: () => light_orange_alt1_DialogOverlay,
-  light_orange_alt1_DrawerFrame: () => light_orange_alt1_DrawerFrame,
-  light_orange_alt1_Input: () => light_orange_alt1_Input,
-  light_orange_alt1_ListItem: () => light_orange_alt1_ListItem,
-  light_orange_alt1_ModalOverlay: () => light_orange_alt1_ModalOverlay,
-  light_orange_alt1_Progress: () => light_orange_alt1_Progress,
-  light_orange_alt1_ProgressIndicator: () => light_orange_alt1_ProgressIndicator,
-  light_orange_alt1_RadioGroupItem: () => light_orange_alt1_RadioGroupItem,
-  light_orange_alt1_SheetOverlay: () => light_orange_alt1_SheetOverlay,
-  light_orange_alt1_SliderThumb: () => light_orange_alt1_SliderThumb,
-  light_orange_alt1_SliderTrack: () => light_orange_alt1_SliderTrack,
-  light_orange_alt1_SliderTrackActive: () => light_orange_alt1_SliderTrackActive,
-  light_orange_alt1_Switch: () => light_orange_alt1_Switch,
-  light_orange_alt1_SwitchThumb: () => light_orange_alt1_SwitchThumb,
-  light_orange_alt1_TextArea: () => light_orange_alt1_TextArea,
-  light_orange_alt1_Tooltip: () => light_orange_alt1_Tooltip,
-  light_orange_alt1_TooltipArrow: () => light_orange_alt1_TooltipArrow,
-  light_orange_alt1_TooltipContent: () => light_orange_alt1_TooltipContent,
-  light_orange_alt2: () => light_orange_alt2,
-  light_orange_alt2_Button: () => light_orange_alt2_Button,
-  light_orange_alt2_Card: () => light_orange_alt2_Card,
-  light_orange_alt2_Checkbox: () => light_orange_alt2_Checkbox,
-  light_orange_alt2_DialogOverlay: () => light_orange_alt2_DialogOverlay,
-  light_orange_alt2_DrawerFrame: () => light_orange_alt2_DrawerFrame,
-  light_orange_alt2_Input: () => light_orange_alt2_Input,
-  light_orange_alt2_ListItem: () => light_orange_alt2_ListItem,
-  light_orange_alt2_ModalOverlay: () => light_orange_alt2_ModalOverlay,
-  light_orange_alt2_Progress: () => light_orange_alt2_Progress,
-  light_orange_alt2_ProgressIndicator: () => light_orange_alt2_ProgressIndicator,
-  light_orange_alt2_RadioGroupItem: () => light_orange_alt2_RadioGroupItem,
-  light_orange_alt2_SheetOverlay: () => light_orange_alt2_SheetOverlay,
-  light_orange_alt2_SliderThumb: () => light_orange_alt2_SliderThumb,
-  light_orange_alt2_SliderTrack: () => light_orange_alt2_SliderTrack,
-  light_orange_alt2_SliderTrackActive: () => light_orange_alt2_SliderTrackActive,
-  light_orange_alt2_Switch: () => light_orange_alt2_Switch,
-  light_orange_alt2_SwitchThumb: () => light_orange_alt2_SwitchThumb,
-  light_orange_alt2_TextArea: () => light_orange_alt2_TextArea,
-  light_orange_alt2_Tooltip: () => light_orange_alt2_Tooltip,
-  light_orange_alt2_TooltipArrow: () => light_orange_alt2_TooltipArrow,
-  light_orange_alt2_TooltipContent: () => light_orange_alt2_TooltipContent,
-  light_pink: () => light_pink,
-  light_pink_Button: () => light_pink_Button,
-  light_pink_Card: () => light_pink_Card,
-  light_pink_Checkbox: () => light_pink_Checkbox,
-  light_pink_DialogOverlay: () => light_pink_DialogOverlay,
-  light_pink_DrawerFrame: () => light_pink_DrawerFrame,
-  light_pink_Input: () => light_pink_Input,
-  light_pink_ListItem: () => light_pink_ListItem,
-  light_pink_ModalOverlay: () => light_pink_ModalOverlay,
-  light_pink_Progress: () => light_pink_Progress,
-  light_pink_ProgressIndicator: () => light_pink_ProgressIndicator,
-  light_pink_RadioGroupItem: () => light_pink_RadioGroupItem,
-  light_pink_SheetOverlay: () => light_pink_SheetOverlay,
-  light_pink_SliderThumb: () => light_pink_SliderThumb,
-  light_pink_SliderTrack: () => light_pink_SliderTrack,
-  light_pink_SliderTrackActive: () => light_pink_SliderTrackActive,
-  light_pink_Switch: () => light_pink_Switch,
-  light_pink_SwitchThumb: () => light_pink_SwitchThumb,
-  light_pink_TextArea: () => light_pink_TextArea,
-  light_pink_Tooltip: () => light_pink_Tooltip,
-  light_pink_TooltipArrow: () => light_pink_TooltipArrow,
-  light_pink_TooltipContent: () => light_pink_TooltipContent,
-  light_pink_active: () => light_pink_active,
-  light_pink_active_Button: () => light_pink_active_Button,
-  light_pink_active_Checkbox: () => light_pink_active_Checkbox,
-  light_pink_active_DialogOverlay: () => light_pink_active_DialogOverlay,
-  light_pink_active_Input: () => light_pink_active_Input,
-  light_pink_active_ListItem: () => light_pink_active_ListItem,
-  light_pink_active_ModalOverlay: () => light_pink_active_ModalOverlay,
-  light_pink_active_SheetOverlay: () => light_pink_active_SheetOverlay,
-  light_pink_active_SliderTrackActive: () => light_pink_active_SliderTrackActive,
-  light_pink_active_Switch: () => light_pink_active_Switch,
-  light_pink_active_TextArea: () => light_pink_active_TextArea,
-  light_pink_alt1: () => light_pink_alt1,
-  light_pink_alt1_Button: () => light_pink_alt1_Button,
-  light_pink_alt1_Card: () => light_pink_alt1_Card,
-  light_pink_alt1_Checkbox: () => light_pink_alt1_Checkbox,
-  light_pink_alt1_DialogOverlay: () => light_pink_alt1_DialogOverlay,
-  light_pink_alt1_DrawerFrame: () => light_pink_alt1_DrawerFrame,
-  light_pink_alt1_Input: () => light_pink_alt1_Input,
-  light_pink_alt1_ListItem: () => light_pink_alt1_ListItem,
-  light_pink_alt1_ModalOverlay: () => light_pink_alt1_ModalOverlay,
-  light_pink_alt1_Progress: () => light_pink_alt1_Progress,
-  light_pink_alt1_ProgressIndicator: () => light_pink_alt1_ProgressIndicator,
-  light_pink_alt1_RadioGroupItem: () => light_pink_alt1_RadioGroupItem,
-  light_pink_alt1_SheetOverlay: () => light_pink_alt1_SheetOverlay,
-  light_pink_alt1_SliderThumb: () => light_pink_alt1_SliderThumb,
-  light_pink_alt1_SliderTrack: () => light_pink_alt1_SliderTrack,
-  light_pink_alt1_SliderTrackActive: () => light_pink_alt1_SliderTrackActive,
-  light_pink_alt1_Switch: () => light_pink_alt1_Switch,
-  light_pink_alt1_SwitchThumb: () => light_pink_alt1_SwitchThumb,
-  light_pink_alt1_TextArea: () => light_pink_alt1_TextArea,
-  light_pink_alt1_Tooltip: () => light_pink_alt1_Tooltip,
-  light_pink_alt1_TooltipArrow: () => light_pink_alt1_TooltipArrow,
-  light_pink_alt1_TooltipContent: () => light_pink_alt1_TooltipContent,
-  light_pink_alt2: () => light_pink_alt2,
-  light_pink_alt2_Button: () => light_pink_alt2_Button,
-  light_pink_alt2_Card: () => light_pink_alt2_Card,
-  light_pink_alt2_Checkbox: () => light_pink_alt2_Checkbox,
-  light_pink_alt2_DialogOverlay: () => light_pink_alt2_DialogOverlay,
-  light_pink_alt2_DrawerFrame: () => light_pink_alt2_DrawerFrame,
-  light_pink_alt2_Input: () => light_pink_alt2_Input,
-  light_pink_alt2_ListItem: () => light_pink_alt2_ListItem,
-  light_pink_alt2_ModalOverlay: () => light_pink_alt2_ModalOverlay,
-  light_pink_alt2_Progress: () => light_pink_alt2_Progress,
-  light_pink_alt2_ProgressIndicator: () => light_pink_alt2_ProgressIndicator,
-  light_pink_alt2_RadioGroupItem: () => light_pink_alt2_RadioGroupItem,
-  light_pink_alt2_SheetOverlay: () => light_pink_alt2_SheetOverlay,
-  light_pink_alt2_SliderThumb: () => light_pink_alt2_SliderThumb,
-  light_pink_alt2_SliderTrack: () => light_pink_alt2_SliderTrack,
-  light_pink_alt2_SliderTrackActive: () => light_pink_alt2_SliderTrackActive,
-  light_pink_alt2_Switch: () => light_pink_alt2_Switch,
-  light_pink_alt2_SwitchThumb: () => light_pink_alt2_SwitchThumb,
-  light_pink_alt2_TextArea: () => light_pink_alt2_TextArea,
-  light_pink_alt2_Tooltip: () => light_pink_alt2_Tooltip,
-  light_pink_alt2_TooltipArrow: () => light_pink_alt2_TooltipArrow,
-  light_pink_alt2_TooltipContent: () => light_pink_alt2_TooltipContent,
-  light_purple: () => light_purple,
-  light_purple_Button: () => light_purple_Button,
-  light_purple_Card: () => light_purple_Card,
-  light_purple_Checkbox: () => light_purple_Checkbox,
-  light_purple_DialogOverlay: () => light_purple_DialogOverlay,
-  light_purple_DrawerFrame: () => light_purple_DrawerFrame,
-  light_purple_Input: () => light_purple_Input,
-  light_purple_ListItem: () => light_purple_ListItem,
-  light_purple_ModalOverlay: () => light_purple_ModalOverlay,
-  light_purple_Progress: () => light_purple_Progress,
-  light_purple_ProgressIndicator: () => light_purple_ProgressIndicator,
-  light_purple_RadioGroupItem: () => light_purple_RadioGroupItem,
-  light_purple_SheetOverlay: () => light_purple_SheetOverlay,
-  light_purple_SliderThumb: () => light_purple_SliderThumb,
-  light_purple_SliderTrack: () => light_purple_SliderTrack,
-  light_purple_SliderTrackActive: () => light_purple_SliderTrackActive,
-  light_purple_Switch: () => light_purple_Switch,
-  light_purple_SwitchThumb: () => light_purple_SwitchThumb,
-  light_purple_TextArea: () => light_purple_TextArea,
-  light_purple_Tooltip: () => light_purple_Tooltip,
-  light_purple_TooltipArrow: () => light_purple_TooltipArrow,
-  light_purple_TooltipContent: () => light_purple_TooltipContent,
-  light_purple_active: () => light_purple_active,
-  light_purple_active_Button: () => light_purple_active_Button,
-  light_purple_active_Checkbox: () => light_purple_active_Checkbox,
-  light_purple_active_DialogOverlay: () => light_purple_active_DialogOverlay,
-  light_purple_active_Input: () => light_purple_active_Input,
-  light_purple_active_ListItem: () => light_purple_active_ListItem,
-  light_purple_active_ModalOverlay: () => light_purple_active_ModalOverlay,
-  light_purple_active_SheetOverlay: () => light_purple_active_SheetOverlay,
-  light_purple_active_SliderTrackActive: () => light_purple_active_SliderTrackActive,
-  light_purple_active_Switch: () => light_purple_active_Switch,
-  light_purple_active_TextArea: () => light_purple_active_TextArea,
-  light_purple_alt1: () => light_purple_alt1,
-  light_purple_alt1_Button: () => light_purple_alt1_Button,
-  light_purple_alt1_Card: () => light_purple_alt1_Card,
-  light_purple_alt1_Checkbox: () => light_purple_alt1_Checkbox,
-  light_purple_alt1_DialogOverlay: () => light_purple_alt1_DialogOverlay,
-  light_purple_alt1_DrawerFrame: () => light_purple_alt1_DrawerFrame,
-  light_purple_alt1_Input: () => light_purple_alt1_Input,
-  light_purple_alt1_ListItem: () => light_purple_alt1_ListItem,
-  light_purple_alt1_ModalOverlay: () => light_purple_alt1_ModalOverlay,
-  light_purple_alt1_Progress: () => light_purple_alt1_Progress,
-  light_purple_alt1_ProgressIndicator: () => light_purple_alt1_ProgressIndicator,
-  light_purple_alt1_RadioGroupItem: () => light_purple_alt1_RadioGroupItem,
-  light_purple_alt1_SheetOverlay: () => light_purple_alt1_SheetOverlay,
-  light_purple_alt1_SliderThumb: () => light_purple_alt1_SliderThumb,
-  light_purple_alt1_SliderTrack: () => light_purple_alt1_SliderTrack,
-  light_purple_alt1_SliderTrackActive: () => light_purple_alt1_SliderTrackActive,
-  light_purple_alt1_Switch: () => light_purple_alt1_Switch,
-  light_purple_alt1_SwitchThumb: () => light_purple_alt1_SwitchThumb,
-  light_purple_alt1_TextArea: () => light_purple_alt1_TextArea,
-  light_purple_alt1_Tooltip: () => light_purple_alt1_Tooltip,
-  light_purple_alt1_TooltipArrow: () => light_purple_alt1_TooltipArrow,
-  light_purple_alt1_TooltipContent: () => light_purple_alt1_TooltipContent,
-  light_purple_alt2: () => light_purple_alt2,
-  light_purple_alt2_Button: () => light_purple_alt2_Button,
-  light_purple_alt2_Card: () => light_purple_alt2_Card,
-  light_purple_alt2_Checkbox: () => light_purple_alt2_Checkbox,
-  light_purple_alt2_DialogOverlay: () => light_purple_alt2_DialogOverlay,
-  light_purple_alt2_DrawerFrame: () => light_purple_alt2_DrawerFrame,
-  light_purple_alt2_Input: () => light_purple_alt2_Input,
-  light_purple_alt2_ListItem: () => light_purple_alt2_ListItem,
-  light_purple_alt2_ModalOverlay: () => light_purple_alt2_ModalOverlay,
-  light_purple_alt2_Progress: () => light_purple_alt2_Progress,
-  light_purple_alt2_ProgressIndicator: () => light_purple_alt2_ProgressIndicator,
-  light_purple_alt2_RadioGroupItem: () => light_purple_alt2_RadioGroupItem,
-  light_purple_alt2_SheetOverlay: () => light_purple_alt2_SheetOverlay,
-  light_purple_alt2_SliderThumb: () => light_purple_alt2_SliderThumb,
-  light_purple_alt2_SliderTrack: () => light_purple_alt2_SliderTrack,
-  light_purple_alt2_SliderTrackActive: () => light_purple_alt2_SliderTrackActive,
-  light_purple_alt2_Switch: () => light_purple_alt2_Switch,
-  light_purple_alt2_SwitchThumb: () => light_purple_alt2_SwitchThumb,
-  light_purple_alt2_TextArea: () => light_purple_alt2_TextArea,
-  light_purple_alt2_Tooltip: () => light_purple_alt2_Tooltip,
-  light_purple_alt2_TooltipArrow: () => light_purple_alt2_TooltipArrow,
-  light_purple_alt2_TooltipContent: () => light_purple_alt2_TooltipContent,
-  light_red: () => light_red,
-  light_red_Button: () => light_red_Button,
-  light_red_Card: () => light_red_Card,
-  light_red_Checkbox: () => light_red_Checkbox,
-  light_red_DialogOverlay: () => light_red_DialogOverlay,
-  light_red_DrawerFrame: () => light_red_DrawerFrame,
-  light_red_Input: () => light_red_Input,
-  light_red_ListItem: () => light_red_ListItem,
-  light_red_ModalOverlay: () => light_red_ModalOverlay,
-  light_red_Progress: () => light_red_Progress,
-  light_red_ProgressIndicator: () => light_red_ProgressIndicator,
-  light_red_RadioGroupItem: () => light_red_RadioGroupItem,
-  light_red_SheetOverlay: () => light_red_SheetOverlay,
-  light_red_SliderThumb: () => light_red_SliderThumb,
-  light_red_SliderTrack: () => light_red_SliderTrack,
-  light_red_SliderTrackActive: () => light_red_SliderTrackActive,
-  light_red_Switch: () => light_red_Switch,
-  light_red_SwitchThumb: () => light_red_SwitchThumb,
-  light_red_TextArea: () => light_red_TextArea,
-  light_red_Tooltip: () => light_red_Tooltip,
-  light_red_TooltipArrow: () => light_red_TooltipArrow,
-  light_red_TooltipContent: () => light_red_TooltipContent,
-  light_red_active: () => light_red_active,
-  light_red_active_Button: () => light_red_active_Button,
-  light_red_active_Checkbox: () => light_red_active_Checkbox,
-  light_red_active_DialogOverlay: () => light_red_active_DialogOverlay,
-  light_red_active_Input: () => light_red_active_Input,
-  light_red_active_ListItem: () => light_red_active_ListItem,
-  light_red_active_ModalOverlay: () => light_red_active_ModalOverlay,
-  light_red_active_SheetOverlay: () => light_red_active_SheetOverlay,
-  light_red_active_SliderTrackActive: () => light_red_active_SliderTrackActive,
-  light_red_active_Switch: () => light_red_active_Switch,
-  light_red_active_TextArea: () => light_red_active_TextArea,
-  light_red_alt1: () => light_red_alt1,
-  light_red_alt1_Button: () => light_red_alt1_Button,
-  light_red_alt1_Card: () => light_red_alt1_Card,
-  light_red_alt1_Checkbox: () => light_red_alt1_Checkbox,
-  light_red_alt1_DialogOverlay: () => light_red_alt1_DialogOverlay,
-  light_red_alt1_DrawerFrame: () => light_red_alt1_DrawerFrame,
-  light_red_alt1_Input: () => light_red_alt1_Input,
-  light_red_alt1_ListItem: () => light_red_alt1_ListItem,
-  light_red_alt1_ModalOverlay: () => light_red_alt1_ModalOverlay,
-  light_red_alt1_Progress: () => light_red_alt1_Progress,
-  light_red_alt1_ProgressIndicator: () => light_red_alt1_ProgressIndicator,
-  light_red_alt1_RadioGroupItem: () => light_red_alt1_RadioGroupItem,
-  light_red_alt1_SheetOverlay: () => light_red_alt1_SheetOverlay,
-  light_red_alt1_SliderThumb: () => light_red_alt1_SliderThumb,
-  light_red_alt1_SliderTrack: () => light_red_alt1_SliderTrack,
-  light_red_alt1_SliderTrackActive: () => light_red_alt1_SliderTrackActive,
-  light_red_alt1_Switch: () => light_red_alt1_Switch,
-  light_red_alt1_SwitchThumb: () => light_red_alt1_SwitchThumb,
-  light_red_alt1_TextArea: () => light_red_alt1_TextArea,
-  light_red_alt1_Tooltip: () => light_red_alt1_Tooltip,
-  light_red_alt1_TooltipArrow: () => light_red_alt1_TooltipArrow,
-  light_red_alt1_TooltipContent: () => light_red_alt1_TooltipContent,
-  light_red_alt2: () => light_red_alt2,
-  light_red_alt2_Button: () => light_red_alt2_Button,
-  light_red_alt2_Card: () => light_red_alt2_Card,
-  light_red_alt2_Checkbox: () => light_red_alt2_Checkbox,
-  light_red_alt2_DialogOverlay: () => light_red_alt2_DialogOverlay,
-  light_red_alt2_DrawerFrame: () => light_red_alt2_DrawerFrame,
-  light_red_alt2_Input: () => light_red_alt2_Input,
-  light_red_alt2_ListItem: () => light_red_alt2_ListItem,
-  light_red_alt2_ModalOverlay: () => light_red_alt2_ModalOverlay,
-  light_red_alt2_Progress: () => light_red_alt2_Progress,
-  light_red_alt2_ProgressIndicator: () => light_red_alt2_ProgressIndicator,
-  light_red_alt2_RadioGroupItem: () => light_red_alt2_RadioGroupItem,
-  light_red_alt2_SheetOverlay: () => light_red_alt2_SheetOverlay,
-  light_red_alt2_SliderThumb: () => light_red_alt2_SliderThumb,
-  light_red_alt2_SliderTrack: () => light_red_alt2_SliderTrack,
-  light_red_alt2_SliderTrackActive: () => light_red_alt2_SliderTrackActive,
-  light_red_alt2_Switch: () => light_red_alt2_Switch,
-  light_red_alt2_SwitchThumb: () => light_red_alt2_SwitchThumb,
-  light_red_alt2_TextArea: () => light_red_alt2_TextArea,
-  light_red_alt2_Tooltip: () => light_red_alt2_Tooltip,
-  light_red_alt2_TooltipArrow: () => light_red_alt2_TooltipArrow,
-  light_red_alt2_TooltipContent: () => light_red_alt2_TooltipContent,
-  light_yellow: () => light_yellow,
-  light_yellow_Button: () => light_yellow_Button,
-  light_yellow_Card: () => light_yellow_Card,
-  light_yellow_Checkbox: () => light_yellow_Checkbox,
-  light_yellow_DialogOverlay: () => light_yellow_DialogOverlay,
-  light_yellow_DrawerFrame: () => light_yellow_DrawerFrame,
-  light_yellow_Input: () => light_yellow_Input,
-  light_yellow_ListItem: () => light_yellow_ListItem,
-  light_yellow_ModalOverlay: () => light_yellow_ModalOverlay,
-  light_yellow_Progress: () => light_yellow_Progress,
-  light_yellow_ProgressIndicator: () => light_yellow_ProgressIndicator,
-  light_yellow_RadioGroupItem: () => light_yellow_RadioGroupItem,
-  light_yellow_SheetOverlay: () => light_yellow_SheetOverlay,
-  light_yellow_SliderThumb: () => light_yellow_SliderThumb,
-  light_yellow_SliderTrack: () => light_yellow_SliderTrack,
-  light_yellow_SliderTrackActive: () => light_yellow_SliderTrackActive,
-  light_yellow_Switch: () => light_yellow_Switch,
-  light_yellow_SwitchThumb: () => light_yellow_SwitchThumb,
-  light_yellow_TextArea: () => light_yellow_TextArea,
-  light_yellow_Tooltip: () => light_yellow_Tooltip,
-  light_yellow_TooltipArrow: () => light_yellow_TooltipArrow,
-  light_yellow_TooltipContent: () => light_yellow_TooltipContent,
-  light_yellow_active: () => light_yellow_active,
-  light_yellow_active_Button: () => light_yellow_active_Button,
-  light_yellow_active_Checkbox: () => light_yellow_active_Checkbox,
-  light_yellow_active_DialogOverlay: () => light_yellow_active_DialogOverlay,
-  light_yellow_active_Input: () => light_yellow_active_Input,
-  light_yellow_active_ListItem: () => light_yellow_active_ListItem,
-  light_yellow_active_ModalOverlay: () => light_yellow_active_ModalOverlay,
-  light_yellow_active_SheetOverlay: () => light_yellow_active_SheetOverlay,
-  light_yellow_active_SliderTrackActive: () => light_yellow_active_SliderTrackActive,
-  light_yellow_active_Switch: () => light_yellow_active_Switch,
-  light_yellow_active_TextArea: () => light_yellow_active_TextArea,
-  light_yellow_alt1: () => light_yellow_alt1,
-  light_yellow_alt1_Button: () => light_yellow_alt1_Button,
-  light_yellow_alt1_Card: () => light_yellow_alt1_Card,
-  light_yellow_alt1_Checkbox: () => light_yellow_alt1_Checkbox,
-  light_yellow_alt1_DialogOverlay: () => light_yellow_alt1_DialogOverlay,
-  light_yellow_alt1_DrawerFrame: () => light_yellow_alt1_DrawerFrame,
-  light_yellow_alt1_Input: () => light_yellow_alt1_Input,
-  light_yellow_alt1_ListItem: () => light_yellow_alt1_ListItem,
-  light_yellow_alt1_ModalOverlay: () => light_yellow_alt1_ModalOverlay,
-  light_yellow_alt1_Progress: () => light_yellow_alt1_Progress,
-  light_yellow_alt1_ProgressIndicator: () => light_yellow_alt1_ProgressIndicator,
-  light_yellow_alt1_RadioGroupItem: () => light_yellow_alt1_RadioGroupItem,
-  light_yellow_alt1_SheetOverlay: () => light_yellow_alt1_SheetOverlay,
-  light_yellow_alt1_SliderThumb: () => light_yellow_alt1_SliderThumb,
-  light_yellow_alt1_SliderTrack: () => light_yellow_alt1_SliderTrack,
-  light_yellow_alt1_SliderTrackActive: () => light_yellow_alt1_SliderTrackActive,
-  light_yellow_alt1_Switch: () => light_yellow_alt1_Switch,
-  light_yellow_alt1_SwitchThumb: () => light_yellow_alt1_SwitchThumb,
-  light_yellow_alt1_TextArea: () => light_yellow_alt1_TextArea,
-  light_yellow_alt1_Tooltip: () => light_yellow_alt1_Tooltip,
-  light_yellow_alt1_TooltipArrow: () => light_yellow_alt1_TooltipArrow,
-  light_yellow_alt1_TooltipContent: () => light_yellow_alt1_TooltipContent,
-  light_yellow_alt2: () => light_yellow_alt2,
-  light_yellow_alt2_Button: () => light_yellow_alt2_Button,
-  light_yellow_alt2_Card: () => light_yellow_alt2_Card,
-  light_yellow_alt2_Checkbox: () => light_yellow_alt2_Checkbox,
-  light_yellow_alt2_DialogOverlay: () => light_yellow_alt2_DialogOverlay,
-  light_yellow_alt2_DrawerFrame: () => light_yellow_alt2_DrawerFrame,
-  light_yellow_alt2_Input: () => light_yellow_alt2_Input,
-  light_yellow_alt2_ListItem: () => light_yellow_alt2_ListItem,
-  light_yellow_alt2_ModalOverlay: () => light_yellow_alt2_ModalOverlay,
-  light_yellow_alt2_Progress: () => light_yellow_alt2_Progress,
-  light_yellow_alt2_ProgressIndicator: () => light_yellow_alt2_ProgressIndicator,
-  light_yellow_alt2_RadioGroupItem: () => light_yellow_alt2_RadioGroupItem,
-  light_yellow_alt2_SheetOverlay: () => light_yellow_alt2_SheetOverlay,
-  light_yellow_alt2_SliderThumb: () => light_yellow_alt2_SliderThumb,
-  light_yellow_alt2_SliderTrack: () => light_yellow_alt2_SliderTrack,
-  light_yellow_alt2_SliderTrackActive: () => light_yellow_alt2_SliderTrackActive,
-  light_yellow_alt2_Switch: () => light_yellow_alt2_Switch,
-  light_yellow_alt2_SwitchThumb: () => light_yellow_alt2_SwitchThumb,
-  light_yellow_alt2_TextArea: () => light_yellow_alt2_TextArea,
-  light_yellow_alt2_Tooltip: () => light_yellow_alt2_Tooltip,
-  light_yellow_alt2_TooltipArrow: () => light_yellow_alt2_TooltipArrow,
-  light_yellow_alt2_TooltipContent: () => light_yellow_alt2_TooltipContent
-});
-function t(a) {
-  let res = {};
-  for (const [ki, vi] of a)
-    res[ks[ki]] = vs[vi];
-  return res;
-}
-__name(t, "t");
-var vs = [
-  "#fff",
-  "#f8f8f8",
-  "hsl(0, 0%, 96.3%)",
-  "hsl(0, 0%, 94.1%)",
-  "hsl(0, 0%, 92.0%)",
-  "hsl(0, 0%, 90.0%)",
-  "hsl(0, 0%, 88.5%)",
-  "hsl(0, 0%, 81.0%)",
-  "hsl(0, 0%, 56.1%)",
-  "hsl(0, 0%, 50.3%)",
-  "hsl(0, 0%, 42.5%)",
-  "hsl(0, 0%, 9.0%)",
-  "rgba(255,255,255,0)",
-  "rgba(10,10,10,0)",
-  "hsl(206, 100%, 99.2%)",
-  "hsl(210, 100%, 98.0%)",
-  "hsl(209, 100%, 96.5%)",
-  "hsl(210, 98.8%, 94.0%)",
-  "hsl(209, 95.0%, 90.1%)",
-  "hsl(209, 81.2%, 84.5%)",
-  "hsl(208, 77.5%, 76.9%)",
-  "hsl(206, 81.9%, 65.3%)",
-  "hsl(206, 100%, 50.0%)",
-  "hsl(208, 100%, 47.3%)",
-  "hsl(211, 100%, 43.2%)",
-  "hsl(211, 100%, 15.0%)",
-  "hsl(0, 0%, 99.0%)",
-  "hsl(0, 0%, 97.3%)",
-  "hsl(0, 0%, 95.1%)",
-  "hsl(0, 0%, 93.0%)",
-  "hsl(0, 0%, 90.9%)",
-  "hsl(0, 0%, 88.7%)",
-  "hsl(0, 0%, 85.8%)",
-  "hsl(0, 0%, 78.0%)",
-  "hsl(0, 0%, 52.3%)",
-  "hsl(0, 0%, 43.5%)",
-  "hsl(136, 50.0%, 98.9%)",
-  "hsl(138, 62.5%, 96.9%)",
-  "hsl(139, 55.2%, 94.5%)",
-  "hsl(140, 48.7%, 91.0%)",
-  "hsl(141, 43.7%, 86.0%)",
-  "hsl(143, 40.3%, 79.0%)",
-  "hsl(146, 38.5%, 69.0%)",
-  "hsl(151, 40.2%, 54.1%)",
-  "hsl(151, 55.0%, 41.5%)",
-  "hsl(152, 57.5%, 37.6%)",
-  "hsl(153, 67.0%, 28.5%)",
-  "hsl(155, 40.0%, 14.0%)",
-  "hsl(24, 70.0%, 99.0%)",
-  "hsl(24, 83.3%, 97.6%)",
-  "hsl(24, 100%, 95.3%)",
-  "hsl(25, 100%, 92.2%)",
-  "hsl(25, 100%, 88.2%)",
-  "hsl(25, 100%, 82.8%)",
-  "hsl(24, 100%, 75.3%)",
-  "hsl(24, 94.5%, 64.3%)",
-  "hsl(24, 94.0%, 50.0%)",
-  "hsl(24, 100%, 46.5%)",
-  "hsl(24, 100%, 37.0%)",
-  "hsl(15, 60.0%, 17.0%)",
-  "hsl(322, 100%, 99.4%)",
-  "hsl(323, 100%, 98.4%)",
-  "hsl(323, 86.3%, 96.5%)",
-  "hsl(323, 78.7%, 94.2%)",
-  "hsl(323, 72.2%, 91.1%)",
-  "hsl(323, 66.3%, 86.6%)",
-  "hsl(323, 62.0%, 80.1%)",
-  "hsl(323, 60.3%, 72.4%)",
-  "hsl(322, 65.0%, 54.5%)",
-  "hsl(322, 63.9%, 50.7%)",
-  "hsl(322, 75.0%, 46.0%)",
-  "hsl(320, 70.0%, 13.5%)",
-  "hsl(280, 65.0%, 99.4%)",
-  "hsl(276, 100%, 99.0%)",
-  "hsl(276, 83.1%, 97.0%)",
-  "hsl(275, 76.4%, 94.7%)",
-  "hsl(275, 70.8%, 91.8%)",
-  "hsl(274, 65.4%, 87.8%)",
-  "hsl(273, 61.0%, 81.7%)",
-  "hsl(272, 60.0%, 73.5%)",
-  "hsl(272, 51.0%, 54.0%)",
-  "hsl(272, 46.8%, 50.3%)",
-  "hsl(272, 50.0%, 45.8%)",
-  "hsl(272, 66.0%, 16.0%)",
-  "hsl(359, 100%, 99.4%)",
-  "hsl(359, 100%, 98.6%)",
-  "hsl(360, 100%, 96.8%)",
-  "hsl(360, 97.9%, 94.8%)",
-  "hsl(360, 90.2%, 91.9%)",
-  "hsl(360, 81.7%, 87.8%)",
-  "hsl(359, 74.2%, 81.7%)",
-  "hsl(359, 69.5%, 74.3%)",
-  "hsl(358, 75.0%, 59.0%)",
-  "hsl(358, 69.4%, 55.2%)",
-  "hsl(358, 65.0%, 48.7%)",
-  "hsl(354, 50.0%, 14.6%)",
-  "hsl(60, 54.0%, 98.5%)",
-  "hsl(52, 100%, 95.5%)",
-  "hsl(55, 100%, 90.9%)",
-  "hsl(54, 100%, 86.6%)",
-  "hsl(52, 97.9%, 82.0%)",
-  "hsl(50, 89.4%, 76.1%)",
-  "hsl(47, 80.4%, 68.0%)",
-  "hsl(48, 100%, 46.1%)",
-  "hsl(53, 92.0%, 50.0%)",
-  "hsl(50, 100%, 48.5%)",
-  "hsl(42, 100%, 29.0%)",
-  "hsl(40, 55.0%, 13.5%)",
-  "rgba(0,0,0,0.085)",
-  "rgba(0,0,0,0.04)",
-  "#050505",
-  "#151515",
-  "#191919",
-  "#232323",
-  "#282828",
-  "#323232",
-  "#424242",
-  "#494949",
-  "#545454",
-  "#626262",
-  "#a5a5a5",
-  "hsl(212, 35.0%, 9.2%)",
-  "hsl(216, 50.0%, 11.8%)",
-  "hsl(214, 59.4%, 15.3%)",
-  "hsl(214, 65.8%, 17.9%)",
-  "hsl(213, 71.2%, 20.2%)",
-  "hsl(212, 77.4%, 23.1%)",
-  "hsl(211, 85.1%, 27.4%)",
-  "hsl(211, 89.7%, 34.1%)",
-  "hsl(209, 100%, 60.6%)",
-  "hsl(210, 100%, 66.1%)",
-  "hsl(206, 98.0%, 95.8%)",
-  "hsl(0, 0%, 8.5%)",
-  "hsl(0, 0%, 11.0%)",
-  "hsl(0, 0%, 13.6%)",
-  "hsl(0, 0%, 15.8%)",
-  "hsl(0, 0%, 17.9%)",
-  "hsl(0, 0%, 20.5%)",
-  "hsl(0, 0%, 24.3%)",
-  "hsl(0, 0%, 31.2%)",
-  "hsl(0, 0%, 43.9%)",
-  "hsl(0, 0%, 49.4%)",
-  "hsl(0, 0%, 62.8%)",
-  "hsl(146, 30.0%, 7.4%)",
-  "hsl(155, 44.2%, 8.4%)",
-  "hsl(155, 46.7%, 10.9%)",
-  "hsl(154, 48.4%, 12.9%)",
-  "hsl(154, 49.7%, 14.9%)",
-  "hsl(154, 50.9%, 17.6%)",
-  "hsl(153, 51.8%, 21.8%)",
-  "hsl(151, 51.7%, 28.4%)",
-  "hsl(151, 49.3%, 46.5%)",
-  "hsl(151, 50.0%, 53.2%)",
-  "hsl(137, 72.0%, 94.0%)",
-  "hsl(30, 70.0%, 7.2%)",
-  "hsl(28, 100%, 8.4%)",
-  "hsl(26, 91.1%, 11.6%)",
-  "hsl(25, 88.3%, 14.1%)",
-  "hsl(24, 87.6%, 16.6%)",
-  "hsl(24, 88.6%, 19.8%)",
-  "hsl(24, 92.4%, 24.0%)",
-  "hsl(25, 100%, 29.0%)",
-  "hsl(24, 100%, 58.5%)",
-  "hsl(24, 100%, 62.2%)",
-  "hsl(24, 97.0%, 93.2%)",
-  "hsl(318, 25.0%, 9.6%)",
-  "hsl(319, 32.2%, 11.6%)",
-  "hsl(319, 41.0%, 16.0%)",
-  "hsl(320, 45.4%, 18.7%)",
-  "hsl(320, 49.0%, 21.1%)",
-  "hsl(321, 53.6%, 24.4%)",
-  "hsl(321, 61.1%, 29.7%)",
-  "hsl(322, 74.9%, 37.5%)",
-  "hsl(323, 72.8%, 59.2%)",
-  "hsl(325, 90.0%, 66.4%)",
-  "hsl(322, 90.0%, 95.8%)",
-  "hsl(284, 20.0%, 9.6%)",
-  "hsl(283, 30.0%, 11.8%)",
-  "hsl(281, 37.5%, 16.5%)",
-  "hsl(280, 41.2%, 20.0%)",
-  "hsl(279, 43.8%, 23.3%)",
-  "hsl(277, 46.4%, 27.5%)",
-  "hsl(275, 49.3%, 34.6%)",
-  "hsl(272, 52.1%, 45.9%)",
-  "hsl(273, 57.3%, 59.1%)",
-  "hsl(275, 80.0%, 71.0%)",
-  "hsl(279, 75.0%, 95.7%)",
-  "hsl(353, 23.0%, 9.8%)",
-  "hsl(357, 34.4%, 12.0%)",
-  "hsl(356, 43.4%, 16.4%)",
-  "hsl(356, 47.6%, 19.2%)",
-  "hsl(356, 51.1%, 21.9%)",
-  "hsl(356, 55.2%, 25.9%)",
-  "hsl(357, 60.2%, 31.8%)",
-  "hsl(358, 65.0%, 40.4%)",
-  "hsl(358, 85.3%, 64.0%)",
-  "hsl(358, 100%, 69.5%)",
-  "hsl(351, 89.0%, 96.0%)",
-  "hsl(45, 100%, 5.5%)",
-  "hsl(46, 100%, 6.7%)",
-  "hsl(45, 100%, 8.7%)",
-  "hsl(45, 100%, 10.4%)",
-  "hsl(47, 100%, 12.1%)",
-  "hsl(49, 100%, 14.3%)",
-  "hsl(49, 90.3%, 18.4%)",
-  "hsl(50, 100%, 22.0%)",
-  "hsl(54, 100%, 68.0%)",
-  "hsl(48, 100%, 47.0%)",
-  "hsl(53, 100%, 91.0%)",
-  "rgba(0,0,0,0.3)",
-  "rgba(0,0,0,0.2)",
-  "hsla(24, 70.0%, 99.0%, 0)",
-  "hsla(15, 60.0%, 17.0%, 0)",
-  "hsla(60, 54.0%, 98.5%, 0)",
-  "hsla(40, 55.0%, 13.5%, 0)",
-  "hsla(136, 50.0%, 98.9%, 0)",
-  "hsla(155, 40.0%, 14.0%, 0)",
-  "hsla(206, 100%, 99.2%, 0)",
-  "hsla(211, 100%, 15.0%, 0)",
-  "hsla(280, 65.0%, 99.4%, 0)",
-  "hsla(272, 66.0%, 16.0%, 0)",
-  "hsla(322, 100%, 99.4%, 0)",
-  "hsla(320, 70.0%, 13.5%, 0)",
-  "hsla(359, 100%, 99.4%, 0)",
-  "hsla(354, 50.0%, 14.6%, 0)",
-  "hsla(0, 0%, 99.0%, 0)",
-  "hsla(0, 0%, 9.0%, 0)",
-  "hsla(30, 70.0%, 7.2%, 0)",
-  "hsla(24, 97.0%, 93.2%, 0)",
-  "hsla(45, 100%, 5.5%, 0)",
-  "hsla(53, 100%, 91.0%, 0)",
-  "hsla(146, 30.0%, 7.4%, 0)",
-  "hsla(137, 72.0%, 94.0%, 0)",
-  "hsla(212, 35.0%, 9.2%, 0)",
-  "hsla(206, 98.0%, 95.8%, 0)",
-  "hsla(284, 20.0%, 9.6%, 0)",
-  "hsla(279, 75.0%, 95.7%, 0)",
-  "hsla(318, 25.0%, 9.6%, 0)",
-  "hsla(322, 90.0%, 95.8%, 0)",
-  "hsla(353, 23.0%, 9.8%, 0)",
-  "hsla(351, 89.0%, 96.0%, 0)",
-  "hsla(0, 0%, 8.5%, 0)",
-  "hsla(0, 0%, 93.0%, 0)",
-  "rgba(0,0,0,0.5)",
-  "rgba(0,0,0,0.9)"
-];
-var ks = [
-  "color1",
-  "color2",
-  "color3",
-  "color4",
-  "color5",
-  "color6",
-  "color7",
-  "color8",
-  "color9",
-  "color10",
-  "color11",
-  "color12",
-  "background",
-  "backgroundHover",
-  "backgroundPress",
-  "backgroundFocus",
-  "backgroundStrong",
-  "backgroundTransparent",
-  "color",
-  "colorHover",
-  "colorPress",
-  "colorFocus",
-  "colorTransparent",
-  "borderColor",
-  "borderColorHover",
-  "borderColorFocus",
-  "borderColorPress",
-  "placeholderColor",
-  "blue1",
-  "blue2",
-  "blue3",
-  "blue4",
-  "blue5",
-  "blue6",
-  "blue7",
-  "blue8",
-  "blue9",
-  "blue10",
-  "blue11",
-  "blue12",
-  "gray1",
-  "gray2",
-  "gray3",
-  "gray4",
-  "gray5",
-  "gray6",
-  "gray7",
-  "gray8",
-  "gray9",
-  "gray10",
-  "gray11",
-  "gray12",
-  "green1",
-  "green2",
-  "green3",
-  "green4",
-  "green5",
-  "green6",
-  "green7",
-  "green8",
-  "green9",
-  "green10",
-  "green11",
-  "green12",
-  "orange1",
-  "orange2",
-  "orange3",
-  "orange4",
-  "orange5",
-  "orange6",
-  "orange7",
-  "orange8",
-  "orange9",
-  "orange10",
-  "orange11",
-  "orange12",
-  "pink1",
-  "pink2",
-  "pink3",
-  "pink4",
-  "pink5",
-  "pink6",
-  "pink7",
-  "pink8",
-  "pink9",
-  "pink10",
-  "pink11",
-  "pink12",
-  "purple1",
-  "purple2",
-  "purple3",
-  "purple4",
-  "purple5",
-  "purple6",
-  "purple7",
-  "purple8",
-  "purple9",
-  "purple10",
-  "purple11",
-  "purple12",
-  "red1",
-  "red2",
-  "red3",
-  "red4",
-  "red5",
-  "red6",
-  "red7",
-  "red8",
-  "red9",
-  "red10",
-  "red11",
-  "red12",
-  "yellow1",
-  "yellow2",
-  "yellow3",
-  "yellow4",
-  "yellow5",
-  "yellow6",
-  "yellow7",
-  "yellow8",
-  "yellow9",
-  "yellow10",
-  "yellow11",
-  "yellow12",
-  "shadowColor",
-  "shadowColorHover",
-  "shadowColorPress",
-  "shadowColorFocus"
-];
-var n1 = t([[0, 0], [1, 1], [2, 2], [3, 3], [4, 4], [5, 5], [6, 6], [7, 7], [8, 8], [9, 9], [10, 10], [11, 11], [12, 1], [13, 2], [14, 3], [15, 4], [16, 0], [17, 12], [18, 11], [19, 10], [20, 11], [21, 10], [22, 13], [23, 4], [24, 5], [25, 3], [26, 4], [27, 8], [28, 14], [29, 15], [30, 16], [31, 17], [32, 18], [33, 19], [34, 20], [35, 21], [36, 22], [37, 23], [38, 24], [39, 25], [40, 26], [41, 27], [42, 28], [43, 29], [44, 30], [45, 31], [46, 32], [47, 33], [48, 8], [49, 34], [50, 35], [51, 11], [52, 36], [53, 37], [54, 38], [55, 39], [56, 40], [57, 41], [58, 42], [59, 43], [60, 44], [61, 45], [62, 46], [63, 47], [64, 48], [65, 49], [66, 50], [67, 51], [68, 52], [69, 53], [70, 54], [71, 55], [72, 56], [73, 57], [74, 58], [75, 59], [76, 60], [77, 61], [78, 62], [79, 63], [80, 64], [81, 65], [82, 66], [83, 67], [84, 68], [85, 69], [86, 70], [87, 71], [88, 72], [89, 73], [90, 74], [91, 75], [92, 76], [93, 77], [94, 78], [95, 79], [96, 80], [97, 81], [98, 82], [99, 83], [100, 84], [101, 85], [102, 86], [103, 87], [104, 88], [105, 89], [106, 90], [107, 91], [108, 92], [109, 93], [110, 94], [111, 95], [112, 96], [113, 97], [114, 98], [115, 99], [116, 100], [117, 101], [118, 102], [119, 103], [120, 104], [121, 105], [122, 106], [123, 107], [124, 108], [125, 108], [126, 109], [127, 109]]);
-var light = n1;
-var n2 = t([[0, 110], [1, 111], [2, 112], [3, 113], [4, 114], [5, 115], [6, 116], [7, 117], [8, 118], [9, 119], [10, 120], [11, 0], [12, 111], [13, 112], [14, 113], [15, 114], [16, 110], [17, 13], [18, 0], [19, 120], [20, 0], [21, 120], [22, 12], [23, 114], [24, 115], [25, 113], [26, 114], [27, 118], [28, 121], [29, 122], [30, 123], [31, 124], [32, 125], [33, 126], [34, 127], [35, 128], [36, 22], [37, 129], [38, 130], [39, 131], [40, 132], [41, 133], [42, 134], [43, 135], [44, 136], [45, 137], [46, 138], [47, 139], [48, 140], [49, 141], [50, 142], [51, 29], [52, 143], [53, 144], [54, 145], [55, 146], [56, 147], [57, 148], [58, 149], [59, 150], [60, 44], [61, 151], [62, 152], [63, 153], [64, 154], [65, 155], [66, 156], [67, 157], [68, 158], [69, 159], [70, 160], [71, 161], [72, 56], [73, 162], [74, 163], [75, 164], [76, 165], [77, 166], [78, 167], [79, 168], [80, 169], [81, 170], [82, 171], [83, 172], [84, 68], [85, 173], [86, 174], [87, 175], [88, 176], [89, 177], [90, 178], [91, 179], [92, 180], [93, 181], [94, 182], [95, 183], [96, 80], [97, 184], [98, 185], [99, 186], [100, 187], [101, 188], [102, 189], [103, 190], [104, 191], [105, 192], [106, 193], [107, 194], [108, 92], [109, 195], [110, 196], [111, 197], [112, 198], [113, 199], [114, 200], [115, 201], [116, 202], [117, 203], [118, 204], [119, 205], [120, 104], [121, 206], [122, 207], [123, 208], [124, 209], [125, 209], [126, 210], [127, 210]]);
-var dark = n2;
-var n3 = t([[0, 48], [1, 49], [2, 50], [3, 51], [4, 52], [5, 53], [6, 55], [7, 56], [8, 57], [9, 58], [10, 59], [11, 11], [12, 49], [13, 50], [14, 51], [15, 52], [16, 48], [17, 211], [18, 11], [19, 59], [20, 11], [21, 59], [22, 212], [23, 51], [24, 52], [25, 51], [26, 51], [27, 57]]);
-var light_orange = n3;
-var n4 = t([[0, 96], [1, 97], [2, 98], [3, 99], [4, 100], [5, 101], [6, 103], [7, 104], [8, 105], [9, 106], [10, 107], [11, 11], [12, 97], [13, 98], [14, 99], [15, 100], [16, 96], [17, 213], [18, 11], [19, 107], [20, 11], [21, 107], [22, 214], [23, 99], [24, 100], [25, 99], [26, 99], [27, 105]]);
-var light_yellow = n4;
-var n5 = t([[0, 36], [1, 37], [2, 38], [3, 39], [4, 40], [5, 41], [6, 43], [7, 44], [8, 45], [9, 46], [10, 47], [11, 11], [12, 37], [13, 38], [14, 39], [15, 40], [16, 36], [17, 215], [18, 11], [19, 47], [20, 11], [21, 47], [22, 216], [23, 39], [24, 40], [25, 39], [26, 39], [27, 45]]);
-var light_green = n5;
-var n6 = t([[0, 14], [1, 15], [2, 16], [3, 17], [4, 18], [5, 19], [6, 21], [7, 22], [8, 23], [9, 24], [10, 25], [11, 11], [12, 15], [13, 16], [14, 17], [15, 18], [16, 14], [17, 217], [18, 11], [19, 25], [20, 11], [21, 25], [22, 218], [23, 17], [24, 18], [25, 17], [26, 17], [27, 23]]);
-var light_blue = n6;
-var n7 = t([[0, 72], [1, 73], [2, 74], [3, 75], [4, 76], [5, 77], [6, 79], [7, 80], [8, 81], [9, 82], [10, 83], [11, 11], [12, 73], [13, 74], [14, 75], [15, 76], [16, 72], [17, 219], [18, 11], [19, 83], [20, 11], [21, 83], [22, 220], [23, 75], [24, 76], [25, 75], [26, 75], [27, 81]]);
-var light_purple = n7;
-var n8 = t([[0, 60], [1, 61], [2, 62], [3, 63], [4, 64], [5, 65], [6, 67], [7, 68], [8, 69], [9, 70], [10, 71], [11, 11], [12, 61], [13, 62], [14, 63], [15, 64], [16, 60], [17, 221], [18, 11], [19, 71], [20, 11], [21, 71], [22, 222], [23, 63], [24, 64], [25, 63], [26, 63], [27, 69]]);
-var light_pink = n8;
-var n9 = t([[0, 84], [1, 85], [2, 86], [3, 87], [4, 88], [5, 89], [6, 91], [7, 92], [8, 93], [9, 94], [10, 95], [11, 11], [12, 85], [13, 86], [14, 87], [15, 88], [16, 84], [17, 223], [18, 11], [19, 95], [20, 11], [21, 95], [22, 224], [23, 87], [24, 88], [25, 87], [26, 87], [27, 93]]);
-var light_red = n9;
-var n10 = t([[0, 26], [1, 27], [2, 28], [3, 29], [4, 30], [5, 31], [6, 33], [7, 8], [8, 34], [9, 35], [10, 11], [11, 11], [12, 27], [13, 28], [14, 29], [15, 30], [16, 26], [17, 225], [18, 11], [19, 11], [20, 11], [21, 11], [22, 226], [23, 29], [24, 30], [25, 29], [26, 29], [27, 34]]);
-var light_gray = n10;
-var n11 = t([[0, 154], [1, 155], [2, 156], [3, 157], [4, 158], [5, 159], [6, 161], [7, 56], [8, 162], [9, 163], [10, 164], [11, 0], [12, 155], [13, 156], [14, 157], [15, 158], [16, 154], [17, 227], [18, 0], [19, 164], [20, 0], [21, 164], [22, 228], [23, 158], [24, 159], [25, 157], [26, 158], [27, 162]]);
-var dark_orange = n11;
-var n12 = t([[0, 198], [1, 199], [2, 200], [3, 201], [4, 202], [5, 203], [6, 205], [7, 104], [8, 206], [9, 207], [10, 208], [11, 0], [12, 199], [13, 200], [14, 201], [15, 202], [16, 198], [17, 229], [18, 0], [19, 208], [20, 0], [21, 208], [22, 230], [23, 202], [24, 203], [25, 201], [26, 202], [27, 206]]);
-var dark_yellow = n12;
-var n13 = t([[0, 143], [1, 144], [2, 145], [3, 146], [4, 147], [5, 148], [6, 150], [7, 44], [8, 151], [9, 152], [10, 153], [11, 0], [12, 144], [13, 145], [14, 146], [15, 147], [16, 143], [17, 231], [18, 0], [19, 153], [20, 0], [21, 153], [22, 232], [23, 147], [24, 148], [25, 146], [26, 147], [27, 151]]);
-var dark_green = n13;
-var n14 = t([[0, 121], [1, 122], [2, 123], [3, 124], [4, 125], [5, 126], [6, 128], [7, 22], [8, 129], [9, 130], [10, 131], [11, 0], [12, 122], [13, 123], [14, 124], [15, 125], [16, 121], [17, 233], [18, 0], [19, 131], [20, 0], [21, 131], [22, 234], [23, 125], [24, 126], [25, 124], [26, 125], [27, 129]]);
-var dark_blue = n14;
-var n15 = t([[0, 176], [1, 177], [2, 178], [3, 179], [4, 180], [5, 181], [6, 183], [7, 80], [8, 184], [9, 185], [10, 186], [11, 0], [12, 177], [13, 178], [14, 179], [15, 180], [16, 176], [17, 235], [18, 0], [19, 186], [20, 0], [21, 186], [22, 236], [23, 180], [24, 181], [25, 179], [26, 180], [27, 184]]);
-var dark_purple = n15;
-var n16 = t([[0, 165], [1, 166], [2, 167], [3, 168], [4, 169], [5, 170], [6, 172], [7, 68], [8, 173], [9, 174], [10, 175], [11, 0], [12, 166], [13, 167], [14, 168], [15, 169], [16, 165], [17, 237], [18, 0], [19, 175], [20, 0], [21, 175], [22, 238], [23, 169], [24, 170], [25, 168], [26, 169], [27, 173]]);
-var dark_pink = n16;
-var n17 = t([[0, 187], [1, 188], [2, 189], [3, 190], [4, 191], [5, 192], [6, 194], [7, 92], [8, 195], [9, 196], [10, 197], [11, 0], [12, 188], [13, 189], [14, 190], [15, 191], [16, 187], [17, 239], [18, 0], [19, 197], [20, 0], [21, 197], [22, 240], [23, 191], [24, 192], [25, 190], [26, 191], [27, 195]]);
-var dark_red = n17;
-var n18 = t([[0, 132], [1, 133], [2, 134], [3, 135], [4, 136], [5, 137], [6, 139], [7, 140], [8, 141], [9, 142], [10, 29], [11, 0], [12, 133], [13, 134], [14, 135], [15, 136], [16, 132], [17, 241], [18, 0], [19, 29], [20, 0], [21, 29], [22, 242], [23, 136], [24, 137], [25, 135], [26, 136], [27, 141]]);
-var dark_gray = n18;
-var n19 = t([[12, 243]]);
-var light_SheetOverlay = n19;
-var light_DialogOverlay = n19;
-var light_ModalOverlay = n19;
-var light_orange_SheetOverlay = n19;
-var light_orange_DialogOverlay = n19;
-var light_orange_ModalOverlay = n19;
-var light_yellow_SheetOverlay = n19;
-var light_yellow_DialogOverlay = n19;
-var light_yellow_ModalOverlay = n19;
-var light_green_SheetOverlay = n19;
-var light_green_DialogOverlay = n19;
-var light_green_ModalOverlay = n19;
-var light_blue_SheetOverlay = n19;
-var light_blue_DialogOverlay = n19;
-var light_blue_ModalOverlay = n19;
-var light_purple_SheetOverlay = n19;
-var light_purple_DialogOverlay = n19;
-var light_purple_ModalOverlay = n19;
-var light_pink_SheetOverlay = n19;
-var light_pink_DialogOverlay = n19;
-var light_pink_ModalOverlay = n19;
-var light_red_SheetOverlay = n19;
-var light_red_DialogOverlay = n19;
-var light_red_ModalOverlay = n19;
-var light_gray_SheetOverlay = n19;
-var light_gray_DialogOverlay = n19;
-var light_gray_ModalOverlay = n19;
-var light_alt1_SheetOverlay = n19;
-var light_alt1_DialogOverlay = n19;
-var light_alt1_ModalOverlay = n19;
-var light_alt2_SheetOverlay = n19;
-var light_alt2_DialogOverlay = n19;
-var light_alt2_ModalOverlay = n19;
-var light_active_SheetOverlay = n19;
-var light_active_DialogOverlay = n19;
-var light_active_ModalOverlay = n19;
-var light_orange_alt1_SheetOverlay = n19;
-var light_orange_alt1_DialogOverlay = n19;
-var light_orange_alt1_ModalOverlay = n19;
-var light_orange_alt2_SheetOverlay = n19;
-var light_orange_alt2_DialogOverlay = n19;
-var light_orange_alt2_ModalOverlay = n19;
-var light_orange_active_SheetOverlay = n19;
-var light_orange_active_DialogOverlay = n19;
-var light_orange_active_ModalOverlay = n19;
-var light_yellow_alt1_SheetOverlay = n19;
-var light_yellow_alt1_DialogOverlay = n19;
-var light_yellow_alt1_ModalOverlay = n19;
-var light_yellow_alt2_SheetOverlay = n19;
-var light_yellow_alt2_DialogOverlay = n19;
-var light_yellow_alt2_ModalOverlay = n19;
-var light_yellow_active_SheetOverlay = n19;
-var light_yellow_active_DialogOverlay = n19;
-var light_yellow_active_ModalOverlay = n19;
-var light_green_alt1_SheetOverlay = n19;
-var light_green_alt1_DialogOverlay = n19;
-var light_green_alt1_ModalOverlay = n19;
-var light_green_alt2_SheetOverlay = n19;
-var light_green_alt2_DialogOverlay = n19;
-var light_green_alt2_ModalOverlay = n19;
-var light_green_active_SheetOverlay = n19;
-var light_green_active_DialogOverlay = n19;
-var light_green_active_ModalOverlay = n19;
-var light_blue_alt1_SheetOverlay = n19;
-var light_blue_alt1_DialogOverlay = n19;
-var light_blue_alt1_ModalOverlay = n19;
-var light_blue_alt2_SheetOverlay = n19;
-var light_blue_alt2_DialogOverlay = n19;
-var light_blue_alt2_ModalOverlay = n19;
-var light_blue_active_SheetOverlay = n19;
-var light_blue_active_DialogOverlay = n19;
-var light_blue_active_ModalOverlay = n19;
-var light_purple_alt1_SheetOverlay = n19;
-var light_purple_alt1_DialogOverlay = n19;
-var light_purple_alt1_ModalOverlay = n19;
-var light_purple_alt2_SheetOverlay = n19;
-var light_purple_alt2_DialogOverlay = n19;
-var light_purple_alt2_ModalOverlay = n19;
-var light_purple_active_SheetOverlay = n19;
-var light_purple_active_DialogOverlay = n19;
-var light_purple_active_ModalOverlay = n19;
-var light_pink_alt1_SheetOverlay = n19;
-var light_pink_alt1_DialogOverlay = n19;
-var light_pink_alt1_ModalOverlay = n19;
-var light_pink_alt2_SheetOverlay = n19;
-var light_pink_alt2_DialogOverlay = n19;
-var light_pink_alt2_ModalOverlay = n19;
-var light_pink_active_SheetOverlay = n19;
-var light_pink_active_DialogOverlay = n19;
-var light_pink_active_ModalOverlay = n19;
-var light_red_alt1_SheetOverlay = n19;
-var light_red_alt1_DialogOverlay = n19;
-var light_red_alt1_ModalOverlay = n19;
-var light_red_alt2_SheetOverlay = n19;
-var light_red_alt2_DialogOverlay = n19;
-var light_red_alt2_ModalOverlay = n19;
-var light_red_active_SheetOverlay = n19;
-var light_red_active_DialogOverlay = n19;
-var light_red_active_ModalOverlay = n19;
-var light_gray_alt1_SheetOverlay = n19;
-var light_gray_alt1_DialogOverlay = n19;
-var light_gray_alt1_ModalOverlay = n19;
-var light_gray_alt2_SheetOverlay = n19;
-var light_gray_alt2_DialogOverlay = n19;
-var light_gray_alt2_ModalOverlay = n19;
-var light_gray_active_SheetOverlay = n19;
-var light_gray_active_DialogOverlay = n19;
-var light_gray_active_ModalOverlay = n19;
-var n20 = t([[12, 244]]);
-var dark_SheetOverlay = n20;
-var dark_DialogOverlay = n20;
-var dark_ModalOverlay = n20;
-var dark_orange_SheetOverlay = n20;
-var dark_orange_DialogOverlay = n20;
-var dark_orange_ModalOverlay = n20;
-var dark_yellow_SheetOverlay = n20;
-var dark_yellow_DialogOverlay = n20;
-var dark_yellow_ModalOverlay = n20;
-var dark_green_SheetOverlay = n20;
-var dark_green_DialogOverlay = n20;
-var dark_green_ModalOverlay = n20;
-var dark_blue_SheetOverlay = n20;
-var dark_blue_DialogOverlay = n20;
-var dark_blue_ModalOverlay = n20;
-var dark_purple_SheetOverlay = n20;
-var dark_purple_DialogOverlay = n20;
-var dark_purple_ModalOverlay = n20;
-var dark_pink_SheetOverlay = n20;
-var dark_pink_DialogOverlay = n20;
-var dark_pink_ModalOverlay = n20;
-var dark_red_SheetOverlay = n20;
-var dark_red_DialogOverlay = n20;
-var dark_red_ModalOverlay = n20;
-var dark_gray_SheetOverlay = n20;
-var dark_gray_DialogOverlay = n20;
-var dark_gray_ModalOverlay = n20;
-var dark_alt1_SheetOverlay = n20;
-var dark_alt1_DialogOverlay = n20;
-var dark_alt1_ModalOverlay = n20;
-var dark_alt2_SheetOverlay = n20;
-var dark_alt2_DialogOverlay = n20;
-var dark_alt2_ModalOverlay = n20;
-var dark_active_SheetOverlay = n20;
-var dark_active_DialogOverlay = n20;
-var dark_active_ModalOverlay = n20;
-var dark_orange_alt1_SheetOverlay = n20;
-var dark_orange_alt1_DialogOverlay = n20;
-var dark_orange_alt1_ModalOverlay = n20;
-var dark_orange_alt2_SheetOverlay = n20;
-var dark_orange_alt2_DialogOverlay = n20;
-var dark_orange_alt2_ModalOverlay = n20;
-var dark_orange_active_SheetOverlay = n20;
-var dark_orange_active_DialogOverlay = n20;
-var dark_orange_active_ModalOverlay = n20;
-var dark_yellow_alt1_SheetOverlay = n20;
-var dark_yellow_alt1_DialogOverlay = n20;
-var dark_yellow_alt1_ModalOverlay = n20;
-var dark_yellow_alt2_SheetOverlay = n20;
-var dark_yellow_alt2_DialogOverlay = n20;
-var dark_yellow_alt2_ModalOverlay = n20;
-var dark_yellow_active_SheetOverlay = n20;
-var dark_yellow_active_DialogOverlay = n20;
-var dark_yellow_active_ModalOverlay = n20;
-var dark_green_alt1_SheetOverlay = n20;
-var dark_green_alt1_DialogOverlay = n20;
-var dark_green_alt1_ModalOverlay = n20;
-var dark_green_alt2_SheetOverlay = n20;
-var dark_green_alt2_DialogOverlay = n20;
-var dark_green_alt2_ModalOverlay = n20;
-var dark_green_active_SheetOverlay = n20;
-var dark_green_active_DialogOverlay = n20;
-var dark_green_active_ModalOverlay = n20;
-var dark_blue_alt1_SheetOverlay = n20;
-var dark_blue_alt1_DialogOverlay = n20;
-var dark_blue_alt1_ModalOverlay = n20;
-var dark_blue_alt2_SheetOverlay = n20;
-var dark_blue_alt2_DialogOverlay = n20;
-var dark_blue_alt2_ModalOverlay = n20;
-var dark_blue_active_SheetOverlay = n20;
-var dark_blue_active_DialogOverlay = n20;
-var dark_blue_active_ModalOverlay = n20;
-var dark_purple_alt1_SheetOverlay = n20;
-var dark_purple_alt1_DialogOverlay = n20;
-var dark_purple_alt1_ModalOverlay = n20;
-var dark_purple_alt2_SheetOverlay = n20;
-var dark_purple_alt2_DialogOverlay = n20;
-var dark_purple_alt2_ModalOverlay = n20;
-var dark_purple_active_SheetOverlay = n20;
-var dark_purple_active_DialogOverlay = n20;
-var dark_purple_active_ModalOverlay = n20;
-var dark_pink_alt1_SheetOverlay = n20;
-var dark_pink_alt1_DialogOverlay = n20;
-var dark_pink_alt1_ModalOverlay = n20;
-var dark_pink_alt2_SheetOverlay = n20;
-var dark_pink_alt2_DialogOverlay = n20;
-var dark_pink_alt2_ModalOverlay = n20;
-var dark_pink_active_SheetOverlay = n20;
-var dark_pink_active_DialogOverlay = n20;
-var dark_pink_active_ModalOverlay = n20;
-var dark_red_alt1_SheetOverlay = n20;
-var dark_red_alt1_DialogOverlay = n20;
-var dark_red_alt1_ModalOverlay = n20;
-var dark_red_alt2_SheetOverlay = n20;
-var dark_red_alt2_DialogOverlay = n20;
-var dark_red_alt2_ModalOverlay = n20;
-var dark_red_active_SheetOverlay = n20;
-var dark_red_active_DialogOverlay = n20;
-var dark_red_active_ModalOverlay = n20;
-var dark_gray_alt1_SheetOverlay = n20;
-var dark_gray_alt1_DialogOverlay = n20;
-var dark_gray_alt1_ModalOverlay = n20;
-var dark_gray_alt2_SheetOverlay = n20;
-var dark_gray_alt2_DialogOverlay = n20;
-var dark_gray_alt2_ModalOverlay = n20;
-var dark_gray_active_SheetOverlay = n20;
-var dark_gray_active_DialogOverlay = n20;
-var dark_gray_active_ModalOverlay = n20;
-var n21 = t([[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7], [7, 8], [8, 9], [9, 10], [10, 11], [11, 11], [12, 2], [13, 3], [14, 4], [15, 5], [16, 1], [17, 0], [18, 10], [19, 9], [20, 10], [21, 9], [22, 11], [23, 5], [24, 6], [25, 4], [26, 5], [27, 7]]);
-var light_alt1 = n21;
-var n22 = t([[0, 2], [1, 3], [2, 4], [3, 5], [4, 6], [5, 7], [6, 8], [7, 9], [8, 10], [9, 11], [10, 11], [11, 11], [12, 3], [13, 4], [14, 5], [15, 6], [16, 2], [17, 1], [18, 9], [19, 8], [20, 9], [21, 8], [22, 10], [23, 5], [24, 6], [25, 4], [26, 5], [27, 6]]);
-var light_alt2 = n22;
-var n23 = t([[0, 3], [1, 4], [2, 5], [3, 6], [4, 7], [5, 8], [6, 9], [7, 10], [8, 11], [9, 13], [10, 13], [11, 13], [12, 4], [13, 5], [14, 6], [15, 7], [16, 3], [17, 2], [19, 7], [20, 8], [21, 7], [22, 9], [23, 6], [24, 7], [25, 5], [26, 6], [27, 5]]);
-var light_active = n23;
-var n24 = t([[0, 111], [1, 112], [2, 113], [3, 114], [4, 115], [5, 116], [6, 117], [7, 118], [8, 119], [9, 120], [10, 0], [11, 0], [12, 112], [13, 113], [14, 114], [15, 115], [16, 111], [17, 110], [18, 120], [19, 119], [20, 120], [21, 119], [22, 0], [23, 115], [24, 116], [25, 114], [26, 115], [27, 117]]);
-var dark_alt1 = n24;
-var n25 = t([[0, 112], [1, 113], [2, 114], [3, 115], [4, 116], [5, 117], [6, 118], [7, 119], [8, 120], [9, 0], [10, 0], [11, 0], [12, 113], [13, 114], [14, 115], [15, 116], [16, 112], [17, 111], [18, 119], [19, 118], [20, 119], [21, 118], [22, 120], [23, 115], [24, 116], [25, 114], [26, 115], [27, 116]]);
-var dark_alt2 = n25;
-var n26 = t([[0, 113], [1, 114], [2, 115], [3, 116], [4, 117], [5, 118], [6, 119], [7, 120], [8, 0], [9, 12], [10, 12], [11, 12], [12, 114], [13, 115], [14, 116], [15, 117], [16, 113], [17, 112], [19, 117], [20, 118], [21, 117], [22, 119], [23, 116], [24, 117], [25, 115], [26, 116], [27, 115]]);
-var dark_active = n26;
-var n27 = t([[0, 49], [1, 50], [2, 51], [3, 52], [4, 53], [5, 55], [6, 56], [7, 57], [8, 58], [9, 59], [10, 11], [11, 11], [12, 50], [13, 51], [14, 52], [15, 53], [16, 49], [17, 48], [18, 59], [19, 58], [20, 59], [21, 58], [22, 11], [23, 52], [24, 53], [25, 52], [26, 52], [27, 56]]);
-var light_orange_alt1 = n27;
-var n28 = t([[0, 50], [1, 51], [2, 52], [3, 53], [4, 55], [5, 56], [6, 57], [7, 58], [8, 59], [9, 11], [10, 11], [11, 11], [12, 51], [13, 52], [14, 53], [15, 55], [16, 50], [17, 49], [18, 58], [19, 57], [20, 58], [21, 57], [22, 59], [23, 52], [24, 53], [25, 52], [26, 52], [27, 55]]);
-var light_orange_alt2 = n28;
-var n29 = t([[0, 51], [1, 52], [2, 53], [3, 55], [4, 56], [5, 57], [6, 58], [7, 59], [8, 11], [9, 212], [10, 212], [11, 212], [12, 52], [13, 53], [14, 55], [15, 56], [16, 51], [17, 50], [19, 56], [20, 57], [21, 56], [22, 58], [23, 53], [24, 55], [25, 53], [26, 53], [27, 53]]);
-var light_orange_active = n29;
-var n30 = t([[0, 97], [1, 98], [2, 99], [3, 100], [4, 101], [5, 103], [6, 104], [7, 105], [8, 106], [9, 107], [10, 11], [11, 11], [12, 98], [13, 99], [14, 100], [15, 101], [16, 97], [17, 96], [18, 107], [19, 106], [20, 107], [21, 106], [22, 11], [23, 100], [24, 101], [25, 100], [26, 100], [27, 104]]);
-var light_yellow_alt1 = n30;
-var n31 = t([[0, 98], [1, 99], [2, 100], [3, 101], [4, 103], [5, 104], [6, 105], [7, 106], [8, 107], [9, 11], [10, 11], [11, 11], [12, 99], [13, 100], [14, 101], [15, 103], [16, 98], [17, 97], [18, 106], [19, 105], [20, 106], [21, 105], [22, 107], [23, 100], [24, 101], [25, 100], [26, 100], [27, 103]]);
-var light_yellow_alt2 = n31;
-var n32 = t([[0, 99], [1, 100], [2, 101], [3, 103], [4, 104], [5, 105], [6, 106], [7, 107], [8, 11], [9, 214], [10, 214], [11, 214], [12, 100], [13, 101], [14, 103], [15, 104], [16, 99], [17, 98], [19, 104], [20, 105], [21, 104], [22, 106], [23, 101], [24, 103], [25, 101], [26, 101], [27, 101]]);
-var light_yellow_active = n32;
-var n33 = t([[0, 37], [1, 38], [2, 39], [3, 40], [4, 41], [5, 43], [6, 44], [7, 45], [8, 46], [9, 47], [10, 11], [11, 11], [12, 38], [13, 39], [14, 40], [15, 41], [16, 37], [17, 36], [18, 47], [19, 46], [20, 47], [21, 46], [22, 11], [23, 40], [24, 41], [25, 40], [26, 40], [27, 44]]);
-var light_green_alt1 = n33;
-var n34 = t([[0, 38], [1, 39], [2, 40], [3, 41], [4, 43], [5, 44], [6, 45], [7, 46], [8, 47], [9, 11], [10, 11], [11, 11], [12, 39], [13, 40], [14, 41], [15, 43], [16, 38], [17, 37], [18, 46], [19, 45], [20, 46], [21, 45], [22, 47], [23, 40], [24, 41], [25, 40], [26, 40], [27, 43]]);
-var light_green_alt2 = n34;
-var n35 = t([[0, 39], [1, 40], [2, 41], [3, 43], [4, 44], [5, 45], [6, 46], [7, 47], [8, 11], [9, 216], [10, 216], [11, 216], [12, 40], [13, 41], [14, 43], [15, 44], [16, 39], [17, 38], [19, 44], [20, 45], [21, 44], [22, 46], [23, 41], [24, 43], [25, 41], [26, 41], [27, 41]]);
-var light_green_active = n35;
-var n36 = t([[0, 15], [1, 16], [2, 17], [3, 18], [4, 19], [5, 21], [6, 22], [7, 23], [8, 24], [9, 25], [10, 11], [11, 11], [12, 16], [13, 17], [14, 18], [15, 19], [16, 15], [17, 14], [18, 25], [19, 24], [20, 25], [21, 24], [22, 11], [23, 18], [24, 19], [25, 18], [26, 18], [27, 22]]);
-var light_blue_alt1 = n36;
-var n37 = t([[0, 16], [1, 17], [2, 18], [3, 19], [4, 21], [5, 22], [6, 23], [7, 24], [8, 25], [9, 11], [10, 11], [11, 11], [12, 17], [13, 18], [14, 19], [15, 21], [16, 16], [17, 15], [18, 24], [19, 23], [20, 24], [21, 23], [22, 25], [23, 18], [24, 19], [25, 18], [26, 18], [27, 21]]);
-var light_blue_alt2 = n37;
-var n38 = t([[0, 17], [1, 18], [2, 19], [3, 21], [4, 22], [5, 23], [6, 24], [7, 25], [8, 11], [9, 218], [10, 218], [11, 218], [12, 18], [13, 19], [14, 21], [15, 22], [16, 17], [17, 16], [19, 22], [20, 23], [21, 22], [22, 24], [23, 19], [24, 21], [25, 19], [26, 19], [27, 19]]);
-var light_blue_active = n38;
-var n39 = t([[0, 73], [1, 74], [2, 75], [3, 76], [4, 77], [5, 79], [6, 80], [7, 81], [8, 82], [9, 83], [10, 11], [11, 11], [12, 74], [13, 75], [14, 76], [15, 77], [16, 73], [17, 72], [18, 83], [19, 82], [20, 83], [21, 82], [22, 11], [23, 76], [24, 77], [25, 76], [26, 76], [27, 80]]);
-var light_purple_alt1 = n39;
-var n40 = t([[0, 74], [1, 75], [2, 76], [3, 77], [4, 79], [5, 80], [6, 81], [7, 82], [8, 83], [9, 11], [10, 11], [11, 11], [12, 75], [13, 76], [14, 77], [15, 79], [16, 74], [17, 73], [18, 82], [19, 81], [20, 82], [21, 81], [22, 83], [23, 76], [24, 77], [25, 76], [26, 76], [27, 79]]);
-var light_purple_alt2 = n40;
-var n41 = t([[0, 75], [1, 76], [2, 77], [3, 79], [4, 80], [5, 81], [6, 82], [7, 83], [8, 11], [9, 220], [10, 220], [11, 220], [12, 76], [13, 77], [14, 79], [15, 80], [16, 75], [17, 74], [19, 80], [20, 81], [21, 80], [22, 82], [23, 77], [24, 79], [25, 77], [26, 77], [27, 77]]);
-var light_purple_active = n41;
-var n42 = t([[0, 61], [1, 62], [2, 63], [3, 64], [4, 65], [5, 67], [6, 68], [7, 69], [8, 70], [9, 71], [10, 11], [11, 11], [12, 62], [13, 63], [14, 64], [15, 65], [16, 61], [17, 60], [18, 71], [19, 70], [20, 71], [21, 70], [22, 11], [23, 64], [24, 65], [25, 64], [26, 64], [27, 68]]);
-var light_pink_alt1 = n42;
-var n43 = t([[0, 62], [1, 63], [2, 64], [3, 65], [4, 67], [5, 68], [6, 69], [7, 70], [8, 71], [9, 11], [10, 11], [11, 11], [12, 63], [13, 64], [14, 65], [15, 67], [16, 62], [17, 61], [18, 70], [19, 69], [20, 70], [21, 69], [22, 71], [23, 64], [24, 65], [25, 64], [26, 64], [27, 67]]);
-var light_pink_alt2 = n43;
-var n44 = t([[0, 63], [1, 64], [2, 65], [3, 67], [4, 68], [5, 69], [6, 70], [7, 71], [8, 11], [9, 222], [10, 222], [11, 222], [12, 64], [13, 65], [14, 67], [15, 68], [16, 63], [17, 62], [19, 68], [20, 69], [21, 68], [22, 70], [23, 65], [24, 67], [25, 65], [26, 65], [27, 65]]);
-var light_pink_active = n44;
-var n45 = t([[0, 85], [1, 86], [2, 87], [3, 88], [4, 89], [5, 91], [6, 92], [7, 93], [8, 94], [9, 95], [10, 11], [11, 11], [12, 86], [13, 87], [14, 88], [15, 89], [16, 85], [17, 84], [18, 95], [19, 94], [20, 95], [21, 94], [22, 11], [23, 88], [24, 89], [25, 88], [26, 88], [27, 92]]);
-var light_red_alt1 = n45;
-var n46 = t([[0, 86], [1, 87], [2, 88], [3, 89], [4, 91], [5, 92], [6, 93], [7, 94], [8, 95], [9, 11], [10, 11], [11, 11], [12, 87], [13, 88], [14, 89], [15, 91], [16, 86], [17, 85], [18, 94], [19, 93], [20, 94], [21, 93], [22, 95], [23, 88], [24, 89], [25, 88], [26, 88], [27, 91]]);
-var light_red_alt2 = n46;
-var n47 = t([[0, 87], [1, 88], [2, 89], [3, 91], [4, 92], [5, 93], [6, 94], [7, 95], [8, 11], [9, 224], [10, 224], [11, 224], [12, 88], [13, 89], [14, 91], [15, 92], [16, 87], [17, 86], [19, 92], [20, 93], [21, 92], [22, 94], [23, 89], [24, 91], [25, 89], [26, 89], [27, 89]]);
-var light_red_active = n47;
-var n48 = t([[0, 27], [1, 28], [2, 29], [3, 30], [4, 31], [5, 33], [6, 8], [7, 34], [8, 35], [9, 11], [10, 11], [11, 11], [12, 28], [13, 29], [14, 30], [15, 31], [16, 27], [17, 26], [18, 11], [19, 35], [20, 11], [21, 35], [22, 11], [23, 30], [24, 31], [25, 30], [26, 30], [27, 8]]);
-var light_gray_alt1 = n48;
-var n49 = t([[0, 28], [1, 29], [2, 30], [3, 31], [4, 33], [5, 8], [6, 34], [7, 35], [8, 11], [9, 11], [10, 11], [11, 11], [12, 29], [13, 30], [14, 31], [15, 33], [16, 28], [17, 27], [18, 35], [19, 34], [20, 35], [21, 34], [22, 11], [23, 30], [24, 31], [25, 30], [26, 30], [27, 33]]);
-var light_gray_alt2 = n49;
-var n50 = t([[0, 29], [1, 30], [2, 31], [3, 33], [4, 8], [5, 34], [6, 35], [7, 11], [8, 11], [9, 226], [10, 226], [11, 226], [12, 30], [13, 31], [14, 33], [15, 8], [16, 29], [17, 28], [19, 8], [20, 34], [21, 8], [22, 35], [23, 31], [24, 33], [25, 31], [26, 31], [27, 31]]);
-var light_gray_active = n50;
-var n51 = t([[0, 155], [1, 156], [2, 157], [3, 158], [4, 159], [5, 161], [6, 56], [7, 162], [8, 163], [9, 164], [10, 0], [11, 0], [12, 156], [13, 157], [14, 158], [15, 159], [16, 155], [17, 154], [18, 164], [19, 163], [20, 164], [21, 163], [22, 0], [23, 159], [24, 161], [25, 158], [26, 159], [27, 56]]);
-var dark_orange_alt1 = n51;
-var n52 = t([[0, 156], [1, 157], [2, 158], [3, 159], [4, 161], [5, 56], [6, 162], [7, 163], [8, 164], [9, 0], [10, 0], [11, 0], [12, 157], [13, 158], [14, 159], [15, 161], [16, 156], [17, 155], [18, 163], [19, 162], [20, 163], [21, 162], [22, 164], [23, 159], [24, 161], [25, 158], [26, 159], [27, 161]]);
-var dark_orange_alt2 = n52;
-var n53 = t([[0, 157], [1, 158], [2, 159], [3, 161], [4, 56], [5, 162], [6, 163], [7, 164], [8, 0], [9, 228], [10, 228], [11, 228], [12, 158], [13, 159], [14, 161], [15, 56], [16, 157], [17, 156], [19, 56], [20, 162], [21, 56], [22, 163], [23, 161], [24, 56], [25, 159], [26, 161], [27, 159]]);
-var dark_orange_active = n53;
-var n54 = t([[0, 199], [1, 200], [2, 201], [3, 202], [4, 203], [5, 205], [6, 104], [7, 206], [8, 207], [9, 208], [10, 0], [11, 0], [12, 200], [13, 201], [14, 202], [15, 203], [16, 199], [17, 198], [18, 208], [19, 207], [20, 208], [21, 207], [22, 0], [23, 203], [24, 205], [25, 202], [26, 203], [27, 104]]);
-var dark_yellow_alt1 = n54;
-var n55 = t([[0, 200], [1, 201], [2, 202], [3, 203], [4, 205], [5, 104], [6, 206], [7, 207], [8, 208], [9, 0], [10, 0], [11, 0], [12, 201], [13, 202], [14, 203], [15, 205], [16, 200], [17, 199], [18, 207], [19, 206], [20, 207], [21, 206], [22, 208], [23, 203], [24, 205], [25, 202], [26, 203], [27, 205]]);
-var dark_yellow_alt2 = n55;
-var n56 = t([[0, 201], [1, 202], [2, 203], [3, 205], [4, 104], [5, 206], [6, 207], [7, 208], [8, 0], [9, 230], [10, 230], [11, 230], [12, 202], [13, 203], [14, 205], [15, 104], [16, 201], [17, 200], [19, 104], [20, 206], [21, 104], [22, 207], [23, 205], [24, 104], [25, 203], [26, 205], [27, 203]]);
-var dark_yellow_active = n56;
-var n57 = t([[0, 144], [1, 145], [2, 146], [3, 147], [4, 148], [5, 150], [6, 44], [7, 151], [8, 152], [9, 153], [10, 0], [11, 0], [12, 145], [13, 146], [14, 147], [15, 148], [16, 144], [17, 143], [18, 153], [19, 152], [20, 153], [21, 152], [22, 0], [23, 148], [24, 150], [25, 147], [26, 148], [27, 44]]);
-var dark_green_alt1 = n57;
-var n58 = t([[0, 145], [1, 146], [2, 147], [3, 148], [4, 150], [5, 44], [6, 151], [7, 152], [8, 153], [9, 0], [10, 0], [11, 0], [12, 146], [13, 147], [14, 148], [15, 150], [16, 145], [17, 144], [18, 152], [19, 151], [20, 152], [21, 151], [22, 153], [23, 148], [24, 150], [25, 147], [26, 148], [27, 150]]);
-var dark_green_alt2 = n58;
-var n59 = t([[0, 146], [1, 147], [2, 148], [3, 150], [4, 44], [5, 151], [6, 152], [7, 153], [8, 0], [9, 232], [10, 232], [11, 232], [12, 147], [13, 148], [14, 150], [15, 44], [16, 146], [17, 145], [19, 44], [20, 151], [21, 44], [22, 152], [23, 150], [24, 44], [25, 148], [26, 150], [27, 148]]);
-var dark_green_active = n59;
-var n60 = t([[0, 122], [1, 123], [2, 124], [3, 125], [4, 126], [5, 128], [6, 22], [7, 129], [8, 130], [9, 131], [10, 0], [11, 0], [12, 123], [13, 124], [14, 125], [15, 126], [16, 122], [17, 121], [18, 131], [19, 130], [20, 131], [21, 130], [22, 0], [23, 126], [24, 128], [25, 125], [26, 126], [27, 22]]);
-var dark_blue_alt1 = n60;
-var n61 = t([[0, 123], [1, 124], [2, 125], [3, 126], [4, 128], [5, 22], [6, 129], [7, 130], [8, 131], [9, 0], [10, 0], [11, 0], [12, 124], [13, 125], [14, 126], [15, 128], [16, 123], [17, 122], [18, 130], [19, 129], [20, 130], [21, 129], [22, 131], [23, 126], [24, 128], [25, 125], [26, 126], [27, 128]]);
-var dark_blue_alt2 = n61;
-var n62 = t([[0, 124], [1, 125], [2, 126], [3, 128], [4, 22], [5, 129], [6, 130], [7, 131], [8, 0], [9, 234], [10, 234], [11, 234], [12, 125], [13, 126], [14, 128], [15, 22], [16, 124], [17, 123], [19, 22], [20, 129], [21, 22], [22, 130], [23, 128], [24, 22], [25, 126], [26, 128], [27, 126]]);
-var dark_blue_active = n62;
-var n63 = t([[0, 177], [1, 178], [2, 179], [3, 180], [4, 181], [5, 183], [6, 80], [7, 184], [8, 185], [9, 186], [10, 0], [11, 0], [12, 178], [13, 179], [14, 180], [15, 181], [16, 177], [17, 176], [18, 186], [19, 185], [20, 186], [21, 185], [22, 0], [23, 181], [24, 183], [25, 180], [26, 181], [27, 80]]);
-var dark_purple_alt1 = n63;
-var n64 = t([[0, 178], [1, 179], [2, 180], [3, 181], [4, 183], [5, 80], [6, 184], [7, 185], [8, 186], [9, 0], [10, 0], [11, 0], [12, 179], [13, 180], [14, 181], [15, 183], [16, 178], [17, 177], [18, 185], [19, 184], [20, 185], [21, 184], [22, 186], [23, 181], [24, 183], [25, 180], [26, 181], [27, 183]]);
-var dark_purple_alt2 = n64;
-var n65 = t([[0, 179], [1, 180], [2, 181], [3, 183], [4, 80], [5, 184], [6, 185], [7, 186], [8, 0], [9, 236], [10, 236], [11, 236], [12, 180], [13, 181], [14, 183], [15, 80], [16, 179], [17, 178], [19, 80], [20, 184], [21, 80], [22, 185], [23, 183], [24, 80], [25, 181], [26, 183], [27, 181]]);
-var dark_purple_active = n65;
-var n66 = t([[0, 166], [1, 167], [2, 168], [3, 169], [4, 170], [5, 172], [6, 68], [7, 173], [8, 174], [9, 175], [10, 0], [11, 0], [12, 167], [13, 168], [14, 169], [15, 170], [16, 166], [17, 165], [18, 175], [19, 174], [20, 175], [21, 174], [22, 0], [23, 170], [24, 172], [25, 169], [26, 170], [27, 68]]);
-var dark_pink_alt1 = n66;
-var n67 = t([[0, 167], [1, 168], [2, 169], [3, 170], [4, 172], [5, 68], [6, 173], [7, 174], [8, 175], [9, 0], [10, 0], [11, 0], [12, 168], [13, 169], [14, 170], [15, 172], [16, 167], [17, 166], [18, 174], [19, 173], [20, 174], [21, 173], [22, 175], [23, 170], [24, 172], [25, 169], [26, 170], [27, 172]]);
-var dark_pink_alt2 = n67;
-var n68 = t([[0, 168], [1, 169], [2, 170], [3, 172], [4, 68], [5, 173], [6, 174], [7, 175], [8, 0], [9, 238], [10, 238], [11, 238], [12, 169], [13, 170], [14, 172], [15, 68], [16, 168], [17, 167], [19, 68], [20, 173], [21, 68], [22, 174], [23, 172], [24, 68], [25, 170], [26, 172], [27, 170]]);
-var dark_pink_active = n68;
-var n69 = t([[0, 188], [1, 189], [2, 190], [3, 191], [4, 192], [5, 194], [6, 92], [7, 195], [8, 196], [9, 197], [10, 0], [11, 0], [12, 189], [13, 190], [14, 191], [15, 192], [16, 188], [17, 187], [18, 197], [19, 196], [20, 197], [21, 196], [22, 0], [23, 192], [24, 194], [25, 191], [26, 192], [27, 92]]);
-var dark_red_alt1 = n69;
-var n70 = t([[0, 189], [1, 190], [2, 191], [3, 192], [4, 194], [5, 92], [6, 195], [7, 196], [8, 197], [9, 0], [10, 0], [11, 0], [12, 190], [13, 191], [14, 192], [15, 194], [16, 189], [17, 188], [18, 196], [19, 195], [20, 196], [21, 195], [22, 197], [23, 192], [24, 194], [25, 191], [26, 192], [27, 194]]);
-var dark_red_alt2 = n70;
-var n71 = t([[0, 190], [1, 191], [2, 192], [3, 194], [4, 92], [5, 195], [6, 196], [7, 197], [8, 0], [9, 240], [10, 240], [11, 240], [12, 191], [13, 192], [14, 194], [15, 92], [16, 190], [17, 189], [19, 92], [20, 195], [21, 92], [22, 196], [23, 194], [24, 92], [25, 192], [26, 194], [27, 192]]);
-var dark_red_active = n71;
-var n72 = t([[0, 133], [1, 134], [2, 135], [3, 136], [4, 137], [5, 139], [6, 140], [7, 141], [8, 142], [9, 29], [10, 0], [11, 0], [12, 134], [13, 135], [14, 136], [15, 137], [16, 133], [17, 132], [18, 29], [19, 142], [20, 29], [21, 142], [22, 0], [23, 137], [24, 139], [25, 136], [26, 137], [27, 140]]);
-var dark_gray_alt1 = n72;
-var n73 = t([[0, 134], [1, 135], [2, 136], [3, 137], [4, 139], [5, 140], [6, 141], [7, 142], [8, 29], [9, 0], [10, 0], [11, 0], [12, 135], [13, 136], [14, 137], [15, 139], [16, 134], [17, 133], [18, 142], [19, 141], [20, 142], [21, 141], [22, 29], [23, 137], [24, 139], [25, 136], [26, 137], [27, 139]]);
-var dark_gray_alt2 = n73;
-var n74 = t([[0, 135], [1, 136], [2, 137], [3, 139], [4, 140], [5, 141], [6, 142], [7, 29], [8, 0], [9, 242], [10, 242], [11, 242], [12, 136], [13, 137], [14, 139], [15, 140], [16, 135], [17, 134], [19, 140], [20, 141], [21, 140], [22, 142], [23, 139], [24, 140], [25, 137], [26, 139], [27, 137]]);
-var dark_gray_active = n74;
-var n75 = t([[12, 1], [13, 2], [14, 3], [15, 4], [16, 0], [17, 12], [18, 11], [19, 10], [20, 11], [21, 10], [22, 13], [23, 4], [24, 5], [25, 3], [26, 4], [27, 8]]);
-var light_ListItem = n75;
-var n76 = t([[12, 2], [13, 3], [14, 4], [15, 5], [16, 1], [17, 0], [18, 11], [19, 10], [20, 11], [21, 10], [22, 11], [23, 5], [24, 6], [25, 4], [26, 5], [27, 7]]);
-var light_Card = n76;
-var light_DrawerFrame = n76;
-var light_Progress = n76;
-var light_TooltipArrow = n76;
-var n77 = t([[12, 3], [13, 4], [14, 5], [15, 6], [16, 2], [17, 1], [18, 11], [19, 10], [20, 11], [21, 10], [22, 10], [23, 5], [24, 6], [25, 4], [26, 5], [27, 6]]);
-var light_Button = n77;
-var light_Switch = n77;
-var light_TooltipContent = n77;
-var light_SliderTrack = n77;
-var n78 = t([[12, 1], [13, 2], [14, 3], [15, 4], [16, 0], [17, 12], [18, 11], [19, 10], [20, 11], [21, 10], [22, 13], [23, 6], [24, 7], [25, 5], [26, 6], [27, 8]]);
-var light_Checkbox = n78;
-var light_RadioGroupItem = n78;
-var light_Input = n78;
-var light_TextArea = n78;
-var n79 = t([[12, 11], [13, 11], [14, 10], [15, 9], [16, 11], [17, 11], [18, 0], [19, 1], [20, 0], [21, 1], [22, 0], [23, 9], [24, 8], [25, 10], [26, 9], [27, 1]]);
-var light_SwitchThumb = n79;
-var n80 = t([[12, 8], [13, 7], [14, 6], [15, 5], [16, 9], [17, 10], [18, 0], [19, 1], [20, 0], [21, 1], [22, 1], [23, 5], [24, 4], [25, 6], [26, 5], [27, 5]]);
-var light_SliderTrackActive = n80;
-var n81 = t([[12, 10], [13, 9], [14, 8], [15, 7], [16, 11], [17, 13], [18, 0], [19, 1], [20, 0], [21, 1], [22, 12], [23, 7], [24, 6], [25, 8], [26, 7], [27, 3]]);
-var light_SliderThumb = n81;
-var light_Tooltip = n81;
-var light_ProgressIndicator = n81;
-var n82 = t([[12, 111], [13, 112], [14, 113], [15, 114], [16, 110], [17, 13], [18, 0], [19, 120], [20, 0], [21, 120], [22, 12], [23, 114], [24, 115], [25, 113], [26, 114], [27, 118]]);
-var dark_ListItem = n82;
-var n83 = t([[12, 112], [13, 113], [14, 114], [15, 115], [16, 111], [17, 110], [18, 0], [19, 120], [20, 0], [21, 120], [22, 0], [23, 115], [24, 116], [25, 114], [26, 115], [27, 117]]);
-var dark_Card = n83;
-var dark_DrawerFrame = n83;
-var dark_Progress = n83;
-var dark_TooltipArrow = n83;
-var n84 = t([[12, 113], [13, 114], [14, 115], [15, 116], [16, 112], [17, 111], [18, 0], [19, 120], [20, 0], [21, 120], [22, 120], [23, 115], [24, 116], [25, 114], [26, 115], [27, 116]]);
-var dark_Button = n84;
-var dark_Switch = n84;
-var dark_TooltipContent = n84;
-var dark_SliderTrack = n84;
-var n85 = t([[12, 111], [13, 112], [14, 113], [15, 114], [16, 110], [17, 13], [18, 0], [19, 120], [20, 0], [21, 120], [22, 12], [23, 116], [24, 117], [25, 115], [26, 116], [27, 118]]);
-var dark_Checkbox = n85;
-var dark_RadioGroupItem = n85;
-var dark_Input = n85;
-var dark_TextArea = n85;
-var n86 = t([[12, 0], [13, 0], [14, 120], [15, 119], [16, 0], [17, 0], [18, 110], [19, 111], [20, 110], [21, 111], [22, 110], [23, 119], [24, 118], [25, 120], [26, 119], [27, 111]]);
-var dark_SwitchThumb = n86;
-var n87 = t([[12, 118], [13, 117], [14, 116], [15, 115], [16, 119], [17, 120], [18, 110], [19, 111], [20, 110], [21, 111], [22, 111], [23, 115], [24, 114], [25, 116], [26, 115], [27, 115]]);
-var dark_SliderTrackActive = n87;
-var n88 = t([[12, 120], [13, 119], [14, 118], [15, 117], [16, 0], [17, 12], [18, 110], [19, 111], [20, 110], [21, 111], [22, 13], [23, 117], [24, 116], [25, 118], [26, 117], [27, 113]]);
-var dark_SliderThumb = n88;
-var dark_Tooltip = n88;
-var dark_ProgressIndicator = n88;
-var n89 = t([[12, 49], [13, 50], [14, 51], [15, 52], [16, 48], [17, 211], [18, 11], [19, 59], [20, 11], [21, 59], [22, 212], [23, 51], [24, 52], [25, 51], [26, 51], [27, 57]]);
-var light_orange_ListItem = n89;
-var n90 = t([[12, 50], [13, 51], [14, 52], [15, 53], [16, 49], [17, 48], [18, 11], [19, 59], [20, 11], [21, 59], [22, 11], [23, 52], [24, 53], [25, 52], [26, 52], [27, 56]]);
-var light_orange_Card = n90;
-var light_orange_DrawerFrame = n90;
-var light_orange_Progress = n90;
-var light_orange_TooltipArrow = n90;
-var n91 = t([[12, 51], [13, 52], [14, 53], [15, 55], [16, 50], [17, 49], [18, 11], [19, 59], [20, 11], [21, 59], [22, 59], [23, 52], [24, 53], [25, 52], [26, 52], [27, 55]]);
-var light_orange_Button = n91;
-var light_orange_Switch = n91;
-var light_orange_TooltipContent = n91;
-var light_orange_SliderTrack = n91;
-var n92 = t([[12, 49], [13, 50], [14, 51], [15, 52], [16, 48], [17, 211], [18, 11], [19, 59], [20, 11], [21, 59], [22, 212], [23, 53], [24, 55], [25, 53], [26, 53], [27, 57]]);
-var light_orange_Checkbox = n92;
-var light_orange_RadioGroupItem = n92;
-var light_orange_Input = n92;
-var light_orange_TextArea = n92;
-var n93 = t([[12, 11], [13, 11], [14, 59], [15, 58], [16, 11], [17, 11], [18, 48], [19, 49], [20, 48], [21, 49], [22, 48], [23, 59], [24, 58], [25, 59], [26, 59], [27, 49]]);
-var light_orange_SwitchThumb = n93;
-var n94 = t([[12, 57], [13, 56], [14, 55], [15, 53], [16, 58], [17, 59], [18, 48], [19, 49], [20, 48], [21, 49], [22, 49], [23, 55], [24, 53], [25, 55], [26, 55], [27, 53]]);
-var light_orange_SliderTrackActive = n94;
-var n95 = t([[12, 59], [13, 58], [14, 57], [15, 56], [16, 11], [17, 212], [18, 48], [19, 49], [20, 48], [21, 49], [22, 211], [23, 57], [24, 56], [25, 57], [26, 57], [27, 51]]);
-var light_orange_SliderThumb = n95;
-var light_orange_Tooltip = n95;
-var light_orange_ProgressIndicator = n95;
-var n96 = t([[12, 97], [13, 98], [14, 99], [15, 100], [16, 96], [17, 213], [18, 11], [19, 107], [20, 11], [21, 107], [22, 214], [23, 99], [24, 100], [25, 99], [26, 99], [27, 105]]);
-var light_yellow_ListItem = n96;
-var n97 = t([[12, 98], [13, 99], [14, 100], [15, 101], [16, 97], [17, 96], [18, 11], [19, 107], [20, 11], [21, 107], [22, 11], [23, 100], [24, 101], [25, 100], [26, 100], [27, 104]]);
-var light_yellow_Card = n97;
-var light_yellow_DrawerFrame = n97;
-var light_yellow_Progress = n97;
-var light_yellow_TooltipArrow = n97;
-var n98 = t([[12, 99], [13, 100], [14, 101], [15, 103], [16, 98], [17, 97], [18, 11], [19, 107], [20, 11], [21, 107], [22, 107], [23, 100], [24, 101], [25, 100], [26, 100], [27, 103]]);
-var light_yellow_Button = n98;
-var light_yellow_Switch = n98;
-var light_yellow_TooltipContent = n98;
-var light_yellow_SliderTrack = n98;
-var n99 = t([[12, 97], [13, 98], [14, 99], [15, 100], [16, 96], [17, 213], [18, 11], [19, 107], [20, 11], [21, 107], [22, 214], [23, 101], [24, 103], [25, 101], [26, 101], [27, 105]]);
-var light_yellow_Checkbox = n99;
-var light_yellow_RadioGroupItem = n99;
-var light_yellow_Input = n99;
-var light_yellow_TextArea = n99;
-var n100 = t([[12, 11], [13, 11], [14, 107], [15, 106], [16, 11], [17, 11], [18, 96], [19, 97], [20, 96], [21, 97], [22, 96], [23, 107], [24, 106], [25, 107], [26, 107], [27, 97]]);
-var light_yellow_SwitchThumb = n100;
-var n101 = t([[12, 105], [13, 104], [14, 103], [15, 101], [16, 106], [17, 107], [18, 96], [19, 97], [20, 96], [21, 97], [22, 97], [23, 103], [24, 101], [25, 103], [26, 103], [27, 101]]);
-var light_yellow_SliderTrackActive = n101;
-var n102 = t([[12, 107], [13, 106], [14, 105], [15, 104], [16, 11], [17, 214], [18, 96], [19, 97], [20, 96], [21, 97], [22, 213], [23, 105], [24, 104], [25, 105], [26, 105], [27, 99]]);
-var light_yellow_SliderThumb = n102;
-var light_yellow_Tooltip = n102;
-var light_yellow_ProgressIndicator = n102;
-var n103 = t([[12, 37], [13, 38], [14, 39], [15, 40], [16, 36], [17, 215], [18, 11], [19, 47], [20, 11], [21, 47], [22, 216], [23, 39], [24, 40], [25, 39], [26, 39], [27, 45]]);
-var light_green_ListItem = n103;
-var n104 = t([[12, 38], [13, 39], [14, 40], [15, 41], [16, 37], [17, 36], [18, 11], [19, 47], [20, 11], [21, 47], [22, 11], [23, 40], [24, 41], [25, 40], [26, 40], [27, 44]]);
-var light_green_Card = n104;
-var light_green_DrawerFrame = n104;
-var light_green_Progress = n104;
-var light_green_TooltipArrow = n104;
-var n105 = t([[12, 39], [13, 40], [14, 41], [15, 43], [16, 38], [17, 37], [18, 11], [19, 47], [20, 11], [21, 47], [22, 47], [23, 40], [24, 41], [25, 40], [26, 40], [27, 43]]);
-var light_green_Button = n105;
-var light_green_Switch = n105;
-var light_green_TooltipContent = n105;
-var light_green_SliderTrack = n105;
-var n106 = t([[12, 37], [13, 38], [14, 39], [15, 40], [16, 36], [17, 215], [18, 11], [19, 47], [20, 11], [21, 47], [22, 216], [23, 41], [24, 43], [25, 41], [26, 41], [27, 45]]);
-var light_green_Checkbox = n106;
-var light_green_RadioGroupItem = n106;
-var light_green_Input = n106;
-var light_green_TextArea = n106;
-var n107 = t([[12, 11], [13, 11], [14, 47], [15, 46], [16, 11], [17, 11], [18, 36], [19, 37], [20, 36], [21, 37], [22, 36], [23, 47], [24, 46], [25, 47], [26, 47], [27, 37]]);
-var light_green_SwitchThumb = n107;
-var n108 = t([[12, 45], [13, 44], [14, 43], [15, 41], [16, 46], [17, 47], [18, 36], [19, 37], [20, 36], [21, 37], [22, 37], [23, 43], [24, 41], [25, 43], [26, 43], [27, 41]]);
-var light_green_SliderTrackActive = n108;
-var n109 = t([[12, 47], [13, 46], [14, 45], [15, 44], [16, 11], [17, 216], [18, 36], [19, 37], [20, 36], [21, 37], [22, 215], [23, 45], [24, 44], [25, 45], [26, 45], [27, 39]]);
-var light_green_SliderThumb = n109;
-var light_green_Tooltip = n109;
-var light_green_ProgressIndicator = n109;
-var n110 = t([[12, 15], [13, 16], [14, 17], [15, 18], [16, 14], [17, 217], [18, 11], [19, 25], [20, 11], [21, 25], [22, 218], [23, 17], [24, 18], [25, 17], [26, 17], [27, 23]]);
-var light_blue_ListItem = n110;
-var n111 = t([[12, 16], [13, 17], [14, 18], [15, 19], [16, 15], [17, 14], [18, 11], [19, 25], [20, 11], [21, 25], [22, 11], [23, 18], [24, 19], [25, 18], [26, 18], [27, 22]]);
-var light_blue_Card = n111;
-var light_blue_DrawerFrame = n111;
-var light_blue_Progress = n111;
-var light_blue_TooltipArrow = n111;
-var n112 = t([[12, 17], [13, 18], [14, 19], [15, 21], [16, 16], [17, 15], [18, 11], [19, 25], [20, 11], [21, 25], [22, 25], [23, 18], [24, 19], [25, 18], [26, 18], [27, 21]]);
-var light_blue_Button = n112;
-var light_blue_Switch = n112;
-var light_blue_TooltipContent = n112;
-var light_blue_SliderTrack = n112;
-var n113 = t([[12, 15], [13, 16], [14, 17], [15, 18], [16, 14], [17, 217], [18, 11], [19, 25], [20, 11], [21, 25], [22, 218], [23, 19], [24, 21], [25, 19], [26, 19], [27, 23]]);
-var light_blue_Checkbox = n113;
-var light_blue_RadioGroupItem = n113;
-var light_blue_Input = n113;
-var light_blue_TextArea = n113;
-var n114 = t([[12, 11], [13, 11], [14, 25], [15, 24], [16, 11], [17, 11], [18, 14], [19, 15], [20, 14], [21, 15], [22, 14], [23, 25], [24, 24], [25, 25], [26, 25], [27, 15]]);
-var light_blue_SwitchThumb = n114;
-var n115 = t([[12, 23], [13, 22], [14, 21], [15, 19], [16, 24], [17, 25], [18, 14], [19, 15], [20, 14], [21, 15], [22, 15], [23, 21], [24, 19], [25, 21], [26, 21], [27, 19]]);
-var light_blue_SliderTrackActive = n115;
-var n116 = t([[12, 25], [13, 24], [14, 23], [15, 22], [16, 11], [17, 218], [18, 14], [19, 15], [20, 14], [21, 15], [22, 217], [23, 23], [24, 22], [25, 23], [26, 23], [27, 17]]);
-var light_blue_SliderThumb = n116;
-var light_blue_Tooltip = n116;
-var light_blue_ProgressIndicator = n116;
-var n117 = t([[12, 73], [13, 74], [14, 75], [15, 76], [16, 72], [17, 219], [18, 11], [19, 83], [20, 11], [21, 83], [22, 220], [23, 75], [24, 76], [25, 75], [26, 75], [27, 81]]);
-var light_purple_ListItem = n117;
-var n118 = t([[12, 74], [13, 75], [14, 76], [15, 77], [16, 73], [17, 72], [18, 11], [19, 83], [20, 11], [21, 83], [22, 11], [23, 76], [24, 77], [25, 76], [26, 76], [27, 80]]);
-var light_purple_Card = n118;
-var light_purple_DrawerFrame = n118;
-var light_purple_Progress = n118;
-var light_purple_TooltipArrow = n118;
-var n119 = t([[12, 75], [13, 76], [14, 77], [15, 79], [16, 74], [17, 73], [18, 11], [19, 83], [20, 11], [21, 83], [22, 83], [23, 76], [24, 77], [25, 76], [26, 76], [27, 79]]);
-var light_purple_Button = n119;
-var light_purple_Switch = n119;
-var light_purple_TooltipContent = n119;
-var light_purple_SliderTrack = n119;
-var n120 = t([[12, 73], [13, 74], [14, 75], [15, 76], [16, 72], [17, 219], [18, 11], [19, 83], [20, 11], [21, 83], [22, 220], [23, 77], [24, 79], [25, 77], [26, 77], [27, 81]]);
-var light_purple_Checkbox = n120;
-var light_purple_RadioGroupItem = n120;
-var light_purple_Input = n120;
-var light_purple_TextArea = n120;
-var n121 = t([[12, 11], [13, 11], [14, 83], [15, 82], [16, 11], [17, 11], [18, 72], [19, 73], [20, 72], [21, 73], [22, 72], [23, 83], [24, 82], [25, 83], [26, 83], [27, 73]]);
-var light_purple_SwitchThumb = n121;
-var n122 = t([[12, 81], [13, 80], [14, 79], [15, 77], [16, 82], [17, 83], [18, 72], [19, 73], [20, 72], [21, 73], [22, 73], [23, 79], [24, 77], [25, 79], [26, 79], [27, 77]]);
-var light_purple_SliderTrackActive = n122;
-var n123 = t([[12, 83], [13, 82], [14, 81], [15, 80], [16, 11], [17, 220], [18, 72], [19, 73], [20, 72], [21, 73], [22, 219], [23, 81], [24, 80], [25, 81], [26, 81], [27, 75]]);
-var light_purple_SliderThumb = n123;
-var light_purple_Tooltip = n123;
-var light_purple_ProgressIndicator = n123;
-var n124 = t([[12, 61], [13, 62], [14, 63], [15, 64], [16, 60], [17, 221], [18, 11], [19, 71], [20, 11], [21, 71], [22, 222], [23, 63], [24, 64], [25, 63], [26, 63], [27, 69]]);
-var light_pink_ListItem = n124;
-var n125 = t([[12, 62], [13, 63], [14, 64], [15, 65], [16, 61], [17, 60], [18, 11], [19, 71], [20, 11], [21, 71], [22, 11], [23, 64], [24, 65], [25, 64], [26, 64], [27, 68]]);
-var light_pink_Card = n125;
-var light_pink_DrawerFrame = n125;
-var light_pink_Progress = n125;
-var light_pink_TooltipArrow = n125;
-var n126 = t([[12, 63], [13, 64], [14, 65], [15, 67], [16, 62], [17, 61], [18, 11], [19, 71], [20, 11], [21, 71], [22, 71], [23, 64], [24, 65], [25, 64], [26, 64], [27, 67]]);
-var light_pink_Button = n126;
-var light_pink_Switch = n126;
-var light_pink_TooltipContent = n126;
-var light_pink_SliderTrack = n126;
-var n127 = t([[12, 61], [13, 62], [14, 63], [15, 64], [16, 60], [17, 221], [18, 11], [19, 71], [20, 11], [21, 71], [22, 222], [23, 65], [24, 67], [25, 65], [26, 65], [27, 69]]);
-var light_pink_Checkbox = n127;
-var light_pink_RadioGroupItem = n127;
-var light_pink_Input = n127;
-var light_pink_TextArea = n127;
-var n128 = t([[12, 11], [13, 11], [14, 71], [15, 70], [16, 11], [17, 11], [18, 60], [19, 61], [20, 60], [21, 61], [22, 60], [23, 71], [24, 70], [25, 71], [26, 71], [27, 61]]);
-var light_pink_SwitchThumb = n128;
-var n129 = t([[12, 69], [13, 68], [14, 67], [15, 65], [16, 70], [17, 71], [18, 60], [19, 61], [20, 60], [21, 61], [22, 61], [23, 67], [24, 65], [25, 67], [26, 67], [27, 65]]);
-var light_pink_SliderTrackActive = n129;
-var n130 = t([[12, 71], [13, 70], [14, 69], [15, 68], [16, 11], [17, 222], [18, 60], [19, 61], [20, 60], [21, 61], [22, 221], [23, 69], [24, 68], [25, 69], [26, 69], [27, 63]]);
-var light_pink_SliderThumb = n130;
-var light_pink_Tooltip = n130;
-var light_pink_ProgressIndicator = n130;
-var n131 = t([[12, 85], [13, 86], [14, 87], [15, 88], [16, 84], [17, 223], [18, 11], [19, 95], [20, 11], [21, 95], [22, 224], [23, 87], [24, 88], [25, 87], [26, 87], [27, 93]]);
-var light_red_ListItem = n131;
-var n132 = t([[12, 86], [13, 87], [14, 88], [15, 89], [16, 85], [17, 84], [18, 11], [19, 95], [20, 11], [21, 95], [22, 11], [23, 88], [24, 89], [25, 88], [26, 88], [27, 92]]);
-var light_red_Card = n132;
-var light_red_DrawerFrame = n132;
-var light_red_Progress = n132;
-var light_red_TooltipArrow = n132;
-var n133 = t([[12, 87], [13, 88], [14, 89], [15, 91], [16, 86], [17, 85], [18, 11], [19, 95], [20, 11], [21, 95], [22, 95], [23, 88], [24, 89], [25, 88], [26, 88], [27, 91]]);
-var light_red_Button = n133;
-var light_red_Switch = n133;
-var light_red_TooltipContent = n133;
-var light_red_SliderTrack = n133;
-var n134 = t([[12, 85], [13, 86], [14, 87], [15, 88], [16, 84], [17, 223], [18, 11], [19, 95], [20, 11], [21, 95], [22, 224], [23, 89], [24, 91], [25, 89], [26, 89], [27, 93]]);
-var light_red_Checkbox = n134;
-var light_red_RadioGroupItem = n134;
-var light_red_Input = n134;
-var light_red_TextArea = n134;
-var n135 = t([[12, 11], [13, 11], [14, 95], [15, 94], [16, 11], [17, 11], [18, 84], [19, 85], [20, 84], [21, 85], [22, 84], [23, 95], [24, 94], [25, 95], [26, 95], [27, 85]]);
-var light_red_SwitchThumb = n135;
-var n136 = t([[12, 93], [13, 92], [14, 91], [15, 89], [16, 94], [17, 95], [18, 84], [19, 85], [20, 84], [21, 85], [22, 85], [23, 91], [24, 89], [25, 91], [26, 91], [27, 89]]);
-var light_red_SliderTrackActive = n136;
-var n137 = t([[12, 95], [13, 94], [14, 93], [15, 92], [16, 11], [17, 224], [18, 84], [19, 85], [20, 84], [21, 85], [22, 223], [23, 93], [24, 92], [25, 93], [26, 93], [27, 87]]);
-var light_red_SliderThumb = n137;
-var light_red_Tooltip = n137;
-var light_red_ProgressIndicator = n137;
-var n138 = t([[12, 27], [13, 28], [14, 29], [15, 30], [16, 26], [17, 225], [18, 11], [19, 11], [20, 11], [21, 11], [22, 226], [23, 29], [24, 30], [25, 29], [26, 29], [27, 34]]);
-var light_gray_ListItem = n138;
-var n139 = t([[12, 28], [13, 29], [14, 30], [15, 31], [16, 27], [17, 26], [18, 11], [19, 11], [20, 11], [21, 11], [22, 11], [23, 30], [24, 31], [25, 30], [26, 30], [27, 8]]);
-var light_gray_Card = n139;
-var light_gray_DrawerFrame = n139;
-var light_gray_Progress = n139;
-var light_gray_TooltipArrow = n139;
-var n140 = t([[12, 29], [13, 30], [14, 31], [15, 33], [16, 28], [17, 27], [18, 11], [19, 11], [20, 11], [21, 11], [22, 11], [23, 30], [24, 31], [25, 30], [26, 30], [27, 33]]);
-var light_gray_Button = n140;
-var light_gray_Switch = n140;
-var light_gray_TooltipContent = n140;
-var light_gray_SliderTrack = n140;
-var n141 = t([[12, 27], [13, 28], [14, 29], [15, 30], [16, 26], [17, 225], [18, 11], [19, 11], [20, 11], [21, 11], [22, 226], [23, 31], [24, 33], [25, 31], [26, 31], [27, 34]]);
-var light_gray_Checkbox = n141;
-var light_gray_RadioGroupItem = n141;
-var light_gray_Input = n141;
-var light_gray_TextArea = n141;
-var n142 = t([[12, 11], [13, 11], [14, 11], [15, 35], [16, 11], [17, 11], [18, 26], [19, 27], [20, 26], [21, 27], [22, 26], [23, 11], [24, 35], [25, 11], [26, 11], [27, 27]]);
-var light_gray_SwitchThumb = n142;
-var n143 = t([[12, 34], [13, 8], [14, 33], [15, 31], [16, 35], [17, 11], [18, 26], [19, 27], [20, 26], [21, 27], [22, 27], [23, 33], [24, 31], [25, 33], [26, 33], [27, 31]]);
-var light_gray_SliderTrackActive = n143;
-var n144 = t([[12, 11], [13, 35], [14, 34], [15, 8], [16, 11], [17, 226], [18, 26], [19, 27], [20, 26], [21, 27], [22, 225], [23, 34], [24, 8], [25, 34], [26, 34], [27, 29]]);
-var light_gray_SliderThumb = n144;
-var light_gray_Tooltip = n144;
-var light_gray_ProgressIndicator = n144;
-var n145 = t([[12, 155], [13, 156], [14, 157], [15, 158], [16, 154], [17, 227], [18, 0], [19, 164], [20, 0], [21, 164], [22, 228], [23, 158], [24, 159], [25, 157], [26, 158], [27, 162]]);
-var dark_orange_ListItem = n145;
-var n146 = t([[12, 156], [13, 157], [14, 158], [15, 159], [16, 155], [17, 154], [18, 0], [19, 164], [20, 0], [21, 164], [22, 0], [23, 159], [24, 161], [25, 158], [26, 159], [27, 56]]);
-var dark_orange_Card = n146;
-var dark_orange_DrawerFrame = n146;
-var dark_orange_Progress = n146;
-var dark_orange_TooltipArrow = n146;
-var n147 = t([[12, 157], [13, 158], [14, 159], [15, 161], [16, 156], [17, 155], [18, 0], [19, 164], [20, 0], [21, 164], [22, 164], [23, 159], [24, 161], [25, 158], [26, 159], [27, 161]]);
-var dark_orange_Button = n147;
-var dark_orange_Switch = n147;
-var dark_orange_TooltipContent = n147;
-var dark_orange_SliderTrack = n147;
-var n148 = t([[12, 155], [13, 156], [14, 157], [15, 158], [16, 154], [17, 227], [18, 0], [19, 164], [20, 0], [21, 164], [22, 228], [23, 161], [24, 56], [25, 159], [26, 161], [27, 162]]);
-var dark_orange_Checkbox = n148;
-var dark_orange_RadioGroupItem = n148;
-var dark_orange_Input = n148;
-var dark_orange_TextArea = n148;
-var n149 = t([[12, 0], [13, 0], [14, 164], [15, 163], [16, 0], [17, 0], [18, 154], [19, 155], [20, 154], [21, 155], [22, 154], [23, 163], [24, 162], [25, 164], [26, 163], [27, 155]]);
-var dark_orange_SwitchThumb = n149;
-var n150 = t([[12, 162], [13, 56], [14, 161], [15, 159], [16, 163], [17, 164], [18, 154], [19, 155], [20, 154], [21, 155], [22, 155], [23, 159], [24, 158], [25, 161], [26, 159], [27, 159]]);
-var dark_orange_SliderTrackActive = n150;
-var n151 = t([[12, 164], [13, 163], [14, 162], [15, 56], [16, 0], [17, 228], [18, 154], [19, 155], [20, 154], [21, 155], [22, 227], [23, 56], [24, 161], [25, 162], [26, 56], [27, 157]]);
-var dark_orange_SliderThumb = n151;
-var dark_orange_Tooltip = n151;
-var dark_orange_ProgressIndicator = n151;
-var n152 = t([[12, 199], [13, 200], [14, 201], [15, 202], [16, 198], [17, 229], [18, 0], [19, 208], [20, 0], [21, 208], [22, 230], [23, 202], [24, 203], [25, 201], [26, 202], [27, 206]]);
-var dark_yellow_ListItem = n152;
-var n153 = t([[12, 200], [13, 201], [14, 202], [15, 203], [16, 199], [17, 198], [18, 0], [19, 208], [20, 0], [21, 208], [22, 0], [23, 203], [24, 205], [25, 202], [26, 203], [27, 104]]);
-var dark_yellow_Card = n153;
-var dark_yellow_DrawerFrame = n153;
-var dark_yellow_Progress = n153;
-var dark_yellow_TooltipArrow = n153;
-var n154 = t([[12, 201], [13, 202], [14, 203], [15, 205], [16, 200], [17, 199], [18, 0], [19, 208], [20, 0], [21, 208], [22, 208], [23, 203], [24, 205], [25, 202], [26, 203], [27, 205]]);
-var dark_yellow_Button = n154;
-var dark_yellow_Switch = n154;
-var dark_yellow_TooltipContent = n154;
-var dark_yellow_SliderTrack = n154;
-var n155 = t([[12, 199], [13, 200], [14, 201], [15, 202], [16, 198], [17, 229], [18, 0], [19, 208], [20, 0], [21, 208], [22, 230], [23, 205], [24, 104], [25, 203], [26, 205], [27, 206]]);
-var dark_yellow_Checkbox = n155;
-var dark_yellow_RadioGroupItem = n155;
-var dark_yellow_Input = n155;
-var dark_yellow_TextArea = n155;
-var n156 = t([[12, 0], [13, 0], [14, 208], [15, 207], [16, 0], [17, 0], [18, 198], [19, 199], [20, 198], [21, 199], [22, 198], [23, 207], [24, 206], [25, 208], [26, 207], [27, 199]]);
-var dark_yellow_SwitchThumb = n156;
-var n157 = t([[12, 206], [13, 104], [14, 205], [15, 203], [16, 207], [17, 208], [18, 198], [19, 199], [20, 198], [21, 199], [22, 199], [23, 203], [24, 202], [25, 205], [26, 203], [27, 203]]);
-var dark_yellow_SliderTrackActive = n157;
-var n158 = t([[12, 208], [13, 207], [14, 206], [15, 104], [16, 0], [17, 230], [18, 198], [19, 199], [20, 198], [21, 199], [22, 229], [23, 104], [24, 205], [25, 206], [26, 104], [27, 201]]);
-var dark_yellow_SliderThumb = n158;
-var dark_yellow_Tooltip = n158;
-var dark_yellow_ProgressIndicator = n158;
-var n159 = t([[12, 144], [13, 145], [14, 146], [15, 147], [16, 143], [17, 231], [18, 0], [19, 153], [20, 0], [21, 153], [22, 232], [23, 147], [24, 148], [25, 146], [26, 147], [27, 151]]);
-var dark_green_ListItem = n159;
-var n160 = t([[12, 145], [13, 146], [14, 147], [15, 148], [16, 144], [17, 143], [18, 0], [19, 153], [20, 0], [21, 153], [22, 0], [23, 148], [24, 150], [25, 147], [26, 148], [27, 44]]);
-var dark_green_Card = n160;
-var dark_green_DrawerFrame = n160;
-var dark_green_Progress = n160;
-var dark_green_TooltipArrow = n160;
-var n161 = t([[12, 146], [13, 147], [14, 148], [15, 150], [16, 145], [17, 144], [18, 0], [19, 153], [20, 0], [21, 153], [22, 153], [23, 148], [24, 150], [25, 147], [26, 148], [27, 150]]);
-var dark_green_Button = n161;
-var dark_green_Switch = n161;
-var dark_green_TooltipContent = n161;
-var dark_green_SliderTrack = n161;
-var n162 = t([[12, 144], [13, 145], [14, 146], [15, 147], [16, 143], [17, 231], [18, 0], [19, 153], [20, 0], [21, 153], [22, 232], [23, 150], [24, 44], [25, 148], [26, 150], [27, 151]]);
-var dark_green_Checkbox = n162;
-var dark_green_RadioGroupItem = n162;
-var dark_green_Input = n162;
-var dark_green_TextArea = n162;
-var n163 = t([[12, 0], [13, 0], [14, 153], [15, 152], [16, 0], [17, 0], [18, 143], [19, 144], [20, 143], [21, 144], [22, 143], [23, 152], [24, 151], [25, 153], [26, 152], [27, 144]]);
-var dark_green_SwitchThumb = n163;
-var n164 = t([[12, 151], [13, 44], [14, 150], [15, 148], [16, 152], [17, 153], [18, 143], [19, 144], [20, 143], [21, 144], [22, 144], [23, 148], [24, 147], [25, 150], [26, 148], [27, 148]]);
-var dark_green_SliderTrackActive = n164;
-var n165 = t([[12, 153], [13, 152], [14, 151], [15, 44], [16, 0], [17, 232], [18, 143], [19, 144], [20, 143], [21, 144], [22, 231], [23, 44], [24, 150], [25, 151], [26, 44], [27, 146]]);
-var dark_green_SliderThumb = n165;
-var dark_green_Tooltip = n165;
-var dark_green_ProgressIndicator = n165;
-var n166 = t([[12, 122], [13, 123], [14, 124], [15, 125], [16, 121], [17, 233], [18, 0], [19, 131], [20, 0], [21, 131], [22, 234], [23, 125], [24, 126], [25, 124], [26, 125], [27, 129]]);
-var dark_blue_ListItem = n166;
-var n167 = t([[12, 123], [13, 124], [14, 125], [15, 126], [16, 122], [17, 121], [18, 0], [19, 131], [20, 0], [21, 131], [22, 0], [23, 126], [24, 128], [25, 125], [26, 126], [27, 22]]);
-var dark_blue_Card = n167;
-var dark_blue_DrawerFrame = n167;
-var dark_blue_Progress = n167;
-var dark_blue_TooltipArrow = n167;
-var n168 = t([[12, 124], [13, 125], [14, 126], [15, 128], [16, 123], [17, 122], [18, 0], [19, 131], [20, 0], [21, 131], [22, 131], [23, 126], [24, 128], [25, 125], [26, 126], [27, 128]]);
-var dark_blue_Button = n168;
-var dark_blue_Switch = n168;
-var dark_blue_TooltipContent = n168;
-var dark_blue_SliderTrack = n168;
-var n169 = t([[12, 122], [13, 123], [14, 124], [15, 125], [16, 121], [17, 233], [18, 0], [19, 131], [20, 0], [21, 131], [22, 234], [23, 128], [24, 22], [25, 126], [26, 128], [27, 129]]);
-var dark_blue_Checkbox = n169;
-var dark_blue_RadioGroupItem = n169;
-var dark_blue_Input = n169;
-var dark_blue_TextArea = n169;
-var n170 = t([[12, 0], [13, 0], [14, 131], [15, 130], [16, 0], [17, 0], [18, 121], [19, 122], [20, 121], [21, 122], [22, 121], [23, 130], [24, 129], [25, 131], [26, 130], [27, 122]]);
-var dark_blue_SwitchThumb = n170;
-var n171 = t([[12, 129], [13, 22], [14, 128], [15, 126], [16, 130], [17, 131], [18, 121], [19, 122], [20, 121], [21, 122], [22, 122], [23, 126], [24, 125], [25, 128], [26, 126], [27, 126]]);
-var dark_blue_SliderTrackActive = n171;
-var n172 = t([[12, 131], [13, 130], [14, 129], [15, 22], [16, 0], [17, 234], [18, 121], [19, 122], [20, 121], [21, 122], [22, 233], [23, 22], [24, 128], [25, 129], [26, 22], [27, 124]]);
-var dark_blue_SliderThumb = n172;
-var dark_blue_Tooltip = n172;
-var dark_blue_ProgressIndicator = n172;
-var n173 = t([[12, 177], [13, 178], [14, 179], [15, 180], [16, 176], [17, 235], [18, 0], [19, 186], [20, 0], [21, 186], [22, 236], [23, 180], [24, 181], [25, 179], [26, 180], [27, 184]]);
-var dark_purple_ListItem = n173;
-var n174 = t([[12, 178], [13, 179], [14, 180], [15, 181], [16, 177], [17, 176], [18, 0], [19, 186], [20, 0], [21, 186], [22, 0], [23, 181], [24, 183], [25, 180], [26, 181], [27, 80]]);
-var dark_purple_Card = n174;
-var dark_purple_DrawerFrame = n174;
-var dark_purple_Progress = n174;
-var dark_purple_TooltipArrow = n174;
-var n175 = t([[12, 179], [13, 180], [14, 181], [15, 183], [16, 178], [17, 177], [18, 0], [19, 186], [20, 0], [21, 186], [22, 186], [23, 181], [24, 183], [25, 180], [26, 181], [27, 183]]);
-var dark_purple_Button = n175;
-var dark_purple_Switch = n175;
-var dark_purple_TooltipContent = n175;
-var dark_purple_SliderTrack = n175;
-var n176 = t([[12, 177], [13, 178], [14, 179], [15, 180], [16, 176], [17, 235], [18, 0], [19, 186], [20, 0], [21, 186], [22, 236], [23, 183], [24, 80], [25, 181], [26, 183], [27, 184]]);
-var dark_purple_Checkbox = n176;
-var dark_purple_RadioGroupItem = n176;
-var dark_purple_Input = n176;
-var dark_purple_TextArea = n176;
-var n177 = t([[12, 0], [13, 0], [14, 186], [15, 185], [16, 0], [17, 0], [18, 176], [19, 177], [20, 176], [21, 177], [22, 176], [23, 185], [24, 184], [25, 186], [26, 185], [27, 177]]);
-var dark_purple_SwitchThumb = n177;
-var n178 = t([[12, 184], [13, 80], [14, 183], [15, 181], [16, 185], [17, 186], [18, 176], [19, 177], [20, 176], [21, 177], [22, 177], [23, 181], [24, 180], [25, 183], [26, 181], [27, 181]]);
-var dark_purple_SliderTrackActive = n178;
-var n179 = t([[12, 186], [13, 185], [14, 184], [15, 80], [16, 0], [17, 236], [18, 176], [19, 177], [20, 176], [21, 177], [22, 235], [23, 80], [24, 183], [25, 184], [26, 80], [27, 179]]);
-var dark_purple_SliderThumb = n179;
-var dark_purple_Tooltip = n179;
-var dark_purple_ProgressIndicator = n179;
-var n180 = t([[12, 166], [13, 167], [14, 168], [15, 169], [16, 165], [17, 237], [18, 0], [19, 175], [20, 0], [21, 175], [22, 238], [23, 169], [24, 170], [25, 168], [26, 169], [27, 173]]);
-var dark_pink_ListItem = n180;
-var n181 = t([[12, 167], [13, 168], [14, 169], [15, 170], [16, 166], [17, 165], [18, 0], [19, 175], [20, 0], [21, 175], [22, 0], [23, 170], [24, 172], [25, 169], [26, 170], [27, 68]]);
-var dark_pink_Card = n181;
-var dark_pink_DrawerFrame = n181;
-var dark_pink_Progress = n181;
-var dark_pink_TooltipArrow = n181;
-var n182 = t([[12, 168], [13, 169], [14, 170], [15, 172], [16, 167], [17, 166], [18, 0], [19, 175], [20, 0], [21, 175], [22, 175], [23, 170], [24, 172], [25, 169], [26, 170], [27, 172]]);
-var dark_pink_Button = n182;
-var dark_pink_Switch = n182;
-var dark_pink_TooltipContent = n182;
-var dark_pink_SliderTrack = n182;
-var n183 = t([[12, 166], [13, 167], [14, 168], [15, 169], [16, 165], [17, 237], [18, 0], [19, 175], [20, 0], [21, 175], [22, 238], [23, 172], [24, 68], [25, 170], [26, 172], [27, 173]]);
-var dark_pink_Checkbox = n183;
-var dark_pink_RadioGroupItem = n183;
-var dark_pink_Input = n183;
-var dark_pink_TextArea = n183;
-var n184 = t([[12, 0], [13, 0], [14, 175], [15, 174], [16, 0], [17, 0], [18, 165], [19, 166], [20, 165], [21, 166], [22, 165], [23, 174], [24, 173], [25, 175], [26, 174], [27, 166]]);
-var dark_pink_SwitchThumb = n184;
-var n185 = t([[12, 173], [13, 68], [14, 172], [15, 170], [16, 174], [17, 175], [18, 165], [19, 166], [20, 165], [21, 166], [22, 166], [23, 170], [24, 169], [25, 172], [26, 170], [27, 170]]);
-var dark_pink_SliderTrackActive = n185;
-var n186 = t([[12, 175], [13, 174], [14, 173], [15, 68], [16, 0], [17, 238], [18, 165], [19, 166], [20, 165], [21, 166], [22, 237], [23, 68], [24, 172], [25, 173], [26, 68], [27, 168]]);
-var dark_pink_SliderThumb = n186;
-var dark_pink_Tooltip = n186;
-var dark_pink_ProgressIndicator = n186;
-var n187 = t([[12, 188], [13, 189], [14, 190], [15, 191], [16, 187], [17, 239], [18, 0], [19, 197], [20, 0], [21, 197], [22, 240], [23, 191], [24, 192], [25, 190], [26, 191], [27, 195]]);
-var dark_red_ListItem = n187;
-var n188 = t([[12, 189], [13, 190], [14, 191], [15, 192], [16, 188], [17, 187], [18, 0], [19, 197], [20, 0], [21, 197], [22, 0], [23, 192], [24, 194], [25, 191], [26, 192], [27, 92]]);
-var dark_red_Card = n188;
-var dark_red_DrawerFrame = n188;
-var dark_red_Progress = n188;
-var dark_red_TooltipArrow = n188;
-var n189 = t([[12, 190], [13, 191], [14, 192], [15, 194], [16, 189], [17, 188], [18, 0], [19, 197], [20, 0], [21, 197], [22, 197], [23, 192], [24, 194], [25, 191], [26, 192], [27, 194]]);
-var dark_red_Button = n189;
-var dark_red_Switch = n189;
-var dark_red_TooltipContent = n189;
-var dark_red_SliderTrack = n189;
-var n190 = t([[12, 188], [13, 189], [14, 190], [15, 191], [16, 187], [17, 239], [18, 0], [19, 197], [20, 0], [21, 197], [22, 240], [23, 194], [24, 92], [25, 192], [26, 194], [27, 195]]);
-var dark_red_Checkbox = n190;
-var dark_red_RadioGroupItem = n190;
-var dark_red_Input = n190;
-var dark_red_TextArea = n190;
-var n191 = t([[12, 0], [13, 0], [14, 197], [15, 196], [16, 0], [17, 0], [18, 187], [19, 188], [20, 187], [21, 188], [22, 187], [23, 196], [24, 195], [25, 197], [26, 196], [27, 188]]);
-var dark_red_SwitchThumb = n191;
-var n192 = t([[12, 195], [13, 92], [14, 194], [15, 192], [16, 196], [17, 197], [18, 187], [19, 188], [20, 187], [21, 188], [22, 188], [23, 192], [24, 191], [25, 194], [26, 192], [27, 192]]);
-var dark_red_SliderTrackActive = n192;
-var n193 = t([[12, 197], [13, 196], [14, 195], [15, 92], [16, 0], [17, 240], [18, 187], [19, 188], [20, 187], [21, 188], [22, 239], [23, 92], [24, 194], [25, 195], [26, 92], [27, 190]]);
-var dark_red_SliderThumb = n193;
-var dark_red_Tooltip = n193;
-var dark_red_ProgressIndicator = n193;
-var n194 = t([[12, 133], [13, 134], [14, 135], [15, 136], [16, 132], [17, 241], [18, 0], [19, 29], [20, 0], [21, 29], [22, 242], [23, 136], [24, 137], [25, 135], [26, 136], [27, 141]]);
-var dark_gray_ListItem = n194;
-var n195 = t([[12, 134], [13, 135], [14, 136], [15, 137], [16, 133], [17, 132], [18, 0], [19, 29], [20, 0], [21, 29], [22, 0], [23, 137], [24, 139], [25, 136], [26, 137], [27, 140]]);
-var dark_gray_Card = n195;
-var dark_gray_DrawerFrame = n195;
-var dark_gray_Progress = n195;
-var dark_gray_TooltipArrow = n195;
-var n196 = t([[12, 135], [13, 136], [14, 137], [15, 139], [16, 134], [17, 133], [18, 0], [19, 29], [20, 0], [21, 29], [22, 29], [23, 137], [24, 139], [25, 136], [26, 137], [27, 139]]);
-var dark_gray_Button = n196;
-var dark_gray_Switch = n196;
-var dark_gray_TooltipContent = n196;
-var dark_gray_SliderTrack = n196;
-var n197 = t([[12, 133], [13, 134], [14, 135], [15, 136], [16, 132], [17, 241], [18, 0], [19, 29], [20, 0], [21, 29], [22, 242], [23, 139], [24, 140], [25, 137], [26, 139], [27, 141]]);
-var dark_gray_Checkbox = n197;
-var dark_gray_RadioGroupItem = n197;
-var dark_gray_Input = n197;
-var dark_gray_TextArea = n197;
-var n198 = t([[12, 0], [13, 0], [14, 29], [15, 142], [16, 0], [17, 0], [18, 132], [19, 133], [20, 132], [21, 133], [22, 132], [23, 142], [24, 141], [25, 29], [26, 142], [27, 133]]);
-var dark_gray_SwitchThumb = n198;
-var n199 = t([[12, 141], [13, 140], [14, 139], [15, 137], [16, 142], [17, 29], [18, 132], [19, 133], [20, 132], [21, 133], [22, 133], [23, 137], [24, 136], [25, 139], [26, 137], [27, 137]]);
-var dark_gray_SliderTrackActive = n199;
-var n200 = t([[12, 29], [13, 142], [14, 141], [15, 140], [16, 0], [17, 242], [18, 132], [19, 133], [20, 132], [21, 133], [22, 241], [23, 140], [24, 139], [25, 141], [26, 140], [27, 135]]);
-var dark_gray_SliderThumb = n200;
-var dark_gray_Tooltip = n200;
-var dark_gray_ProgressIndicator = n200;
-var n201 = t([[12, 2], [13, 3], [14, 4], [15, 5], [16, 1], [17, 0], [18, 10], [19, 9], [20, 10], [21, 9], [22, 11], [23, 5], [24, 6], [25, 4], [26, 5], [27, 7]]);
-var light_alt1_ListItem = n201;
-var n202 = t([[12, 3], [13, 4], [14, 5], [15, 6], [16, 2], [17, 1], [18, 10], [19, 9], [20, 10], [21, 9], [22, 10], [23, 6], [24, 7], [25, 5], [26, 6], [27, 6]]);
-var light_alt1_Card = n202;
-var light_alt1_DrawerFrame = n202;
-var light_alt1_Progress = n202;
-var light_alt1_TooltipArrow = n202;
-var n203 = t([[12, 4], [13, 5], [14, 6], [15, 7], [16, 3], [17, 2], [18, 10], [19, 9], [20, 10], [21, 9], [22, 9], [23, 6], [24, 7], [25, 5], [26, 6], [27, 5]]);
-var light_alt1_Button = n203;
-var light_alt1_Switch = n203;
-var light_alt1_TooltipContent = n203;
-var light_alt1_SliderTrack = n203;
-var n204 = t([[12, 2], [13, 3], [14, 4], [15, 5], [16, 1], [17, 0], [18, 10], [19, 9], [20, 10], [21, 9], [22, 11], [23, 7], [24, 8], [25, 6], [26, 7], [27, 7]]);
-var light_alt1_Checkbox = n204;
-var light_alt1_RadioGroupItem = n204;
-var light_alt1_Input = n204;
-var light_alt1_TextArea = n204;
-var n205 = t([[12, 11], [13, 10], [14, 9], [15, 8], [16, 11], [17, 11], [18, 1], [19, 2], [20, 1], [21, 2], [22, 0], [23, 8], [24, 7], [25, 9], [26, 8], [27, 2]]);
-var light_alt1_SwitchThumb = n205;
-var n206 = t([[12, 7], [13, 6], [14, 5], [15, 4], [16, 8], [17, 9], [18, 1], [19, 2], [20, 1], [21, 2], [22, 2], [23, 4], [24, 3], [25, 5], [26, 4], [27, 6]]);
-var light_alt1_SliderTrackActive = n206;
-var n207 = t([[12, 9], [13, 8], [14, 7], [15, 6], [16, 10], [17, 11], [18, 1], [19, 2], [20, 1], [21, 2], [22, 0], [23, 6], [24, 5], [25, 7], [26, 6], [27, 4]]);
-var light_alt1_SliderThumb = n207;
-var light_alt1_Tooltip = n207;
-var light_alt1_ProgressIndicator = n207;
-var n208 = t([[12, 3], [13, 4], [14, 5], [15, 6], [16, 2], [17, 1], [18, 9], [19, 8], [20, 9], [21, 8], [22, 10], [23, 5], [24, 6], [25, 4], [26, 5], [27, 6]]);
-var light_alt2_ListItem = n208;
-var n209 = t([[12, 4], [13, 5], [14, 6], [15, 7], [16, 3], [17, 2], [18, 9], [19, 8], [20, 9], [21, 8], [22, 9], [23, 6], [24, 7], [25, 5], [26, 6], [27, 5]]);
-var light_alt2_Card = n209;
-var light_alt2_DrawerFrame = n209;
-var light_alt2_Progress = n209;
-var light_alt2_TooltipArrow = n209;
-var n210 = t([[12, 5], [13, 6], [14, 7], [15, 8], [16, 4], [17, 3], [18, 9], [19, 8], [20, 9], [21, 8], [22, 8], [23, 6], [24, 7], [25, 5], [26, 6], [27, 4]]);
-var light_alt2_Button = n210;
-var light_alt2_Switch = n210;
-var light_alt2_TooltipContent = n210;
-var light_alt2_SliderTrack = n210;
-var n211 = t([[12, 3], [13, 4], [14, 5], [15, 6], [16, 2], [17, 1], [18, 9], [19, 8], [20, 9], [21, 8], [22, 10], [23, 7], [24, 8], [25, 6], [26, 7], [27, 6]]);
-var light_alt2_Checkbox = n211;
-var light_alt2_RadioGroupItem = n211;
-var light_alt2_Input = n211;
-var light_alt2_TextArea = n211;
-var n212 = t([[12, 10], [13, 9], [14, 8], [15, 7], [16, 11], [17, 11], [18, 2], [19, 3], [20, 2], [21, 3], [22, 0], [23, 8], [24, 7], [25, 9], [26, 8], [27, 3]]);
-var light_alt2_SwitchThumb = n212;
-var n213 = t([[12, 6], [13, 5], [14, 4], [15, 3], [16, 7], [17, 8], [18, 2], [19, 3], [20, 2], [21, 3], [22, 3], [23, 4], [24, 3], [25, 5], [26, 4], [27, 7]]);
-var light_alt2_SliderTrackActive = n213;
-var n214 = t([[12, 8], [13, 7], [14, 6], [15, 5], [16, 9], [17, 10], [18, 2], [19, 3], [20, 2], [21, 3], [22, 1], [23, 6], [24, 5], [25, 7], [26, 6], [27, 5]]);
-var light_alt2_SliderThumb = n214;
-var light_alt2_Tooltip = n214;
-var light_alt2_ProgressIndicator = n214;
-var n215 = t([[12, 4], [13, 5], [14, 6], [15, 7], [16, 3], [17, 2], [19, 7], [20, 8], [21, 7], [22, 9], [23, 6], [24, 7], [25, 5], [26, 6], [27, 5]]);
-var light_active_ListItem = n215;
-var n216 = t([[12, 6], [13, 7], [14, 8], [15, 9], [16, 5], [17, 4], [19, 7], [20, 8], [21, 7], [22, 7], [23, 7], [24, 8], [25, 6], [26, 7], [27, 3]]);
-var light_active_Button = n216;
-var light_active_Switch = n216;
-var n217 = t([[12, 4], [13, 5], [14, 6], [15, 7], [16, 3], [17, 2], [19, 7], [20, 8], [21, 7], [22, 9], [23, 8], [24, 9], [25, 7], [26, 8], [27, 5]]);
-var light_active_Checkbox = n217;
-var light_active_Input = n217;
-var light_active_TextArea = n217;
-var n218 = t([[12, 5], [13, 4], [14, 3], [15, 2], [16, 6], [17, 7], [19, 4], [20, 3], [21, 4], [22, 4], [23, 3], [24, 2], [25, 4], [26, 3], [27, 8]]);
-var light_active_SliderTrackActive = n218;
-var n219 = t([[12, 112], [13, 113], [14, 114], [15, 115], [16, 111], [17, 110], [18, 120], [19, 119], [20, 120], [21, 119], [22, 0], [23, 115], [24, 116], [25, 114], [26, 115], [27, 117]]);
-var dark_alt1_ListItem = n219;
-var n220 = t([[12, 113], [13, 114], [14, 115], [15, 116], [16, 112], [17, 111], [18, 120], [19, 119], [20, 120], [21, 119], [22, 120], [23, 116], [24, 117], [25, 115], [26, 116], [27, 116]]);
-var dark_alt1_Card = n220;
-var dark_alt1_DrawerFrame = n220;
-var dark_alt1_Progress = n220;
-var dark_alt1_TooltipArrow = n220;
-var n221 = t([[12, 114], [13, 115], [14, 116], [15, 117], [16, 113], [17, 112], [18, 120], [19, 119], [20, 120], [21, 119], [22, 119], [23, 116], [24, 117], [25, 115], [26, 116], [27, 115]]);
-var dark_alt1_Button = n221;
-var dark_alt1_Switch = n221;
-var dark_alt1_TooltipContent = n221;
-var dark_alt1_SliderTrack = n221;
-var n222 = t([[12, 112], [13, 113], [14, 114], [15, 115], [16, 111], [17, 110], [18, 120], [19, 119], [20, 120], [21, 119], [22, 0], [23, 117], [24, 118], [25, 116], [26, 117], [27, 117]]);
-var dark_alt1_Checkbox = n222;
-var dark_alt1_RadioGroupItem = n222;
-var dark_alt1_Input = n222;
-var dark_alt1_TextArea = n222;
-var n223 = t([[12, 0], [13, 120], [14, 119], [15, 118], [16, 0], [17, 0], [18, 111], [19, 112], [20, 111], [21, 112], [22, 110], [23, 118], [24, 117], [25, 119], [26, 118], [27, 112]]);
-var dark_alt1_SwitchThumb = n223;
-var n224 = t([[12, 117], [13, 116], [14, 115], [15, 114], [16, 118], [17, 119], [18, 111], [19, 112], [20, 111], [21, 112], [22, 112], [23, 114], [24, 113], [25, 115], [26, 114], [27, 116]]);
-var dark_alt1_SliderTrackActive = n224;
-var n225 = t([[12, 119], [13, 118], [14, 117], [15, 116], [16, 120], [17, 0], [18, 111], [19, 112], [20, 111], [21, 112], [22, 110], [23, 116], [24, 115], [25, 117], [26, 116], [27, 114]]);
-var dark_alt1_SliderThumb = n225;
-var dark_alt1_Tooltip = n225;
-var dark_alt1_ProgressIndicator = n225;
-var n226 = t([[12, 113], [13, 114], [14, 115], [15, 116], [16, 112], [17, 111], [18, 119], [19, 118], [20, 119], [21, 118], [22, 120], [23, 115], [24, 116], [25, 114], [26, 115], [27, 116]]);
-var dark_alt2_ListItem = n226;
-var n227 = t([[12, 114], [13, 115], [14, 116], [15, 117], [16, 113], [17, 112], [18, 119], [19, 118], [20, 119], [21, 118], [22, 119], [23, 116], [24, 117], [25, 115], [26, 116], [27, 115]]);
-var dark_alt2_Card = n227;
-var dark_alt2_DrawerFrame = n227;
-var dark_alt2_Progress = n227;
-var dark_alt2_TooltipArrow = n227;
-var n228 = t([[12, 115], [13, 116], [14, 117], [15, 118], [16, 114], [17, 113], [18, 119], [19, 118], [20, 119], [21, 118], [22, 118], [23, 116], [24, 117], [25, 115], [26, 116], [27, 114]]);
-var dark_alt2_Button = n228;
-var dark_alt2_Switch = n228;
-var dark_alt2_TooltipContent = n228;
-var dark_alt2_SliderTrack = n228;
-var n229 = t([[12, 113], [13, 114], [14, 115], [15, 116], [16, 112], [17, 111], [18, 119], [19, 118], [20, 119], [21, 118], [22, 120], [23, 117], [24, 118], [25, 116], [26, 117], [27, 116]]);
-var dark_alt2_Checkbox = n229;
-var dark_alt2_RadioGroupItem = n229;
-var dark_alt2_Input = n229;
-var dark_alt2_TextArea = n229;
-var n230 = t([[12, 120], [13, 119], [14, 118], [15, 117], [16, 0], [17, 0], [18, 112], [19, 113], [20, 112], [21, 113], [22, 110], [23, 118], [24, 117], [25, 119], [26, 118], [27, 113]]);
-var dark_alt2_SwitchThumb = n230;
-var n231 = t([[12, 116], [13, 115], [14, 114], [15, 113], [16, 117], [17, 118], [18, 112], [19, 113], [20, 112], [21, 113], [22, 113], [23, 114], [24, 113], [25, 115], [26, 114], [27, 117]]);
-var dark_alt2_SliderTrackActive = n231;
-var n232 = t([[12, 118], [13, 117], [14, 116], [15, 115], [16, 119], [17, 120], [18, 112], [19, 113], [20, 112], [21, 113], [22, 111], [23, 116], [24, 115], [25, 117], [26, 116], [27, 115]]);
-var dark_alt2_SliderThumb = n232;
-var dark_alt2_Tooltip = n232;
-var dark_alt2_ProgressIndicator = n232;
-var n233 = t([[12, 114], [13, 115], [14, 116], [15, 117], [16, 113], [17, 112], [19, 117], [20, 118], [21, 117], [22, 119], [23, 116], [24, 117], [25, 115], [26, 116], [27, 115]]);
-var dark_active_ListItem = n233;
-var n234 = t([[12, 116], [13, 117], [14, 118], [15, 119], [16, 115], [17, 114], [19, 117], [20, 118], [21, 117], [22, 117], [23, 117], [24, 118], [25, 116], [26, 117], [27, 113]]);
-var dark_active_Button = n234;
-var dark_active_Switch = n234;
-var n235 = t([[12, 114], [13, 115], [14, 116], [15, 117], [16, 113], [17, 112], [19, 117], [20, 118], [21, 117], [22, 119], [23, 118], [24, 119], [25, 117], [26, 118], [27, 115]]);
-var dark_active_Checkbox = n235;
-var dark_active_Input = n235;
-var dark_active_TextArea = n235;
-var n236 = t([[12, 115], [13, 114], [14, 113], [15, 112], [16, 116], [17, 117], [19, 114], [20, 113], [21, 114], [22, 114], [23, 113], [24, 112], [25, 114], [26, 113], [27, 118]]);
-var dark_active_SliderTrackActive = n236;
-var n237 = t([[12, 50], [13, 51], [14, 52], [15, 53], [16, 49], [17, 48], [18, 59], [19, 58], [20, 59], [21, 58], [22, 11], [23, 52], [24, 53], [25, 52], [26, 52], [27, 56]]);
-var light_orange_alt1_ListItem = n237;
-var n238 = t([[12, 51], [13, 52], [14, 53], [15, 55], [16, 50], [17, 49], [18, 59], [19, 58], [20, 59], [21, 58], [22, 59], [23, 53], [24, 55], [25, 53], [26, 53], [27, 55]]);
-var light_orange_alt1_Card = n238;
-var light_orange_alt1_DrawerFrame = n238;
-var light_orange_alt1_Progress = n238;
-var light_orange_alt1_TooltipArrow = n238;
-var n239 = t([[12, 52], [13, 53], [14, 55], [15, 56], [16, 51], [17, 50], [18, 59], [19, 58], [20, 59], [21, 58], [22, 58], [23, 53], [24, 55], [25, 53], [26, 53], [27, 53]]);
-var light_orange_alt1_Button = n239;
-var light_orange_alt1_Switch = n239;
-var light_orange_alt1_TooltipContent = n239;
-var light_orange_alt1_SliderTrack = n239;
-var n240 = t([[12, 50], [13, 51], [14, 52], [15, 53], [16, 49], [17, 48], [18, 59], [19, 58], [20, 59], [21, 58], [22, 11], [23, 55], [24, 56], [25, 55], [26, 55], [27, 56]]);
-var light_orange_alt1_Checkbox = n240;
-var light_orange_alt1_RadioGroupItem = n240;
-var light_orange_alt1_Input = n240;
-var light_orange_alt1_TextArea = n240;
-var n241 = t([[12, 11], [13, 59], [14, 58], [15, 57], [16, 11], [17, 11], [18, 49], [19, 50], [20, 49], [21, 50], [22, 48], [23, 58], [24, 57], [25, 58], [26, 58], [27, 50]]);
-var light_orange_alt1_SwitchThumb = n241;
-var n242 = t([[12, 56], [13, 55], [14, 53], [15, 52], [16, 57], [17, 58], [18, 49], [19, 50], [20, 49], [21, 50], [22, 50], [23, 53], [24, 52], [25, 53], [26, 53], [27, 55]]);
-var light_orange_alt1_SliderTrackActive = n242;
-var n243 = t([[12, 58], [13, 57], [14, 56], [15, 55], [16, 59], [17, 11], [18, 49], [19, 50], [20, 49], [21, 50], [22, 48], [23, 56], [24, 55], [25, 56], [26, 56], [27, 52]]);
-var light_orange_alt1_SliderThumb = n243;
-var light_orange_alt1_Tooltip = n243;
-var light_orange_alt1_ProgressIndicator = n243;
-var n244 = t([[12, 51], [13, 52], [14, 53], [15, 55], [16, 50], [17, 49], [18, 58], [19, 57], [20, 58], [21, 57], [22, 59], [23, 52], [24, 53], [25, 52], [26, 52], [27, 55]]);
-var light_orange_alt2_ListItem = n244;
-var n245 = t([[12, 52], [13, 53], [14, 55], [15, 56], [16, 51], [17, 50], [18, 58], [19, 57], [20, 58], [21, 57], [22, 58], [23, 53], [24, 55], [25, 53], [26, 53], [27, 53]]);
-var light_orange_alt2_Card = n245;
-var light_orange_alt2_DrawerFrame = n245;
-var light_orange_alt2_Progress = n245;
-var light_orange_alt2_TooltipArrow = n245;
-var n246 = t([[12, 53], [13, 55], [14, 56], [15, 57], [16, 52], [17, 51], [18, 58], [19, 57], [20, 58], [21, 57], [22, 57], [23, 53], [24, 55], [25, 53], [26, 53], [27, 52]]);
-var light_orange_alt2_Button = n246;
-var light_orange_alt2_Switch = n246;
-var light_orange_alt2_TooltipContent = n246;
-var light_orange_alt2_SliderTrack = n246;
-var n247 = t([[12, 51], [13, 52], [14, 53], [15, 55], [16, 50], [17, 49], [18, 58], [19, 57], [20, 58], [21, 57], [22, 59], [23, 55], [24, 56], [25, 55], [26, 55], [27, 55]]);
-var light_orange_alt2_Checkbox = n247;
-var light_orange_alt2_RadioGroupItem = n247;
-var light_orange_alt2_Input = n247;
-var light_orange_alt2_TextArea = n247;
-var n248 = t([[12, 59], [13, 58], [14, 57], [15, 56], [16, 11], [17, 11], [18, 50], [19, 51], [20, 50], [21, 51], [22, 48], [23, 58], [24, 57], [25, 58], [26, 58], [27, 51]]);
-var light_orange_alt2_SwitchThumb = n248;
-var n249 = t([[12, 55], [13, 53], [14, 52], [15, 51], [16, 56], [17, 57], [18, 50], [19, 51], [20, 50], [21, 51], [22, 51], [23, 53], [24, 52], [25, 53], [26, 53], [27, 56]]);
-var light_orange_alt2_SliderTrackActive = n249;
-var n250 = t([[12, 57], [13, 56], [14, 55], [15, 53], [16, 58], [17, 59], [18, 50], [19, 51], [20, 50], [21, 51], [22, 49], [23, 56], [24, 55], [25, 56], [26, 56], [27, 53]]);
-var light_orange_alt2_SliderThumb = n250;
-var light_orange_alt2_Tooltip = n250;
-var light_orange_alt2_ProgressIndicator = n250;
-var n251 = t([[12, 52], [13, 53], [14, 55], [15, 56], [16, 51], [17, 50], [19, 56], [20, 57], [21, 56], [22, 58], [23, 53], [24, 55], [25, 53], [26, 53], [27, 53]]);
-var light_orange_active_ListItem = n251;
-var n252 = t([[12, 55], [13, 56], [14, 57], [15, 58], [16, 53], [17, 52], [19, 56], [20, 57], [21, 56], [22, 56], [23, 55], [24, 56], [25, 55], [26, 55], [27, 51]]);
-var light_orange_active_Button = n252;
-var light_orange_active_Switch = n252;
-var n253 = t([[12, 52], [13, 53], [14, 55], [15, 56], [16, 51], [17, 50], [19, 56], [20, 57], [21, 56], [22, 58], [23, 56], [24, 57], [25, 56], [26, 56], [27, 53]]);
-var light_orange_active_Checkbox = n253;
-var light_orange_active_Input = n253;
-var light_orange_active_TextArea = n253;
-var n254 = t([[12, 53], [13, 52], [14, 51], [15, 50], [16, 55], [17, 56], [19, 52], [20, 51], [21, 52], [22, 52], [23, 52], [24, 51], [25, 52], [26, 52], [27, 57]]);
-var light_orange_active_SliderTrackActive = n254;
-var n255 = t([[12, 98], [13, 99], [14, 100], [15, 101], [16, 97], [17, 96], [18, 107], [19, 106], [20, 107], [21, 106], [22, 11], [23, 100], [24, 101], [25, 100], [26, 100], [27, 104]]);
-var light_yellow_alt1_ListItem = n255;
-var n256 = t([[12, 99], [13, 100], [14, 101], [15, 103], [16, 98], [17, 97], [18, 107], [19, 106], [20, 107], [21, 106], [22, 107], [23, 101], [24, 103], [25, 101], [26, 101], [27, 103]]);
-var light_yellow_alt1_Card = n256;
-var light_yellow_alt1_DrawerFrame = n256;
-var light_yellow_alt1_Progress = n256;
-var light_yellow_alt1_TooltipArrow = n256;
-var n257 = t([[12, 100], [13, 101], [14, 103], [15, 104], [16, 99], [17, 98], [18, 107], [19, 106], [20, 107], [21, 106], [22, 106], [23, 101], [24, 103], [25, 101], [26, 101], [27, 101]]);
-var light_yellow_alt1_Button = n257;
-var light_yellow_alt1_Switch = n257;
-var light_yellow_alt1_TooltipContent = n257;
-var light_yellow_alt1_SliderTrack = n257;
-var n258 = t([[12, 98], [13, 99], [14, 100], [15, 101], [16, 97], [17, 96], [18, 107], [19, 106], [20, 107], [21, 106], [22, 11], [23, 103], [24, 104], [25, 103], [26, 103], [27, 104]]);
-var light_yellow_alt1_Checkbox = n258;
-var light_yellow_alt1_RadioGroupItem = n258;
-var light_yellow_alt1_Input = n258;
-var light_yellow_alt1_TextArea = n258;
-var n259 = t([[12, 11], [13, 107], [14, 106], [15, 105], [16, 11], [17, 11], [18, 97], [19, 98], [20, 97], [21, 98], [22, 96], [23, 106], [24, 105], [25, 106], [26, 106], [27, 98]]);
-var light_yellow_alt1_SwitchThumb = n259;
-var n260 = t([[12, 104], [13, 103], [14, 101], [15, 100], [16, 105], [17, 106], [18, 97], [19, 98], [20, 97], [21, 98], [22, 98], [23, 101], [24, 100], [25, 101], [26, 101], [27, 103]]);
-var light_yellow_alt1_SliderTrackActive = n260;
-var n261 = t([[12, 106], [13, 105], [14, 104], [15, 103], [16, 107], [17, 11], [18, 97], [19, 98], [20, 97], [21, 98], [22, 96], [23, 104], [24, 103], [25, 104], [26, 104], [27, 100]]);
-var light_yellow_alt1_SliderThumb = n261;
-var light_yellow_alt1_Tooltip = n261;
-var light_yellow_alt1_ProgressIndicator = n261;
-var n262 = t([[12, 99], [13, 100], [14, 101], [15, 103], [16, 98], [17, 97], [18, 106], [19, 105], [20, 106], [21, 105], [22, 107], [23, 100], [24, 101], [25, 100], [26, 100], [27, 103]]);
-var light_yellow_alt2_ListItem = n262;
-var n263 = t([[12, 100], [13, 101], [14, 103], [15, 104], [16, 99], [17, 98], [18, 106], [19, 105], [20, 106], [21, 105], [22, 106], [23, 101], [24, 103], [25, 101], [26, 101], [27, 101]]);
-var light_yellow_alt2_Card = n263;
-var light_yellow_alt2_DrawerFrame = n263;
-var light_yellow_alt2_Progress = n263;
-var light_yellow_alt2_TooltipArrow = n263;
-var n264 = t([[12, 101], [13, 103], [14, 104], [15, 105], [16, 100], [17, 99], [18, 106], [19, 105], [20, 106], [21, 105], [22, 105], [23, 101], [24, 103], [25, 101], [26, 101], [27, 100]]);
-var light_yellow_alt2_Button = n264;
-var light_yellow_alt2_Switch = n264;
-var light_yellow_alt2_TooltipContent = n264;
-var light_yellow_alt2_SliderTrack = n264;
-var n265 = t([[12, 99], [13, 100], [14, 101], [15, 103], [16, 98], [17, 97], [18, 106], [19, 105], [20, 106], [21, 105], [22, 107], [23, 103], [24, 104], [25, 103], [26, 103], [27, 103]]);
-var light_yellow_alt2_Checkbox = n265;
-var light_yellow_alt2_RadioGroupItem = n265;
-var light_yellow_alt2_Input = n265;
-var light_yellow_alt2_TextArea = n265;
-var n266 = t([[12, 107], [13, 106], [14, 105], [15, 104], [16, 11], [17, 11], [18, 98], [19, 99], [20, 98], [21, 99], [22, 96], [23, 106], [24, 105], [25, 106], [26, 106], [27, 99]]);
-var light_yellow_alt2_SwitchThumb = n266;
-var n267 = t([[12, 103], [13, 101], [14, 100], [15, 99], [16, 104], [17, 105], [18, 98], [19, 99], [20, 98], [21, 99], [22, 99], [23, 101], [24, 100], [25, 101], [26, 101], [27, 104]]);
-var light_yellow_alt2_SliderTrackActive = n267;
-var n268 = t([[12, 105], [13, 104], [14, 103], [15, 101], [16, 106], [17, 107], [18, 98], [19, 99], [20, 98], [21, 99], [22, 97], [23, 104], [24, 103], [25, 104], [26, 104], [27, 101]]);
-var light_yellow_alt2_SliderThumb = n268;
-var light_yellow_alt2_Tooltip = n268;
-var light_yellow_alt2_ProgressIndicator = n268;
-var n269 = t([[12, 100], [13, 101], [14, 103], [15, 104], [16, 99], [17, 98], [19, 104], [20, 105], [21, 104], [22, 106], [23, 101], [24, 103], [25, 101], [26, 101], [27, 101]]);
-var light_yellow_active_ListItem = n269;
-var n270 = t([[12, 103], [13, 104], [14, 105], [15, 106], [16, 101], [17, 100], [19, 104], [20, 105], [21, 104], [22, 104], [23, 103], [24, 104], [25, 103], [26, 103], [27, 99]]);
-var light_yellow_active_Button = n270;
-var light_yellow_active_Switch = n270;
-var n271 = t([[12, 100], [13, 101], [14, 103], [15, 104], [16, 99], [17, 98], [19, 104], [20, 105], [21, 104], [22, 106], [23, 104], [24, 105], [25, 104], [26, 104], [27, 101]]);
-var light_yellow_active_Checkbox = n271;
-var light_yellow_active_Input = n271;
-var light_yellow_active_TextArea = n271;
-var n272 = t([[12, 101], [13, 100], [14, 99], [15, 98], [16, 103], [17, 104], [19, 100], [20, 99], [21, 100], [22, 100], [23, 100], [24, 99], [25, 100], [26, 100], [27, 105]]);
-var light_yellow_active_SliderTrackActive = n272;
-var n273 = t([[12, 38], [13, 39], [14, 40], [15, 41], [16, 37], [17, 36], [18, 47], [19, 46], [20, 47], [21, 46], [22, 11], [23, 40], [24, 41], [25, 40], [26, 40], [27, 44]]);
-var light_green_alt1_ListItem = n273;
-var n274 = t([[12, 39], [13, 40], [14, 41], [15, 43], [16, 38], [17, 37], [18, 47], [19, 46], [20, 47], [21, 46], [22, 47], [23, 41], [24, 43], [25, 41], [26, 41], [27, 43]]);
-var light_green_alt1_Card = n274;
-var light_green_alt1_DrawerFrame = n274;
-var light_green_alt1_Progress = n274;
-var light_green_alt1_TooltipArrow = n274;
-var n275 = t([[12, 40], [13, 41], [14, 43], [15, 44], [16, 39], [17, 38], [18, 47], [19, 46], [20, 47], [21, 46], [22, 46], [23, 41], [24, 43], [25, 41], [26, 41], [27, 41]]);
-var light_green_alt1_Button = n275;
-var light_green_alt1_Switch = n275;
-var light_green_alt1_TooltipContent = n275;
-var light_green_alt1_SliderTrack = n275;
-var n276 = t([[12, 38], [13, 39], [14, 40], [15, 41], [16, 37], [17, 36], [18, 47], [19, 46], [20, 47], [21, 46], [22, 11], [23, 43], [24, 44], [25, 43], [26, 43], [27, 44]]);
-var light_green_alt1_Checkbox = n276;
-var light_green_alt1_RadioGroupItem = n276;
-var light_green_alt1_Input = n276;
-var light_green_alt1_TextArea = n276;
-var n277 = t([[12, 11], [13, 47], [14, 46], [15, 45], [16, 11], [17, 11], [18, 37], [19, 38], [20, 37], [21, 38], [22, 36], [23, 46], [24, 45], [25, 46], [26, 46], [27, 38]]);
-var light_green_alt1_SwitchThumb = n277;
-var n278 = t([[12, 44], [13, 43], [14, 41], [15, 40], [16, 45], [17, 46], [18, 37], [19, 38], [20, 37], [21, 38], [22, 38], [23, 41], [24, 40], [25, 41], [26, 41], [27, 43]]);
-var light_green_alt1_SliderTrackActive = n278;
-var n279 = t([[12, 46], [13, 45], [14, 44], [15, 43], [16, 47], [17, 11], [18, 37], [19, 38], [20, 37], [21, 38], [22, 36], [23, 44], [24, 43], [25, 44], [26, 44], [27, 40]]);
-var light_green_alt1_SliderThumb = n279;
-var light_green_alt1_Tooltip = n279;
-var light_green_alt1_ProgressIndicator = n279;
-var n280 = t([[12, 39], [13, 40], [14, 41], [15, 43], [16, 38], [17, 37], [18, 46], [19, 45], [20, 46], [21, 45], [22, 47], [23, 40], [24, 41], [25, 40], [26, 40], [27, 43]]);
-var light_green_alt2_ListItem = n280;
-var n281 = t([[12, 40], [13, 41], [14, 43], [15, 44], [16, 39], [17, 38], [18, 46], [19, 45], [20, 46], [21, 45], [22, 46], [23, 41], [24, 43], [25, 41], [26, 41], [27, 41]]);
-var light_green_alt2_Card = n281;
-var light_green_alt2_DrawerFrame = n281;
-var light_green_alt2_Progress = n281;
-var light_green_alt2_TooltipArrow = n281;
-var n282 = t([[12, 41], [13, 43], [14, 44], [15, 45], [16, 40], [17, 39], [18, 46], [19, 45], [20, 46], [21, 45], [22, 45], [23, 41], [24, 43], [25, 41], [26, 41], [27, 40]]);
-var light_green_alt2_Button = n282;
-var light_green_alt2_Switch = n282;
-var light_green_alt2_TooltipContent = n282;
-var light_green_alt2_SliderTrack = n282;
-var n283 = t([[12, 39], [13, 40], [14, 41], [15, 43], [16, 38], [17, 37], [18, 46], [19, 45], [20, 46], [21, 45], [22, 47], [23, 43], [24, 44], [25, 43], [26, 43], [27, 43]]);
-var light_green_alt2_Checkbox = n283;
-var light_green_alt2_RadioGroupItem = n283;
-var light_green_alt2_Input = n283;
-var light_green_alt2_TextArea = n283;
-var n284 = t([[12, 47], [13, 46], [14, 45], [15, 44], [16, 11], [17, 11], [18, 38], [19, 39], [20, 38], [21, 39], [22, 36], [23, 46], [24, 45], [25, 46], [26, 46], [27, 39]]);
-var light_green_alt2_SwitchThumb = n284;
-var n285 = t([[12, 43], [13, 41], [14, 40], [15, 39], [16, 44], [17, 45], [18, 38], [19, 39], [20, 38], [21, 39], [22, 39], [23, 41], [24, 40], [25, 41], [26, 41], [27, 44]]);
-var light_green_alt2_SliderTrackActive = n285;
-var n286 = t([[12, 45], [13, 44], [14, 43], [15, 41], [16, 46], [17, 47], [18, 38], [19, 39], [20, 38], [21, 39], [22, 37], [23, 44], [24, 43], [25, 44], [26, 44], [27, 41]]);
-var light_green_alt2_SliderThumb = n286;
-var light_green_alt2_Tooltip = n286;
-var light_green_alt2_ProgressIndicator = n286;
-var n287 = t([[12, 40], [13, 41], [14, 43], [15, 44], [16, 39], [17, 38], [19, 44], [20, 45], [21, 44], [22, 46], [23, 41], [24, 43], [25, 41], [26, 41], [27, 41]]);
-var light_green_active_ListItem = n287;
-var n288 = t([[12, 43], [13, 44], [14, 45], [15, 46], [16, 41], [17, 40], [19, 44], [20, 45], [21, 44], [22, 44], [23, 43], [24, 44], [25, 43], [26, 43], [27, 39]]);
-var light_green_active_Button = n288;
-var light_green_active_Switch = n288;
-var n289 = t([[12, 40], [13, 41], [14, 43], [15, 44], [16, 39], [17, 38], [19, 44], [20, 45], [21, 44], [22, 46], [23, 44], [24, 45], [25, 44], [26, 44], [27, 41]]);
-var light_green_active_Checkbox = n289;
-var light_green_active_Input = n289;
-var light_green_active_TextArea = n289;
-var n290 = t([[12, 41], [13, 40], [14, 39], [15, 38], [16, 43], [17, 44], [19, 40], [20, 39], [21, 40], [22, 40], [23, 40], [24, 39], [25, 40], [26, 40], [27, 45]]);
-var light_green_active_SliderTrackActive = n290;
-var n291 = t([[12, 16], [13, 17], [14, 18], [15, 19], [16, 15], [17, 14], [18, 25], [19, 24], [20, 25], [21, 24], [22, 11], [23, 18], [24, 19], [25, 18], [26, 18], [27, 22]]);
-var light_blue_alt1_ListItem = n291;
-var n292 = t([[12, 17], [13, 18], [14, 19], [15, 21], [16, 16], [17, 15], [18, 25], [19, 24], [20, 25], [21, 24], [22, 25], [23, 19], [24, 21], [25, 19], [26, 19], [27, 21]]);
-var light_blue_alt1_Card = n292;
-var light_blue_alt1_DrawerFrame = n292;
-var light_blue_alt1_Progress = n292;
-var light_blue_alt1_TooltipArrow = n292;
-var n293 = t([[12, 18], [13, 19], [14, 21], [15, 22], [16, 17], [17, 16], [18, 25], [19, 24], [20, 25], [21, 24], [22, 24], [23, 19], [24, 21], [25, 19], [26, 19], [27, 19]]);
-var light_blue_alt1_Button = n293;
-var light_blue_alt1_Switch = n293;
-var light_blue_alt1_TooltipContent = n293;
-var light_blue_alt1_SliderTrack = n293;
-var n294 = t([[12, 16], [13, 17], [14, 18], [15, 19], [16, 15], [17, 14], [18, 25], [19, 24], [20, 25], [21, 24], [22, 11], [23, 21], [24, 22], [25, 21], [26, 21], [27, 22]]);
-var light_blue_alt1_Checkbox = n294;
-var light_blue_alt1_RadioGroupItem = n294;
-var light_blue_alt1_Input = n294;
-var light_blue_alt1_TextArea = n294;
-var n295 = t([[12, 11], [13, 25], [14, 24], [15, 23], [16, 11], [17, 11], [18, 15], [19, 16], [20, 15], [21, 16], [22, 14], [23, 24], [24, 23], [25, 24], [26, 24], [27, 16]]);
-var light_blue_alt1_SwitchThumb = n295;
-var n296 = t([[12, 22], [13, 21], [14, 19], [15, 18], [16, 23], [17, 24], [18, 15], [19, 16], [20, 15], [21, 16], [22, 16], [23, 19], [24, 18], [25, 19], [26, 19], [27, 21]]);
-var light_blue_alt1_SliderTrackActive = n296;
-var n297 = t([[12, 24], [13, 23], [14, 22], [15, 21], [16, 25], [17, 11], [18, 15], [19, 16], [20, 15], [21, 16], [22, 14], [23, 22], [24, 21], [25, 22], [26, 22], [27, 18]]);
-var light_blue_alt1_SliderThumb = n297;
-var light_blue_alt1_Tooltip = n297;
-var light_blue_alt1_ProgressIndicator = n297;
-var n298 = t([[12, 17], [13, 18], [14, 19], [15, 21], [16, 16], [17, 15], [18, 24], [19, 23], [20, 24], [21, 23], [22, 25], [23, 18], [24, 19], [25, 18], [26, 18], [27, 21]]);
-var light_blue_alt2_ListItem = n298;
-var n299 = t([[12, 18], [13, 19], [14, 21], [15, 22], [16, 17], [17, 16], [18, 24], [19, 23], [20, 24], [21, 23], [22, 24], [23, 19], [24, 21], [25, 19], [26, 19], [27, 19]]);
-var light_blue_alt2_Card = n299;
-var light_blue_alt2_DrawerFrame = n299;
-var light_blue_alt2_Progress = n299;
-var light_blue_alt2_TooltipArrow = n299;
-var n300 = t([[12, 19], [13, 21], [14, 22], [15, 23], [16, 18], [17, 17], [18, 24], [19, 23], [20, 24], [21, 23], [22, 23], [23, 19], [24, 21], [25, 19], [26, 19], [27, 18]]);
-var light_blue_alt2_Button = n300;
-var light_blue_alt2_Switch = n300;
-var light_blue_alt2_TooltipContent = n300;
-var light_blue_alt2_SliderTrack = n300;
-var n301 = t([[12, 17], [13, 18], [14, 19], [15, 21], [16, 16], [17, 15], [18, 24], [19, 23], [20, 24], [21, 23], [22, 25], [23, 21], [24, 22], [25, 21], [26, 21], [27, 21]]);
-var light_blue_alt2_Checkbox = n301;
-var light_blue_alt2_RadioGroupItem = n301;
-var light_blue_alt2_Input = n301;
-var light_blue_alt2_TextArea = n301;
-var n302 = t([[12, 25], [13, 24], [14, 23], [15, 22], [16, 11], [17, 11], [18, 16], [19, 17], [20, 16], [21, 17], [22, 14], [23, 24], [24, 23], [25, 24], [26, 24], [27, 17]]);
-var light_blue_alt2_SwitchThumb = n302;
-var n303 = t([[12, 21], [13, 19], [14, 18], [15, 17], [16, 22], [17, 23], [18, 16], [19, 17], [20, 16], [21, 17], [22, 17], [23, 19], [24, 18], [25, 19], [26, 19], [27, 22]]);
-var light_blue_alt2_SliderTrackActive = n303;
-var n304 = t([[12, 23], [13, 22], [14, 21], [15, 19], [16, 24], [17, 25], [18, 16], [19, 17], [20, 16], [21, 17], [22, 15], [23, 22], [24, 21], [25, 22], [26, 22], [27, 19]]);
-var light_blue_alt2_SliderThumb = n304;
-var light_blue_alt2_Tooltip = n304;
-var light_blue_alt2_ProgressIndicator = n304;
-var n305 = t([[12, 18], [13, 19], [14, 21], [15, 22], [16, 17], [17, 16], [19, 22], [20, 23], [21, 22], [22, 24], [23, 19], [24, 21], [25, 19], [26, 19], [27, 19]]);
-var light_blue_active_ListItem = n305;
-var n306 = t([[12, 21], [13, 22], [14, 23], [15, 24], [16, 19], [17, 18], [19, 22], [20, 23], [21, 22], [22, 22], [23, 21], [24, 22], [25, 21], [26, 21], [27, 17]]);
-var light_blue_active_Button = n306;
-var light_blue_active_Switch = n306;
-var n307 = t([[12, 18], [13, 19], [14, 21], [15, 22], [16, 17], [17, 16], [19, 22], [20, 23], [21, 22], [22, 24], [23, 22], [24, 23], [25, 22], [26, 22], [27, 19]]);
-var light_blue_active_Checkbox = n307;
-var light_blue_active_Input = n307;
-var light_blue_active_TextArea = n307;
-var n308 = t([[12, 19], [13, 18], [14, 17], [15, 16], [16, 21], [17, 22], [19, 18], [20, 17], [21, 18], [22, 18], [23, 18], [24, 17], [25, 18], [26, 18], [27, 23]]);
-var light_blue_active_SliderTrackActive = n308;
-var n309 = t([[12, 74], [13, 75], [14, 76], [15, 77], [16, 73], [17, 72], [18, 83], [19, 82], [20, 83], [21, 82], [22, 11], [23, 76], [24, 77], [25, 76], [26, 76], [27, 80]]);
-var light_purple_alt1_ListItem = n309;
-var n310 = t([[12, 75], [13, 76], [14, 77], [15, 79], [16, 74], [17, 73], [18, 83], [19, 82], [20, 83], [21, 82], [22, 83], [23, 77], [24, 79], [25, 77], [26, 77], [27, 79]]);
-var light_purple_alt1_Card = n310;
-var light_purple_alt1_DrawerFrame = n310;
-var light_purple_alt1_Progress = n310;
-var light_purple_alt1_TooltipArrow = n310;
-var n311 = t([[12, 76], [13, 77], [14, 79], [15, 80], [16, 75], [17, 74], [18, 83], [19, 82], [20, 83], [21, 82], [22, 82], [23, 77], [24, 79], [25, 77], [26, 77], [27, 77]]);
-var light_purple_alt1_Button = n311;
-var light_purple_alt1_Switch = n311;
-var light_purple_alt1_TooltipContent = n311;
-var light_purple_alt1_SliderTrack = n311;
-var n312 = t([[12, 74], [13, 75], [14, 76], [15, 77], [16, 73], [17, 72], [18, 83], [19, 82], [20, 83], [21, 82], [22, 11], [23, 79], [24, 80], [25, 79], [26, 79], [27, 80]]);
-var light_purple_alt1_Checkbox = n312;
-var light_purple_alt1_RadioGroupItem = n312;
-var light_purple_alt1_Input = n312;
-var light_purple_alt1_TextArea = n312;
-var n313 = t([[12, 11], [13, 83], [14, 82], [15, 81], [16, 11], [17, 11], [18, 73], [19, 74], [20, 73], [21, 74], [22, 72], [23, 82], [24, 81], [25, 82], [26, 82], [27, 74]]);
-var light_purple_alt1_SwitchThumb = n313;
-var n314 = t([[12, 80], [13, 79], [14, 77], [15, 76], [16, 81], [17, 82], [18, 73], [19, 74], [20, 73], [21, 74], [22, 74], [23, 77], [24, 76], [25, 77], [26, 77], [27, 79]]);
-var light_purple_alt1_SliderTrackActive = n314;
-var n315 = t([[12, 82], [13, 81], [14, 80], [15, 79], [16, 83], [17, 11], [18, 73], [19, 74], [20, 73], [21, 74], [22, 72], [23, 80], [24, 79], [25, 80], [26, 80], [27, 76]]);
-var light_purple_alt1_SliderThumb = n315;
-var light_purple_alt1_Tooltip = n315;
-var light_purple_alt1_ProgressIndicator = n315;
-var n316 = t([[12, 75], [13, 76], [14, 77], [15, 79], [16, 74], [17, 73], [18, 82], [19, 81], [20, 82], [21, 81], [22, 83], [23, 76], [24, 77], [25, 76], [26, 76], [27, 79]]);
-var light_purple_alt2_ListItem = n316;
-var n317 = t([[12, 76], [13, 77], [14, 79], [15, 80], [16, 75], [17, 74], [18, 82], [19, 81], [20, 82], [21, 81], [22, 82], [23, 77], [24, 79], [25, 77], [26, 77], [27, 77]]);
-var light_purple_alt2_Card = n317;
-var light_purple_alt2_DrawerFrame = n317;
-var light_purple_alt2_Progress = n317;
-var light_purple_alt2_TooltipArrow = n317;
-var n318 = t([[12, 77], [13, 79], [14, 80], [15, 81], [16, 76], [17, 75], [18, 82], [19, 81], [20, 82], [21, 81], [22, 81], [23, 77], [24, 79], [25, 77], [26, 77], [27, 76]]);
-var light_purple_alt2_Button = n318;
-var light_purple_alt2_Switch = n318;
-var light_purple_alt2_TooltipContent = n318;
-var light_purple_alt2_SliderTrack = n318;
-var n319 = t([[12, 75], [13, 76], [14, 77], [15, 79], [16, 74], [17, 73], [18, 82], [19, 81], [20, 82], [21, 81], [22, 83], [23, 79], [24, 80], [25, 79], [26, 79], [27, 79]]);
-var light_purple_alt2_Checkbox = n319;
-var light_purple_alt2_RadioGroupItem = n319;
-var light_purple_alt2_Input = n319;
-var light_purple_alt2_TextArea = n319;
-var n320 = t([[12, 83], [13, 82], [14, 81], [15, 80], [16, 11], [17, 11], [18, 74], [19, 75], [20, 74], [21, 75], [22, 72], [23, 82], [24, 81], [25, 82], [26, 82], [27, 75]]);
-var light_purple_alt2_SwitchThumb = n320;
-var n321 = t([[12, 79], [13, 77], [14, 76], [15, 75], [16, 80], [17, 81], [18, 74], [19, 75], [20, 74], [21, 75], [22, 75], [23, 77], [24, 76], [25, 77], [26, 77], [27, 80]]);
-var light_purple_alt2_SliderTrackActive = n321;
-var n322 = t([[12, 81], [13, 80], [14, 79], [15, 77], [16, 82], [17, 83], [18, 74], [19, 75], [20, 74], [21, 75], [22, 73], [23, 80], [24, 79], [25, 80], [26, 80], [27, 77]]);
-var light_purple_alt2_SliderThumb = n322;
-var light_purple_alt2_Tooltip = n322;
-var light_purple_alt2_ProgressIndicator = n322;
-var n323 = t([[12, 76], [13, 77], [14, 79], [15, 80], [16, 75], [17, 74], [19, 80], [20, 81], [21, 80], [22, 82], [23, 77], [24, 79], [25, 77], [26, 77], [27, 77]]);
-var light_purple_active_ListItem = n323;
-var n324 = t([[12, 79], [13, 80], [14, 81], [15, 82], [16, 77], [17, 76], [19, 80], [20, 81], [21, 80], [22, 80], [23, 79], [24, 80], [25, 79], [26, 79], [27, 75]]);
-var light_purple_active_Button = n324;
-var light_purple_active_Switch = n324;
-var n325 = t([[12, 76], [13, 77], [14, 79], [15, 80], [16, 75], [17, 74], [19, 80], [20, 81], [21, 80], [22, 82], [23, 80], [24, 81], [25, 80], [26, 80], [27, 77]]);
-var light_purple_active_Checkbox = n325;
-var light_purple_active_Input = n325;
-var light_purple_active_TextArea = n325;
-var n326 = t([[12, 77], [13, 76], [14, 75], [15, 74], [16, 79], [17, 80], [19, 76], [20, 75], [21, 76], [22, 76], [23, 76], [24, 75], [25, 76], [26, 76], [27, 81]]);
-var light_purple_active_SliderTrackActive = n326;
-var n327 = t([[12, 62], [13, 63], [14, 64], [15, 65], [16, 61], [17, 60], [18, 71], [19, 70], [20, 71], [21, 70], [22, 11], [23, 64], [24, 65], [25, 64], [26, 64], [27, 68]]);
-var light_pink_alt1_ListItem = n327;
-var n328 = t([[12, 63], [13, 64], [14, 65], [15, 67], [16, 62], [17, 61], [18, 71], [19, 70], [20, 71], [21, 70], [22, 71], [23, 65], [24, 67], [25, 65], [26, 65], [27, 67]]);
-var light_pink_alt1_Card = n328;
-var light_pink_alt1_DrawerFrame = n328;
-var light_pink_alt1_Progress = n328;
-var light_pink_alt1_TooltipArrow = n328;
-var n329 = t([[12, 64], [13, 65], [14, 67], [15, 68], [16, 63], [17, 62], [18, 71], [19, 70], [20, 71], [21, 70], [22, 70], [23, 65], [24, 67], [25, 65], [26, 65], [27, 65]]);
-var light_pink_alt1_Button = n329;
-var light_pink_alt1_Switch = n329;
-var light_pink_alt1_TooltipContent = n329;
-var light_pink_alt1_SliderTrack = n329;
-var n330 = t([[12, 62], [13, 63], [14, 64], [15, 65], [16, 61], [17, 60], [18, 71], [19, 70], [20, 71], [21, 70], [22, 11], [23, 67], [24, 68], [25, 67], [26, 67], [27, 68]]);
-var light_pink_alt1_Checkbox = n330;
-var light_pink_alt1_RadioGroupItem = n330;
-var light_pink_alt1_Input = n330;
-var light_pink_alt1_TextArea = n330;
-var n331 = t([[12, 11], [13, 71], [14, 70], [15, 69], [16, 11], [17, 11], [18, 61], [19, 62], [20, 61], [21, 62], [22, 60], [23, 70], [24, 69], [25, 70], [26, 70], [27, 62]]);
-var light_pink_alt1_SwitchThumb = n331;
-var n332 = t([[12, 68], [13, 67], [14, 65], [15, 64], [16, 69], [17, 70], [18, 61], [19, 62], [20, 61], [21, 62], [22, 62], [23, 65], [24, 64], [25, 65], [26, 65], [27, 67]]);
-var light_pink_alt1_SliderTrackActive = n332;
-var n333 = t([[12, 70], [13, 69], [14, 68], [15, 67], [16, 71], [17, 11], [18, 61], [19, 62], [20, 61], [21, 62], [22, 60], [23, 68], [24, 67], [25, 68], [26, 68], [27, 64]]);
-var light_pink_alt1_SliderThumb = n333;
-var light_pink_alt1_Tooltip = n333;
-var light_pink_alt1_ProgressIndicator = n333;
-var n334 = t([[12, 63], [13, 64], [14, 65], [15, 67], [16, 62], [17, 61], [18, 70], [19, 69], [20, 70], [21, 69], [22, 71], [23, 64], [24, 65], [25, 64], [26, 64], [27, 67]]);
-var light_pink_alt2_ListItem = n334;
-var n335 = t([[12, 64], [13, 65], [14, 67], [15, 68], [16, 63], [17, 62], [18, 70], [19, 69], [20, 70], [21, 69], [22, 70], [23, 65], [24, 67], [25, 65], [26, 65], [27, 65]]);
-var light_pink_alt2_Card = n335;
-var light_pink_alt2_DrawerFrame = n335;
-var light_pink_alt2_Progress = n335;
-var light_pink_alt2_TooltipArrow = n335;
-var n336 = t([[12, 65], [13, 67], [14, 68], [15, 69], [16, 64], [17, 63], [18, 70], [19, 69], [20, 70], [21, 69], [22, 69], [23, 65], [24, 67], [25, 65], [26, 65], [27, 64]]);
-var light_pink_alt2_Button = n336;
-var light_pink_alt2_Switch = n336;
-var light_pink_alt2_TooltipContent = n336;
-var light_pink_alt2_SliderTrack = n336;
-var n337 = t([[12, 63], [13, 64], [14, 65], [15, 67], [16, 62], [17, 61], [18, 70], [19, 69], [20, 70], [21, 69], [22, 71], [23, 67], [24, 68], [25, 67], [26, 67], [27, 67]]);
-var light_pink_alt2_Checkbox = n337;
-var light_pink_alt2_RadioGroupItem = n337;
-var light_pink_alt2_Input = n337;
-var light_pink_alt2_TextArea = n337;
-var n338 = t([[12, 71], [13, 70], [14, 69], [15, 68], [16, 11], [17, 11], [18, 62], [19, 63], [20, 62], [21, 63], [22, 60], [23, 70], [24, 69], [25, 70], [26, 70], [27, 63]]);
-var light_pink_alt2_SwitchThumb = n338;
-var n339 = t([[12, 67], [13, 65], [14, 64], [15, 63], [16, 68], [17, 69], [18, 62], [19, 63], [20, 62], [21, 63], [22, 63], [23, 65], [24, 64], [25, 65], [26, 65], [27, 68]]);
-var light_pink_alt2_SliderTrackActive = n339;
-var n340 = t([[12, 69], [13, 68], [14, 67], [15, 65], [16, 70], [17, 71], [18, 62], [19, 63], [20, 62], [21, 63], [22, 61], [23, 68], [24, 67], [25, 68], [26, 68], [27, 65]]);
-var light_pink_alt2_SliderThumb = n340;
-var light_pink_alt2_Tooltip = n340;
-var light_pink_alt2_ProgressIndicator = n340;
-var n341 = t([[12, 64], [13, 65], [14, 67], [15, 68], [16, 63], [17, 62], [19, 68], [20, 69], [21, 68], [22, 70], [23, 65], [24, 67], [25, 65], [26, 65], [27, 65]]);
-var light_pink_active_ListItem = n341;
-var n342 = t([[12, 67], [13, 68], [14, 69], [15, 70], [16, 65], [17, 64], [19, 68], [20, 69], [21, 68], [22, 68], [23, 67], [24, 68], [25, 67], [26, 67], [27, 63]]);
-var light_pink_active_Button = n342;
-var light_pink_active_Switch = n342;
-var n343 = t([[12, 64], [13, 65], [14, 67], [15, 68], [16, 63], [17, 62], [19, 68], [20, 69], [21, 68], [22, 70], [23, 68], [24, 69], [25, 68], [26, 68], [27, 65]]);
-var light_pink_active_Checkbox = n343;
-var light_pink_active_Input = n343;
-var light_pink_active_TextArea = n343;
-var n344 = t([[12, 65], [13, 64], [14, 63], [15, 62], [16, 67], [17, 68], [19, 64], [20, 63], [21, 64], [22, 64], [23, 64], [24, 63], [25, 64], [26, 64], [27, 69]]);
-var light_pink_active_SliderTrackActive = n344;
-var n345 = t([[12, 86], [13, 87], [14, 88], [15, 89], [16, 85], [17, 84], [18, 95], [19, 94], [20, 95], [21, 94], [22, 11], [23, 88], [24, 89], [25, 88], [26, 88], [27, 92]]);
-var light_red_alt1_ListItem = n345;
-var n346 = t([[12, 87], [13, 88], [14, 89], [15, 91], [16, 86], [17, 85], [18, 95], [19, 94], [20, 95], [21, 94], [22, 95], [23, 89], [24, 91], [25, 89], [26, 89], [27, 91]]);
-var light_red_alt1_Card = n346;
-var light_red_alt1_DrawerFrame = n346;
-var light_red_alt1_Progress = n346;
-var light_red_alt1_TooltipArrow = n346;
-var n347 = t([[12, 88], [13, 89], [14, 91], [15, 92], [16, 87], [17, 86], [18, 95], [19, 94], [20, 95], [21, 94], [22, 94], [23, 89], [24, 91], [25, 89], [26, 89], [27, 89]]);
-var light_red_alt1_Button = n347;
-var light_red_alt1_Switch = n347;
-var light_red_alt1_TooltipContent = n347;
-var light_red_alt1_SliderTrack = n347;
-var n348 = t([[12, 86], [13, 87], [14, 88], [15, 89], [16, 85], [17, 84], [18, 95], [19, 94], [20, 95], [21, 94], [22, 11], [23, 91], [24, 92], [25, 91], [26, 91], [27, 92]]);
-var light_red_alt1_Checkbox = n348;
-var light_red_alt1_RadioGroupItem = n348;
-var light_red_alt1_Input = n348;
-var light_red_alt1_TextArea = n348;
-var n349 = t([[12, 11], [13, 95], [14, 94], [15, 93], [16, 11], [17, 11], [18, 85], [19, 86], [20, 85], [21, 86], [22, 84], [23, 94], [24, 93], [25, 94], [26, 94], [27, 86]]);
-var light_red_alt1_SwitchThumb = n349;
-var n350 = t([[12, 92], [13, 91], [14, 89], [15, 88], [16, 93], [17, 94], [18, 85], [19, 86], [20, 85], [21, 86], [22, 86], [23, 89], [24, 88], [25, 89], [26, 89], [27, 91]]);
-var light_red_alt1_SliderTrackActive = n350;
-var n351 = t([[12, 94], [13, 93], [14, 92], [15, 91], [16, 95], [17, 11], [18, 85], [19, 86], [20, 85], [21, 86], [22, 84], [23, 92], [24, 91], [25, 92], [26, 92], [27, 88]]);
-var light_red_alt1_SliderThumb = n351;
-var light_red_alt1_Tooltip = n351;
-var light_red_alt1_ProgressIndicator = n351;
-var n352 = t([[12, 87], [13, 88], [14, 89], [15, 91], [16, 86], [17, 85], [18, 94], [19, 93], [20, 94], [21, 93], [22, 95], [23, 88], [24, 89], [25, 88], [26, 88], [27, 91]]);
-var light_red_alt2_ListItem = n352;
-var n353 = t([[12, 88], [13, 89], [14, 91], [15, 92], [16, 87], [17, 86], [18, 94], [19, 93], [20, 94], [21, 93], [22, 94], [23, 89], [24, 91], [25, 89], [26, 89], [27, 89]]);
-var light_red_alt2_Card = n353;
-var light_red_alt2_DrawerFrame = n353;
-var light_red_alt2_Progress = n353;
-var light_red_alt2_TooltipArrow = n353;
-var n354 = t([[12, 89], [13, 91], [14, 92], [15, 93], [16, 88], [17, 87], [18, 94], [19, 93], [20, 94], [21, 93], [22, 93], [23, 89], [24, 91], [25, 89], [26, 89], [27, 88]]);
-var light_red_alt2_Button = n354;
-var light_red_alt2_Switch = n354;
-var light_red_alt2_TooltipContent = n354;
-var light_red_alt2_SliderTrack = n354;
-var n355 = t([[12, 87], [13, 88], [14, 89], [15, 91], [16, 86], [17, 85], [18, 94], [19, 93], [20, 94], [21, 93], [22, 95], [23, 91], [24, 92], [25, 91], [26, 91], [27, 91]]);
-var light_red_alt2_Checkbox = n355;
-var light_red_alt2_RadioGroupItem = n355;
-var light_red_alt2_Input = n355;
-var light_red_alt2_TextArea = n355;
-var n356 = t([[12, 95], [13, 94], [14, 93], [15, 92], [16, 11], [17, 11], [18, 86], [19, 87], [20, 86], [21, 87], [22, 84], [23, 94], [24, 93], [25, 94], [26, 94], [27, 87]]);
-var light_red_alt2_SwitchThumb = n356;
-var n357 = t([[12, 91], [13, 89], [14, 88], [15, 87], [16, 92], [17, 93], [18, 86], [19, 87], [20, 86], [21, 87], [22, 87], [23, 89], [24, 88], [25, 89], [26, 89], [27, 92]]);
-var light_red_alt2_SliderTrackActive = n357;
-var n358 = t([[12, 93], [13, 92], [14, 91], [15, 89], [16, 94], [17, 95], [18, 86], [19, 87], [20, 86], [21, 87], [22, 85], [23, 92], [24, 91], [25, 92], [26, 92], [27, 89]]);
-var light_red_alt2_SliderThumb = n358;
-var light_red_alt2_Tooltip = n358;
-var light_red_alt2_ProgressIndicator = n358;
-var n359 = t([[12, 88], [13, 89], [14, 91], [15, 92], [16, 87], [17, 86], [19, 92], [20, 93], [21, 92], [22, 94], [23, 89], [24, 91], [25, 89], [26, 89], [27, 89]]);
-var light_red_active_ListItem = n359;
-var n360 = t([[12, 91], [13, 92], [14, 93], [15, 94], [16, 89], [17, 88], [19, 92], [20, 93], [21, 92], [22, 92], [23, 91], [24, 92], [25, 91], [26, 91], [27, 87]]);
-var light_red_active_Button = n360;
-var light_red_active_Switch = n360;
-var n361 = t([[12, 88], [13, 89], [14, 91], [15, 92], [16, 87], [17, 86], [19, 92], [20, 93], [21, 92], [22, 94], [23, 92], [24, 93], [25, 92], [26, 92], [27, 89]]);
-var light_red_active_Checkbox = n361;
-var light_red_active_Input = n361;
-var light_red_active_TextArea = n361;
-var n362 = t([[12, 89], [13, 88], [14, 87], [15, 86], [16, 91], [17, 92], [19, 88], [20, 87], [21, 88], [22, 88], [23, 88], [24, 87], [25, 88], [26, 88], [27, 93]]);
-var light_red_active_SliderTrackActive = n362;
-var n363 = t([[12, 28], [13, 29], [14, 30], [15, 31], [16, 27], [17, 26], [18, 11], [19, 35], [20, 11], [21, 35], [22, 11], [23, 30], [24, 31], [25, 30], [26, 30], [27, 8]]);
-var light_gray_alt1_ListItem = n363;
-var n364 = t([[12, 29], [13, 30], [14, 31], [15, 33], [16, 28], [17, 27], [18, 11], [19, 35], [20, 11], [21, 35], [22, 11], [23, 31], [24, 33], [25, 31], [26, 31], [27, 33]]);
-var light_gray_alt1_Card = n364;
-var light_gray_alt1_DrawerFrame = n364;
-var light_gray_alt1_Progress = n364;
-var light_gray_alt1_TooltipArrow = n364;
-var n365 = t([[12, 30], [13, 31], [14, 33], [15, 8], [16, 29], [17, 28], [18, 11], [19, 35], [20, 11], [21, 35], [22, 35], [23, 31], [24, 33], [25, 31], [26, 31], [27, 31]]);
-var light_gray_alt1_Button = n365;
-var light_gray_alt1_Switch = n365;
-var light_gray_alt1_TooltipContent = n365;
-var light_gray_alt1_SliderTrack = n365;
-var n366 = t([[12, 28], [13, 29], [14, 30], [15, 31], [16, 27], [17, 26], [18, 11], [19, 35], [20, 11], [21, 35], [22, 11], [23, 33], [24, 8], [25, 33], [26, 33], [27, 8]]);
-var light_gray_alt1_Checkbox = n366;
-var light_gray_alt1_RadioGroupItem = n366;
-var light_gray_alt1_Input = n366;
-var light_gray_alt1_TextArea = n366;
-var n367 = t([[12, 11], [13, 11], [14, 35], [15, 34], [16, 11], [17, 11], [18, 27], [19, 28], [20, 27], [21, 28], [22, 26], [23, 35], [24, 34], [25, 35], [26, 35], [27, 28]]);
-var light_gray_alt1_SwitchThumb = n367;
-var n368 = t([[12, 8], [13, 33], [14, 31], [15, 30], [16, 34], [17, 35], [18, 27], [19, 28], [20, 27], [21, 28], [22, 28], [23, 31], [24, 30], [25, 31], [26, 31], [27, 33]]);
-var light_gray_alt1_SliderTrackActive = n368;
-var n369 = t([[12, 35], [13, 34], [14, 8], [15, 33], [16, 11], [17, 11], [18, 27], [19, 28], [20, 27], [21, 28], [22, 26], [23, 8], [24, 33], [25, 8], [26, 8], [27, 30]]);
-var light_gray_alt1_SliderThumb = n369;
-var light_gray_alt1_Tooltip = n369;
-var light_gray_alt1_ProgressIndicator = n369;
-var n370 = t([[12, 29], [13, 30], [14, 31], [15, 33], [16, 28], [17, 27], [18, 35], [19, 34], [20, 35], [21, 34], [22, 11], [23, 30], [24, 31], [25, 30], [26, 30], [27, 33]]);
-var light_gray_alt2_ListItem = n370;
-var n371 = t([[12, 30], [13, 31], [14, 33], [15, 8], [16, 29], [17, 28], [18, 35], [19, 34], [20, 35], [21, 34], [22, 35], [23, 31], [24, 33], [25, 31], [26, 31], [27, 31]]);
-var light_gray_alt2_Card = n371;
-var light_gray_alt2_DrawerFrame = n371;
-var light_gray_alt2_Progress = n371;
-var light_gray_alt2_TooltipArrow = n371;
-var n372 = t([[12, 31], [13, 33], [14, 8], [15, 34], [16, 30], [17, 29], [18, 35], [19, 34], [20, 35], [21, 34], [22, 34], [23, 31], [24, 33], [25, 31], [26, 31], [27, 30]]);
-var light_gray_alt2_Button = n372;
-var light_gray_alt2_Switch = n372;
-var light_gray_alt2_TooltipContent = n372;
-var light_gray_alt2_SliderTrack = n372;
-var n373 = t([[12, 29], [13, 30], [14, 31], [15, 33], [16, 28], [17, 27], [18, 35], [19, 34], [20, 35], [21, 34], [22, 11], [23, 33], [24, 8], [25, 33], [26, 33], [27, 33]]);
-var light_gray_alt2_Checkbox = n373;
-var light_gray_alt2_RadioGroupItem = n373;
-var light_gray_alt2_Input = n373;
-var light_gray_alt2_TextArea = n373;
-var n374 = t([[12, 11], [13, 35], [14, 34], [15, 8], [16, 11], [17, 11], [18, 28], [19, 29], [20, 28], [21, 29], [22, 26], [23, 35], [24, 34], [25, 35], [26, 35], [27, 29]]);
-var light_gray_alt2_SwitchThumb = n374;
-var n375 = t([[12, 33], [13, 31], [14, 30], [15, 29], [16, 8], [17, 34], [18, 28], [19, 29], [20, 28], [21, 29], [22, 29], [23, 31], [24, 30], [25, 31], [26, 31], [27, 8]]);
-var light_gray_alt2_SliderTrackActive = n375;
-var n376 = t([[12, 34], [13, 8], [14, 33], [15, 31], [16, 35], [17, 11], [18, 28], [19, 29], [20, 28], [21, 29], [22, 27], [23, 8], [24, 33], [25, 8], [26, 8], [27, 31]]);
-var light_gray_alt2_SliderThumb = n376;
-var light_gray_alt2_Tooltip = n376;
-var light_gray_alt2_ProgressIndicator = n376;
-var n377 = t([[12, 30], [13, 31], [14, 33], [15, 8], [16, 29], [17, 28], [19, 8], [20, 34], [21, 8], [22, 35], [23, 31], [24, 33], [25, 31], [26, 31], [27, 31]]);
-var light_gray_active_ListItem = n377;
-var n378 = t([[12, 33], [13, 8], [14, 34], [15, 35], [16, 31], [17, 30], [19, 8], [20, 34], [21, 8], [22, 8], [23, 33], [24, 8], [25, 33], [26, 33], [27, 29]]);
-var light_gray_active_Button = n378;
-var light_gray_active_Switch = n378;
-var n379 = t([[12, 30], [13, 31], [14, 33], [15, 8], [16, 29], [17, 28], [19, 8], [20, 34], [21, 8], [22, 35], [23, 8], [24, 34], [25, 8], [26, 8], [27, 31]]);
-var light_gray_active_Checkbox = n379;
-var light_gray_active_Input = n379;
-var light_gray_active_TextArea = n379;
-var n380 = t([[12, 31], [13, 30], [14, 29], [15, 28], [16, 33], [17, 8], [19, 30], [20, 29], [21, 30], [22, 30], [23, 30], [24, 29], [25, 30], [26, 30], [27, 34]]);
-var light_gray_active_SliderTrackActive = n380;
-var n381 = t([[12, 156], [13, 157], [14, 158], [15, 159], [16, 155], [17, 154], [18, 164], [19, 163], [20, 164], [21, 163], [22, 0], [23, 159], [24, 161], [25, 158], [26, 159], [27, 56]]);
-var dark_orange_alt1_ListItem = n381;
-var n382 = t([[12, 157], [13, 158], [14, 159], [15, 161], [16, 156], [17, 155], [18, 164], [19, 163], [20, 164], [21, 163], [22, 164], [23, 161], [24, 56], [25, 159], [26, 161], [27, 161]]);
-var dark_orange_alt1_Card = n382;
-var dark_orange_alt1_DrawerFrame = n382;
-var dark_orange_alt1_Progress = n382;
-var dark_orange_alt1_TooltipArrow = n382;
-var n383 = t([[12, 158], [13, 159], [14, 161], [15, 56], [16, 157], [17, 156], [18, 164], [19, 163], [20, 164], [21, 163], [22, 163], [23, 161], [24, 56], [25, 159], [26, 161], [27, 159]]);
-var dark_orange_alt1_Button = n383;
-var dark_orange_alt1_Switch = n383;
-var dark_orange_alt1_TooltipContent = n383;
-var dark_orange_alt1_SliderTrack = n383;
-var n384 = t([[12, 156], [13, 157], [14, 158], [15, 159], [16, 155], [17, 154], [18, 164], [19, 163], [20, 164], [21, 163], [22, 0], [23, 56], [24, 162], [25, 161], [26, 56], [27, 56]]);
-var dark_orange_alt1_Checkbox = n384;
-var dark_orange_alt1_RadioGroupItem = n384;
-var dark_orange_alt1_Input = n384;
-var dark_orange_alt1_TextArea = n384;
-var n385 = t([[12, 0], [13, 164], [14, 163], [15, 162], [16, 0], [17, 0], [18, 155], [19, 156], [20, 155], [21, 156], [22, 154], [23, 162], [24, 56], [25, 163], [26, 162], [27, 156]]);
-var dark_orange_alt1_SwitchThumb = n385;
-var n386 = t([[12, 56], [13, 161], [14, 159], [15, 158], [16, 162], [17, 163], [18, 155], [19, 156], [20, 155], [21, 156], [22, 156], [23, 158], [24, 157], [25, 159], [26, 158], [27, 161]]);
-var dark_orange_alt1_SliderTrackActive = n386;
-var n387 = t([[12, 163], [13, 162], [14, 56], [15, 161], [16, 164], [17, 0], [18, 155], [19, 156], [20, 155], [21, 156], [22, 154], [23, 161], [24, 159], [25, 56], [26, 161], [27, 158]]);
-var dark_orange_alt1_SliderThumb = n387;
-var dark_orange_alt1_Tooltip = n387;
-var dark_orange_alt1_ProgressIndicator = n387;
-var n388 = t([[12, 157], [13, 158], [14, 159], [15, 161], [16, 156], [17, 155], [18, 163], [19, 162], [20, 163], [21, 162], [22, 164], [23, 159], [24, 161], [25, 158], [26, 159], [27, 161]]);
-var dark_orange_alt2_ListItem = n388;
-var n389 = t([[12, 158], [13, 159], [14, 161], [15, 56], [16, 157], [17, 156], [18, 163], [19, 162], [20, 163], [21, 162], [22, 163], [23, 161], [24, 56], [25, 159], [26, 161], [27, 159]]);
-var dark_orange_alt2_Card = n389;
-var dark_orange_alt2_DrawerFrame = n389;
-var dark_orange_alt2_Progress = n389;
-var dark_orange_alt2_TooltipArrow = n389;
-var n390 = t([[12, 159], [13, 161], [14, 56], [15, 162], [16, 158], [17, 157], [18, 163], [19, 162], [20, 163], [21, 162], [22, 162], [23, 161], [24, 56], [25, 159], [26, 161], [27, 158]]);
-var dark_orange_alt2_Button = n390;
-var dark_orange_alt2_Switch = n390;
-var dark_orange_alt2_TooltipContent = n390;
-var dark_orange_alt2_SliderTrack = n390;
-var n391 = t([[12, 157], [13, 158], [14, 159], [15, 161], [16, 156], [17, 155], [18, 163], [19, 162], [20, 163], [21, 162], [22, 164], [23, 56], [24, 162], [25, 161], [26, 56], [27, 161]]);
-var dark_orange_alt2_Checkbox = n391;
-var dark_orange_alt2_RadioGroupItem = n391;
-var dark_orange_alt2_Input = n391;
-var dark_orange_alt2_TextArea = n391;
-var n392 = t([[12, 164], [13, 163], [14, 162], [15, 56], [16, 0], [17, 0], [18, 156], [19, 157], [20, 156], [21, 157], [22, 154], [23, 162], [24, 56], [25, 163], [26, 162], [27, 157]]);
-var dark_orange_alt2_SwitchThumb = n392;
-var n393 = t([[12, 161], [13, 159], [14, 158], [15, 157], [16, 56], [17, 162], [18, 156], [19, 157], [20, 156], [21, 157], [22, 157], [23, 158], [24, 157], [25, 159], [26, 158], [27, 56]]);
-var dark_orange_alt2_SliderTrackActive = n393;
-var n394 = t([[12, 162], [13, 56], [14, 161], [15, 159], [16, 163], [17, 164], [18, 156], [19, 157], [20, 156], [21, 157], [22, 155], [23, 161], [24, 159], [25, 56], [26, 161], [27, 159]]);
-var dark_orange_alt2_SliderThumb = n394;
-var dark_orange_alt2_Tooltip = n394;
-var dark_orange_alt2_ProgressIndicator = n394;
-var n395 = t([[12, 158], [13, 159], [14, 161], [15, 56], [16, 157], [17, 156], [19, 56], [20, 162], [21, 56], [22, 163], [23, 161], [24, 56], [25, 159], [26, 161], [27, 159]]);
-var dark_orange_active_ListItem = n395;
-var n396 = t([[12, 161], [13, 56], [14, 162], [15, 163], [16, 159], [17, 158], [19, 56], [20, 162], [21, 56], [22, 56], [23, 56], [24, 162], [25, 161], [26, 56], [27, 157]]);
-var dark_orange_active_Button = n396;
-var dark_orange_active_Switch = n396;
-var n397 = t([[12, 158], [13, 159], [14, 161], [15, 56], [16, 157], [17, 156], [19, 56], [20, 162], [21, 56], [22, 163], [23, 162], [24, 163], [25, 56], [26, 162], [27, 159]]);
-var dark_orange_active_Checkbox = n397;
-var dark_orange_active_Input = n397;
-var dark_orange_active_TextArea = n397;
-var n398 = t([[12, 159], [13, 158], [14, 157], [15, 156], [16, 161], [17, 56], [19, 158], [20, 157], [21, 158], [22, 158], [23, 157], [24, 156], [25, 158], [26, 157], [27, 162]]);
-var dark_orange_active_SliderTrackActive = n398;
-var n399 = t([[12, 200], [13, 201], [14, 202], [15, 203], [16, 199], [17, 198], [18, 208], [19, 207], [20, 208], [21, 207], [22, 0], [23, 203], [24, 205], [25, 202], [26, 203], [27, 104]]);
-var dark_yellow_alt1_ListItem = n399;
-var n400 = t([[12, 201], [13, 202], [14, 203], [15, 205], [16, 200], [17, 199], [18, 208], [19, 207], [20, 208], [21, 207], [22, 208], [23, 205], [24, 104], [25, 203], [26, 205], [27, 205]]);
-var dark_yellow_alt1_Card = n400;
-var dark_yellow_alt1_DrawerFrame = n400;
-var dark_yellow_alt1_Progress = n400;
-var dark_yellow_alt1_TooltipArrow = n400;
-var n401 = t([[12, 202], [13, 203], [14, 205], [15, 104], [16, 201], [17, 200], [18, 208], [19, 207], [20, 208], [21, 207], [22, 207], [23, 205], [24, 104], [25, 203], [26, 205], [27, 203]]);
-var dark_yellow_alt1_Button = n401;
-var dark_yellow_alt1_Switch = n401;
-var dark_yellow_alt1_TooltipContent = n401;
-var dark_yellow_alt1_SliderTrack = n401;
-var n402 = t([[12, 200], [13, 201], [14, 202], [15, 203], [16, 199], [17, 198], [18, 208], [19, 207], [20, 208], [21, 207], [22, 0], [23, 104], [24, 206], [25, 205], [26, 104], [27, 104]]);
-var dark_yellow_alt1_Checkbox = n402;
-var dark_yellow_alt1_RadioGroupItem = n402;
-var dark_yellow_alt1_Input = n402;
-var dark_yellow_alt1_TextArea = n402;
-var n403 = t([[12, 0], [13, 208], [14, 207], [15, 206], [16, 0], [17, 0], [18, 199], [19, 200], [20, 199], [21, 200], [22, 198], [23, 206], [24, 104], [25, 207], [26, 206], [27, 200]]);
-var dark_yellow_alt1_SwitchThumb = n403;
-var n404 = t([[12, 104], [13, 205], [14, 203], [15, 202], [16, 206], [17, 207], [18, 199], [19, 200], [20, 199], [21, 200], [22, 200], [23, 202], [24, 201], [25, 203], [26, 202], [27, 205]]);
-var dark_yellow_alt1_SliderTrackActive = n404;
-var n405 = t([[12, 207], [13, 206], [14, 104], [15, 205], [16, 208], [17, 0], [18, 199], [19, 200], [20, 199], [21, 200], [22, 198], [23, 205], [24, 203], [25, 104], [26, 205], [27, 202]]);
-var dark_yellow_alt1_SliderThumb = n405;
-var dark_yellow_alt1_Tooltip = n405;
-var dark_yellow_alt1_ProgressIndicator = n405;
-var n406 = t([[12, 201], [13, 202], [14, 203], [15, 205], [16, 200], [17, 199], [18, 207], [19, 206], [20, 207], [21, 206], [22, 208], [23, 203], [24, 205], [25, 202], [26, 203], [27, 205]]);
-var dark_yellow_alt2_ListItem = n406;
-var n407 = t([[12, 202], [13, 203], [14, 205], [15, 104], [16, 201], [17, 200], [18, 207], [19, 206], [20, 207], [21, 206], [22, 207], [23, 205], [24, 104], [25, 203], [26, 205], [27, 203]]);
-var dark_yellow_alt2_Card = n407;
-var dark_yellow_alt2_DrawerFrame = n407;
-var dark_yellow_alt2_Progress = n407;
-var dark_yellow_alt2_TooltipArrow = n407;
-var n408 = t([[12, 203], [13, 205], [14, 104], [15, 206], [16, 202], [17, 201], [18, 207], [19, 206], [20, 207], [21, 206], [22, 206], [23, 205], [24, 104], [25, 203], [26, 205], [27, 202]]);
-var dark_yellow_alt2_Button = n408;
-var dark_yellow_alt2_Switch = n408;
-var dark_yellow_alt2_TooltipContent = n408;
-var dark_yellow_alt2_SliderTrack = n408;
-var n409 = t([[12, 201], [13, 202], [14, 203], [15, 205], [16, 200], [17, 199], [18, 207], [19, 206], [20, 207], [21, 206], [22, 208], [23, 104], [24, 206], [25, 205], [26, 104], [27, 205]]);
-var dark_yellow_alt2_Checkbox = n409;
-var dark_yellow_alt2_RadioGroupItem = n409;
-var dark_yellow_alt2_Input = n409;
-var dark_yellow_alt2_TextArea = n409;
-var n410 = t([[12, 208], [13, 207], [14, 206], [15, 104], [16, 0], [17, 0], [18, 200], [19, 201], [20, 200], [21, 201], [22, 198], [23, 206], [24, 104], [25, 207], [26, 206], [27, 201]]);
-var dark_yellow_alt2_SwitchThumb = n410;
-var n411 = t([[12, 205], [13, 203], [14, 202], [15, 201], [16, 104], [17, 206], [18, 200], [19, 201], [20, 200], [21, 201], [22, 201], [23, 202], [24, 201], [25, 203], [26, 202], [27, 104]]);
-var dark_yellow_alt2_SliderTrackActive = n411;
-var n412 = t([[12, 206], [13, 104], [14, 205], [15, 203], [16, 207], [17, 208], [18, 200], [19, 201], [20, 200], [21, 201], [22, 199], [23, 205], [24, 203], [25, 104], [26, 205], [27, 203]]);
-var dark_yellow_alt2_SliderThumb = n412;
-var dark_yellow_alt2_Tooltip = n412;
-var dark_yellow_alt2_ProgressIndicator = n412;
-var n413 = t([[12, 202], [13, 203], [14, 205], [15, 104], [16, 201], [17, 200], [19, 104], [20, 206], [21, 104], [22, 207], [23, 205], [24, 104], [25, 203], [26, 205], [27, 203]]);
-var dark_yellow_active_ListItem = n413;
-var n414 = t([[12, 205], [13, 104], [14, 206], [15, 207], [16, 203], [17, 202], [19, 104], [20, 206], [21, 104], [22, 104], [23, 104], [24, 206], [25, 205], [26, 104], [27, 201]]);
-var dark_yellow_active_Button = n414;
-var dark_yellow_active_Switch = n414;
-var n415 = t([[12, 202], [13, 203], [14, 205], [15, 104], [16, 201], [17, 200], [19, 104], [20, 206], [21, 104], [22, 207], [23, 206], [24, 207], [25, 104], [26, 206], [27, 203]]);
-var dark_yellow_active_Checkbox = n415;
-var dark_yellow_active_Input = n415;
-var dark_yellow_active_TextArea = n415;
-var n416 = t([[12, 203], [13, 202], [14, 201], [15, 200], [16, 205], [17, 104], [19, 202], [20, 201], [21, 202], [22, 202], [23, 201], [24, 200], [25, 202], [26, 201], [27, 206]]);
-var dark_yellow_active_SliderTrackActive = n416;
-var n417 = t([[12, 145], [13, 146], [14, 147], [15, 148], [16, 144], [17, 143], [18, 153], [19, 152], [20, 153], [21, 152], [22, 0], [23, 148], [24, 150], [25, 147], [26, 148], [27, 44]]);
-var dark_green_alt1_ListItem = n417;
-var n418 = t([[12, 146], [13, 147], [14, 148], [15, 150], [16, 145], [17, 144], [18, 153], [19, 152], [20, 153], [21, 152], [22, 153], [23, 150], [24, 44], [25, 148], [26, 150], [27, 150]]);
-var dark_green_alt1_Card = n418;
-var dark_green_alt1_DrawerFrame = n418;
-var dark_green_alt1_Progress = n418;
-var dark_green_alt1_TooltipArrow = n418;
-var n419 = t([[12, 147], [13, 148], [14, 150], [15, 44], [16, 146], [17, 145], [18, 153], [19, 152], [20, 153], [21, 152], [22, 152], [23, 150], [24, 44], [25, 148], [26, 150], [27, 148]]);
-var dark_green_alt1_Button = n419;
-var dark_green_alt1_Switch = n419;
-var dark_green_alt1_TooltipContent = n419;
-var dark_green_alt1_SliderTrack = n419;
-var n420 = t([[12, 145], [13, 146], [14, 147], [15, 148], [16, 144], [17, 143], [18, 153], [19, 152], [20, 153], [21, 152], [22, 0], [23, 44], [24, 151], [25, 150], [26, 44], [27, 44]]);
-var dark_green_alt1_Checkbox = n420;
-var dark_green_alt1_RadioGroupItem = n420;
-var dark_green_alt1_Input = n420;
-var dark_green_alt1_TextArea = n420;
-var n421 = t([[12, 0], [13, 153], [14, 152], [15, 151], [16, 0], [17, 0], [18, 144], [19, 145], [20, 144], [21, 145], [22, 143], [23, 151], [24, 44], [25, 152], [26, 151], [27, 145]]);
-var dark_green_alt1_SwitchThumb = n421;
-var n422 = t([[12, 44], [13, 150], [14, 148], [15, 147], [16, 151], [17, 152], [18, 144], [19, 145], [20, 144], [21, 145], [22, 145], [23, 147], [24, 146], [25, 148], [26, 147], [27, 150]]);
-var dark_green_alt1_SliderTrackActive = n422;
-var n423 = t([[12, 152], [13, 151], [14, 44], [15, 150], [16, 153], [17, 0], [18, 144], [19, 145], [20, 144], [21, 145], [22, 143], [23, 150], [24, 148], [25, 44], [26, 150], [27, 147]]);
-var dark_green_alt1_SliderThumb = n423;
-var dark_green_alt1_Tooltip = n423;
-var dark_green_alt1_ProgressIndicator = n423;
-var n424 = t([[12, 146], [13, 147], [14, 148], [15, 150], [16, 145], [17, 144], [18, 152], [19, 151], [20, 152], [21, 151], [22, 153], [23, 148], [24, 150], [25, 147], [26, 148], [27, 150]]);
-var dark_green_alt2_ListItem = n424;
-var n425 = t([[12, 147], [13, 148], [14, 150], [15, 44], [16, 146], [17, 145], [18, 152], [19, 151], [20, 152], [21, 151], [22, 152], [23, 150], [24, 44], [25, 148], [26, 150], [27, 148]]);
-var dark_green_alt2_Card = n425;
-var dark_green_alt2_DrawerFrame = n425;
-var dark_green_alt2_Progress = n425;
-var dark_green_alt2_TooltipArrow = n425;
-var n426 = t([[12, 148], [13, 150], [14, 44], [15, 151], [16, 147], [17, 146], [18, 152], [19, 151], [20, 152], [21, 151], [22, 151], [23, 150], [24, 44], [25, 148], [26, 150], [27, 147]]);
-var dark_green_alt2_Button = n426;
-var dark_green_alt2_Switch = n426;
-var dark_green_alt2_TooltipContent = n426;
-var dark_green_alt2_SliderTrack = n426;
-var n427 = t([[12, 146], [13, 147], [14, 148], [15, 150], [16, 145], [17, 144], [18, 152], [19, 151], [20, 152], [21, 151], [22, 153], [23, 44], [24, 151], [25, 150], [26, 44], [27, 150]]);
-var dark_green_alt2_Checkbox = n427;
-var dark_green_alt2_RadioGroupItem = n427;
-var dark_green_alt2_Input = n427;
-var dark_green_alt2_TextArea = n427;
-var n428 = t([[12, 153], [13, 152], [14, 151], [15, 44], [16, 0], [17, 0], [18, 145], [19, 146], [20, 145], [21, 146], [22, 143], [23, 151], [24, 44], [25, 152], [26, 151], [27, 146]]);
-var dark_green_alt2_SwitchThumb = n428;
-var n429 = t([[12, 150], [13, 148], [14, 147], [15, 146], [16, 44], [17, 151], [18, 145], [19, 146], [20, 145], [21, 146], [22, 146], [23, 147], [24, 146], [25, 148], [26, 147], [27, 44]]);
-var dark_green_alt2_SliderTrackActive = n429;
-var n430 = t([[12, 151], [13, 44], [14, 150], [15, 148], [16, 152], [17, 153], [18, 145], [19, 146], [20, 145], [21, 146], [22, 144], [23, 150], [24, 148], [25, 44], [26, 150], [27, 148]]);
-var dark_green_alt2_SliderThumb = n430;
-var dark_green_alt2_Tooltip = n430;
-var dark_green_alt2_ProgressIndicator = n430;
-var n431 = t([[12, 147], [13, 148], [14, 150], [15, 44], [16, 146], [17, 145], [19, 44], [20, 151], [21, 44], [22, 152], [23, 150], [24, 44], [25, 148], [26, 150], [27, 148]]);
-var dark_green_active_ListItem = n431;
-var n432 = t([[12, 150], [13, 44], [14, 151], [15, 152], [16, 148], [17, 147], [19, 44], [20, 151], [21, 44], [22, 44], [23, 44], [24, 151], [25, 150], [26, 44], [27, 146]]);
-var dark_green_active_Button = n432;
-var dark_green_active_Switch = n432;
-var n433 = t([[12, 147], [13, 148], [14, 150], [15, 44], [16, 146], [17, 145], [19, 44], [20, 151], [21, 44], [22, 152], [23, 151], [24, 152], [25, 44], [26, 151], [27, 148]]);
-var dark_green_active_Checkbox = n433;
-var dark_green_active_Input = n433;
-var dark_green_active_TextArea = n433;
-var n434 = t([[12, 148], [13, 147], [14, 146], [15, 145], [16, 150], [17, 44], [19, 147], [20, 146], [21, 147], [22, 147], [23, 146], [24, 145], [25, 147], [26, 146], [27, 151]]);
-var dark_green_active_SliderTrackActive = n434;
-var n435 = t([[12, 123], [13, 124], [14, 125], [15, 126], [16, 122], [17, 121], [18, 131], [19, 130], [20, 131], [21, 130], [22, 0], [23, 126], [24, 128], [25, 125], [26, 126], [27, 22]]);
-var dark_blue_alt1_ListItem = n435;
-var n436 = t([[12, 124], [13, 125], [14, 126], [15, 128], [16, 123], [17, 122], [18, 131], [19, 130], [20, 131], [21, 130], [22, 131], [23, 128], [24, 22], [25, 126], [26, 128], [27, 128]]);
-var dark_blue_alt1_Card = n436;
-var dark_blue_alt1_DrawerFrame = n436;
-var dark_blue_alt1_Progress = n436;
-var dark_blue_alt1_TooltipArrow = n436;
-var n437 = t([[12, 125], [13, 126], [14, 128], [15, 22], [16, 124], [17, 123], [18, 131], [19, 130], [20, 131], [21, 130], [22, 130], [23, 128], [24, 22], [25, 126], [26, 128], [27, 126]]);
-var dark_blue_alt1_Button = n437;
-var dark_blue_alt1_Switch = n437;
-var dark_blue_alt1_TooltipContent = n437;
-var dark_blue_alt1_SliderTrack = n437;
-var n438 = t([[12, 123], [13, 124], [14, 125], [15, 126], [16, 122], [17, 121], [18, 131], [19, 130], [20, 131], [21, 130], [22, 0], [23, 22], [24, 129], [25, 128], [26, 22], [27, 22]]);
-var dark_blue_alt1_Checkbox = n438;
-var dark_blue_alt1_RadioGroupItem = n438;
-var dark_blue_alt1_Input = n438;
-var dark_blue_alt1_TextArea = n438;
-var n439 = t([[12, 0], [13, 131], [14, 130], [15, 129], [16, 0], [17, 0], [18, 122], [19, 123], [20, 122], [21, 123], [22, 121], [23, 129], [24, 22], [25, 130], [26, 129], [27, 123]]);
-var dark_blue_alt1_SwitchThumb = n439;
-var n440 = t([[12, 22], [13, 128], [14, 126], [15, 125], [16, 129], [17, 130], [18, 122], [19, 123], [20, 122], [21, 123], [22, 123], [23, 125], [24, 124], [25, 126], [26, 125], [27, 128]]);
-var dark_blue_alt1_SliderTrackActive = n440;
-var n441 = t([[12, 130], [13, 129], [14, 22], [15, 128], [16, 131], [17, 0], [18, 122], [19, 123], [20, 122], [21, 123], [22, 121], [23, 128], [24, 126], [25, 22], [26, 128], [27, 125]]);
-var dark_blue_alt1_SliderThumb = n441;
-var dark_blue_alt1_Tooltip = n441;
-var dark_blue_alt1_ProgressIndicator = n441;
-var n442 = t([[12, 124], [13, 125], [14, 126], [15, 128], [16, 123], [17, 122], [18, 130], [19, 129], [20, 130], [21, 129], [22, 131], [23, 126], [24, 128], [25, 125], [26, 126], [27, 128]]);
-var dark_blue_alt2_ListItem = n442;
-var n443 = t([[12, 125], [13, 126], [14, 128], [15, 22], [16, 124], [17, 123], [18, 130], [19, 129], [20, 130], [21, 129], [22, 130], [23, 128], [24, 22], [25, 126], [26, 128], [27, 126]]);
-var dark_blue_alt2_Card = n443;
-var dark_blue_alt2_DrawerFrame = n443;
-var dark_blue_alt2_Progress = n443;
-var dark_blue_alt2_TooltipArrow = n443;
-var n444 = t([[12, 126], [13, 128], [14, 22], [15, 129], [16, 125], [17, 124], [18, 130], [19, 129], [20, 130], [21, 129], [22, 129], [23, 128], [24, 22], [25, 126], [26, 128], [27, 125]]);
-var dark_blue_alt2_Button = n444;
-var dark_blue_alt2_Switch = n444;
-var dark_blue_alt2_TooltipContent = n444;
-var dark_blue_alt2_SliderTrack = n444;
-var n445 = t([[12, 124], [13, 125], [14, 126], [15, 128], [16, 123], [17, 122], [18, 130], [19, 129], [20, 130], [21, 129], [22, 131], [23, 22], [24, 129], [25, 128], [26, 22], [27, 128]]);
-var dark_blue_alt2_Checkbox = n445;
-var dark_blue_alt2_RadioGroupItem = n445;
-var dark_blue_alt2_Input = n445;
-var dark_blue_alt2_TextArea = n445;
-var n446 = t([[12, 131], [13, 130], [14, 129], [15, 22], [16, 0], [17, 0], [18, 123], [19, 124], [20, 123], [21, 124], [22, 121], [23, 129], [24, 22], [25, 130], [26, 129], [27, 124]]);
-var dark_blue_alt2_SwitchThumb = n446;
-var n447 = t([[12, 128], [13, 126], [14, 125], [15, 124], [16, 22], [17, 129], [18, 123], [19, 124], [20, 123], [21, 124], [22, 124], [23, 125], [24, 124], [25, 126], [26, 125], [27, 22]]);
-var dark_blue_alt2_SliderTrackActive = n447;
-var n448 = t([[12, 129], [13, 22], [14, 128], [15, 126], [16, 130], [17, 131], [18, 123], [19, 124], [20, 123], [21, 124], [22, 122], [23, 128], [24, 126], [25, 22], [26, 128], [27, 126]]);
-var dark_blue_alt2_SliderThumb = n448;
-var dark_blue_alt2_Tooltip = n448;
-var dark_blue_alt2_ProgressIndicator = n448;
-var n449 = t([[12, 125], [13, 126], [14, 128], [15, 22], [16, 124], [17, 123], [19, 22], [20, 129], [21, 22], [22, 130], [23, 128], [24, 22], [25, 126], [26, 128], [27, 126]]);
-var dark_blue_active_ListItem = n449;
-var n450 = t([[12, 128], [13, 22], [14, 129], [15, 130], [16, 126], [17, 125], [19, 22], [20, 129], [21, 22], [22, 22], [23, 22], [24, 129], [25, 128], [26, 22], [27, 124]]);
-var dark_blue_active_Button = n450;
-var dark_blue_active_Switch = n450;
-var n451 = t([[12, 125], [13, 126], [14, 128], [15, 22], [16, 124], [17, 123], [19, 22], [20, 129], [21, 22], [22, 130], [23, 129], [24, 130], [25, 22], [26, 129], [27, 126]]);
-var dark_blue_active_Checkbox = n451;
-var dark_blue_active_Input = n451;
-var dark_blue_active_TextArea = n451;
-var n452 = t([[12, 126], [13, 125], [14, 124], [15, 123], [16, 128], [17, 22], [19, 125], [20, 124], [21, 125], [22, 125], [23, 124], [24, 123], [25, 125], [26, 124], [27, 129]]);
-var dark_blue_active_SliderTrackActive = n452;
-var n453 = t([[12, 178], [13, 179], [14, 180], [15, 181], [16, 177], [17, 176], [18, 186], [19, 185], [20, 186], [21, 185], [22, 0], [23, 181], [24, 183], [25, 180], [26, 181], [27, 80]]);
-var dark_purple_alt1_ListItem = n453;
-var n454 = t([[12, 179], [13, 180], [14, 181], [15, 183], [16, 178], [17, 177], [18, 186], [19, 185], [20, 186], [21, 185], [22, 186], [23, 183], [24, 80], [25, 181], [26, 183], [27, 183]]);
-var dark_purple_alt1_Card = n454;
-var dark_purple_alt1_DrawerFrame = n454;
-var dark_purple_alt1_Progress = n454;
-var dark_purple_alt1_TooltipArrow = n454;
-var n455 = t([[12, 180], [13, 181], [14, 183], [15, 80], [16, 179], [17, 178], [18, 186], [19, 185], [20, 186], [21, 185], [22, 185], [23, 183], [24, 80], [25, 181], [26, 183], [27, 181]]);
-var dark_purple_alt1_Button = n455;
-var dark_purple_alt1_Switch = n455;
-var dark_purple_alt1_TooltipContent = n455;
-var dark_purple_alt1_SliderTrack = n455;
-var n456 = t([[12, 178], [13, 179], [14, 180], [15, 181], [16, 177], [17, 176], [18, 186], [19, 185], [20, 186], [21, 185], [22, 0], [23, 80], [24, 184], [25, 183], [26, 80], [27, 80]]);
-var dark_purple_alt1_Checkbox = n456;
-var dark_purple_alt1_RadioGroupItem = n456;
-var dark_purple_alt1_Input = n456;
-var dark_purple_alt1_TextArea = n456;
-var n457 = t([[12, 0], [13, 186], [14, 185], [15, 184], [16, 0], [17, 0], [18, 177], [19, 178], [20, 177], [21, 178], [22, 176], [23, 184], [24, 80], [25, 185], [26, 184], [27, 178]]);
-var dark_purple_alt1_SwitchThumb = n457;
-var n458 = t([[12, 80], [13, 183], [14, 181], [15, 180], [16, 184], [17, 185], [18, 177], [19, 178], [20, 177], [21, 178], [22, 178], [23, 180], [24, 179], [25, 181], [26, 180], [27, 183]]);
-var dark_purple_alt1_SliderTrackActive = n458;
-var n459 = t([[12, 185], [13, 184], [14, 80], [15, 183], [16, 186], [17, 0], [18, 177], [19, 178], [20, 177], [21, 178], [22, 176], [23, 183], [24, 181], [25, 80], [26, 183], [27, 180]]);
-var dark_purple_alt1_SliderThumb = n459;
-var dark_purple_alt1_Tooltip = n459;
-var dark_purple_alt1_ProgressIndicator = n459;
-var n460 = t([[12, 179], [13, 180], [14, 181], [15, 183], [16, 178], [17, 177], [18, 185], [19, 184], [20, 185], [21, 184], [22, 186], [23, 181], [24, 183], [25, 180], [26, 181], [27, 183]]);
-var dark_purple_alt2_ListItem = n460;
-var n461 = t([[12, 180], [13, 181], [14, 183], [15, 80], [16, 179], [17, 178], [18, 185], [19, 184], [20, 185], [21, 184], [22, 185], [23, 183], [24, 80], [25, 181], [26, 183], [27, 181]]);
-var dark_purple_alt2_Card = n461;
-var dark_purple_alt2_DrawerFrame = n461;
-var dark_purple_alt2_Progress = n461;
-var dark_purple_alt2_TooltipArrow = n461;
-var n462 = t([[12, 181], [13, 183], [14, 80], [15, 184], [16, 180], [17, 179], [18, 185], [19, 184], [20, 185], [21, 184], [22, 184], [23, 183], [24, 80], [25, 181], [26, 183], [27, 180]]);
-var dark_purple_alt2_Button = n462;
-var dark_purple_alt2_Switch = n462;
-var dark_purple_alt2_TooltipContent = n462;
-var dark_purple_alt2_SliderTrack = n462;
-var n463 = t([[12, 179], [13, 180], [14, 181], [15, 183], [16, 178], [17, 177], [18, 185], [19, 184], [20, 185], [21, 184], [22, 186], [23, 80], [24, 184], [25, 183], [26, 80], [27, 183]]);
-var dark_purple_alt2_Checkbox = n463;
-var dark_purple_alt2_RadioGroupItem = n463;
-var dark_purple_alt2_Input = n463;
-var dark_purple_alt2_TextArea = n463;
-var n464 = t([[12, 186], [13, 185], [14, 184], [15, 80], [16, 0], [17, 0], [18, 178], [19, 179], [20, 178], [21, 179], [22, 176], [23, 184], [24, 80], [25, 185], [26, 184], [27, 179]]);
-var dark_purple_alt2_SwitchThumb = n464;
-var n465 = t([[12, 183], [13, 181], [14, 180], [15, 179], [16, 80], [17, 184], [18, 178], [19, 179], [20, 178], [21, 179], [22, 179], [23, 180], [24, 179], [25, 181], [26, 180], [27, 80]]);
-var dark_purple_alt2_SliderTrackActive = n465;
-var n466 = t([[12, 184], [13, 80], [14, 183], [15, 181], [16, 185], [17, 186], [18, 178], [19, 179], [20, 178], [21, 179], [22, 177], [23, 183], [24, 181], [25, 80], [26, 183], [27, 181]]);
-var dark_purple_alt2_SliderThumb = n466;
-var dark_purple_alt2_Tooltip = n466;
-var dark_purple_alt2_ProgressIndicator = n466;
-var n467 = t([[12, 180], [13, 181], [14, 183], [15, 80], [16, 179], [17, 178], [19, 80], [20, 184], [21, 80], [22, 185], [23, 183], [24, 80], [25, 181], [26, 183], [27, 181]]);
-var dark_purple_active_ListItem = n467;
-var n468 = t([[12, 183], [13, 80], [14, 184], [15, 185], [16, 181], [17, 180], [19, 80], [20, 184], [21, 80], [22, 80], [23, 80], [24, 184], [25, 183], [26, 80], [27, 179]]);
-var dark_purple_active_Button = n468;
-var dark_purple_active_Switch = n468;
-var n469 = t([[12, 180], [13, 181], [14, 183], [15, 80], [16, 179], [17, 178], [19, 80], [20, 184], [21, 80], [22, 185], [23, 184], [24, 185], [25, 80], [26, 184], [27, 181]]);
-var dark_purple_active_Checkbox = n469;
-var dark_purple_active_Input = n469;
-var dark_purple_active_TextArea = n469;
-var n470 = t([[12, 181], [13, 180], [14, 179], [15, 178], [16, 183], [17, 80], [19, 180], [20, 179], [21, 180], [22, 180], [23, 179], [24, 178], [25, 180], [26, 179], [27, 184]]);
-var dark_purple_active_SliderTrackActive = n470;
-var n471 = t([[12, 167], [13, 168], [14, 169], [15, 170], [16, 166], [17, 165], [18, 175], [19, 174], [20, 175], [21, 174], [22, 0], [23, 170], [24, 172], [25, 169], [26, 170], [27, 68]]);
-var dark_pink_alt1_ListItem = n471;
-var n472 = t([[12, 168], [13, 169], [14, 170], [15, 172], [16, 167], [17, 166], [18, 175], [19, 174], [20, 175], [21, 174], [22, 175], [23, 172], [24, 68], [25, 170], [26, 172], [27, 172]]);
-var dark_pink_alt1_Card = n472;
-var dark_pink_alt1_DrawerFrame = n472;
-var dark_pink_alt1_Progress = n472;
-var dark_pink_alt1_TooltipArrow = n472;
-var n473 = t([[12, 169], [13, 170], [14, 172], [15, 68], [16, 168], [17, 167], [18, 175], [19, 174], [20, 175], [21, 174], [22, 174], [23, 172], [24, 68], [25, 170], [26, 172], [27, 170]]);
-var dark_pink_alt1_Button = n473;
-var dark_pink_alt1_Switch = n473;
-var dark_pink_alt1_TooltipContent = n473;
-var dark_pink_alt1_SliderTrack = n473;
-var n474 = t([[12, 167], [13, 168], [14, 169], [15, 170], [16, 166], [17, 165], [18, 175], [19, 174], [20, 175], [21, 174], [22, 0], [23, 68], [24, 173], [25, 172], [26, 68], [27, 68]]);
-var dark_pink_alt1_Checkbox = n474;
-var dark_pink_alt1_RadioGroupItem = n474;
-var dark_pink_alt1_Input = n474;
-var dark_pink_alt1_TextArea = n474;
-var n475 = t([[12, 0], [13, 175], [14, 174], [15, 173], [16, 0], [17, 0], [18, 166], [19, 167], [20, 166], [21, 167], [22, 165], [23, 173], [24, 68], [25, 174], [26, 173], [27, 167]]);
-var dark_pink_alt1_SwitchThumb = n475;
-var n476 = t([[12, 68], [13, 172], [14, 170], [15, 169], [16, 173], [17, 174], [18, 166], [19, 167], [20, 166], [21, 167], [22, 167], [23, 169], [24, 168], [25, 170], [26, 169], [27, 172]]);
-var dark_pink_alt1_SliderTrackActive = n476;
-var n477 = t([[12, 174], [13, 173], [14, 68], [15, 172], [16, 175], [17, 0], [18, 166], [19, 167], [20, 166], [21, 167], [22, 165], [23, 172], [24, 170], [25, 68], [26, 172], [27, 169]]);
-var dark_pink_alt1_SliderThumb = n477;
-var dark_pink_alt1_Tooltip = n477;
-var dark_pink_alt1_ProgressIndicator = n477;
-var n478 = t([[12, 168], [13, 169], [14, 170], [15, 172], [16, 167], [17, 166], [18, 174], [19, 173], [20, 174], [21, 173], [22, 175], [23, 170], [24, 172], [25, 169], [26, 170], [27, 172]]);
-var dark_pink_alt2_ListItem = n478;
-var n479 = t([[12, 169], [13, 170], [14, 172], [15, 68], [16, 168], [17, 167], [18, 174], [19, 173], [20, 174], [21, 173], [22, 174], [23, 172], [24, 68], [25, 170], [26, 172], [27, 170]]);
-var dark_pink_alt2_Card = n479;
-var dark_pink_alt2_DrawerFrame = n479;
-var dark_pink_alt2_Progress = n479;
-var dark_pink_alt2_TooltipArrow = n479;
-var n480 = t([[12, 170], [13, 172], [14, 68], [15, 173], [16, 169], [17, 168], [18, 174], [19, 173], [20, 174], [21, 173], [22, 173], [23, 172], [24, 68], [25, 170], [26, 172], [27, 169]]);
-var dark_pink_alt2_Button = n480;
-var dark_pink_alt2_Switch = n480;
-var dark_pink_alt2_TooltipContent = n480;
-var dark_pink_alt2_SliderTrack = n480;
-var n481 = t([[12, 168], [13, 169], [14, 170], [15, 172], [16, 167], [17, 166], [18, 174], [19, 173], [20, 174], [21, 173], [22, 175], [23, 68], [24, 173], [25, 172], [26, 68], [27, 172]]);
-var dark_pink_alt2_Checkbox = n481;
-var dark_pink_alt2_RadioGroupItem = n481;
-var dark_pink_alt2_Input = n481;
-var dark_pink_alt2_TextArea = n481;
-var n482 = t([[12, 175], [13, 174], [14, 173], [15, 68], [16, 0], [17, 0], [18, 167], [19, 168], [20, 167], [21, 168], [22, 165], [23, 173], [24, 68], [25, 174], [26, 173], [27, 168]]);
-var dark_pink_alt2_SwitchThumb = n482;
-var n483 = t([[12, 172], [13, 170], [14, 169], [15, 168], [16, 68], [17, 173], [18, 167], [19, 168], [20, 167], [21, 168], [22, 168], [23, 169], [24, 168], [25, 170], [26, 169], [27, 68]]);
-var dark_pink_alt2_SliderTrackActive = n483;
-var n484 = t([[12, 173], [13, 68], [14, 172], [15, 170], [16, 174], [17, 175], [18, 167], [19, 168], [20, 167], [21, 168], [22, 166], [23, 172], [24, 170], [25, 68], [26, 172], [27, 170]]);
-var dark_pink_alt2_SliderThumb = n484;
-var dark_pink_alt2_Tooltip = n484;
-var dark_pink_alt2_ProgressIndicator = n484;
-var n485 = t([[12, 169], [13, 170], [14, 172], [15, 68], [16, 168], [17, 167], [19, 68], [20, 173], [21, 68], [22, 174], [23, 172], [24, 68], [25, 170], [26, 172], [27, 170]]);
-var dark_pink_active_ListItem = n485;
-var n486 = t([[12, 172], [13, 68], [14, 173], [15, 174], [16, 170], [17, 169], [19, 68], [20, 173], [21, 68], [22, 68], [23, 68], [24, 173], [25, 172], [26, 68], [27, 168]]);
-var dark_pink_active_Button = n486;
-var dark_pink_active_Switch = n486;
-var n487 = t([[12, 169], [13, 170], [14, 172], [15, 68], [16, 168], [17, 167], [19, 68], [20, 173], [21, 68], [22, 174], [23, 173], [24, 174], [25, 68], [26, 173], [27, 170]]);
-var dark_pink_active_Checkbox = n487;
-var dark_pink_active_Input = n487;
-var dark_pink_active_TextArea = n487;
-var n488 = t([[12, 170], [13, 169], [14, 168], [15, 167], [16, 172], [17, 68], [19, 169], [20, 168], [21, 169], [22, 169], [23, 168], [24, 167], [25, 169], [26, 168], [27, 173]]);
-var dark_pink_active_SliderTrackActive = n488;
-var n489 = t([[12, 189], [13, 190], [14, 191], [15, 192], [16, 188], [17, 187], [18, 197], [19, 196], [20, 197], [21, 196], [22, 0], [23, 192], [24, 194], [25, 191], [26, 192], [27, 92]]);
-var dark_red_alt1_ListItem = n489;
-var n490 = t([[12, 190], [13, 191], [14, 192], [15, 194], [16, 189], [17, 188], [18, 197], [19, 196], [20, 197], [21, 196], [22, 197], [23, 194], [24, 92], [25, 192], [26, 194], [27, 194]]);
-var dark_red_alt1_Card = n490;
-var dark_red_alt1_DrawerFrame = n490;
-var dark_red_alt1_Progress = n490;
-var dark_red_alt1_TooltipArrow = n490;
-var n491 = t([[12, 191], [13, 192], [14, 194], [15, 92], [16, 190], [17, 189], [18, 197], [19, 196], [20, 197], [21, 196], [22, 196], [23, 194], [24, 92], [25, 192], [26, 194], [27, 192]]);
-var dark_red_alt1_Button = n491;
-var dark_red_alt1_Switch = n491;
-var dark_red_alt1_TooltipContent = n491;
-var dark_red_alt1_SliderTrack = n491;
-var n492 = t([[12, 189], [13, 190], [14, 191], [15, 192], [16, 188], [17, 187], [18, 197], [19, 196], [20, 197], [21, 196], [22, 0], [23, 92], [24, 195], [25, 194], [26, 92], [27, 92]]);
-var dark_red_alt1_Checkbox = n492;
-var dark_red_alt1_RadioGroupItem = n492;
-var dark_red_alt1_Input = n492;
-var dark_red_alt1_TextArea = n492;
-var n493 = t([[12, 0], [13, 197], [14, 196], [15, 195], [16, 0], [17, 0], [18, 188], [19, 189], [20, 188], [21, 189], [22, 187], [23, 195], [24, 92], [25, 196], [26, 195], [27, 189]]);
-var dark_red_alt1_SwitchThumb = n493;
-var n494 = t([[12, 92], [13, 194], [14, 192], [15, 191], [16, 195], [17, 196], [18, 188], [19, 189], [20, 188], [21, 189], [22, 189], [23, 191], [24, 190], [25, 192], [26, 191], [27, 194]]);
-var dark_red_alt1_SliderTrackActive = n494;
-var n495 = t([[12, 196], [13, 195], [14, 92], [15, 194], [16, 197], [17, 0], [18, 188], [19, 189], [20, 188], [21, 189], [22, 187], [23, 194], [24, 192], [25, 92], [26, 194], [27, 191]]);
-var dark_red_alt1_SliderThumb = n495;
-var dark_red_alt1_Tooltip = n495;
-var dark_red_alt1_ProgressIndicator = n495;
-var n496 = t([[12, 190], [13, 191], [14, 192], [15, 194], [16, 189], [17, 188], [18, 196], [19, 195], [20, 196], [21, 195], [22, 197], [23, 192], [24, 194], [25, 191], [26, 192], [27, 194]]);
-var dark_red_alt2_ListItem = n496;
-var n497 = t([[12, 191], [13, 192], [14, 194], [15, 92], [16, 190], [17, 189], [18, 196], [19, 195], [20, 196], [21, 195], [22, 196], [23, 194], [24, 92], [25, 192], [26, 194], [27, 192]]);
-var dark_red_alt2_Card = n497;
-var dark_red_alt2_DrawerFrame = n497;
-var dark_red_alt2_Progress = n497;
-var dark_red_alt2_TooltipArrow = n497;
-var n498 = t([[12, 192], [13, 194], [14, 92], [15, 195], [16, 191], [17, 190], [18, 196], [19, 195], [20, 196], [21, 195], [22, 195], [23, 194], [24, 92], [25, 192], [26, 194], [27, 191]]);
-var dark_red_alt2_Button = n498;
-var dark_red_alt2_Switch = n498;
-var dark_red_alt2_TooltipContent = n498;
-var dark_red_alt2_SliderTrack = n498;
-var n499 = t([[12, 190], [13, 191], [14, 192], [15, 194], [16, 189], [17, 188], [18, 196], [19, 195], [20, 196], [21, 195], [22, 197], [23, 92], [24, 195], [25, 194], [26, 92], [27, 194]]);
-var dark_red_alt2_Checkbox = n499;
-var dark_red_alt2_RadioGroupItem = n499;
-var dark_red_alt2_Input = n499;
-var dark_red_alt2_TextArea = n499;
-var n500 = t([[12, 197], [13, 196], [14, 195], [15, 92], [16, 0], [17, 0], [18, 189], [19, 190], [20, 189], [21, 190], [22, 187], [23, 195], [24, 92], [25, 196], [26, 195], [27, 190]]);
-var dark_red_alt2_SwitchThumb = n500;
-var n501 = t([[12, 194], [13, 192], [14, 191], [15, 190], [16, 92], [17, 195], [18, 189], [19, 190], [20, 189], [21, 190], [22, 190], [23, 191], [24, 190], [25, 192], [26, 191], [27, 92]]);
-var dark_red_alt2_SliderTrackActive = n501;
-var n502 = t([[12, 195], [13, 92], [14, 194], [15, 192], [16, 196], [17, 197], [18, 189], [19, 190], [20, 189], [21, 190], [22, 188], [23, 194], [24, 192], [25, 92], [26, 194], [27, 192]]);
-var dark_red_alt2_SliderThumb = n502;
-var dark_red_alt2_Tooltip = n502;
-var dark_red_alt2_ProgressIndicator = n502;
-var n503 = t([[12, 191], [13, 192], [14, 194], [15, 92], [16, 190], [17, 189], [19, 92], [20, 195], [21, 92], [22, 196], [23, 194], [24, 92], [25, 192], [26, 194], [27, 192]]);
-var dark_red_active_ListItem = n503;
-var n504 = t([[12, 194], [13, 92], [14, 195], [15, 196], [16, 192], [17, 191], [19, 92], [20, 195], [21, 92], [22, 92], [23, 92], [24, 195], [25, 194], [26, 92], [27, 190]]);
-var dark_red_active_Button = n504;
-var dark_red_active_Switch = n504;
-var n505 = t([[12, 191], [13, 192], [14, 194], [15, 92], [16, 190], [17, 189], [19, 92], [20, 195], [21, 92], [22, 196], [23, 195], [24, 196], [25, 92], [26, 195], [27, 192]]);
-var dark_red_active_Checkbox = n505;
-var dark_red_active_Input = n505;
-var dark_red_active_TextArea = n505;
-var n506 = t([[12, 192], [13, 191], [14, 190], [15, 189], [16, 194], [17, 92], [19, 191], [20, 190], [21, 191], [22, 191], [23, 190], [24, 189], [25, 191], [26, 190], [27, 195]]);
-var dark_red_active_SliderTrackActive = n506;
-var n507 = t([[12, 134], [13, 135], [14, 136], [15, 137], [16, 133], [17, 132], [18, 29], [19, 142], [20, 29], [21, 142], [22, 0], [23, 137], [24, 139], [25, 136], [26, 137], [27, 140]]);
-var dark_gray_alt1_ListItem = n507;
-var n508 = t([[12, 135], [13, 136], [14, 137], [15, 139], [16, 134], [17, 133], [18, 29], [19, 142], [20, 29], [21, 142], [22, 29], [23, 139], [24, 140], [25, 137], [26, 139], [27, 139]]);
-var dark_gray_alt1_Card = n508;
-var dark_gray_alt1_DrawerFrame = n508;
-var dark_gray_alt1_Progress = n508;
-var dark_gray_alt1_TooltipArrow = n508;
-var n509 = t([[12, 136], [13, 137], [14, 139], [15, 140], [16, 135], [17, 134], [18, 29], [19, 142], [20, 29], [21, 142], [22, 142], [23, 139], [24, 140], [25, 137], [26, 139], [27, 137]]);
-var dark_gray_alt1_Button = n509;
-var dark_gray_alt1_Switch = n509;
-var dark_gray_alt1_TooltipContent = n509;
-var dark_gray_alt1_SliderTrack = n509;
-var n510 = t([[12, 134], [13, 135], [14, 136], [15, 137], [16, 133], [17, 132], [18, 29], [19, 142], [20, 29], [21, 142], [22, 0], [23, 140], [24, 141], [25, 139], [26, 140], [27, 140]]);
-var dark_gray_alt1_Checkbox = n510;
-var dark_gray_alt1_RadioGroupItem = n510;
-var dark_gray_alt1_Input = n510;
-var dark_gray_alt1_TextArea = n510;
-var n511 = t([[12, 0], [13, 29], [14, 142], [15, 141], [16, 0], [17, 0], [18, 133], [19, 134], [20, 133], [21, 134], [22, 132], [23, 141], [24, 140], [25, 142], [26, 141], [27, 134]]);
-var dark_gray_alt1_SwitchThumb = n511;
-var n512 = t([[12, 140], [13, 139], [14, 137], [15, 136], [16, 141], [17, 142], [18, 133], [19, 134], [20, 133], [21, 134], [22, 134], [23, 136], [24, 135], [25, 137], [26, 136], [27, 139]]);
-var dark_gray_alt1_SliderTrackActive = n512;
-var n513 = t([[12, 142], [13, 141], [14, 140], [15, 139], [16, 29], [17, 0], [18, 133], [19, 134], [20, 133], [21, 134], [22, 132], [23, 139], [24, 137], [25, 140], [26, 139], [27, 136]]);
-var dark_gray_alt1_SliderThumb = n513;
-var dark_gray_alt1_Tooltip = n513;
-var dark_gray_alt1_ProgressIndicator = n513;
-var n514 = t([[12, 135], [13, 136], [14, 137], [15, 139], [16, 134], [17, 133], [18, 142], [19, 141], [20, 142], [21, 141], [22, 29], [23, 137], [24, 139], [25, 136], [26, 137], [27, 139]]);
-var dark_gray_alt2_ListItem = n514;
-var n515 = t([[12, 136], [13, 137], [14, 139], [15, 140], [16, 135], [17, 134], [18, 142], [19, 141], [20, 142], [21, 141], [22, 142], [23, 139], [24, 140], [25, 137], [26, 139], [27, 137]]);
-var dark_gray_alt2_Card = n515;
-var dark_gray_alt2_DrawerFrame = n515;
-var dark_gray_alt2_Progress = n515;
-var dark_gray_alt2_TooltipArrow = n515;
-var n516 = t([[12, 137], [13, 139], [14, 140], [15, 141], [16, 136], [17, 135], [18, 142], [19, 141], [20, 142], [21, 141], [22, 141], [23, 139], [24, 140], [25, 137], [26, 139], [27, 136]]);
-var dark_gray_alt2_Button = n516;
-var dark_gray_alt2_Switch = n516;
-var dark_gray_alt2_TooltipContent = n516;
-var dark_gray_alt2_SliderTrack = n516;
-var n517 = t([[12, 135], [13, 136], [14, 137], [15, 139], [16, 134], [17, 133], [18, 142], [19, 141], [20, 142], [21, 141], [22, 29], [23, 140], [24, 141], [25, 139], [26, 140], [27, 139]]);
-var dark_gray_alt2_Checkbox = n517;
-var dark_gray_alt2_RadioGroupItem = n517;
-var dark_gray_alt2_Input = n517;
-var dark_gray_alt2_TextArea = n517;
-var n518 = t([[12, 29], [13, 142], [14, 141], [15, 140], [16, 0], [17, 0], [18, 134], [19, 135], [20, 134], [21, 135], [22, 132], [23, 141], [24, 140], [25, 142], [26, 141], [27, 135]]);
-var dark_gray_alt2_SwitchThumb = n518;
-var n519 = t([[12, 139], [13, 137], [14, 136], [15, 135], [16, 140], [17, 141], [18, 134], [19, 135], [20, 134], [21, 135], [22, 135], [23, 136], [24, 135], [25, 137], [26, 136], [27, 140]]);
-var dark_gray_alt2_SliderTrackActive = n519;
-var n520 = t([[12, 141], [13, 140], [14, 139], [15, 137], [16, 142], [17, 29], [18, 134], [19, 135], [20, 134], [21, 135], [22, 133], [23, 139], [24, 137], [25, 140], [26, 139], [27, 137]]);
-var dark_gray_alt2_SliderThumb = n520;
-var dark_gray_alt2_Tooltip = n520;
-var dark_gray_alt2_ProgressIndicator = n520;
-var n521 = t([[12, 136], [13, 137], [14, 139], [15, 140], [16, 135], [17, 134], [19, 140], [20, 141], [21, 140], [22, 142], [23, 139], [24, 140], [25, 137], [26, 139], [27, 137]]);
-var dark_gray_active_ListItem = n521;
-var n522 = t([[12, 139], [13, 140], [14, 141], [15, 142], [16, 137], [17, 136], [19, 140], [20, 141], [21, 140], [22, 140], [23, 140], [24, 141], [25, 139], [26, 140], [27, 135]]);
-var dark_gray_active_Button = n522;
-var dark_gray_active_Switch = n522;
-var n523 = t([[12, 136], [13, 137], [14, 139], [15, 140], [16, 135], [17, 134], [19, 140], [20, 141], [21, 140], [22, 142], [23, 141], [24, 142], [25, 140], [26, 141], [27, 137]]);
-var dark_gray_active_Checkbox = n523;
-var dark_gray_active_Input = n523;
-var dark_gray_active_TextArea = n523;
-var n524 = t([[12, 137], [13, 136], [14, 135], [15, 134], [16, 139], [17, 140], [19, 136], [20, 135], [21, 136], [22, 136], [23, 135], [24, 134], [25, 136], [26, 135], [27, 141]]);
-var dark_gray_active_SliderTrackActive = n524;
-
-// ../../../node_modules/@tamagui/colors/dist/esm/dark/blue.js
-var blue = {
-  blue1: "hsl(212, 35.0%, 9.2%)",
-  blue2: "hsl(216, 50.0%, 11.8%)",
-  blue3: "hsl(214, 59.4%, 15.3%)",
-  blue4: "hsl(214, 65.8%, 17.9%)",
-  blue5: "hsl(213, 71.2%, 20.2%)",
-  blue6: "hsl(212, 77.4%, 23.1%)",
-  blue7: "hsl(211, 85.1%, 27.4%)",
-  blue8: "hsl(211, 89.7%, 34.1%)",
-  blue9: "hsl(206, 100%, 50.0%)",
-  blue10: "hsl(209, 100%, 60.6%)",
-  blue11: "hsl(210, 100%, 66.1%)",
-  blue12: "hsl(206, 98.0%, 95.8%)"
-};
-
-// ../../../node_modules/@tamagui/colors/dist/esm/dark/gray.js
-var gray = {
-  gray1: "hsl(0, 0%, 8.5%)",
-  gray2: "hsl(0, 0%, 11.0%)",
-  gray3: "hsl(0, 0%, 13.6%)",
-  gray4: "hsl(0, 0%, 15.8%)",
-  gray5: "hsl(0, 0%, 17.9%)",
-  gray6: "hsl(0, 0%, 20.5%)",
-  gray7: "hsl(0, 0%, 24.3%)",
-  gray8: "hsl(0, 0%, 31.2%)",
-  gray9: "hsl(0, 0%, 43.9%)",
-  gray10: "hsl(0, 0%, 49.4%)",
-  gray11: "hsl(0, 0%, 62.8%)",
-  gray12: "hsl(0, 0%, 93.0%)"
-};
-
-// ../../../node_modules/@tamagui/colors/dist/esm/dark/green.js
-var green = {
-  green1: "hsl(146, 30.0%, 7.4%)",
-  green2: "hsl(155, 44.2%, 8.4%)",
-  green3: "hsl(155, 46.7%, 10.9%)",
-  green4: "hsl(154, 48.4%, 12.9%)",
-  green5: "hsl(154, 49.7%, 14.9%)",
-  green6: "hsl(154, 50.9%, 17.6%)",
-  green7: "hsl(153, 51.8%, 21.8%)",
-  green8: "hsl(151, 51.7%, 28.4%)",
-  green9: "hsl(151, 55.0%, 41.5%)",
-  green10: "hsl(151, 49.3%, 46.5%)",
-  green11: "hsl(151, 50.0%, 53.2%)",
-  green12: "hsl(137, 72.0%, 94.0%)"
-};
-
-// ../../../node_modules/@tamagui/colors/dist/esm/dark/orange.js
-var orange = {
-  orange1: "hsl(30, 70.0%, 7.2%)",
-  orange2: "hsl(28, 100%, 8.4%)",
-  orange3: "hsl(26, 91.1%, 11.6%)",
-  orange4: "hsl(25, 88.3%, 14.1%)",
-  orange5: "hsl(24, 87.6%, 16.6%)",
-  orange6: "hsl(24, 88.6%, 19.8%)",
-  orange7: "hsl(24, 92.4%, 24.0%)",
-  orange8: "hsl(25, 100%, 29.0%)",
-  orange9: "hsl(24, 94.0%, 50.0%)",
-  orange10: "hsl(24, 100%, 58.5%)",
-  orange11: "hsl(24, 100%, 62.2%)",
-  orange12: "hsl(24, 97.0%, 93.2%)"
-};
-
-// ../../../node_modules/@tamagui/colors/dist/esm/dark/pink.js
-var pink = {
-  pink1: "hsl(318, 25.0%, 9.6%)",
-  pink2: "hsl(319, 32.2%, 11.6%)",
-  pink3: "hsl(319, 41.0%, 16.0%)",
-  pink4: "hsl(320, 45.4%, 18.7%)",
-  pink5: "hsl(320, 49.0%, 21.1%)",
-  pink6: "hsl(321, 53.6%, 24.4%)",
-  pink7: "hsl(321, 61.1%, 29.7%)",
-  pink8: "hsl(322, 74.9%, 37.5%)",
-  pink9: "hsl(322, 65.0%, 54.5%)",
-  pink10: "hsl(323, 72.8%, 59.2%)",
-  pink11: "hsl(325, 90.0%, 66.4%)",
-  pink12: "hsl(322, 90.0%, 95.8%)"
-};
-
-// ../../../node_modules/@tamagui/colors/dist/esm/dark/purple.js
-var purple = {
-  purple1: "hsl(284, 20.0%, 9.6%)",
-  purple2: "hsl(283, 30.0%, 11.8%)",
-  purple3: "hsl(281, 37.5%, 16.5%)",
-  purple4: "hsl(280, 41.2%, 20.0%)",
-  purple5: "hsl(279, 43.8%, 23.3%)",
-  purple6: "hsl(277, 46.4%, 27.5%)",
-  purple7: "hsl(275, 49.3%, 34.6%)",
-  purple8: "hsl(272, 52.1%, 45.9%)",
-  purple9: "hsl(272, 51.0%, 54.0%)",
-  purple10: "hsl(273, 57.3%, 59.1%)",
-  purple11: "hsl(275, 80.0%, 71.0%)",
-  purple12: "hsl(279, 75.0%, 95.7%)"
-};
-
-// ../../../node_modules/@tamagui/colors/dist/esm/dark/red.js
-var red = {
-  red1: "hsl(353, 23.0%, 9.8%)",
-  red2: "hsl(357, 34.4%, 12.0%)",
-  red3: "hsl(356, 43.4%, 16.4%)",
-  red4: "hsl(356, 47.6%, 19.2%)",
-  red5: "hsl(356, 51.1%, 21.9%)",
-  red6: "hsl(356, 55.2%, 25.9%)",
-  red7: "hsl(357, 60.2%, 31.8%)",
-  red8: "hsl(358, 65.0%, 40.4%)",
-  red9: "hsl(358, 75.0%, 59.0%)",
-  red10: "hsl(358, 85.3%, 64.0%)",
-  red11: "hsl(358, 100%, 69.5%)",
-  red12: "hsl(351, 89.0%, 96.0%)"
-};
-
-// ../../../node_modules/@tamagui/colors/dist/esm/dark/yellow.js
-var yellow = {
-  yellow1: "hsl(45, 100%, 5.5%)",
-  yellow2: "hsl(46, 100%, 6.7%)",
-  yellow3: "hsl(45, 100%, 8.7%)",
-  yellow4: "hsl(45, 100%, 10.4%)",
-  yellow5: "hsl(47, 100%, 12.1%)",
-  yellow6: "hsl(49, 100%, 14.3%)",
-  yellow7: "hsl(49, 90.3%, 18.4%)",
-  yellow8: "hsl(50, 100%, 22.0%)",
-  yellow9: "hsl(53, 92.0%, 50.0%)",
-  yellow10: "hsl(54, 100%, 68.0%)",
-  yellow11: "hsl(48, 100%, 47.0%)",
-  yellow12: "hsl(53, 100%, 91.0%)"
-};
-
-// ../../../node_modules/@tamagui/colors/dist/esm/light/blue.js
-var blue2 = {
-  blue1: "hsl(206, 100%, 99.2%)",
-  blue2: "hsl(210, 100%, 98.0%)",
-  blue3: "hsl(209, 100%, 96.5%)",
-  blue4: "hsl(210, 98.8%, 94.0%)",
-  blue5: "hsl(209, 95.0%, 90.1%)",
-  blue6: "hsl(209, 81.2%, 84.5%)",
-  blue7: "hsl(208, 77.5%, 76.9%)",
-  blue8: "hsl(206, 81.9%, 65.3%)",
-  blue9: "hsl(206, 100%, 50.0%)",
-  blue10: "hsl(208, 100%, 47.3%)",
-  blue11: "hsl(211, 100%, 43.2%)",
-  blue12: "hsl(211, 100%, 15.0%)"
-};
-
-// ../../../node_modules/@tamagui/colors/dist/esm/light/gray.js
-var gray2 = {
-  gray1: "hsl(0, 0%, 99.0%)",
-  gray2: "hsl(0, 0%, 97.3%)",
-  gray3: "hsl(0, 0%, 95.1%)",
-  gray4: "hsl(0, 0%, 93.0%)",
-  gray5: "hsl(0, 0%, 90.9%)",
-  gray6: "hsl(0, 0%, 88.7%)",
-  gray7: "hsl(0, 0%, 85.8%)",
-  gray8: "hsl(0, 0%, 78.0%)",
-  gray9: "hsl(0, 0%, 56.1%)",
-  gray10: "hsl(0, 0%, 52.3%)",
-  gray11: "hsl(0, 0%, 43.5%)",
-  gray12: "hsl(0, 0%, 9.0%)"
-};
-
-// ../../../node_modules/@tamagui/colors/dist/esm/light/green.js
-var green2 = {
-  green1: "hsl(136, 50.0%, 98.9%)",
-  green2: "hsl(138, 62.5%, 96.9%)",
-  green3: "hsl(139, 55.2%, 94.5%)",
-  green4: "hsl(140, 48.7%, 91.0%)",
-  green5: "hsl(141, 43.7%, 86.0%)",
-  green6: "hsl(143, 40.3%, 79.0%)",
-  green7: "hsl(146, 38.5%, 69.0%)",
-  green8: "hsl(151, 40.2%, 54.1%)",
-  green9: "hsl(151, 55.0%, 41.5%)",
-  green10: "hsl(152, 57.5%, 37.6%)",
-  green11: "hsl(153, 67.0%, 28.5%)",
-  green12: "hsl(155, 40.0%, 14.0%)"
-};
-
-// ../../../node_modules/@tamagui/colors/dist/esm/light/orange.js
-var orange2 = {
-  orange1: "hsl(24, 70.0%, 99.0%)",
-  orange2: "hsl(24, 83.3%, 97.6%)",
-  orange3: "hsl(24, 100%, 95.3%)",
-  orange4: "hsl(25, 100%, 92.2%)",
-  orange5: "hsl(25, 100%, 88.2%)",
-  orange6: "hsl(25, 100%, 82.8%)",
-  orange7: "hsl(24, 100%, 75.3%)",
-  orange8: "hsl(24, 94.5%, 64.3%)",
-  orange9: "hsl(24, 94.0%, 50.0%)",
-  orange10: "hsl(24, 100%, 46.5%)",
-  orange11: "hsl(24, 100%, 37.0%)",
-  orange12: "hsl(15, 60.0%, 17.0%)"
-};
-
-// ../../../node_modules/@tamagui/colors/dist/esm/light/pink.js
-var pink2 = {
-  pink1: "hsl(322, 100%, 99.4%)",
-  pink2: "hsl(323, 100%, 98.4%)",
-  pink3: "hsl(323, 86.3%, 96.5%)",
-  pink4: "hsl(323, 78.7%, 94.2%)",
-  pink5: "hsl(323, 72.2%, 91.1%)",
-  pink6: "hsl(323, 66.3%, 86.6%)",
-  pink7: "hsl(323, 62.0%, 80.1%)",
-  pink8: "hsl(323, 60.3%, 72.4%)",
-  pink9: "hsl(322, 65.0%, 54.5%)",
-  pink10: "hsl(322, 63.9%, 50.7%)",
-  pink11: "hsl(322, 75.0%, 46.0%)",
-  pink12: "hsl(320, 70.0%, 13.5%)"
-};
-
-// ../../../node_modules/@tamagui/colors/dist/esm/light/purple.js
-var purple2 = {
-  purple1: "hsl(280, 65.0%, 99.4%)",
-  purple2: "hsl(276, 100%, 99.0%)",
-  purple3: "hsl(276, 83.1%, 97.0%)",
-  purple4: "hsl(275, 76.4%, 94.7%)",
-  purple5: "hsl(275, 70.8%, 91.8%)",
-  purple6: "hsl(274, 65.4%, 87.8%)",
-  purple7: "hsl(273, 61.0%, 81.7%)",
-  purple8: "hsl(272, 60.0%, 73.5%)",
-  purple9: "hsl(272, 51.0%, 54.0%)",
-  purple10: "hsl(272, 46.8%, 50.3%)",
-  purple11: "hsl(272, 50.0%, 45.8%)",
-  purple12: "hsl(272, 66.0%, 16.0%)"
-};
-
-// ../../../node_modules/@tamagui/colors/dist/esm/light/red.js
-var red2 = {
-  red1: "hsl(359, 100%, 99.4%)",
-  red2: "hsl(359, 100%, 98.6%)",
-  red3: "hsl(360, 100%, 96.8%)",
-  red4: "hsl(360, 97.9%, 94.8%)",
-  red5: "hsl(360, 90.2%, 91.9%)",
-  red6: "hsl(360, 81.7%, 87.8%)",
-  red7: "hsl(359, 74.2%, 81.7%)",
-  red8: "hsl(359, 69.5%, 74.3%)",
-  red9: "hsl(358, 75.0%, 59.0%)",
-  red10: "hsl(358, 69.4%, 55.2%)",
-  red11: "hsl(358, 65.0%, 48.7%)",
-  red12: "hsl(354, 50.0%, 14.6%)"
-};
-
-// ../../../node_modules/@tamagui/colors/dist/esm/light/yellow.js
-var yellow2 = {
-  yellow1: "hsl(60, 54.0%, 98.5%)",
-  yellow2: "hsl(52, 100%, 95.5%)",
-  yellow3: "hsl(55, 100%, 90.9%)",
-  yellow4: "hsl(54, 100%, 86.6%)",
-  yellow5: "hsl(52, 97.9%, 82.0%)",
-  yellow6: "hsl(50, 89.4%, 76.1%)",
-  yellow7: "hsl(47, 80.4%, 68.0%)",
-  yellow8: "hsl(48, 100%, 46.1%)",
-  yellow9: "hsl(53, 92.0%, 50.0%)",
-  yellow10: "hsl(50, 100%, 48.5%)",
-  yellow11: "hsl(42, 100%, 29.0%)",
-  yellow12: "hsl(40, 55.0%, 13.5%)"
-};
-
-// ../../../node_modules/@tamagui/themes/dist/esm/tokens.js
-var import_web = require("@tamagui/core");
-var size = {
-  $0: 0,
-  "$0.25": 2,
-  "$0.5": 4,
-  "$0.75": 8,
-  $1: 20,
-  "$1.5": 24,
-  $2: 28,
-  "$2.5": 32,
-  $3: 36,
-  "$3.5": 40,
-  $4: 44,
-  $true: 44,
-  "$4.5": 48,
-  $5: 52,
-  $6: 64,
-  $7: 74,
-  $8: 84,
-  $9: 94,
-  $10: 104,
-  $11: 124,
-  $12: 144,
-  $13: 164,
-  $14: 184,
-  $15: 204,
-  $16: 224,
-  $17: 224,
-  $18: 244,
-  $19: 264,
-  $20: 284
-};
-var spaces = Object.entries(size).map(([k, v]) => [k, sizeToSpace(v)]);
-function sizeToSpace(v) {
-  return v === 0 ? 0 : v === 2 ? 0.5 : v === 4 ? 1 : v === 8 ? 1.5 : v <= 16 ? Math.round(v * 0.333) : Math.floor(v * 0.7 - 12);
-}
-__name(sizeToSpace, "sizeToSpace");
-var spacesNegative = spaces.slice(1).map(([k, v]) => [`-${k.slice(1)}`, -v]);
-var space = {
-  ...Object.fromEntries(spaces),
-  ...Object.fromEntries(spacesNegative)
-};
-var zIndex = {
-  0: 0,
-  1: 100,
-  2: 200,
-  3: 300,
-  4: 400,
-  5: 500
-};
-var colorTokens = {
-  light: {
-    blue: blue2,
-    gray: gray2,
-    green: green2,
-    orange: orange2,
-    pink: pink2,
-    purple: purple2,
-    red: red2,
-    yellow: yellow2
-  },
-  dark: {
-    blue,
-    gray,
-    green,
-    orange,
-    pink,
-    purple,
-    red,
-    yellow
-  }
-};
-var darkColors = {
-  ...colorTokens.dark.blue,
-  ...colorTokens.dark.gray,
-  ...colorTokens.dark.green,
-  ...colorTokens.dark.orange,
-  ...colorTokens.dark.pink,
-  ...colorTokens.dark.purple,
-  ...colorTokens.dark.red,
-  ...colorTokens.dark.yellow
-};
-var lightColors = {
-  ...colorTokens.light.blue,
-  ...colorTokens.light.gray,
-  ...colorTokens.light.green,
-  ...colorTokens.light.orange,
-  ...colorTokens.light.pink,
-  ...colorTokens.light.purple,
-  ...colorTokens.light.red,
-  ...colorTokens.light.yellow
-};
-var color = {
-  ...postfixObjKeys(lightColors, "Light"),
-  ...postfixObjKeys(darkColors, "Dark")
-};
-function postfixObjKeys(obj, postfix) {
-  return Object.fromEntries(
-    Object.entries(obj).map(([k, v]) => [`${k}${postfix}`, v])
-  );
-}
-__name(postfixObjKeys, "postfixObjKeys");
-var radius = {
-  0: 0,
-  1: 3,
-  2: 5,
-  3: 7,
-  4: 9,
-  true: 9,
-  5: 10,
-  6: 16,
-  7: 19,
-  8: 22,
-  9: 26,
-  10: 34,
-  11: 42,
-  12: 50
-};
-var tokens = (0, import_web.createTokens)({
-  color,
-  radius,
-  zIndex,
-  space,
-  size
-});
-
-// ../../../node_modules/@tamagui/themes/dist/esm/v2.js
-var themes = generated_v2_exports;
+var import_react_native_media_driver = __toESM(require_cjs());
 
 // ../../../node_modules/tamagui/dist/esm/index.js
 var esm_exports2 = {};
@@ -33168,7 +29090,7 @@ globalThis.React ||= React;
 typeof requestAnimationFrame > "u" && (globalThis.requestAnimationFrame = setImmediate);
 
 // ../../../node_modules/tamagui/dist/esm/index.js
-__reExport(esm_exports2, __toESM(require_cjs19()));
+__reExport(esm_exports2, __toESM(require_cjs20()));
 
 // ../../../node_modules/@tamagui/constants/dist/esm/constants.js
 var import_react = require("react");
@@ -33840,7 +29762,7 @@ var AnimatePresence = /* @__PURE__ */ __name(({
 AnimatePresence.displayName = "AnimatePresence";
 
 // ../../../node_modules/@tamagui/dialog/dist/esm/Dialog.js
-var import_aria_hidden = __toESM(require_cjs20());
+var import_aria_hidden = __toESM(require_cjs21());
 var import_core13 = require("@tamagui/core");
 
 // ../../../node_modules/@tamagui/use-callback-ref/dist/esm/index.js
@@ -34062,7 +29984,7 @@ function handleAndDispatchCustomEvent(name, handler, detail, { discrete }) {
 __name(handleAndDispatchCustomEvent, "handleAndDispatchCustomEvent");
 
 // ../../../node_modules/@tamagui/dialog/dist/esm/Dialog.js
-var import_focus_scope = __toESM(require_cjs21());
+var import_focus_scope = __toESM(require_cjs22());
 
 // ../../../node_modules/@tamagui/stacks/dist/esm/Stacks.js
 var import_core3 = require("@tamagui/core");
@@ -34136,7 +30058,7 @@ ZStack.displayName = "ZStack";
 
 // ../../../node_modules/@tamagui/stacks/dist/esm/SizableStack.js
 var import_core4 = require("@tamagui/core");
-var import_get_button_sized = __toESM(require_cjs14());
+var import_get_button_sized = __toESM(require_cjs15());
 
 // ../../../node_modules/@tamagui/stacks/dist/esm/variants.js
 var elevate = {
@@ -34498,7 +30420,7 @@ SHEET_HIDDEN_STYLESHEET && document.head.appendChild(SHEET_HIDDEN_STYLESHEET);
 // ../../../node_modules/@tamagui/sheet/dist/esm/createSheet.js
 var import_core10 = require("@tamagui/core");
 var import_react24 = require("react");
-var import_react_native_web4 = __toESM(require_cjs22());
+var import_react_native_web4 = __toESM(require_cjs23());
 
 // ../../../node_modules/@tamagui/sheet/dist/esm/SheetContext.js
 var [createSheetContext, createSheetScope] = createContextScope(SHEET_NAME);
@@ -34512,7 +30434,7 @@ var import_core9 = require("@tamagui/core");
 
 // ../../../node_modules/@tamagui/use-keyboard-visible/dist/esm/useKeyboardVisible.js
 var import_react16 = require("react");
-var import_react_native_web = __toESM(require_cjs22());
+var import_react_native_web = __toESM(require_cjs23());
 var useKeyboardVisible = /* @__PURE__ */ __name(() => {
   const [isKeyboardVisible, setKeyboardVisible] = (0, import_react16.useState)(false);
   return (0, import_react16.useEffect)(() => {
@@ -34529,7 +30451,7 @@ var useKeyboardVisible = /* @__PURE__ */ __name(() => {
 
 // ../../../node_modules/@tamagui/sheet/dist/esm/SheetImplementationCustom.js
 var import_react22 = require("react");
-var import_react_native_web2 = __toESM(require_cjs22());
+var import_react_native_web2 = __toESM(require_cjs23());
 
 // ../../../node_modules/@tamagui/sheet/dist/esm/contexts.js
 var import_react17 = require("react");
@@ -34728,7 +30650,7 @@ var SheetImplementationCustom = (0, import_core9.themeable)(
       animation,
       animationConfig: animationConfigProp,
       modal = false,
-      zIndex: zIndex2 = parentSheet.zIndex + 1,
+      zIndex = parentSheet.zIndex + 1,
       moveOnKeyboardChange = false,
       unmountChildrenWhenHidden = false,
       portalProps
@@ -34768,9 +30690,9 @@ var SheetImplementationCustom = (0, import_core9.themeable)(
     }, [parentSheetContext, open]);
     const nextParentContext = (0, import_react22.useMemo)(
       () => ({
-        zIndex: zIndex2
+        zIndex
       }),
-      [zIndex2]
+      [zIndex]
     ), animatedNumber = useAnimatedNumber(hiddenSize), at = (0, import_react22.useRef)(hiddenSize);
     useAnimatedNumberReaction(
       {
@@ -34950,7 +30872,7 @@ var SheetImplementationCustom = (0, import_core9.themeable)(
           style: [
             {
               position: "absolute",
-              zIndex: zIndex2,
+              zIndex,
               width: "100%",
               height: forcedContentHeight,
               minHeight: forcedContentHeight,
@@ -34963,7 +30885,7 @@ var SheetImplementationCustom = (0, import_core9.themeable)(
       )
     ] }) }), adaptContext = (0, import_react22.useContext)(AdaptParentContext), shouldMountChildren = !!(opacity || !unmountChildrenWhenHidden);
     if (modal) {
-      const modalContents = /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Portal, { zIndex: zIndex2, ...portalProps, children: shouldMountChildren && /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(import_core9.Theme, { forceClassName: true, name: themeName, children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(AdaptParentContext.Provider, { value: adaptContext, children: contents }) }) });
+      const modalContents = /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Portal, { zIndex, ...portalProps, children: shouldMountChildren && /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(import_core9.Theme, { forceClassName: true, name: themeName, children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(AdaptParentContext.Provider, { value: adaptContext, children: contents }) }) });
       return isWeb ? modalContents : /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(SheetInsideSheetContext.Provider, { value: onInnerSheet, children: modalContents });
     }
     return contents;
@@ -34993,9 +30915,9 @@ function getYPositions(mode, point, screenSize, frameSize) {
 __name(getYPositions, "getYPositions");
 
 // ../../../node_modules/@tamagui/scroll-view/dist/esm/ScrollView.js
-var import_web2 = require("@tamagui/core");
-var import_react_native_web3 = __toESM(require_cjs22());
-var ScrollView = (0, import_web2.styled)(import_react_native_web3.ScrollView, {
+var import_web = require("@tamagui/core");
+var import_react_native_web3 = __toESM(require_cjs23());
+var ScrollView = (0, import_web.styled)(import_react_native_web3.ScrollView, {
   name: "ScrollView",
   scrollEnabled: true,
   variants: {
@@ -35311,7 +31233,7 @@ var SheetController = /* @__PURE__ */ __name(({
 
 // ../../../node_modules/@tamagui/sheet/dist/esm/nativeSheet.js
 var import_react26 = require("react");
-var import_react_native_web5 = __toESM(require_cjs22());
+var import_react_native_web5 = __toESM(require_cjs23());
 var import_jsx_runtime14 = require("react/jsx-runtime");
 var nativeSheets = {
   ios: null
@@ -35341,8 +31263,8 @@ function setupNativeSheet(platform2, Implementation) {
 __name(setupNativeSheet, "setupNativeSheet");
 
 // ../../../node_modules/@tamagui/text/dist/esm/SizableText.js
-var import_get_font_sized = __toESM(require_cjs16());
-var import_web3 = require("@tamagui/core");
+var import_get_font_sized = __toESM(require_cjs17());
+var import_web2 = require("@tamagui/core");
 var variants2 = {
   unstyled: {
     false: {
@@ -35358,7 +31280,7 @@ variants2.fontFamily = {
     return (0, import_get_font_sized.getFontSized)(size4, extras);
   }
 };
-var SizableText = (0, import_web3.styled)(import_web3.Text, {
+var SizableText = (0, import_web2.styled)(import_web2.Text, {
   name: "SizableText",
   fontFamily: "$body",
   variants: variants2,
@@ -35368,8 +31290,8 @@ var SizableText = (0, import_web3.styled)(import_web3.Text, {
 });
 
 // ../../../node_modules/@tamagui/text/dist/esm/Paragraph.js
-var import_web4 = require("@tamagui/core");
-var Paragraph = (0, import_web4.styled)(SizableText, {
+var import_web3 = require("@tamagui/core");
+var Paragraph = (0, import_web3.styled)(SizableText, {
   name: "Paragraph",
   tag: "p",
   userSelect: "auto",
@@ -35378,8 +31300,8 @@ var Paragraph = (0, import_web4.styled)(SizableText, {
 });
 
 // ../../../node_modules/@tamagui/text/dist/esm/Headings.js
-var import_web5 = require("@tamagui/core");
-var Heading = (0, import_web5.styled)(Paragraph, {
+var import_web4 = require("@tamagui/core");
+var Heading = (0, import_web4.styled)(Paragraph, {
   tag: "span",
   name: "Heading",
   accessibilityRole: "header",
@@ -35387,32 +31309,32 @@ var Heading = (0, import_web5.styled)(Paragraph, {
   size: "$8",
   margin: 0
 });
-var H1 = (0, import_web5.styled)(Heading, {
+var H1 = (0, import_web4.styled)(Heading, {
   name: "H1",
   tag: "h1",
   size: "$10"
 });
-var H2 = (0, import_web5.styled)(Heading, {
+var H2 = (0, import_web4.styled)(Heading, {
   name: "H2",
   tag: "h2",
   size: "$9"
 });
-var H3 = (0, import_web5.styled)(Heading, {
+var H3 = (0, import_web4.styled)(Heading, {
   name: "H3",
   tag: "h3",
   size: "$8"
 });
-var H4 = (0, import_web5.styled)(Heading, {
+var H4 = (0, import_web4.styled)(Heading, {
   name: "H4",
   tag: "h4",
   size: "$7"
 });
-var H5 = (0, import_web5.styled)(Heading, {
+var H5 = (0, import_web4.styled)(Heading, {
   name: "H5",
   tag: "h5",
   size: "$6"
 });
-var H6 = (0, import_web5.styled)(Heading, {
+var H6 = (0, import_web4.styled)(Heading, {
   name: "H6",
   tag: "h6",
   size: "$5"
@@ -35427,7 +31349,7 @@ function wrapChildrenInText(TextComponent, propsIn, extraProps) {
     textProps,
     size: size4,
     noTextWrap,
-    color: color2,
+    color,
     fontFamily,
     fontSize,
     fontWeight,
@@ -35441,7 +31363,7 @@ function wrapChildrenInText(TextComponent, propsIn, extraProps) {
   const props = {
     ...extraProps
   };
-  return color2 && (props.color = color2), fontFamily && (props.fontFamily = fontFamily), fontSize && (props.fontSize = fontSize), fontWeight && (props.fontWeight = fontWeight), letterSpacing && (props.letterSpacing = letterSpacing), textAlign && (props.textAlign = textAlign), size4 && (props.size = size4), fontStyle && (props.fontStyle = fontStyle), maxFontSizeMultiplier && (props.maxFontSizeMultiplier = maxFontSizeMultiplier), import_react27.default.Children.toArray(children).map((child, index3) => typeof child == "string" ? (
+  return color && (props.color = color), fontFamily && (props.fontFamily = fontFamily), fontSize && (props.fontSize = fontSize), fontWeight && (props.fontWeight = fontWeight), letterSpacing && (props.letterSpacing = letterSpacing), textAlign && (props.textAlign = textAlign), size4 && (props.size = size4), fontStyle && (props.fontStyle = fontStyle), maxFontSizeMultiplier && (props.maxFontSizeMultiplier = maxFontSizeMultiplier), import_react27.default.Children.toArray(children).map((child, index3) => typeof child == "string" ? (
     // so "data-disable-theme" is a hack to fix themeInverse, don't ask me why
     /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(TextComponent, { ...props, ...textProps, children: child }, index3)
   ) : child);
@@ -35513,15 +31435,15 @@ function DialogPortalItemContent(props) {
     children,
     context,
     themeName,
-    space: space2,
+    space,
     spaceDirection,
     separator
   } = props;
   let childrenSpaced = children;
-  return (space2 || separator) && (childrenSpaced = (0, import_core13.spacedChildren)({
+  return (space || separator) && (childrenSpaced = (0, import_core13.spacedChildren)({
     children,
     separator,
-    space: space2,
+    space,
     direction: spaceDirection
   })), /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(DialogProvider, { scope: __scopeDialog, ...context, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_core13.Theme, { name: themeName, children: childrenSpaced }) });
 }
@@ -36082,10 +32004,10 @@ AlertDialog.displayName = ROOT_NAME;
 
 // ../../../node_modules/@tamagui/avatar/dist/esm/Avatar.js
 var import_core15 = require("@tamagui/core");
-var import_image = __toESM(require_cjs23());
+var import_image = __toESM(require_cjs24());
 
 // ../../../node_modules/@tamagui/shapes/dist/esm/Square.js
-var import_web6 = require("@tamagui/core");
+var import_web5 = require("@tamagui/core");
 
 // ../../../node_modules/@tamagui/shapes/dist/esm/getShapeSize.js
 var getShapeSize = /* @__PURE__ */ __name((size4, { tokens: tokens2 }) => {
@@ -36101,7 +32023,7 @@ var getShapeSize = /* @__PURE__ */ __name((size4, { tokens: tokens2 }) => {
 }, "getShapeSize");
 
 // ../../../node_modules/@tamagui/shapes/dist/esm/Square.js
-var Square = (0, import_web6.styled)(ThemeableStack, {
+var Square = (0, import_web5.styled)(ThemeableStack, {
   name: "Square",
   alignItems: "center",
   justifyContent: "center",
@@ -36114,8 +32036,8 @@ var Square = (0, import_web6.styled)(ThemeableStack, {
 });
 
 // ../../../node_modules/@tamagui/shapes/dist/esm/Circle.js
-var import_web7 = require("@tamagui/core");
-var Circle = (0, import_web7.styled)(Square, {
+var import_web6 = require("@tamagui/core");
+var Circle = (0, import_web6.styled)(Square, {
   name: "Circle",
   circular: true
 });
@@ -36214,13 +32136,13 @@ var Avatar = withStaticProperties(
 Avatar.displayName = AVATAR_NAME;
 
 // ../../../node_modules/@tamagui/button/dist/esm/Button.js
-var import_font_size = __toESM(require_cjs24());
-var import_get_button_sized2 = __toESM(require_cjs14());
-var import_helpers_tamagui = __toESM(require_cjs25());
-var import_web8 = require("@tamagui/core");
+var import_font_size = __toESM(require_cjs25());
+var import_get_button_sized2 = __toESM(require_cjs15());
+var import_helpers_tamagui = __toESM(require_cjs26());
+var import_web7 = require("@tamagui/core");
 var import_react28 = require("react");
 var import_jsx_runtime19 = require("react/jsx-runtime");
-var ButtonContext = (0, import_web8.createStyledContext)({
+var ButtonContext = (0, import_web7.createStyledContext)({
   // keeping these here means they work with styled() passing down color to text
   color: void 0,
   ellipse: void 0,
@@ -36235,7 +32157,7 @@ var ButtonContext = (0, import_web8.createStyledContext)({
   variant: void 0
 });
 var BUTTON_NAME = "Button";
-var ButtonFrame = (0, import_web8.styled)(ThemeableStack, {
+var ButtonFrame = (0, import_web7.styled)(ThemeableStack, {
   name: BUTTON_NAME,
   tag: "button",
   context: ButtonContext,
@@ -36294,7 +32216,7 @@ var ButtonFrame = (0, import_web8.styled)(ThemeableStack, {
     unstyled: process.env.TAMAGUI_HEADLESS === "1"
   }
 });
-var ButtonText = (0, import_web8.styled)(SizableText, {
+var ButtonText = (0, import_web7.styled)(SizableText, {
   name: "Button",
   context: ButtonContext,
   variants: {
@@ -36315,8 +32237,8 @@ var ButtonText = (0, import_web8.styled)(SizableText, {
   }
 });
 var ButtonIcon = /* @__PURE__ */ __name((props) => {
-  const { children, scaleIcon = 1 } = props, { size: size4, color: color2 } = (0, import_react28.useContext)(ButtonContext), iconSize = (typeof size4 == "number" ? size4 * 0.5 : (0, import_font_size.getFontSize)(size4)) * scaleIcon;
-  return (0, import_helpers_tamagui.useGetThemedIcon)({ size: iconSize, color: color2 })(children);
+  const { children, scaleIcon = 1 } = props, { size: size4, color } = (0, import_react28.useContext)(ButtonContext), iconSize = (typeof size4 == "number" ? size4 * 0.5 : (0, import_font_size.getFontSize)(size4)) * scaleIcon;
+  return (0, import_helpers_tamagui.useGetThemedIcon)({ size: iconSize, color })(children);
 }, "ButtonIcon");
 var ButtonComponent = ButtonFrame.styleable(
   function(props, ref) {
@@ -36343,10 +32265,10 @@ var Button2 = withStaticProperties(ButtonComponent, {
   Icon: ButtonIcon
 });
 function useButton({ textProps, ...propsIn }, { Text: Text4 = Button2.Text } = { Text: Button2.Text }) {
-  const isNested = (0, import_react28.useContext)(ButtonNestingContext), propsActive = (0, import_web8.useProps)(propsIn), {
+  const isNested = (0, import_react28.useContext)(ButtonNestingContext), propsActive = (0, import_web7.useProps)(propsIn), {
     icon,
     iconAfter,
-    space: space2,
+    space,
     spaceFlex,
     scaleIcon = 1,
     scaleSpace = 0.66,
@@ -36361,12 +32283,12 @@ function useButton({ textProps, ...propsIn }, { Text: Text4 = Button2.Text } = {
     ellipse,
     maxFontSizeMultiplier,
     ...restProps
-  } = propsActive, size4 = propsActive.size || (propsActive.unstyled ? void 0 : "$true"), color2 = propsActive.color, iconSize = (typeof size4 == "number" ? size4 * 0.5 : (0, import_font_size.getFontSize)(size4, {
+  } = propsActive, size4 = propsActive.size || (propsActive.unstyled ? void 0 : "$true"), color = propsActive.color, iconSize = (typeof size4 == "number" ? size4 * 0.5 : (0, import_font_size.getFontSize)(size4, {
     font: (fontFamily == null ? void 0 : fontFamily[0]) === "$" ? fontFamily : void 0
   })) * scaleIcon, getThemedIcon = (0, import_helpers_tamagui.useGetThemedIcon)({
     size: iconSize,
-    color: color2
-  }), [themedIcon, themedIconAfter] = [icon, iconAfter].map(getThemedIcon), spaceSize = space2 ?? (0, import_web8.getVariableValue)(iconSize) * scaleSpace, contents = noTextWrap ? [propsIn.children] : wrapChildrenInText(
+    color
+  }), [themedIcon, themedIconAfter] = [icon, iconAfter].map(getThemedIcon), spaceSize = space ?? (0, import_web7.getVariableValue)(iconSize) * scaleSpace, contents = noTextWrap ? [propsIn.children] : wrapChildrenInText(
     Text4,
     {
       children: propsIn.children,
@@ -36383,7 +32305,7 @@ function useButton({ textProps, ...propsIn }, { Text: Text4 = Button2.Text } = {
       unstyled: process.env.TAMAGUI_HEADLESS === "1",
       size: size4
     } : void 0
-  ), inner2 = (0, import_web8.spacedChildren)({
+  ), inner2 = (0, import_web7.spacedChildren)({
     // a bit arbitrary but scaling to font size is necessary so long as button does
     space: spaceSize,
     spaceFlex,
@@ -36420,11 +32342,11 @@ function useButton({ textProps, ...propsIn }, { Text: Text4 = Button2.Text } = {
 __name(useButton, "useButton");
 
 // ../../../node_modules/@tamagui/card/dist/esm/Card.js
-var import_web9 = require("@tamagui/core");
-var CardContext = (0, import_web9.createStyledContext)({
+var import_web8 = require("@tamagui/core");
+var CardContext = (0, import_web8.createStyledContext)({
   size: "$true"
 });
-var CardFrame = (0, import_web9.styled)(ThemeableStack, {
+var CardFrame = (0, import_web8.styled)(ThemeableStack, {
   name: "Card",
   context: CardContext,
   variants: {
@@ -36445,7 +32367,7 @@ var CardFrame = (0, import_web9.styled)(ThemeableStack, {
     unstyled: process.env.TAMAGUI_HEADLESS === "1"
   }
 });
-var CardHeader = (0, import_web9.styled)(ThemeableStack, {
+var CardHeader = (0, import_web8.styled)(ThemeableStack, {
   name: "CardHeader",
   context: CardContext,
   variants: {
@@ -36466,7 +32388,7 @@ var CardHeader = (0, import_web9.styled)(ThemeableStack, {
     unstyled: process.env.TAMAGUI_HEADLESS === "1"
   }
 });
-var CardFooter = (0, import_web9.styled)(CardHeader, {
+var CardFooter = (0, import_web8.styled)(CardHeader, {
   name: "CardFooter",
   variants: {
     unstyled: {
@@ -36482,7 +32404,7 @@ var CardFooter = (0, import_web9.styled)(CardHeader, {
     unstyled: process.env.TAMAGUI_HEADLESS === "1"
   }
 });
-var CardBackground = (0, import_web9.styled)(ThemeableStack, {
+var CardBackground = (0, import_web8.styled)(ThemeableStack, {
   name: "CardBackground",
   variants: {
     unstyled: {
@@ -36507,15 +32429,15 @@ var Card = withStaticProperties(CardFrame, {
 
 // ../../../node_modules/@tamagui/checkbox/dist/esm/Checkbox.js
 var import_core16 = require("@tamagui/core");
-var import_font_size2 = __toESM(require_cjs24());
-var import_get_token = __toESM(require_cjs13());
-var import_helpers_tamagui2 = __toESM(require_cjs25());
+var import_font_size2 = __toESM(require_cjs25());
+var import_get_token = __toESM(require_cjs14());
+var import_helpers_tamagui2 = __toESM(require_cjs26());
 
 // ../../../node_modules/@tamagui/label/dist/esm/Label.js
-var import_focusable = __toESM(require_cjs26());
-var import_get_button_sized3 = __toESM(require_cjs14());
-var import_get_font_sized2 = __toESM(require_cjs16());
-var import_web10 = require("@tamagui/core");
+var import_focusable = __toESM(require_cjs27());
+var import_get_button_sized3 = __toESM(require_cjs15());
+var import_get_font_sized2 = __toESM(require_cjs17());
+var import_web9 = require("@tamagui/core");
 var React15 = __toESM(require("react"));
 var import_jsx_runtime20 = require("react/jsx-runtime");
 var NAME = "Label";
@@ -36523,7 +32445,7 @@ var [LabelProvider, useLabelContextImpl] = createContext3(NAME, {
   id: void 0,
   controlRef: { current: null }
 });
-var LabelFrame = (0, import_web10.styled)(SizableText, {
+var LabelFrame = (0, import_web9.styled)(SizableText, {
   name: "Label",
   tag: "label",
   variants: {
@@ -36601,7 +32523,7 @@ var LabelComponent = React15.forwardRef(
   }
 );
 LabelComponent.displayName = NAME;
-var Label = LabelFrame.extractable((0, import_web10.themeable)(LabelComponent), {
+var Label = LabelFrame.extractable((0, import_web9.themeable)(LabelComponent), {
   neverFlatten: true
 });
 var useLabelContext = /* @__PURE__ */ __name((element) => {
@@ -36861,7 +32783,7 @@ var Checkbox2 = withStaticProperties(CheckboxComponent, {
 });
 
 // ../../../node_modules/tamagui/dist/esm/index.js
-__reExport(esm_exports2, __toESM(require_cjs24()));
+__reExport(esm_exports2, __toESM(require_cjs25()));
 
 // ../../../node_modules/@tamagui/form/dist/esm/Form.js
 var import_core17 = require("@tamagui/core");
@@ -36903,10 +32825,10 @@ var Form2 = withStaticProperties(FormComponent, {
 });
 
 // ../../../node_modules/tamagui/dist/esm/index.js
-__reExport(esm_exports2, __toESM(require_cjs28()));
-__reExport(esm_exports2, __toESM(require_cjs25()));
-__reExport(esm_exports2, __toESM(require_cjs23()));
 __reExport(esm_exports2, __toESM(require_cjs29()));
+__reExport(esm_exports2, __toESM(require_cjs26()));
+__reExport(esm_exports2, __toESM(require_cjs24()));
+__reExport(esm_exports2, __toESM(require_cjs30()));
 
 // ../../../node_modules/@tamagui/animate/dist/esm/Animate.js
 var import_jsx_runtime23 = require("react/jsx-runtime");
@@ -36928,7 +32850,7 @@ function Animate({ children, type, ...props }) {
 __name(Animate, "Animate");
 
 // ../../../node_modules/@tamagui/popover/dist/esm/Popover.js
-var import_aria_hidden3 = __toESM(require_cjs20());
+var import_aria_hidden3 = __toESM(require_cjs21());
 var import_core21 = require("@tamagui/core");
 
 // ../../../node_modules/@floating-ui/utils/dist/floating-ui.utils.mjs
@@ -37559,7 +33481,7 @@ var shift = /* @__PURE__ */ __name(function(options) {
     }
   };
 }, "shift");
-var size2 = /* @__PURE__ */ __name(function(options) {
+var size = /* @__PURE__ */ __name(function(options) {
   if (options === void 0) {
     options = {};
   }
@@ -38324,7 +34246,7 @@ function autoUpdate(reference, floating, update, options) {
 __name(autoUpdate, "autoUpdate");
 var shift2 = shift;
 var flip2 = flip;
-var size3 = size2;
+var size2 = size;
 var arrow2 = arrow;
 var computePosition2 = /* @__PURE__ */ __name((reference, floating, options) => {
   const cache = /* @__PURE__ */ new Map();
@@ -38608,13 +34530,13 @@ var useFloating2 = /* @__PURE__ */ __name((props) => {
 }, "useFloating");
 
 // ../../../node_modules/@tamagui/popover/dist/esm/Popover.js
-var import_focus_scope2 = __toESM(require_cjs21());
+var import_focus_scope2 = __toESM(require_cjs22());
 
 // ../../../node_modules/@tamagui/popper/dist/esm/Popper.js
 var import_core20 = require("@tamagui/core");
-var import_get_token2 = __toESM(require_cjs13());
+var import_get_token2 = __toESM(require_cjs14());
 var React18 = __toESM(require("react"));
-var import_react_native_web6 = __toESM(require_cjs22());
+var import_react_native_web6 = __toESM(require_cjs23());
 var import_jsx_runtime24 = require("react/jsx-runtime");
 var PopperContext = (0, import_core20.createStyledContext)({});
 var { useStyledContext: usePopperContext, Provider: PopperProvider } = PopperContext;
@@ -38847,7 +34769,7 @@ var PopperArrow = PopperArrowFrame.styleable(function(propsIn, forwardedRef) {
 
 // ../../../node_modules/@tamagui/popover/dist/esm/Popover.js
 var React20 = __toESM(require("react"));
-var import_react_native_web7 = __toESM(require_cjs22());
+var import_react_native_web7 = __toESM(require_cjs23());
 
 // ../../../node_modules/@floating-ui/react/dist/floating-ui.react.esm.js
 var React19 = __toESM(require("react"));
@@ -41936,7 +37858,7 @@ var PopoverContent = PopperContentFrame.extractable(
       allowPinchZoom,
       trapFocus,
       disableRemoveScroll = true,
-      zIndex: zIndex2,
+      zIndex,
       __scopePopover,
       ...contentImplProps
     } = props, context = usePopoverContext(__scopePopover), contentRef = React20.useRef(null), composedRefs = useComposedRefs(forwardedRef, contentRef), isRightClickOutsideRef = React20.useRef(false);
@@ -41981,7 +37903,7 @@ function PopoverRepropagateContext(props) {
 }
 __name(PopoverRepropagateContext, "PopoverRepropagateContext");
 function PopoverContentPortal(props) {
-  const { __scopePopover } = props, zIndex2 = props.zIndex ?? 15e4, context = usePopoverContext(__scopePopover), popperContext = usePopperContext(__scopePopover || POPOVER_SCOPE), themeName = (0, import_core21.useThemeName)();
+  const { __scopePopover } = props, zIndex = props.zIndex ?? 15e4, context = usePopoverContext(__scopePopover), popperContext = usePopperContext(__scopePopover || POPOVER_SCOPE), themeName = (0, import_core21.useThemeName)();
   let contents = props.children;
   return (import_react_native_web7.Platform.OS === "android" || import_react_native_web7.Platform.OS === "ios") && (contents = /* @__PURE__ */ (0, import_jsx_runtime25.jsx)(
     PopoverRepropagateContext,
@@ -41991,7 +37913,7 @@ function PopoverContentPortal(props) {
       context,
       children: props.children
     }
-  )), /* @__PURE__ */ (0, import_jsx_runtime25.jsx)(Portal, { zIndex: zIndex2, children: /* @__PURE__ */ (0, import_jsx_runtime25.jsxs)(import_core21.Theme, { forceClassName: true, name: themeName, children: [
+  )), /* @__PURE__ */ (0, import_jsx_runtime25.jsx)(Portal, { zIndex, children: /* @__PURE__ */ (0, import_jsx_runtime25.jsxs)(import_core21.Theme, { forceClassName: true, name: themeName, children: [
     !!context.open && !context.breakpointActive && /* @__PURE__ */ (0, import_jsx_runtime25.jsx)(
       YStack,
       {
@@ -42206,7 +38128,7 @@ var useShowPopoverSheet = /* @__PURE__ */ __name((context) => {
 
 // ../../../node_modules/@tamagui/progress/dist/esm/Progress.js
 var import_core22 = require("@tamagui/core");
-var import_get_token3 = __toESM(require_cjs13());
+var import_get_token3 = __toESM(require_cjs14());
 var React21 = __toESM(require("react"));
 var import_jsx_runtime26 = require("react/jsx-runtime");
 var PROGRESS_NAME = "Progress";
@@ -42333,7 +38255,7 @@ var Progress = withStaticProperties(
 
 // ../../../node_modules/@tamagui/radio-group/dist/esm/RadioGroup.js
 var import_core25 = require("@tamagui/core");
-var import_get_token4 = __toESM(require_cjs13());
+var import_get_token4 = __toESM(require_cjs14());
 
 // ../../../node_modules/@tamagui/collection/dist/esm/Collection.js
 var import_core23 = require("@tamagui/core");
@@ -42936,8 +38858,8 @@ RadioGroup.displayName = RADIO_GROUP_NAME;
 
 // ../../../node_modules/@tamagui/select/dist/esm/Select.js
 var import_core32 = require("@tamagui/core");
-var import_get_token5 = __toESM(require_cjs13());
-var import_list_item3 = __toESM(require_cjs29());
+var import_get_token5 = __toESM(require_cjs14());
+var import_list_item3 = __toESM(require_cjs30());
 
 // ../../../node_modules/@tamagui/separator/dist/esm/Separator.js
 var import_core26 = require("@tamagui/core");
@@ -42994,7 +38916,7 @@ var ForwardSelectContext = /* @__PURE__ */ __name(({
 
 // ../../../node_modules/@tamagui/select/dist/esm/SelectContent.js
 var import_core28 = require("@tamagui/core");
-var import_focus_scope3 = __toESM(require_cjs21());
+var import_focus_scope3 = __toESM(require_cjs22());
 var import_react38 = require("react");
 
 // ../../../node_modules/@tamagui/select/dist/esm/useSelectBreakpointActive.js
@@ -43014,10 +38936,10 @@ var CONTENT_NAME3 = "SelectContent";
 var SelectContent = /* @__PURE__ */ __name(({
   children,
   __scopeSelect,
-  zIndex: zIndex2 = 1e3,
+  zIndex = 1e3,
   ...focusScopeProps
 }) => {
-  const context = useSelectContext(CONTENT_NAME3, __scopeSelect), itemParentContext = useSelectItemParentContext(CONTENT_NAME3, __scopeSelect), themeName = (0, import_core28.useThemeName)(), showSheet = useShowSelectSheet(context), contents = /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(import_core28.Theme, { forceClassName: true, name: themeName, children }), touch = (0, import_core28.useIsTouchDevice)(), overlayStyle = (0, import_react38.useMemo)(() => ({ zIndex: zIndex2, pointerEvents: context.open ? "auto" : "none" }), [context.open]);
+  const context = useSelectContext(CONTENT_NAME3, __scopeSelect), itemParentContext = useSelectItemParentContext(CONTENT_NAME3, __scopeSelect), themeName = (0, import_core28.useThemeName)(), showSheet = useShowSelectSheet(context), contents = /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(import_core28.Theme, { forceClassName: true, name: themeName, children }), touch = (0, import_core28.useIsTouchDevice)(), overlayStyle = (0, import_react38.useMemo)(() => ({ zIndex, pointerEvents: context.open ? "auto" : "none" }), [context.open]);
   return itemParentContext.shouldRenderWebNative ? /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(import_jsx_runtime32.Fragment, { children }) : showSheet ? context.open ? /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(import_jsx_runtime32.Fragment, { children: contents }) : null : /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(FloatingPortal, { children: /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(
     FloatingOverlay,
     {
@@ -43067,7 +38989,7 @@ var SelectInlineImpl = /* @__PURE__ */ __name((props) => {
     onOpenChange: setOpen,
     placement: "bottom-start",
     middleware: [
-      size3({
+      size2({
         apply({
           rects: {
             reference: { width }
@@ -43229,7 +39151,7 @@ var SelectInlineImpl = /* @__PURE__ */ __name((props) => {
 }, "SelectInlineImpl");
 
 // ../../../node_modules/@tamagui/select/dist/esm/SelectItem.js
-var import_list_item = __toESM(require_cjs29());
+var import_list_item = __toESM(require_cjs30());
 var React27 = __toESM(require("react"));
 var import_jsx_runtime34 = require("react/jsx-runtime");
 var ITEM_NAME2 = "SelectItem";
@@ -43472,7 +39394,7 @@ var SelectScrollButtonImpl = React29.memo(
 );
 
 // ../../../node_modules/@tamagui/select/dist/esm/SelectTrigger.js
-var import_list_item2 = __toESM(require_cjs29());
+var import_list_item2 = __toESM(require_cjs30());
 var React30 = __toESM(require("react"));
 var import_jsx_runtime37 = require("react/jsx-runtime");
 var TRIGGER_NAME4 = "SelectTrigger";
@@ -43927,7 +39849,7 @@ Select.displayName = SELECT_NAME;
 
 // ../../../node_modules/@tamagui/slider/dist/esm/Slider.js
 var import_core34 = require("@tamagui/core");
-var import_get_token7 = __toESM(require_cjs13());
+var import_get_token7 = __toESM(require_cjs14());
 var React33 = __toESM(require("react"));
 
 // ../../../node_modules/@tamagui/slider/dist/esm/constants.js
@@ -44010,7 +39932,7 @@ __name(roundValue, "roundValue");
 
 // ../../../node_modules/@tamagui/slider/dist/esm/SliderImpl.js
 var import_core33 = require("@tamagui/core");
-var import_get_token6 = __toESM(require_cjs13());
+var import_get_token6 = __toESM(require_cjs14());
 var React32 = __toESM(require("react"));
 var import_jsx_runtime40 = require("react/jsx-runtime");
 var SliderFrame = (0, import_core33.styled)(YStack, {
@@ -44504,13 +40426,13 @@ var Thumb = SliderThumb;
 
 // ../../../node_modules/@tamagui/switch/dist/esm/createSwitch.js
 var import_core37 = require("@tamagui/core");
-var import_focusable2 = __toESM(require_cjs26());
+var import_focusable2 = __toESM(require_cjs27());
 var React34 = __toESM(require("react"));
-var import_react_native_web8 = __toESM(require_cjs22());
+var import_react_native_web8 = __toESM(require_cjs23());
 
 // ../../../node_modules/@tamagui/switch/dist/esm/Switch.js
 var import_core36 = require("@tamagui/core");
-var import_get_token8 = __toESM(require_cjs13());
+var import_get_token8 = __toESM(require_cjs14());
 
 // ../../../node_modules/@tamagui/switch/dist/esm/SwitchContext.js
 var import_core35 = require("@tamagui/core");
@@ -44796,14 +40718,14 @@ var Switch = createSwitch({
 });
 
 // ../../../node_modules/@tamagui/tabs/dist/esm/Tabs.js
-var import_get_button_sized4 = __toESM(require_cjs14());
-var import_group = __toESM(require_cjs28());
-var import_web11 = require("@tamagui/core");
+var import_get_button_sized4 = __toESM(require_cjs15());
+var import_group = __toESM(require_cjs29());
+var import_web10 = require("@tamagui/core");
 var React35 = __toESM(require("react"));
 var import_jsx_runtime43 = require("react/jsx-runtime");
 var TABS_CONTEXT = "TabsContext";
 var TAB_LIST_NAME = "TabsList";
-var TabsListFrame = (0, import_web11.styled)(import_group.Group, {
+var TabsListFrame = (0, import_web10.styled)(import_group.Group, {
   name: TAB_LIST_NAME
 });
 var TabsList = TabsListFrame.extractable(
@@ -44835,7 +40757,7 @@ var TabsList = TabsListFrame.extractable(
 );
 TabsList.displayName = TAB_LIST_NAME;
 var TRIGGER_NAME5 = "TabsTrigger";
-var TabsTriggerFrame = (0, import_web11.styled)(ThemeableStack, {
+var TabsTriggerFrame = (0, import_web10.styled)(ThemeableStack, {
   name: TRIGGER_NAME5,
   tag: "button",
   justifyContent: "center",
@@ -44911,7 +40833,7 @@ var TabsTrigger = TabsTriggerFrame.extractable(
         };
       }, [context.triggersCount]), React35.useEffect(() => {
         isSelected && layout && (onInteraction == null ? void 0 : onInteraction("select", layout));
-      }, [isSelected, value, layout]), /* @__PURE__ */ (0, import_jsx_runtime43.jsx)(import_web11.Theme, { name: isSelected ? "active" : null, forceClassName: true, children: /* @__PURE__ */ (0, import_jsx_runtime43.jsx)(
+      }, [isSelected, value, layout]), /* @__PURE__ */ (0, import_jsx_runtime43.jsx)(import_web10.Theme, { name: isSelected ? "active" : null, forceClassName: true, children: /* @__PURE__ */ (0, import_jsx_runtime43.jsx)(
         RovingFocusGroup.Item,
         {
           __scopeRovingFocusGroup: __scopeTabs || TABS_CONTEXT,
@@ -44971,7 +40893,7 @@ var TabsTrigger = TabsTriggerFrame.extractable(
 );
 TabsTrigger.displayName = TRIGGER_NAME5;
 var CONTENT_NAME4 = "TabsContent";
-var TabsContentFrame = (0, import_web11.styled)(ThemeableStack, {
+var TabsContentFrame = (0, import_web10.styled)(ThemeableStack, {
   name: CONTENT_NAME4
 });
 var TabsContent = TabsContentFrame.styleable(
@@ -44996,8 +40918,8 @@ var TabsContent = TabsContentFrame.styleable(
   }
 );
 var TABS_NAME = "Tabs";
-var { Provider: TabsProvider, useStyledContext: useTabsContext } = (0, import_web11.createStyledContext)();
-var TabsFrame = (0, import_web11.styled)(SizableStack, {
+var { Provider: TabsProvider, useStyledContext: useTabsContext } = (0, import_web10.createStyledContext)();
+var TabsFrame = (0, import_web10.styled)(SizableStack, {
   name: TABS_NAME
 });
 var TabsComponent = TabsFrame.styleable(
@@ -45016,7 +40938,7 @@ var TabsComponent = TabsFrame.styleable(
       prop: valueProp,
       onChange: onValueChange,
       defaultProp: defaultValue2 ?? ""
-    }), [triggersCount, setTriggersCount] = React35.useState(0), registerTrigger = (0, import_web11.useEvent)(() => setTriggersCount((v) => v + 1)), unregisterTrigger = (0, import_web11.useEvent)(() => setTriggersCount((v) => v - 1));
+    }), [triggersCount, setTriggersCount] = React35.useState(0), registerTrigger = (0, import_web10.useEvent)(() => setTriggersCount((v) => v + 1)), unregisterTrigger = (0, import_web10.useEvent)(() => setTriggersCount((v) => v - 1));
     return /* @__PURE__ */ (0, import_jsx_runtime43.jsx)(
       TabsProvider,
       {
@@ -45064,23 +40986,23 @@ function makeContentId(baseId, value) {
 __name(makeContentId, "makeContentId");
 
 // ../../../node_modules/tamagui/dist/esm/index.js
-__reExport(esm_exports2, __toESM(require_cjs30()));
+__reExport(esm_exports2, __toESM(require_cjs31()));
 
 // ../../../node_modules/@tamagui/toggle-group/dist/esm/ToggleGroup.js
-var import_focusable3 = __toESM(require_cjs26());
-var import_font_size3 = __toESM(require_cjs24());
-var import_get_token9 = __toESM(require_cjs13());
-var import_group2 = __toESM(require_cjs28());
-var import_helpers_tamagui3 = __toESM(require_cjs25());
-var import_web13 = require("@tamagui/core");
+var import_focusable3 = __toESM(require_cjs27());
+var import_font_size3 = __toESM(require_cjs25());
+var import_get_token9 = __toESM(require_cjs14());
+var import_group2 = __toESM(require_cjs29());
+var import_helpers_tamagui3 = __toESM(require_cjs26());
+var import_web12 = require("@tamagui/core");
 var import_react42 = __toESM(require("react"));
 
 // ../../../node_modules/@tamagui/toggle-group/dist/esm/Toggle.js
-var import_web12 = require("@tamagui/core");
+var import_web11 = require("@tamagui/core");
 var React36 = __toESM(require("react"));
 var import_jsx_runtime44 = require("react/jsx-runtime");
 var NAME2 = "Toggle";
-var ToggleFrame = (0, import_web12.styled)(ThemeableStack, {
+var ToggleFrame = (0, import_web11.styled)(ThemeableStack, {
   name: NAME2,
   tag: "button",
   variants: {
@@ -45173,16 +41095,16 @@ var import_jsx_runtime45 = require("react/jsx-runtime");
 var TOGGLE_GROUP_NAME = "ToggleGroup";
 var TOGGLE_GROUP_ITEM_NAME = "ToggleGroupItem";
 var TOGGLE_GROUP_CONTEXT = "ToggleGroup";
-var { Provider: ToggleGroupItemProvider, useStyledContext: useToggleGroupItemContext } = (0, import_web13.createStyledContext)();
-var { Provider: ToggleGroupContext, useStyledContext: useToggleGroupContext } = (0, import_web13.createStyledContext)();
+var { Provider: ToggleGroupItemProvider, useStyledContext: useToggleGroupItemContext } = (0, import_web12.createStyledContext)();
+var { Provider: ToggleGroupContext, useStyledContext: useToggleGroupContext } = (0, import_web12.createStyledContext)();
 var ToggleGroupItem = ToggleFrame.extractable(
   import_react42.default.forwardRef(
     (props, forwardedRef) => {
       const valueContext = useToggleGroupValueContext(props.__scopeToggleGroup), context = useToggleGroupContext(props.__scopeToggleGroup), pressed = valueContext == null ? void 0 : valueContext.value.includes(props.value), disabled = context.disabled || props.disabled || false, groupItemProps = (0, import_group2.useGroupItem)({ disabled }), size4 = props.size ?? context.size, sizeProps = props.unstyled ? {} : {
         width: void 0,
         height: void 0,
-        padding: (0, import_web13.getVariableValue)(size4) * 0.6
-      }, iconSize = (typeof size4 == "number" ? size4 * 0.7 : (0, import_font_size3.getFontSize)(size4)) * 1.2, theme = (0, import_web13.useTheme)(), getThemedIcon = (0, import_helpers_tamagui3.useGetThemedIcon)({ size: iconSize, color: theme.color }), children = import_react42.default.Children.toArray(props.children).map((child) => props.disablePassStyles || !import_react42.default.isValidElement(child) ? child : getThemedIcon(child)), commonProps = { pressed, disabled, ...sizeProps, ...props, children }, inner2 = /* @__PURE__ */ (0, import_jsx_runtime45.jsx)(
+        padding: (0, import_web12.getVariableValue)(size4) * 0.6
+      }, iconSize = (typeof size4 == "number" ? size4 * 0.7 : (0, import_font_size3.getFontSize)(size4)) * 1.2, theme = (0, import_web12.useTheme)(), getThemedIcon = (0, import_helpers_tamagui3.useGetThemedIcon)({ size: iconSize, color: theme.color }), children = import_react42.default.Children.toArray(props.children).map((child) => props.disablePassStyles || !import_react42.default.isValidElement(child) ? child : getThemedIcon(child)), commonProps = { pressed, disabled, ...sizeProps, ...props, children }, inner2 = /* @__PURE__ */ (0, import_jsx_runtime45.jsx)(
         ToggleGroupItemImpl,
         {
           ...commonProps,
@@ -45249,7 +41171,7 @@ ToggleGroup.displayName = TOGGLE_GROUP_NAME;
 var {
   Provider: ToggleGroupValueProvider,
   useStyledContext: useToggleGroupValueContext
-} = (0, import_web13.createStyledContext)();
+} = (0, import_web12.createStyledContext)();
 var ToggleGroupImplSingle = import_react42.default.forwardRef((props, forwardedRef) => {
   const {
     value: valueProp,
@@ -45311,7 +41233,7 @@ var ToggleGroupImplMultiple = import_react42.default.forwardRef((props, forwarde
   );
 });
 ToggleGroup.displayName = TOGGLE_GROUP_NAME;
-var ToggleGroupImplElementFrame = (0, import_web13.styled)(import_group2.Group, {
+var ToggleGroupImplElementFrame = (0, import_web12.styled)(import_group2.Group, {
   name: TOGGLE_GROUP_NAME,
   variants: {
     unstyled: {
@@ -45352,7 +41274,7 @@ var ToggleGroupImpl = ToggleGroupImplElementFrame.extractable(
         role: "group",
         dir: direction,
         ...toggleGroupProps
-      }, adjustedSize = (0, import_web13.getVariableValue)(
+      }, adjustedSize = (0, import_web12.getVariableValue)(
         (0, import_get_token9.getSize)(sizeProp, {
           shift: sizeAdjust
         })
@@ -45404,7 +41326,7 @@ var ToggleGroupImpl = ToggleGroupImplElementFrame.extractable(
 
 // ../../../node_modules/@tamagui/tooltip/dist/esm/Tooltip.js
 var import_core38 = require("@tamagui/core");
-var import_get_token10 = __toESM(require_cjs13());
+var import_get_token10 = __toESM(require_cjs14());
 var React38 = __toESM(require("react"));
 var import_jsx_runtime46 = require("react/jsx-runtime");
 var TOOLTIP_SCOPE = "tooltip";
@@ -45545,7 +41467,7 @@ var voidFn = /* @__PURE__ */ __name(() => {
 }, "voidFn");
 
 // ../../../node_modules/@tamagui/tooltip/dist/esm/TooltipSimple.js
-var import_get_token11 = __toESM(require_cjs13());
+var import_get_token11 = __toESM(require_cjs14());
 var React39 = __toESM(require("react"));
 var import_jsx_runtime47 = require("react/jsx-runtime");
 var TooltipSimple = React39.forwardRef(
@@ -45653,7 +41575,7 @@ __name(useDebounceValue, "useDebounceValue");
 
 // ../../../node_modules/@tamagui/use-window-dimensions/dist/esm/index.js
 var import_react46 = require("react");
-var import_react_native_web9 = __toESM(require_cjs22());
+var import_react_native_web9 = __toESM(require_cjs23());
 var initialValue = {
   height: 800,
   width: 600
@@ -45682,8 +41604,8 @@ function useWindowDimensions2({
 __name(useWindowDimensions2, "useWindowDimensions");
 
 // ../../../node_modules/@tamagui/visually-hidden/dist/esm/VisuallyHidden.js
-var import_web14 = require("@tamagui/core");
-var VisuallyHidden = (0, import_web14.styled)(import_web14.Stack, {
+var import_web13 = require("@tamagui/core");
+var VisuallyHidden = (0, import_web13.styled)(import_web13.Stack, {
   position: "absolute",
   width: 1,
   height: 1,
@@ -45773,7 +41695,7 @@ var TamaguiProvider = /* @__PURE__ */ __name(({ children, ...props }) => /* @__P
 
 // ../../../node_modules/tamagui/dist/esm/views/Anchor.js
 var import_core41 = require("@tamagui/core");
-var import_react_native_web10 = __toESM(require_cjs22());
+var import_react_native_web10 = __toESM(require_cjs23());
 var import_jsx_runtime49 = require("react/jsx-runtime");
 var AnchorFrame = (0, import_core41.styled)(SizableText, {
   name: "Anchor",
@@ -45832,14 +41754,14 @@ var Fieldset = (0, import_core43.styled)(YStack, {
 
 // ../../../node_modules/tamagui/dist/esm/views/Input.js
 var import_core45 = require("@tamagui/core");
-var import_focusable4 = __toESM(require_cjs26());
-var import_react_native_web11 = __toESM(require_cjs22());
+var import_focusable4 = __toESM(require_cjs27());
+var import_react_native_web11 = __toESM(require_cjs23());
 
 // ../../../node_modules/tamagui/dist/esm/helpers/inputHelpers.js
 var import_core44 = require("@tamagui/core");
-var import_get_button_sized5 = __toESM(require_cjs14());
-var import_get_font_sized3 = __toESM(require_cjs16());
-var import_get_token12 = __toESM(require_cjs13());
+var import_get_button_sized5 = __toESM(require_cjs15());
+var import_get_font_sized3 = __toESM(require_cjs17());
+var import_get_token12 = __toESM(require_cjs14());
 var inputSizeVariant = /* @__PURE__ */ __name((val = "$true", extras) => {
   if (extras.props.multiline || extras.props.numberOfLines > 1)
     return textAreaSizeVariant(val, extras);
@@ -45978,14 +41900,14 @@ var Nav = (0, import_core46.styled)(import_core46.Stack, {
 // ../../../node_modules/tamagui/dist/esm/views/Spinner.js
 var import_core47 = require("@tamagui/core");
 var React40 = __toESM(require("react"));
-var import_react_native_web12 = __toESM(require_cjs22());
+var import_react_native_web12 = __toESM(require_cjs23());
 var import_jsx_runtime51 = require("react/jsx-runtime");
 var Spinner = YStack.extractable(
   (0, import_core47.themeable)(
     React40.forwardRef((props, ref) => {
       const { size: size4, color: colorProp, ...stackProps } = props, theme = (0, import_core47.useTheme)();
-      let color2 = colorProp;
-      return color2 && color2[0] === "$" && (color2 = (0, import_core47.variableToString)(theme[color2])), /* @__PURE__ */ (0, import_jsx_runtime51.jsx)(YStack, { ref, ...stackProps, children: /* @__PURE__ */ (0, import_jsx_runtime51.jsx)(import_react_native_web12.ActivityIndicator, { size: size4, color: color2 }) });
+      let color = colorProp;
+      return color && color[0] === "$" && (color = (0, import_core47.variableToString)(theme[color])), /* @__PURE__ */ (0, import_jsx_runtime51.jsx)(YStack, { ref, ...stackProps, children: /* @__PURE__ */ (0, import_jsx_runtime51.jsx)(import_react_native_web12.ActivityIndicator, { size: size4, color }) });
     }),
     {
       componentName: "Spinner"
@@ -46043,12 +41965,106 @@ var Text3 = (0, import_core49.styled)(import_core49.Text, {
 var import_core50 = require("@tamagui/core");
 
 // ../../../tamagui.config.ts
+var interFont = (0, import_core50.createFont)({
+  family: "Inter, Helvetica, Arial, sans-serif",
+  // keys used for the objects you pass to `size`, `lineHeight`, `weight`
+  // and `letterSpacing` should be consistent. The `createFont` function
+  // will fill-in any missing values if `lineHeight`, `weight` or `letterSpacing`
+  // are subsets of `size`
+  size: {
+    1: 12,
+    2: 14,
+    3: 15,
+    4: 20
+  },
+  lineHeight: {
+    // 1 will be 22
+    2: 22
+  },
+  weight: {
+    1: "300",
+    // 2 will be 300
+    3: "600"
+  },
+  letterSpacing: {
+    1: 0,
+    2: -1
+    // 3 will be -1
+  },
+  // (native) swap out fonts by face/style
+  face: {
+    300: { normal: "InterLight", italic: "InterItalic" },
+    600: { normal: "InterBold" }
+  }
+});
+var size3 = {
+  0: 0,
+  1: 5,
+  2: 10,
+  true: 10
+  // ....
+};
+var tokens = (0, import_core50.createTokens)({
+  size: size3,
+  space: { ...size3, "-1": -5, "-2": -10 },
+  radius: { 0: 0, 1: 3, true: 3 },
+  zIndex: { 0: 0, 1: 100, 2: 200, true: 100 },
+  color: {
+    white: "#fff",
+    black: "#000"
+  }
+});
 var appConfig = createTamagui({
-  themes,
+  fonts: {
+    // for tamagui, heading and body are assumed
+    heading: interFont,
+    body: interFont
+  },
   tokens,
-  shorthands
+  themes: {
+    light: {
+      bg: "#f2f2f2",
+      color: tokens.color.black
+    },
+    dark: {
+      bg: "#111",
+      color: tokens.color.white
+    }
+  },
+  // `@tamagui/core` doesn't provide media query capabilities out of the box
+  // for native as it is de-coupled from react-native.
+  // For web-only, media queries work out of the box and you can avoid the
+  // `createMedia` call here by passing the media object directly.
+  // If targeting React Native, add this driver and use this `createMedia` helper.
+  // If web-only you can leave out `createMedia` and just use an object.
+  media: (0, import_react_native_media_driver.createMedia)({
+    sm: { maxWidth: 860 },
+    gtSm: { minWidth: 860 + 1 },
+    short: { maxHeight: 820 },
+    hoverNone: { hover: "none" },
+    pointerCoarse: { pointer: "coarse" }
+  }),
+  // optional:
+  // add custom shorthand props
+  // note: as const is important, without it you may see breaking types
+  shorthands: {
+    px: "paddingHorizontal",
+    f: "flex",
+    w: "width"
+  },
+  // Experimental / advanced, only for overriding the core component styles
+  // Prefer to use styled() for building your own, only useful for edge cases.
+  defaultProps: {
+    Text: {
+      // override any default props here
+    }
+  }
 });
 var tamagui_config_default = appConfig;
+// Annotate the CommonJS export names for ESM import in node:
+0 && (module.exports = {
+  tokens
+});
 /*! Bundled license information:
 
 use-sync-external-store/cjs/use-sync-external-store-shim.production.min.js:
