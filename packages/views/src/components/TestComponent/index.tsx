@@ -1,3 +1,4 @@
+// @ts-ignore
 import React from "react";
 import { FC } from "react";
 import { View, Text } from "tamagui";
