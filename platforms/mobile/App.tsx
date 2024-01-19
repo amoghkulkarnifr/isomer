@@ -1,8 +1,9 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
-
 import { useFonts } from "expo-font";
 import { useEffect } from "react";
+
+import { TamaguiProvider } from "@tamagui/core";
+import appConfig from "./tamagui.config";
+import { Text, XStack } from "tamagui";
 
 export default function App() {
   const [loaded] = useFonts({
@@ -21,18 +22,10 @@ export default function App() {
   }
 
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <TamaguiProvider config={appConfig}>
+      <XStack flex={1} justifyContent="center" alignItems="center">
+        <Text>Hello from Tamagui</Text>
+      </XStack>
+    </TamaguiProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});

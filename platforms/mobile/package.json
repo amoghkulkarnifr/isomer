@@ -20,6 +20,7 @@
     "@tamagui/config": "^1.86.6",
     "@tamagui/core": "^1.86.6",
     "@tamagui/react-native-media-driver": "^1.86.6",
+    "@tamagui/font-inter": "^1.86.6",
     "@tamagui/metro-plugin": "^1.86.6",
     "@tamagui/babel-plugin": "^1.86.6",
     "babel-plugin-transform-inline-environment-variables": "latest",

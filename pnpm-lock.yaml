@@ -33,6 +33,9 @@ importers:
       '@tamagui/core':
         specifier: ^1.86.6
         version: 1.86.6(react@18.2.0)
+      '@tamagui/font-inter':
+        specifier: ^1.86.6
+        version: 1.86.6(react@18.2.0)
       '@tamagui/metro-plugin':
         specifier: ^1.86.6
         version: 1.86.6(@babel/core@7.23.7)(react-dom@18.2.0)(react-native-reanimated@3.6.1)(react-native@0.73.2)(react@18.2.0)(tailwindcss@3.4.1)
