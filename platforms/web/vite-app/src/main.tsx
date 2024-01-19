@@ -7,7 +7,7 @@ import "./index.css";
 import "@tamagui/core/reset.css";
 
 import { TamaguiProvider } from "tamagui";
-import appConfig, { AppConfig } from "../tamagui.config.ts";
+import appConfig, { AppConfig } from "../../../../tamagui.config.ts";
 
 // this makes typescript properly type everything based on the config
 declare module "tamagui" {

@@ -28724,7 +28724,7 @@ var require_cjs30 = __commonJS({
   }
 });
 
-// tamagui.config.ts
+// ../../../tamagui.config.ts
 var tamagui_config_exports = {};
 __export(tamagui_config_exports, {
   default: () => tamagui_config_default
@@ -46042,7 +46042,7 @@ var Text3 = (0, import_core49.styled)(import_core49.Text, {
 // ../../../node_modules/tamagui/dist/esm/index.js
 var import_core50 = require("@tamagui/core");
 
-// tamagui.config.ts
+// ../../../tamagui.config.ts
 var appConfig = createTamagui({
   themes,
   tokens,
