@@ -1,7 +1,7 @@
 {
-  "name": "vite-app",
+  "name": "isomer-web-app",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -11,10 +11,12 @@
   "dependencies": {
     "@tamagui/config": "^1.86.6",
     "@tamagui/vite-plugin": "^1.86.6",
+    "@tamagui/core": "^1.86.6",
+    "@tamagui/react-native-media-driver": "^1.86.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tamagui": "^1.86.6",
-    "isomer-views": "*"
+    "isomer-views": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
