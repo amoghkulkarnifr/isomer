@@ -1,0 +1,8 @@
+._ovs-contain {overscroll-behavior:contain;}
+.is_Text .is_Text {display:inline-flex;}
+._dsp_contents {display:contents;}
+:root { --size-1:0px; --size-2:5px; --size-3:10px; --size-4:10px; --space-1:0px; --space-2:5px; --space-3:10px; --space-4:10px; --space-5:-5px; --space-6:-10px; --radius-1:0px; --radius-2:3px; --radius-3:3px; --zIndex-1:0; --zIndex-2:100; --zIndex-3:200; --zIndex-4:100; --color-1:#fff; --color-2:#000 }
+:root .font_heading, :root .t_lang-heading-default .font_heading { --f-fa:Inter, Helvetica, Arial, sans-serif; --f-si-1:12px; --f-si-2:14px; --f-si-3:15px; --f-si-4:20px; --f-li-1:22px; --f-li-2:22px; --f-li-3:22px; --f-li-4:22px; --f-we-1:300; --f-we-2:300; --f-we-3:600; --f-we-4:600; --f-21-1:0px; --f-21-2:-1px; --f-21-3:-1px; --f-21-4:-1px }
+:root .font_body, :root .t_lang-body-default .font_body { --f-fa:Inter, Helvetica, Arial, sans-serif; --f-si-1:12px; --f-si-2:14px; --f-si-3:15px; --f-si-4:20px; --f-li-1:22px; --f-li-2:22px; --f-li-3:22px; --f-li-4:22px; --f-we-1:300; --f-we-2:300; --f-we-3:600; --f-we-4:600; --f-21-1:0px; --f-21-2:-1px; --f-21-3:-1px; --f-21-4:-1px }
+:root .t_dark .t_light, :root .t_dark .t_light .t_dark .t_light, :root .t_light, :root .t_light .t_dark .t_light {--bg:#f2f2f2;--color:var(--color-2);}
+:root .t_dark, :root .t_dark .t_light .t_dark, :root .t_light .t_dark, :root .t_light .t_dark .t_light .t_dark {--bg:#111;--color:var(--color-1);}
