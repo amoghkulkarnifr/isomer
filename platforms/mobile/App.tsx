@@ -3,7 +3,9 @@ import { useEffect } from "react";
 
 import { TamaguiProvider } from "@tamagui/core";
 import appConfig from "./tamagui.config";
-import { Text, XStack } from "tamagui";
+import { XStack } from "tamagui";
+
+import { TestComponent } from "isomer-views/src/components/TestComponent";
 
 export default function App() {
   const [loaded] = useFonts({
@@ -24,7 +26,7 @@ export default function App() {
   return (
     <TamaguiProvider config={appConfig}>
       <XStack flex={1} justifyContent="center" alignItems="center">
-        <Text>Hello from Tamagui</Text>
+        <TestComponent />
       </XStack>
     </TamaguiProvider>
   );

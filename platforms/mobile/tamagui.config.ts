@@ -2,7 +2,7 @@ import { createMedia } from "@tamagui/react-native-media-driver";
 import { createFont, createTamagui, createTokens } from "@tamagui/core"; // or 'tamagui'
 
 const interFont = createFont({
-  family: "Inter, Helvetica, Arial, sans-serif",
+  family: "Inter",
   // keys used for the objects you pass to `size`, `lineHeight`, `weight`
   // and `letterSpacing` should be consistent. The `createFont` function
   // will fill-in any missing values if `lineHeight`, `weight` or `letterSpacing`
