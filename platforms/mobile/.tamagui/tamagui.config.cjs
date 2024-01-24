@@ -121,7 +121,7 @@ module.exports = __toCommonJS(tamagui_config_exports);
 var import_react_native_media_driver = __toESM(require_cjs());
 var import_core = require("@tamagui/core");
 var interFont = (0, import_core.createFont)({
-  family: "Inter, Helvetica, Arial, sans-serif",
+  family: "Inter",
   // keys used for the objects you pass to `size`, `lineHeight`, `weight`
   // and `letterSpacing` should be consistent. The `createFont` function
   // will fill-in any missing values if `lineHeight`, `weight` or `letterSpacing`
